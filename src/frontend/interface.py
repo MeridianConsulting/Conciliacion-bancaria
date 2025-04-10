@@ -262,7 +262,7 @@ class ConciliacionBancaria(tk.Tk):
         
         # Crear contenedor principal con márgenes optimizados
         self.container = ttk.Frame(self, style='Main.TFrame')
-        self.container.grid(row=0, column=0, sticky="nsew", padx=15, pady=12)
+        self.container.grid(row=0, column=0, sticky="nsew", padx=30, pady=20)
         
         # Configurar grid
         self.grid_rowconfigure(0, weight=1)
@@ -302,9 +302,10 @@ class ConciliacionBancaria(tk.Tk):
             screen_width = self.winfo_screenwidth()
             screen_height = self.winfo_screenheight()
 
-        # Calcular dimensiones de la ventana (ahora 100px menos que la pantalla)
-        window_width = screen_width - 150
-        window_height = screen_height - 150  # Aumentamos el margen para la barra de tareas
+        # Calcular dimensiones de la ventana
+        # Ancho basado en el listbox (80 caracteres) más márgenes
+        window_width = 900  # Ancho óptimo para los listbox de 80 caracteres
+        window_height = min(800, screen_height - 100)  # Altura máxima de 800px o screen_height - 100
 
         # Calcular posición para centrar la ventana
         position_x = (screen_width - window_width) // 2
@@ -314,7 +315,7 @@ class ConciliacionBancaria(tk.Tk):
         self.geometry(f"{window_width}x{window_height}+{position_x}+{position_y}")
         
         # Establecer tamaños mínimos
-        self.minsize(800, 600)
+        self.minsize(900, 700)  # Tamaño mínimo ajustado al contenido
 
     def configure_styles(self):
         """Configura los estilos personalizados para los widgets"""
@@ -389,71 +390,91 @@ class ConciliacionBancaria(tk.Tk):
         
         # Frame para extractos bancarios
         extractos_frame = self.create_card_frame("⚡ Paso 1: Cargar Extractos Bancarios", 1)
+        extractos_frame.grid_columnconfigure(0, weight=1)  # Centrar contenido
+        
+        # Contenedor para la lista de extractos
+        list_container_extractos = ttk.Frame(extractos_frame, style='Card.TFrame')
+        list_container_extractos.grid(row=1, column=0, sticky='ew', padx=30, pady=15)
+        
+        # Lista de extractos con ancho ajustado
+        self.extractos_listbox = tk.Listbox(
+            list_container_extractos,
+            bg=self.theme['listbox_bg'],
+            fg=self.theme['listbox_fg'],
+            selectmode=tk.EXTENDED,
+            height=6,
+            width=80,  # Ancho aumentado a 80 caracteres
+            font=('Segoe UI', 10),
+            relief='flat',
+            borderwidth=0
+        )
+        self.extractos_listbox.pack(fill='both', expand=True)
+        
+        # Frame para los botones de extractos
+        extractos_buttons_frame = ttk.Frame(extractos_frame, style='Card.TFrame')
+        extractos_buttons_frame.grid(row=2, column=0, sticky='e', padx=20, pady=(0, 10))
         
         # Botón cargar extractos
         load_extractos_btn = ttk.Button(
-            extractos_frame,
-            text="🏠 Cargar Extractos Bancarios",
+            extractos_buttons_frame,
+            text="🏠 Cargar Extractos",
             command=self.cargar_extractos,
             style='Primary.TButton'
         )
-        load_extractos_btn.grid(row=1, column=0, pady=15)
-        
-        # Lista de extractos
-        self.extractos_listbox = tk.Listbox(
-            extractos_frame,
-            bg=self.theme['listbox_bg'],
-            fg=self.theme['listbox_fg'],
-            selectmode=tk.EXTENDED,
-            height=6,  # Aumentar altura de la lista
-            font=('Segoe UI', 10),
-            relief='flat',
-            borderwidth=0
-        )
-        self.extractos_listbox.grid(row=2, column=0, sticky='ew', padx=20, pady=15)
+        load_extractos_btn.pack(side='left', padx=5)
         
         # Botón eliminar extractos
         delete_extractos_btn = ttk.Button(
-            extractos_frame,
-            text="Eliminar Extractos Seleccionados",
+            extractos_buttons_frame,
+            text="Eliminar Seleccionados",
             command=self.eliminar_extractos,
             style='Delete.TButton'
         )
-        delete_extractos_btn.grid(row=3, column=0, pady=10)
+        delete_extractos_btn.pack(side='left', padx=5)
         
         # Frame para registros contables
         registros_frame = self.create_card_frame("🎲 Paso 2: Cargar Registros Contables", 2)
+        registros_frame.grid_columnconfigure(0, weight=1)  # Centrar contenido
         
-        # Botón cargar registros
-        load_registros_btn = ttk.Button(
-            registros_frame,
-            text="🎲 Cargar Registros Contables",
-            command=self.cargar_registros,
-            style='Primary.TButton'
-        )
-        load_registros_btn.grid(row=1, column=0, pady=15)
+        # Contenedor para la lista de registros
+        list_container_registros = ttk.Frame(registros_frame, style='Card.TFrame')
+        list_container_registros.grid(row=1, column=0, sticky='ew', padx=30, pady=15)
         
-        # Lista de registros
+        # Lista de registros con ancho ajustado
         self.registros_listbox = tk.Listbox(
-            registros_frame,
+            list_container_registros,
             bg=self.theme['listbox_bg'],
             fg=self.theme['listbox_fg'],
             selectmode=tk.EXTENDED,
-            height=6,  # Aumentar altura de la lista
+            height=6,
+            width=80,  # Ancho aumentado a 80 caracteres
             font=('Segoe UI', 10),
             relief='flat',
             borderwidth=0
         )
-        self.registros_listbox.grid(row=2, column=0, sticky='ew', padx=20, pady=15)
+        self.registros_listbox.pack(fill='both', expand=True)
+        
+        # Frame para los botones de registros
+        registros_buttons_frame = ttk.Frame(registros_frame, style='Card.TFrame')
+        registros_buttons_frame.grid(row=2, column=0, columnspan=2, sticky='e', padx=20, pady=(0, 10))
+        
+        # Botón cargar registros
+        load_registros_btn = ttk.Button(
+            registros_buttons_frame,
+            text="🎲 Cargar Registros",
+            command=self.cargar_registros,
+            style='Primary.TButton'
+        )
+        load_registros_btn.pack(side='left', padx=5)
         
         # Botón eliminar registros
         delete_registros_btn = ttk.Button(
-            registros_frame,
-            text="Eliminar Registros Seleccionados",
+            registros_buttons_frame,
+            text="Eliminar Seleccionados",
             command=self.eliminar_registros,
             style='Delete.TButton'
         )
-        delete_registros_btn.grid(row=3, column=0, pady=10)
+        delete_registros_btn.pack(side='left', padx=5)
         
         # Frame para botones de acción
         actions_frame = ttk.Frame(self.container, style='Card.TFrame')
