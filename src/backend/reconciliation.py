@@ -3,6 +3,7 @@ import json
 import os
 from pathlib import Path
 from datetime import datetime
+import traceback
 
 class Reconciliation:
     def __init__(self):
@@ -158,10 +159,134 @@ class Reconciliation:
             print(f"Error obteniendo información de archivos: {str(e)}")
             return []
 
+    def extract_bank_excel_to_json(self):
+        """Extrae los archivos Excel de extractos bancarios y los convierte a JSON con formato comparable"""
+        try:
+            bank_data = []
+            bank_path = self.project_root / 'data' / 'input' / 'bank'
+            # Ignorar archivos temporales de Excel que empiezan con ~$
+            excel_files = [f for f in bank_path.glob('*.xlsx') if not f.name.startswith('~$')]
+            
+            if not excel_files:
+                print(f"No se encontraron archivos Excel en {bank_path}")
+                return False
+
+            for excel_file in excel_files:
+                print(f"Procesando extracto bancario: {excel_file.name}")
+                
+                try:
+                    # Leer el archivo Excel completo
+                    df = pd.read_excel(excel_file, header=None)
+                    
+                    # Extraer información del resumen (primeras filas)
+                    resumen = {}
+                    for idx, row in df.iterrows():
+                        if pd.isna(row[0]) or 'Día' in str(row[0]):  # Detener cuando llegue al encabezado de la tabla
+                            break
+                        if len(row) >= 2 and pd.notna(row[0]) and pd.notna(row[1]):
+                            concepto = str(row[0]).strip()
+                            # Convertir el valor a float si es numérico
+                            try:
+                                # Remover comas de los números y convertir a float
+                                valor_str = str(row[1]).replace(',', '')
+                                valor = float(valor_str) if pd.notna(row[1]) else 0.0
+                            except:
+                                valor = str(row[1]).strip()
+                            
+                            if concepto:  # Solo agregar si hay concepto
+                                resumen[concepto] = valor
+
+                    # Buscar la fila que contiene "Día" como encabezado
+                    header_row = None
+                    for idx, row in df.iterrows():
+                        if pd.notna(row[0]) and 'Día' in str(row[0]):
+                            header_row = idx
+                            break
+
+                    if header_row is not None:
+                        # Obtener los datos desde la siguiente fila después de los encabezados
+                        data_df = df.iloc[header_row + 1:].copy()
+                        data_df.columns = df.iloc[header_row]
+                        
+                        # Procesar los datos
+                        normalized_data = []
+                        for _, row in data_df.iterrows():
+                            if pd.notna(row['Día']):  # Solo procesar filas con día válido
+                                try:
+                                    # Función auxiliar para convertir valores monetarios
+                                    def convert_to_float(value):
+                                        if pd.isna(value):
+                                            return 0.0
+                                        if isinstance(value, (int, float)):
+                                            return float(value)
+                                        # Remover comas y convertir a float
+                                        return float(str(value).replace(',', ''))
+
+                                    movement = {
+                                        'FECHA': int(row['Día']) if pd.notna(row['Día']) else '',
+                                        'DOCUMENTO': str(row['Número docum.']).strip() if pd.notna(row['Número docum.']) else '',
+                                        'DESCRIPCION': str(row['Descripción de la transacción']).strip() if pd.notna(row['Descripción de la transacción']) else '',
+                                        'OFICINA': str(row['Oficina transacción']).strip() if pd.notna(row['Oficina transacción']) else '',
+                                        'DEBITOS': convert_to_float(row['Débitos']),
+                                        'CREDITOS': convert_to_float(row['Créditos']),
+                                        'SALDO': convert_to_float(row['Saldo'])
+                                    }
+                                    normalized_data.append(movement)
+                                except Exception as e:
+                                    print(f"Error procesando fila: {str(e)}")
+                                    continue
+
+                        # Crear estructura final del documento
+                        document = {
+                            "metadata": {
+                                "archivo": excel_file.name,
+                                "fecha_proceso": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+                                "resumen_encabezado": resumen
+                            },
+                            "movimientos": normalized_data
+                        }
+
+                        # Guardar archivo JSON individual
+                        json_filename = self.output_path / f"bank_{excel_file.stem}.json"
+                        with open(json_filename, 'w', encoding='utf-8') as f:
+                            json.dump(document, f, ensure_ascii=False, indent=2)
+                        
+                        print(f"Archivo JSON de banco creado: {json_filename}")
+                        print(f"Total de movimientos procesados: {len(normalized_data)}")
+                        
+                        # Agregar a la lista completa
+                        bank_data.append(document)
+                    else:
+                        print(f"No se encontró el encabezado 'Día' en {excel_file.name}")
+                
+                except Exception as e:
+                    print(f"Error procesando extracto bancario {excel_file.name}: {str(e)}")
+                    traceback.print_exc()
+                    continue
+
+            # Guardar archivo JSON combinado de bancos
+            combined_json_path = self.output_path / 'all_bank_data.json'
+            with open(combined_json_path, 'w', encoding='utf-8') as f:
+                json.dump(bank_data, f, ensure_ascii=False, indent=2)
+            
+            print(f"\nProceso de extractos bancarios completado. Archivos procesados: {len(excel_files)}")
+            print(f"Datos combinados guardados en: {combined_json_path}")
+            
+            return True
+
+        except Exception as e:
+            print(f"Error en el proceso de extracción bancaria: {str(e)}")
+            traceback.print_exc()
+            return False
+
 def main():
-    # Crear instancia y ejecutar
     reconciliation = Reconciliation()
+    
+    print("=== Procesando archivos contables ===")
     reconciliation.extract_excel_to_json()
+    
+    print("\n=== Procesando extractos bancarios ===")
+    reconciliation.extract_bank_excel_to_json()
 
 if __name__ == "__main__":
     main()
