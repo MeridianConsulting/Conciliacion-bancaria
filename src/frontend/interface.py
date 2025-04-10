@@ -13,6 +13,14 @@ class InstruccionesWindow(tk.Toplevel):
         self.title("Instrucciones de Uso")
         self.geometry("800x600")
         
+        # Establecer el mismo ícono que la ventana principal
+        try:
+            icon_path = os.path.abspath(os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), 'assets', 'logo.ico'))
+            if os.path.exists(icon_path):
+                self.iconbitmap(icon_path)
+        except Exception as e:
+            print(f"Error cargando el ícono en instrucciones: {e}")
+        
         # Hacer la ventana modal (bloquea la interacción con la ventana principal)
         self.transient(parent)
         self.grab_set()
@@ -234,24 +242,46 @@ class InstruccionesWindow(tk.Toplevel):
 class ConciliacionBancaria(tk.Tk):
     def __init__(self):
         super().__init__()
+        
+        # Configuración inicial
         self.title("Sistema de Conciliación Bancaria")
         
-        # Configurar el ícono en la barra de tareas de Windows
+        # Configurar íconos para Windows (tanto ventana como barra de tareas)
         try:
-            if os.name == 'nt':  # Verificar si es Windows
-                # Obtener la ruta absoluta del ícono
-                icon_path = os.path.abspath(os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), 'assets', 'logo.ico'))
-                print(f"Buscando ícono en: {icon_path}")  # Diagnóstico
+            # Ruta absoluta al ícono
+            icon_path = os.path.abspath(os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), 'assets', 'logo.ico'))
+            
+            if os.path.exists(icon_path):
+                # Establecer ícono para la ventana
+                self.iconbitmap(default=icon_path)
                 
-                if os.path.exists(icon_path):
-                    # Usar tanto iconbitmap como wm_iconbitmap para asegurar que se aplique
-                    self.iconbitmap(default=icon_path)
-                    self.wm_iconbitmap(icon_path)
-                    # También intentar con tk.PhotoImage como respaldo
-                    icon = tk.PhotoImage(file=icon_path)
-                    self.iconphoto(False, icon)
+                # Configuración específica para la barra de tareas de Windows
+                if os.name == 'nt':
+                    # Establecer ID único para la aplicación
+                    app_id = "ConciliacionBancaria.Application.1.0"
+                    try:
+                        import ctypes
+                        ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(app_id)
+                        
+                        # Intentar registrar el ícono a nivel de sistema
+                        import win32gui
+                        import win32con
+                        import win32api
+                        
+                        # Asegurarse que el handle de la ventana esté disponible
+                        self.update_idletasks()
+                        
+                        # Establecer el ícono grande y pequeño
+                        big_icon = win32gui.LoadImage(0, icon_path, win32con.IMAGE_ICON, 32, 32, win32con.LR_LOADFROMFILE)
+                        small_icon = win32gui.LoadImage(0, icon_path, win32con.IMAGE_ICON, 16, 16, win32con.LR_LOADFROMFILE)
+                        
+                        hwnd = int(self.winfo_id())  # Handle de la ventana
+                        win32gui.SendMessage(hwnd, win32con.WM_SETICON, win32con.ICON_BIG, big_icon)
+                        win32gui.SendMessage(hwnd, win32con.WM_SETICON, win32con.ICON_SMALL, small_icon)
+                    except Exception as e:
+                        print(f"Error al configurar ícono avanzado: {e}")
         except Exception as e:
-            print(f"Error detallado al cargar el ícono: {str(e)}")  # Diagnóstico detallado
+            print(f"Error cargando el ícono básico: {e}")
         
         # Agregar estas líneas para la configuración de la ventana
         self.configure_window_size()
@@ -630,6 +660,24 @@ class ConciliacionBancaria(tk.Tk):
         button.place(x=500, y=y_position-2)
         
         return entry
+
+    def create_shortcut(self, icon_path, app_id):
+        """Crea un acceso directo para ayudar a Windows a asociar el ícono con la aplicación"""
+        import win32com.client
+        import sys
+        
+        # Ruta para el acceso directo
+        shortcut_path = os.path.join(os.environ["APPDATA"], "Microsoft", "Windows", "Start Menu", "Programs", "Conciliación Bancaria.lnk")
+        
+        # Verificar si el acceso directo ya existe
+        if not os.path.exists(shortcut_path):
+            shell = win32com.client.Dispatch("WScript.Shell")
+            shortcut = shell.CreateShortCut(shortcut_path)
+            shortcut.TargetPath = sys.executable
+            shortcut.Arguments = os.path.abspath(sys.argv[0])
+            shortcut.WorkingDirectory = os.path.dirname(os.path.abspath(sys.argv[0]))
+            shortcut.IconLocation = icon_path
+            shortcut.save()
 
 def main():
     try:
