@@ -37,6 +37,58 @@ class Reconciliation:
                 return column_names
         return None
 
+    def order_json_fields(self, data, campo_orden_comun=None):
+        """
+        Ordena los campos en los archivos JSON para tener un formato consistente.
+        Coloca primero los campos comunes y después los diferentes.
+        
+        Args:
+            data: Datos JSON a ordenar
+            campo_orden_comun: Lista con el orden deseado para los campos comunes
+        
+        Returns:
+            Datos JSON ordenados
+        """
+        if not campo_orden_comun:
+            # Definir el orden común para los campos que aparecen en ambos tipos de archivos
+            campo_orden_comun = ["FECHA", "DESCRIPCION", "DEBITOS", "CREDITOS"]
+        
+        # Si es un diccionario con 'metadata' y 'movimientos'
+        if isinstance(data, dict) and "movimientos" in data:
+            # Ordenar cada movimiento en la lista
+            movimientos_ordenados = []
+            for movimiento in data["movimientos"]:
+                movimiento_ordenado = {}
+                
+                # Primero añadir los campos comunes en el orden establecido
+                for campo in campo_orden_comun:
+                    if campo in movimiento:
+                        movimiento_ordenado[campo] = movimiento[campo]
+                
+                # Luego añadir los campos restantes ordenados alfabéticamente
+                campos_restantes = sorted([campo for campo in movimiento if campo not in campo_orden_comun])
+                for campo in campos_restantes:
+                    movimiento_ordenado[campo] = movimiento[campo]
+                
+                movimientos_ordenados.append(movimiento_ordenado)
+            
+            # Crear nueva estructura con los movimientos ordenados
+            data_ordenado = {
+                "metadata": data["metadata"],
+                "movimientos": movimientos_ordenados
+            }
+            return data_ordenado
+        
+        # Si es una lista de documentos
+        elif isinstance(data, list):
+            datos_ordenados = []
+            for documento in data:
+                datos_ordenados.append(self.order_json_fields(documento, campo_orden_comun))
+            return datos_ordenados
+        
+        # Para otros tipos de datos, retornar sin cambios
+        return data
+
     def extract_excel_to_json(self):
         """Extrae los archivos Excel de Siigo y los convierte a JSON con formato mejorado"""
         try:
@@ -77,12 +129,27 @@ class Reconciliation:
 
                     # Procesar solo las filas con datos
                     data_rows = []
+                    
+                    # Campos requeridos
+                    campos_requeridos = ["COMPROBANTE", "FECHA", "DESCRIPCION", "DEBITOS", "CREDITOS"]
+                    
                     for idx, row in df.iloc[start_index:].iterrows():
                         # Verificar si la fila tiene datos significativos
                         if pd.notna(row[0]) and str(row[0]).strip():
+                            # Verificar si llegamos a las filas de totales (generalmente contienen términos como "TOTAL", "SUMA", etc.)
+                            primera_celda = str(row[0]).strip().upper()
+                            if "TOTAL" in primera_celda or "SUMA" in primera_celda or "SALDO FINAL" in primera_celda:
+                                print(f"Encontrado fin de datos en fila {idx}")
+                                break
+                                
+                            # Crear nuevo registro con solo los campos solicitados
                             record = {}
-                            for col_idx, value in enumerate(row):
-                                if col_idx < len(column_names):
+                            
+                            for campo in campos_requeridos:
+                                if campo in column_names:
+                                    col_idx = column_names.index(campo)
+                                    value = row[col_idx] if col_idx < len(row) else ""
+                                    
                                     # Convertir NaN a cadena vacía
                                     if pd.isna(value):
                                         value = ""
@@ -92,7 +159,8 @@ class Reconciliation:
                                     else:
                                         value = str(value).strip()
                                     
-                                    record[column_names[col_idx]] = value
+                                    record[campo] = value
+                            
                             data_rows.append(record)
 
                     # Crear estructura final del documento
@@ -100,16 +168,19 @@ class Reconciliation:
                         "metadata": header_info,
                         "movimientos": data_rows
                     }
+                    
+                    # Ordenar los campos del JSON
+                    document_ordenado = self.order_json_fields(document)
 
                     # Guardar archivo JSON individual
                     json_filename = self.output_path / f"{excel_file.stem}.json"
                     with open(json_filename, 'w', encoding='utf-8') as f:
-                        json.dump(document, f, ensure_ascii=False, indent=2)
+                        json.dump(document_ordenado, f, ensure_ascii=False, indent=2)
                     
                     print(f"Archivo JSON creado: {json_filename}")
                     
                     # Agregar a la lista completa
-                    all_data.append(document)
+                    all_data.append(document_ordenado)
                 
                 except Exception as e:
                     print(f"Error procesando {excel_file.name}: {str(e)}")
@@ -224,7 +295,6 @@ class Reconciliation:
 
                                     movement = {
                                         'FECHA': int(row['Día']) if pd.notna(row['Día']) else '',
-                                        'DOCUMENTO': str(row['Número docum.']).strip() if pd.notna(row['Número docum.']) else '',
                                         'DESCRIPCION': str(row['Descripción de la transacción']).strip() if pd.notna(row['Descripción de la transacción']) else '',
                                         'OFICINA': str(row['Oficina transacción']).strip() if pd.notna(row['Oficina transacción']) else '',
                                         'DEBITOS': convert_to_float(row['Débitos']),
@@ -245,17 +315,20 @@ class Reconciliation:
                             },
                             "movimientos": normalized_data
                         }
+                        
+                        # Ordenar los campos del JSON
+                        document_ordenado = self.order_json_fields(document)
 
                         # Guardar archivo JSON individual
                         json_filename = self.output_path / f"bank_{excel_file.stem}.json"
                         with open(json_filename, 'w', encoding='utf-8') as f:
-                            json.dump(document, f, ensure_ascii=False, indent=2)
+                            json.dump(document_ordenado, f, ensure_ascii=False, indent=2)
                         
                         print(f"Archivo JSON de banco creado: {json_filename}")
                         print(f"Total de movimientos procesados: {len(normalized_data)}")
                         
                         # Agregar a la lista completa
-                        bank_data.append(document)
+                        bank_data.append(document_ordenado)
                     else:
                         print(f"No se encontró el encabezado 'Día' en {excel_file.name}")
                 
