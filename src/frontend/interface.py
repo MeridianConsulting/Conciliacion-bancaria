@@ -236,6 +236,23 @@ class ConciliacionBancaria(tk.Tk):
         super().__init__()
         self.title("Sistema de Conciliación Bancaria")
         
+        # Configurar el ícono en la barra de tareas de Windows
+        try:
+            if os.name == 'nt':  # Verificar si es Windows
+                # Obtener la ruta absoluta del ícono
+                icon_path = os.path.abspath(os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), 'assets', 'logo.ico'))
+                print(f"Buscando ícono en: {icon_path}")  # Diagnóstico
+                
+                if os.path.exists(icon_path):
+                    # Usar tanto iconbitmap como wm_iconbitmap para asegurar que se aplique
+                    self.iconbitmap(default=icon_path)
+                    self.wm_iconbitmap(icon_path)
+                    # También intentar con tk.PhotoImage como respaldo
+                    icon = tk.PhotoImage(file=icon_path)
+                    self.iconphoto(False, icon)
+        except Exception as e:
+            print(f"Error detallado al cargar el ícono: {str(e)}")  # Diagnóstico detallado
+        
         # Agregar estas líneas para la configuración de la ventana
         self.configure_window_size()
         self.bind("<Configure>", self.on_window_resize)
