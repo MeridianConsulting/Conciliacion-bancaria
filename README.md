@@ -1,82 +1,41 @@
 # Sistema de Conciliación Bancaria
 
 ## Descripción
-Este proyecto implementa un sistema automatizado para la conciliación de extractos bancarios con registros contables. El sistema permite procesar diferentes formatos de archivos (Excel, PDF), normalizar los datos y realizar la conciliación automática.
+Este proyecto implementa un sistema automatizado para la conciliación de extractos bancarios con registros contables. El sistema permite procesar diferentes formatos de archivos Excel, normalizar los datos y realizar la conciliación automática.
 
 ## Estructura del Proyecto
 
 ```
 bank_reconciliation_project/
-├── docs/                           # Documentación del proyecto
-│   ├── requirements.md             # Especificación de requisitos
-│   ├── design.md                   # Documentación de arquitectura
-│   └── roadmap.md                  # Planificación del proyecto
+├── src/ # Código fuente
+│ ├── frontend/ # Interfaz de usuario
+│ │ ├── init.py
+│ │ └── interface.py # Interfaz gráfica
+│ ├── backend/ # Lógica de negocio
+│ │ ├── init.py
+│ │ └── reconciliation.py # Lógica de conciliación
+│ └── main.py # Punto de entrada
 │
-├── data/                           # Datos del sistema
-│   ├── raw/                        # Datos originales
-│   │   ├── banks/                  # Extractos bancarios
-│   │   └── accounting/             # Registros contables
-│   └── processed/                  # Datos normalizados
+├── data/ # Datos del sistema
+│ ├── input/ # Datos de entrada
+│ │ ├── bank/ # Extractos bancarios
+│ │ └── accounting/ # Registros contables
+│ └── output/ # Resultados y reportes
 │
-├── logs/                           # Archivos de registro
-│
-├── src/                            # Código fuente
-│   ├── config/                     # Configuración
-│   │   ├── __init__.py
-│   │   └── config.py               # Parámetros globales
-│   │
-│   ├── extraction/                 # Extracción de datos
-│   │   ├── __init__.py
-│   │   ├── excel_extractor.py      # Procesamiento de Excel
-│   │   └── pdf_extractor.py        # Procesamiento de PDF
-│   │
-│   ├── normalization/              # Normalización de datos
-│   │   ├── __init__.py
-│   │   └── data_normalizer.py      # Transformación de datos
-│   │
-│   ├── validation/                 # Validación y conciliación
-│   │   ├── __init__.py
-│   │   └── reconciliation.py       # Lógica de conciliación
-│   │
-│   ├── reporting/                  # Generación de reportes
-│   │   ├── __init__.py
-│   │   └── report_generator.py     # Creación de reportes
-│   │
-│   ├── utils/                      # Utilidades
-│   │   ├── __init__.py
-│   │   └── logger.py               # Sistema de logs
-│   │
-│   └── main.py                     # Punto de entrada
-│
-└── tests/                          # Pruebas unitarias
-    ├── __init__.py
-    ├── test_extraction.py
-    ├── test_normalization.py
-    ├── test_validation.py
-    └── test_reporting.py
+└── requirements.txt # Dependencias del proyecto
 ```
 
 ## Módulos Principales
 
-### 1. Extracción de Datos (`src/extraction/`)
-- Procesa archivos Excel y PDF
-- Extrae información de extractos bancarios y registros contables
-- Implementa OCR para archivos PDF
+### 1. Frontend (`src/frontend/`)
+- Interfaz gráfica de usuario
+- Gestión de interacciones del usuario
+- Visualización de datos y resultados
 
-### 2. Normalización (`src/normalization/`)
-- Transforma datos a formato estándar
-- Normaliza fechas, montos y textos
-- Unifica formatos de diferentes fuentes
-
-### 3. Validación (`src/validation/`)
-- Compara transacciones entre sistemas
-- Identifica discrepancias
-- Genera alertas de diferencias
-
-### 4. Reportes (`src/reporting/`)
-- Genera reportes detallados
-- Exporta resultados en diferentes formatos
-- Crea dashboards de conciliación
+### 2. Backend (`src/backend/`)
+- Procesamiento de datos
+- Lógica de conciliación
+- Generación de reportes
 
 ## Requisitos del Sistema
 
@@ -101,31 +60,37 @@ bank_reconciliation_project/
 ## Uso
 
 1. Colocar los archivos de entrada en las carpetas correspondientes:
-   - Extractos bancarios en `data/raw/banks/`
-   - Registros contables en `data/raw/accounting/`
+   - Extractos bancarios en `data/input/bank/`
+   - Registros contables en `data/input/accounting/`
 
-2. Ejecutar el programa principal:
+2. Ejecutar el programa:
    ```bash
    python src/main.py
    ```
 
 3. Los resultados se generarán en:
-   - Datos normalizados: `data/processed/`
-   - Reportes: `data/reports/`
-   - Logs: `logs/`
+   - `data/output/` - Reportes y resultados de la conciliación
 
-## Documentación Adicional
+## Flujo de Trabajo
 
-- [Requisitos](docs/requirements.md)
-- [Diseño](docs/design.md)
-- [Roadmap](docs/roadmap.md)
+1. Cargar Archivos
+   - Seleccionar el extracto bancario
+   - Seleccionar el registro contable
+
+2. Procesar Datos
+   - Los archivos se procesan automáticamente
+   - Se normalizan los datos para la conciliación
+
+3. Generar Resultados
+   - Se realiza la conciliación automática
+   - Se genera un reporte detallado
+   - Se guardan los resultados en la carpeta de salida
 
 ## Contribución
 
 1. Crear una rama para la nueva característica
 2. Implementar los cambios
-3. Ejecutar las pruebas
-4. Enviar un pull request
+3. Enviar un pull request
 
 ## Licencia
 
