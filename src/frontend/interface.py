@@ -65,6 +65,15 @@ class InstruccionesWindow(tk.Toplevel):
                        font=('Segoe UI', 16, 'bold'),
                        padding=(0, 10))
         
+        # Configurar estilo para el botón Entendido
+        style.configure('Instructions.TButton',
+                       background='#e01b24',  # Mismo rojo que los botones de eliminar
+                       foreground='#ffffff',
+                       padding=(20, 10))
+        
+        style.map('Instructions.TButton',
+                 background=[('active', '#a51d2d')])  # Mismo hover que los botones de eliminar
+        
         # Frame principal con tema oscuro
         self.main_frame = ttk.Frame(self, style='Instructions.TFrame')
         self.main_frame.pack(fill='both', expand=True, padx=20, pady=20)
@@ -178,12 +187,7 @@ class InstruccionesWindow(tk.Toplevel):
             style='Instructions.TLabel'
         ).pack(anchor='w', pady=(0, 20))
         
-        # Botón de cerrar con estilo oscuro
-        style.configure('Instructions.TButton',
-                       background='#3584e4',
-                       foreground='#ffffff',
-                       padding=(20, 10))
-        
+        # Botón de cerrar con estilo rojo
         ttk.Button(
             self.content_frame,
             text="Entendido",
