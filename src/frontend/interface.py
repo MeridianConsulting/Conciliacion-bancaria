@@ -248,7 +248,9 @@ class ConciliacionBancaria(tk.Tk):
             'border': '#363649',
             'listbox_bg': '#2a2a3e',
             'listbox_fg': '#ffffff',
-            'card_shadow': '0 2px 4px rgba(0, 0, 0, 0.2)'
+            'card_shadow': '0 2px 4px rgba(0, 0, 0, 0.2)',
+            'delete_button_bg': '#e01b24',        # Nuevo color rojo para el botón eliminar
+            'delete_button_hover': '#a51d2d'      # Nuevo color rojo más oscuro para el hover
         }
         
         # Configurar el estilo de la aplicación
@@ -358,6 +360,16 @@ class ConciliacionBancaria(tk.Tk):
         self.style.configure('ListContainer.TFrame',
                            background=self.theme['bg_secondary'],
                            relief='flat')
+        
+        # Agregar estilo para botones de eliminar
+        self.style.configure('Delete.TButton',
+                           background=self.theme['delete_button_bg'],
+                           foreground=self.theme['text_primary'],
+                           font=('Segoe UI', 10),
+                           padding=(12, 6))
+        
+        self.style.map('Delete.TButton',
+                      background=[('active', self.theme['delete_button_hover'])])
 
     def create_widgets(self):
         # Título principal
@@ -401,7 +413,7 @@ class ConciliacionBancaria(tk.Tk):
             extractos_frame,
             text="Eliminar Extractos Seleccionados",
             command=self.eliminar_extractos,
-            style='Secondary.TButton'
+            style='Delete.TButton'
         )
         delete_extractos_btn.grid(row=3, column=0, pady=10)
         
@@ -435,7 +447,7 @@ class ConciliacionBancaria(tk.Tk):
             registros_frame,
             text="Eliminar Registros Seleccionados",
             command=self.eliminar_registros,
-            style='Secondary.TButton'
+            style='Delete.TButton'
         )
         delete_registros_btn.grid(row=3, column=0, pady=10)
         
