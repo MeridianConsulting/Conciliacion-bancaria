@@ -3,6 +3,7 @@ from tkinter import ttk
 from tkinter import messagebox
 from tkinter import filedialog
 import os
+import ctypes
 
 class InstruccionesWindow(tk.Toplevel):
     def __init__(self, parent):
@@ -229,32 +230,11 @@ class InstruccionesWindow(tk.Toplevel):
 class ConciliacionBancaria(tk.Tk):
     def __init__(self):
         super().__init__()
-        
-        # Configuración básica de la ventana
         self.title("Sistema de Conciliación Bancaria")
         
-        # Obtener dimensiones de la pantalla
-        screen_width = self.winfo_screenwidth()
-        screen_height = self.winfo_screenheight()
-        
-        # Calcular dimensiones de la ventana (75% de la pantalla)
-        window_width = int(screen_width * 0.75)
-        window_height = int(screen_height * 0.75)
-        
-        # Asegurar dimensiones mínimas y máximas adecuadas
-        window_width = min(max(window_width, 1024), 1366)
-        window_height = min(max(window_height, 768), 900)
-        
-        # Establecer tamaño mínimo
-        self.minsize(1024, 768)
-        
-        # Centrar la ventana considerando la barra de tareas
-        taskbar_height = 40  # Altura aproximada de la barra de tareas
-        x = (screen_width - window_width) // 2
-        y = ((screen_height - taskbar_height - window_height) // 2)
-        
-        # Configurar geometría
-        self.geometry(f"{window_width}x{window_height}+{x}+{y}")
+        # Agregar estas líneas para la configuración de la ventana
+        self.configure_window_size()
+        self.bind("<Configure>", self.on_window_resize)
         
         # Definir las paletas de colores
         self.theme = {
@@ -301,12 +281,35 @@ class ConciliacionBancaria(tk.Tk):
         # Crear widgets
         self.create_widgets()
         
-        # Vincular evento de redimensionamiento
-        self.bind('<Configure>', self.on_window_resize)
-        
         # Mostrar instrucciones al inicio
         self.after(500, self.show_instructions)
     
+    def configure_window_size(self):
+        """Configura el tamaño inicial de la ventana basado en la resolución de la pantalla"""
+        try:
+            # Para Windows
+            user32 = ctypes.windll.user32
+            screen_width = user32.GetSystemMetrics(0)
+            screen_height = user32.GetSystemMetrics(1)
+        except:
+            # Fallback para otros sistemas
+            screen_width = self.winfo_screenwidth()
+            screen_height = self.winfo_screenheight()
+
+        # Calcular dimensiones de la ventana (ahora 100px menos que la pantalla)
+        window_width = screen_width - 150
+        window_height = screen_height - 150  # Aumentamos el margen para la barra de tareas
+
+        # Calcular posición para centrar la ventana
+        position_x = (screen_width - window_width) // 2
+        position_y = (screen_height - window_height) // 2
+
+        # Configurar geometría de la ventana
+        self.geometry(f"{window_width}x{window_height}+{position_x}+{position_y}")
+        
+        # Establecer tamaños mínimos
+        self.minsize(800, 600)
+
     def configure_styles(self):
         """Configura los estilos personalizados para los widgets"""
         # Estilo para el frame principal
@@ -475,15 +478,11 @@ class ConciliacionBancaria(tk.Tk):
         
         return frame
 
-    def on_window_resize(self, event=None):
+    def on_window_resize(self, event):
         """Maneja el evento de redimensionamiento de la ventana"""
-        if event and event.widget == self:
-            # Calcular padding basado en el tamaño de la ventana
-            width = self.winfo_width()
-            
-            # Ajustar el tamaño de la fuente del título según el ancho de la ventana
-            title_size = min(28, max(20, int(width * 0.025)))
-            self.style.configure('Title.TLabel', font=('Segoe UI', title_size, 'bold'))
+        if event.widget == self:
+            # Actualizar el layout si es necesario
+            self.update_idletasks()
 
     def cargar_extractos(self):
         filenames = filedialog.askopenfilenames(
@@ -565,6 +564,18 @@ class ConciliacionBancaria(tk.Tk):
     def show_instructions(self):
         """Muestra la ventana de instrucciones"""
         InstruccionesWindow(self)
+
+    def create_file_entry(self, parent, label_text, y_position):
+        label = tk.Label(parent, text=label_text)
+        label.place(x=10, y=y_position)
+        
+        entry = tk.Entry(parent, width=35)  # Reducido de 50 a 40
+        entry.place(x=150, y=y_position)
+        
+        button = tk.Button(parent, text="Examinar", command=lambda: self.browse_file(entry))
+        button.place(x=500, y=y_position-2)
+        
+        return entry
 
 def main():
     try:
