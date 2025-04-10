@@ -4,6 +4,228 @@ from tkinter import messagebox
 from tkinter import filedialog
 import os
 
+class InstruccionesWindow(tk.Toplevel):
+    def __init__(self, parent):
+        super().__init__(parent)
+        
+        # Configuración básica de la ventana
+        self.title("Instrucciones de Uso")
+        self.geometry("800x600")
+        
+        # Hacer la ventana modal (bloquea la interacción con la ventana principal)
+        self.transient(parent)
+        self.grab_set()
+        
+        # Configurar el tema oscuro para la ventana
+        self.configure(bg='#1e1e2e')
+        
+        # Centrar la ventana
+        self.center_window()
+        
+        # Variable para rastrear si la ventana está activa
+        self.is_active = True
+        
+        # Crear contenido
+        self.create_content()
+        
+        # Vincular evento de cierre de ventana
+        self.protocol("WM_DELETE_WINDOW", self.on_closing)
+        
+    def center_window(self):
+        # Obtener dimensiones de la pantalla
+        screen_width = self.winfo_screenwidth()
+        screen_height = self.winfo_screenheight()
+        
+        # Calcular posición
+        x = (screen_width - 800) // 2
+        y = (screen_height - 600) // 2
+        
+        # Posicionar ventana
+        self.geometry(f"800x600+{x}+{y}")
+        
+    def create_content(self):
+        # Estilo para el contenido
+        style = ttk.Style()
+        
+        # Configurar estilos para el tema oscuro
+        style.configure('Instructions.TFrame',
+                       background='#1e1e2e')
+        
+        style.configure('Instructions.TLabel',
+                       background='#1e1e2e',
+                       foreground='#ffffff',
+                       font=('Segoe UI', 11),
+                       wraplength=750,
+                       padding=5)
+        
+        style.configure('InstructionsTitle.TLabel',
+                       background='#1e1e2e',
+                       foreground='#ffffff',
+                       font=('Segoe UI', 16, 'bold'),
+                       padding=(0, 10))
+        
+        # Frame principal con tema oscuro
+        self.main_frame = ttk.Frame(self, style='Instructions.TFrame')
+        self.main_frame.pack(fill='both', expand=True, padx=20, pady=20)
+        
+        # Canvas con scrollbar (tema oscuro)
+        self.canvas = tk.Canvas(
+            self.main_frame,
+            bg='#1e1e2e',
+            highlightthickness=0,
+            bd=0
+        )
+        
+        # Scrollbar con tema oscuro
+        self.scrollbar = ttk.Scrollbar(
+            self.main_frame,
+            orient="vertical",
+            command=self.canvas.yview
+        )
+        
+        # Frame de contenido
+        self.content_frame = ttk.Frame(
+            self.canvas,
+            style='Instructions.TFrame'
+        )
+        
+        # Configurar scroll
+        self.canvas.configure(
+            yscrollcommand=self.scrollbar.set,
+            bg='#1e1e2e'  # Asegurar que el canvas tenga fondo oscuro
+        )
+        
+        # Pack scrollbar y canvas
+        self.scrollbar.pack(side="right", fill="y")
+        self.canvas.pack(side="left", fill="both", expand=True)
+        
+        # Crear ventana en el canvas
+        self.canvas_window = self.canvas.create_window(
+            (0, 0),
+            window=self.content_frame,
+            anchor="nw",
+            width=self.canvas.winfo_width()
+        )
+        
+        # Título principal
+        ttk.Label(
+            self.content_frame,
+            text="Guía de Uso del Sistema de Conciliación Bancaria",
+            style='InstructionsTitle.TLabel'
+        ).pack(pady=(0, 20))
+        
+        # Sección 1: Cargar Extractos Bancarios
+        ttk.Label(
+            self.content_frame,
+            text="1. Carga de Extractos Bancarios (Paso 1)",
+            style='InstructionsTitle.TLabel'
+        ).pack(anchor='w')
+        
+        ttk.Label(
+            self.content_frame,
+            text="• El botón 'Cargar Extractos Bancarios' se encuentra en la parte superior de la primera sección.\n"
+                 "• Al hacer clic, se abrirá un explorador de archivos para seleccionar uno o varios extractos bancarios.\n"
+                 "• Los archivos seleccionados aparecerán en la lista debajo del botón.\n"
+                 "• Para eliminar extractos, seleccione uno o varios de la lista y use el botón 'Eliminar Extractos Seleccionados'.",
+            style='Instructions.TLabel'
+        ).pack(anchor='w', pady=(0, 20))
+        
+        # Sección 2: Cargar Registros Contables
+        ttk.Label(
+            self.content_frame,
+            text="2. Carga de Registros Contables (Paso 2)",
+            style='InstructionsTitle.TLabel'
+        ).pack(anchor='w')
+        
+        ttk.Label(
+            self.content_frame,
+            text="• El botón 'Cargar Registros Contables' está ubicado en la segunda sección.\n"
+                 "• Funciona de manera similar al botón de extractos bancarios.\n"
+                 "• Permite seleccionar múltiples archivos de registros contables.\n"
+                 "• Use el botón 'Eliminar Registros Seleccionados' para quitar registros de la lista.",
+            style='Instructions.TLabel'
+        ).pack(anchor='w', pady=(0, 20))
+        
+        # Sección 3: Acciones Principales
+        ttk.Label(
+            self.content_frame,
+            text="3. Acciones Principales",
+            style='InstructionsTitle.TLabel'
+        ).pack(anchor='w')
+        
+        ttk.Label(
+            self.content_frame,
+            text="• Los botones principales se encuentran en la parte inferior de la ventana:\n"
+                 "  - 'Iniciar Conciliación': Comienza el proceso de conciliación con los archivos seleccionados.\n"
+                 "  - 'Ver Reportes': Muestra los reportes generados de las conciliaciones realizadas.",
+            style='Instructions.TLabel'
+        ).pack(anchor='w', pady=(0, 20))
+        
+        # Sección 4: Recomendaciones
+        ttk.Label(
+            self.content_frame,
+            text="4. Recomendaciones Importantes",
+            style='InstructionsTitle.TLabel'
+        ).pack(anchor='w')
+        
+        ttk.Label(
+            self.content_frame,
+            text="• Asegúrese de cargar al menos un extracto bancario y un registro contable antes de iniciar la conciliación.\n"
+                 "• Los archivos deben estar en formato Excel (.xlsx) o CSV.\n"
+                 "• Puede seleccionar múltiples archivos manteniendo presionada la tecla Ctrl.\n"
+                 "• Verifique que los archivos seleccionados sean correctos antes de iniciar la conciliación.",
+            style='Instructions.TLabel'
+        ).pack(anchor='w', pady=(0, 20))
+        
+        # Botón de cerrar con estilo oscuro
+        style.configure('Instructions.TButton',
+                       background='#3584e4',
+                       foreground='#ffffff',
+                       padding=(20, 10))
+        
+        ttk.Button(
+            self.content_frame,
+            text="Entendido",
+            command=self.on_closing,
+            style='Instructions.TButton'
+        ).pack(pady=20)
+        
+        # Configurar eventos
+        self.content_frame.bind('<Configure>', self.on_frame_configure)
+        self.canvas.bind('<Configure>', self.on_canvas_configure)
+        
+        # Configurar el scroll con la rueda del mouse
+        self.bind_mousewheel()
+        
+    def bind_mousewheel(self):
+        """Vincula el evento de la rueda del mouse al canvas"""
+        def _on_mousewheel(event):
+            if self.is_active:
+                self.canvas.yview_scroll(int(-1*(event.delta/120)), "units")
+        
+        # Vincular el evento a todos los frames
+        self.bind_all("<MouseWheel>", _on_mousewheel)
+        
+    def unbind_mousewheel(self):
+        """Desvincula el evento de la rueda del mouse"""
+        self.unbind_all("<MouseWheel>")
+        
+    def on_frame_configure(self, event=None):
+        """Actualiza el scroll region cuando el frame cambia de tamaño"""
+        if self.is_active:
+            self.canvas.configure(scrollregion=self.canvas.bbox("all"))
+        
+    def on_canvas_configure(self, event):
+        """Ajusta el ancho del frame contenedor cuando el canvas cambia de tamaño"""
+        if self.is_active:
+            self.canvas.itemconfig(self.canvas_window, width=event.width)
+            
+    def on_closing(self):
+        """Maneja el cierre de la ventana"""
+        self.is_active = False
+        self.unbind_mousewheel()
+        self.destroy()
+
 class ConciliacionBancaria(tk.Tk):
     def __init__(self):
         super().__init__()
@@ -15,43 +237,56 @@ class ConciliacionBancaria(tk.Tk):
         screen_width = self.winfo_screenwidth()
         screen_height = self.winfo_screenheight()
         
-        # Calcular dimensiones iniciales (90% del tamaño de la pantalla)
-        initial_width = int(screen_width * 0.9)
-        initial_height = int(screen_height * 0.9)
+        # Calcular dimensiones de la ventana (75% de la pantalla)
+        window_width = int(screen_width * 0.75)
+        window_height = int(screen_height * 0.75)
         
-        # Establecer tamaño mínimo más grande para evitar scroll
+        # Asegurar dimensiones mínimas y máximas adecuadas
+        window_width = min(max(window_width, 1024), 1366)
+        window_height = min(max(window_height, 768), 900)
+        
+        # Establecer tamaño mínimo
         self.minsize(1024, 768)
         
-        # Centrar la ventana
-        x = (screen_width - initial_width) // 2
-        y = (screen_height - initial_height) // 2
-        self.geometry(f"{initial_width}x{initial_height}+{x}+{y}")
+        # Centrar la ventana considerando la barra de tareas
+        taskbar_height = 40  # Altura aproximada de la barra de tareas
+        x = (screen_width - window_width) // 2
+        y = ((screen_height - taskbar_height - window_height) // 2)
+        
+        # Configurar geometría
+        self.geometry(f"{window_width}x{window_height}+{x}+{y}")
         
         # Definir las paletas de colores
         self.theme = {
-            'bg_primary': '#1e1e2e',      # Fondo principal más oscuro y elegante
-            'bg_secondary': '#2a2a3e',    # Fondo secundario para tarjetas
-            'bg_tertiary': '#313244',     # Fondo terciario para elementos internos
-            'button_bg': '#3584e4',       # Azul más vibrante para botones
-            'button_hover': '#1a5fb4',    # Azul más oscuro para hover
-            'text_primary': '#ffffff',    # Texto principal blanco
-            'text_secondary': '#9999a8',  # Texto secundario gris más suave
-            'border': '#363649',          # Color de bordes más sutil
-            'listbox_bg': '#2a2a3e',      # Fondo para listbox
-            'listbox_fg': '#ffffff',      # Texto para listbox
-            'card_shadow': '0 2px 4px rgba(0, 0, 0, 0.2)'  # Sombra sutil para tarjetas
+            'bg_primary': '#1e1e2e',
+            'bg_secondary': '#2a2a3e',
+            'bg_tertiary': '#313244',
+            'button_bg': '#3584e4',
+            'button_hover': '#1a5fb4',
+            'text_primary': '#ffffff',
+            'text_secondary': '#9999a8',
+            'border': '#363649',
+            'listbox_bg': '#2a2a3e',
+            'listbox_fg': '#ffffff',
+            'card_shadow': '0 2px 4px rgba(0, 0, 0, 0.2)'
         }
         
         # Configurar el estilo de la aplicación
         self.configure(bg=self.theme['bg_primary'])
         
-        # Crear contenedor principal
+        # Crear contenedor principal con márgenes optimizados
         self.container = ttk.Frame(self, style='Main.TFrame')
-        self.container.grid(row=0, column=0, sticky="nsew", padx=30, pady=20)
+        self.container.grid(row=0, column=0, sticky="nsew", padx=15, pady=12)
         
         # Configurar grid
         self.grid_rowconfigure(0, weight=1)
         self.grid_columnconfigure(0, weight=1)
+        
+        # Configurar pesos de las filas del contenedor
+        self.container.grid_rowconfigure(0, weight=0)  # Título
+        self.container.grid_rowconfigure(1, weight=3)  # Extractos
+        self.container.grid_rowconfigure(2, weight=3)  # Registros
+        self.container.grid_rowconfigure(3, weight=1)  # Botones
         self.container.grid_columnconfigure(0, weight=1)
         
         # Configurar estilos
@@ -68,6 +303,9 @@ class ConciliacionBancaria(tk.Tk):
         
         # Vincular evento de redimensionamiento
         self.bind('<Configure>', self.on_window_resize)
+        
+        # Mostrar instrucciones al inicio
+        self.after(500, self.show_instructions)
     
     def configure_styles(self):
         """Configura los estilos personalizados para los widgets"""
@@ -119,11 +357,6 @@ class ConciliacionBancaria(tk.Tk):
                            relief='flat')
 
     def create_widgets(self):
-        # Configurar pesos de las filas del contenedor principal
-        self.container.grid_rowconfigure(1, weight=1)  # Extractos
-        self.container.grid_rowconfigure(2, weight=1)  # Registros
-        self.container.grid_rowconfigure(3, weight=0)  # Botones de acción
-
         # Título principal
         title_frame = ttk.Frame(self.container, style='Main.TFrame')
         title_frame.grid(row=0, column=0, sticky='ew', pady=(0, 20))
@@ -328,6 +561,10 @@ class ConciliacionBancaria(tk.Tk):
             "Información",
             "Función de reportes en desarrollo"
         )
+
+    def show_instructions(self):
+        """Muestra la ventana de instrucciones"""
+        InstruccionesWindow(self)
 
 def main():
     try:
