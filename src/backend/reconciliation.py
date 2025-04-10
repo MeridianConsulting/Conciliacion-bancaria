@@ -153,6 +153,20 @@ class Reconciliation:
                                     # Convertir NaN a cadena vacía
                                     if pd.isna(value):
                                         value = ""
+                                    # Formatear la fecha en el estilo YYYY-MM-DD HH:MM:SS
+                                    elif campo == "FECHA":
+                                        try:
+                                            # Si es un número, considerarlo como el día del mes de marzo de 2025
+                                            if isinstance(value, (int, float)) or (isinstance(value, str) and value.strip().isdigit()):
+                                                day = int(float(value)) if isinstance(value, str) else int(value)
+                                                # Formatear el día con dos dígitos
+                                                day_str = f"{day:02d}"
+                                                value = f"2025-03-{day_str} 00:00:00"
+                                            else:
+                                                # Si no es número, dejarlo como string
+                                                value = str(value).strip()
+                                        except (ValueError, TypeError):
+                                            value = str(value).strip()
                                     # Convertir números a float si es necesario
                                     elif isinstance(value, (int, float)):
                                         value = float(value)
@@ -293,8 +307,16 @@ class Reconciliation:
                                         # Remover comas y convertir a float
                                         return float(str(value).replace(',', ''))
 
+                                    # Formatear la fecha como YYYY-MM-DD HH:MM:SS
+                                    try:
+                                        day = int(row['Día']) if pd.notna(row['Día']) else 1
+                                        day_str = f"{day:02d}"
+                                        fecha_formateada = f"2025-03-{day_str} 00:00:00"
+                                    except (ValueError, TypeError):
+                                        fecha_formateada = "2025-03-01 00:00:00"  # Valor predeterminado
+
                                     movement = {
-                                        'FECHA': int(row['Día']) if pd.notna(row['Día']) else '',
+                                        'FECHA': fecha_formateada,
                                         'DESCRIPCION': str(row['Descripción de la transacción']).strip() if pd.notna(row['Descripción de la transacción']) else '',
                                         'OFICINA': str(row['Oficina transacción']).strip() if pd.notna(row['Oficina transacción']) else '',
                                         'DEBITOS': convert_to_float(row['Débitos']),
