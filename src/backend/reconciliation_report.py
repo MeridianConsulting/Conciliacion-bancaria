@@ -311,13 +311,15 @@ class ReconciliationReport:
             timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
             pdf_path = self.report_path / f"conciliacion_{timestamp}.pdf"
             
+            # Usar orientación horizontal (landscape) para más espacio
+            from reportlab.lib.pagesizes import landscape
             doc = SimpleDocTemplate(
                 str(pdf_path), 
-                pagesize=letter,
-                rightMargin=72, 
-                leftMargin=72,
-                topMargin=72, 
-                bottomMargin=72
+                pagesize=landscape(letter),
+                rightMargin=36, 
+                leftMargin=36,
+                topMargin=36, 
+                bottomMargin=36
             )
             
             # Contenido del PDF
@@ -341,7 +343,7 @@ class ReconciliationReport:
             ]
             
             # Crear tabla de resumen
-            table = Table(data)
+            table = Table(data, colWidths=[300, 100])
             table.setStyle(TableStyle([
                 ('BACKGROUND', (0, 0), (-1, 0), colors.blue),
                 ('TEXTCOLOR', (0, 0), (-1, 0), colors.white),
@@ -355,40 +357,106 @@ class ReconciliationReport:
             elements.append(table)
             elements.append(Spacer(1, 12))
             
-            # Detalles de transacciones (limitadas para no hacer el PDF demasiado grande)
-            max_rows = 20  # Limitar a 20 filas para cada categoría
-            
             # Mostrar transacciones conciliadas
             if comparison_result['conciliadas']:
-                elements.append(Paragraph("Transacciones Conciliadas (primeras 20)", styles["Heading2"]))
+                elements.append(Paragraph("Transacciones Conciliadas", styles["Heading2"]))
                 elements.append(Spacer(1, 6))
                 
                 # Encabezados
-                data = [["Fecha Cont.", "Fecha Banco", "Descripción", "Valor"]]
+                data = [["Fecha Cont.", "Fecha Banco", "Descripción Contabilidad", "Descripción Banco", "Valor", "Comprobante"]]
                 
                 # Datos
-                for i, trans in enumerate(comparison_result['conciliadas']):
-                    if i >= max_rows:
-                        break
+                for trans in comparison_result['conciliadas']:
                     data.append([
                         str(trans['fecha_contabilidad']),
                         str(trans['fecha_banco']),
-                        str(trans['descripcion_contabilidad'])[:30] + "...",  # Truncar para que quepa
-                        f"{trans['valor']:,.2f}"
+                        str(trans['descripcion_contabilidad']),
+                        str(trans['descripcion_banco']),
+                        f"{trans['valor']:,.2f}",
+                        str(trans['comprobante'])
                     ])
                 
-                table = Table(data, colWidths=[60, 60, 240, 70])
+                # Crear tabla con ajuste automático
+                from reportlab.platypus import LongTable
+                table = LongTable(data, repeatRows=1)
                 table.setStyle(TableStyle([
                     ('BACKGROUND', (0, 0), (-1, 0), colors.blue),
                     ('TEXTCOLOR', (0, 0), (-1, 0), colors.white),
-                    ('ALIGN', (0, 0), (-1, -1), 'CENTER'),
+                    ('ALIGN', (0, 0), (-1, -1), 'LEFT'),
+                    ('VALIGN', (0, 0), (-1, -1), 'TOP'),
                     ('FONTNAME', (0, 0), (-1, 0), 'Helvetica-Bold'),
                     ('BOTTOMPADDING', (0, 0), (-1, 0), 12),
                     ('BACKGROUND', (0, 1), (-1, -1), colors.lightgreen),
-                    ('GRID', (0, 0), (-1, -1), 1, colors.black)
+                    ('GRID', (0, 0), (-1, -1), 1, colors.black),
+                    ('WORDWRAP', (0, 0), (-1, -1), True)
                 ]))
                 elements.append(table)
                 elements.append(Spacer(1, 12))
+            
+            # Mostrar transacciones solo en contabilidad
+            if comparison_result['no_conciliadas_contabilidad']:
+                elements.append(Paragraph("Transacciones Solo en Contabilidad", styles["Heading2"]))
+                elements.append(Spacer(1, 6))
+                
+                # Encabezados
+                data = [["Fecha", "Descripción", "Valor", "Comprobante"]]
+                
+                # Datos
+                for trans in comparison_result['no_conciliadas_contabilidad']:
+                    data.append([
+                        str(trans['fecha']),
+                        str(trans['descripcion']),
+                        f"{trans['valor']:,.2f}",
+                        str(trans['comprobante'])
+                    ])
+                
+                # Crear tabla con ajuste automático
+                table = LongTable(data, repeatRows=1)
+                table.setStyle(TableStyle([
+                    ('BACKGROUND', (0, 0), (-1, 0), colors.blue),
+                    ('TEXTCOLOR', (0, 0), (-1, 0), colors.white),
+                    ('ALIGN', (0, 0), (-1, -1), 'LEFT'),
+                    ('VALIGN', (0, 0), (-1, -1), 'TOP'),
+                    ('FONTNAME', (0, 0), (-1, 0), 'Helvetica-Bold'),
+                    ('BOTTOMPADDING', (0, 0), (-1, 0), 12),
+                    ('BACKGROUND', (0, 1), (-1, -1), colors.lightcoral),
+                    ('GRID', (0, 0), (-1, -1), 1, colors.black),
+                    ('WORDWRAP', (0, 0), (-1, -1), True)
+                ]))
+                elements.append(table)
+                elements.append(Spacer(1, 12))
+            
+            # Mostrar transacciones solo en banco
+            if comparison_result['no_conciliadas_banco']:
+                elements.append(Paragraph("Transacciones Solo en Banco", styles["Heading2"]))
+                elements.append(Spacer(1, 6))
+                
+                # Encabezados
+                data = [["Fecha", "Descripción", "Valor", "Oficina"]]
+                
+                # Datos
+                for trans in comparison_result['no_conciliadas_banco']:
+                    data.append([
+                        str(trans['fecha']),
+                        str(trans['descripcion']),
+                        f"{trans['valor']:,.2f}",
+                        str(trans['oficina'])
+                    ])
+                
+                # Crear tabla con ajuste automático
+                table = LongTable(data, repeatRows=1)
+                table.setStyle(TableStyle([
+                    ('BACKGROUND', (0, 0), (-1, 0), colors.blue),
+                    ('TEXTCOLOR', (0, 0), (-1, 0), colors.white),
+                    ('ALIGN', (0, 0), (-1, -1), 'LEFT'),
+                    ('VALIGN', (0, 0), (-1, -1), 'TOP'),
+                    ('FONTNAME', (0, 0), (-1, 0), 'Helvetica-Bold'),
+                    ('BOTTOMPADDING', (0, 0), (-1, 0), 12),
+                    ('BACKGROUND', (0, 1), (-1, -1), colors.lightcoral),
+                    ('GRID', (0, 0), (-1, -1), 1, colors.black),
+                    ('WORDWRAP', (0, 0), (-1, -1), True)
+                ]))
+                elements.append(table)
             
             # Construir el PDF
             doc.build(elements)

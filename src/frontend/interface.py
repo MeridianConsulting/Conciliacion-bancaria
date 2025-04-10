@@ -4,6 +4,11 @@ from tkinter import messagebox
 from tkinter import filedialog
 import os
 import ctypes
+from backend.reconciliation import Reconciliation
+from backend.reconciliation_report import ReconciliationReport
+from pathlib import Path
+import shutil
+import datetime
 
 class InstruccionesWindow(tk.Toplevel):
     def __init__(self, parent):
@@ -328,14 +333,31 @@ class ConciliacionBancaria(tk.Tk):
         self.configure_styles()
         
         # Variables para almacenar los archivos
-        self.extractos_seleccionados = []
-        self.registros_seleccionados = []
+        self.extractos_bancarios = []
+        self.registros_contables = []
+        
+        # Ruta de entrada y salida
+        self.project_root = Path(__file__).parent.parent.parent
+        self.input_bank_path = self.project_root / 'data' / 'input' / 'bank'
+        self.input_accounting_path = self.project_root / 'data' / 'input' / 'accounting'
+        self.output_path = self.project_root / 'data' / 'output'
+        self.report_path = self.project_root / 'data' / 'reports'
+        
+        # Crear directorios necesarios
+        self.input_bank_path.mkdir(parents=True, exist_ok=True)
+        self.input_accounting_path.mkdir(parents=True, exist_ok=True)
+        self.output_path.mkdir(parents=True, exist_ok=True)
+        self.report_path.mkdir(parents=True, exist_ok=True)
         
         # Crear widgets
         self.create_widgets()
         
         # Mostrar instrucciones al inicio
         self.after(500, self.show_instructions)
+        
+        # Inicializar los controladores del backend
+        self.reconciliation = Reconciliation()
+        self.report_generator = ReconciliationReport()
     
     def configure_window_size(self):
         """Configura el tamaño inicial de la ventana basado en la resolución de la pantalla"""
@@ -569,81 +591,169 @@ class ConciliacionBancaria(tk.Tk):
             self.update_idletasks()
 
     def cargar_extractos(self):
-        filenames = filedialog.askopenfilenames(
+        # Solicitar al usuario seleccionar archivos
+        archivos = filedialog.askopenfilenames(
             title="Seleccionar Extractos Bancarios",
-            filetypes=[
-                ("Archivos Excel", "*.xlsx"),
-                ("Archivos CSV", "*.csv"),
-                ("Todos los archivos", "*.*")
-            ]
+            filetypes=(("Archivos Excel", "*.xlsx"), ("Todos los archivos", "*.*"))
         )
-        if filenames:
-            self.extractos_listbox.delete(0, tk.END)
-            for filename in filenames:
-                if filename not in self.extractos_seleccionados:
-                    self.extractos_seleccionados.append(filename)
-                    self.extractos_listbox.insert(tk.END, os.path.basename(filename))
-            messagebox.showinfo("Información", f"Se han cargado {len(filenames)} extractos bancarios")
+        
+        if archivos:
+            # Guardar lista de archivos seleccionados
+            self.extractos_bancarios.extend(archivos)
+            
+            # Mostrar archivos en la lista
+            for archivo in archivos:
+                nombre_archivo = os.path.basename(archivo)
+                self.extractos_listbox.insert(tk.END, nombre_archivo)
+                
+            # Copiar archivos al directorio de entrada
+            for archivo in archivos:
+                destino = self.input_bank_path / os.path.basename(archivo)
+                shutil.copy2(archivo, destino)
+                print(f"Archivo copiado: {destino}")
 
     def cargar_registros(self):
-        filenames = filedialog.askopenfilenames(
+        # Solicitar al usuario seleccionar archivos
+        archivos = filedialog.askopenfilenames(
             title="Seleccionar Registros Contables",
-            filetypes=[
-                ("Archivos Excel", "*.xlsx"),
-                ("Archivos CSV", "*.csv"),
-                ("Todos los archivos", "*.*")
-            ]
+            filetypes=(("Archivos Excel", "*.xlsx"), ("Todos los archivos", "*.*"))
         )
-        if filenames:
-            self.registros_listbox.delete(0, tk.END)
-            for filename in filenames:
-                if filename not in self.registros_seleccionados:
-                    self.registros_seleccionados.append(filename)
-                    self.registros_listbox.insert(tk.END, os.path.basename(filename))
-            messagebox.showinfo("Información", f"Se han cargado {len(filenames)} registros contables")
+        
+        if archivos:
+            # Guardar lista de archivos seleccionados
+            self.registros_contables.extend(archivos)
+            
+            # Mostrar archivos en la lista
+            for archivo in archivos:
+                nombre_archivo = os.path.basename(archivo)
+                self.registros_listbox.insert(tk.END, nombre_archivo)
+                
+            # Copiar archivos al directorio de entrada
+            for archivo in archivos:
+                destino = self.input_accounting_path / os.path.basename(archivo)
+                shutil.copy2(archivo, destino)
+                print(f"Archivo copiado: {destino}")
 
     def eliminar_extractos(self):
-        selected_indices = self.extractos_listbox.curselection()
-        if not selected_indices:
-            messagebox.showinfo("Información", "Por favor, seleccione extractos para eliminar")
-            return
-            
-        for index in sorted(selected_indices, reverse=True):
-            self.extractos_listbox.delete(index)
-            self.extractos_seleccionados.pop(index)
-            
-        messagebox.showinfo("Información", f"Se han eliminado {len(selected_indices)} extractos")
+        seleccionados = self.extractos_listbox.curselection()
+        if seleccionados:
+            # Eliminar desde el final para no afectar los índices
+            for i in sorted(seleccionados, reverse=True):
+                archivo = self.extractos_listbox.get(i)
+                self.extractos_listbox.delete(i)
+                
+                # Eliminar del directorio de entrada si existe
+                archivo_path = self.input_bank_path / archivo
+                if archivo_path.exists():
+                    archivo_path.unlink()
+                    print(f"Archivo eliminado: {archivo_path}")
+                
+                # Eliminar de la lista interna
+                if i < len(self.extractos_bancarios):
+                    self.extractos_bancarios.pop(i)
 
     def eliminar_registros(self):
-        selected_indices = self.registros_listbox.curselection()
-        if not selected_indices:
-            messagebox.showinfo("Información", "Por favor, seleccione registros para eliminar")
-            return
-            
-        for index in sorted(selected_indices, reverse=True):
-            self.registros_listbox.delete(index)
-            self.registros_seleccionados.pop(index)
-            
-        messagebox.showinfo("Información", f"Se han eliminado {len(selected_indices)} registros")
+        seleccionados = self.registros_listbox.curselection()
+        if seleccionados:
+            # Eliminar desde el final para no afectar los índices
+            for i in sorted(seleccionados, reverse=True):
+                archivo = self.registros_listbox.get(i)
+                self.registros_listbox.delete(i)
+                
+                # Eliminar del directorio de entrada si existe
+                archivo_path = self.input_accounting_path / archivo
+                if archivo_path.exists():
+                    archivo_path.unlink()
+                    print(f"Archivo eliminado: {archivo_path}")
+                
+                # Eliminar de la lista interna
+                if i < len(self.registros_contables):
+                    self.registros_contables.pop(i)
 
     def iniciar_conciliacion(self):
-        if not self.extractos_seleccionados or not self.registros_seleccionados:
+        # Verificar que se hayan cargado archivos
+        if not self.extractos_listbox.size() or not self.registros_listbox.size():
             messagebox.showwarning(
-                "Advertencia",
-                "Debe cargar al menos un extracto bancario y un registro contable para iniciar la conciliación"
+                "Archivos Faltantes",
+                "Debe cargar al menos un extracto bancario y un registro contable"
             )
             return
             
-        messagebox.showinfo(
-            "Información",
-            f"Iniciando conciliación con {len(self.extractos_seleccionados)} extractos y {len(self.registros_seleccionados)} registros"
-        )
+        # Mostrar un indicador de procesamiento
+        self.config(cursor="wait")
+        self.update()
+        
+        try:
+            # Paso 1: Procesar archivos contables
+            print("=== Procesando archivos contables ===")
+            contabilidad_ok = self.reconciliation.extract_excel_to_json()
+            
+            # Paso 2: Procesar extractos bancarios
+            print("=== Procesando extractos bancarios ===")
+            banco_ok = self.reconciliation.extract_bank_excel_to_json()
+            
+            # Paso 3: Generar reportes
+            if contabilidad_ok and banco_ok:
+                print("=== Generando reportes de conciliación ===")
+                result = self.report_generator.process()
+                
+                if result:
+                    # Mostrar mensaje de éxito con detalles
+                    mensaje = f"""
+Conciliación completada con éxito
+
+Archivos generados:
+- Excel: {os.path.basename(result['excel_report'])}
+- PDF: {os.path.basename(result['pdf_report'])}
+
+Resumen:
+- Transacciones conciliadas: {len(result['comparison_result']['conciliadas'])}
+- Solo en contabilidad: {len(result['comparison_result']['no_conciliadas_contabilidad'])}
+- Solo en banco: {len(result['comparison_result']['no_conciliadas_banco'])}
+"""
+                    messagebox.showinfo("Conciliación Completada", mensaje)
+                else:
+                    messagebox.showwarning(
+                        "Advertencia", 
+                        "Se procesaron los archivos pero no se pudieron generar los reportes."
+                    )
+            else:
+                messagebox.showwarning(
+                    "Procesamiento Incompleto", 
+                    "No se pudieron procesar todos los archivos. Revise el formato y estructura."
+                )
+                
+        except Exception as e:
+            messagebox.showerror("Error", f"Ocurrió un error durante la conciliación: {str(e)}")
+            import traceback
+            traceback.print_exc()
+        finally:
+            # Restaurar el cursor
+            self.config(cursor="")
 
     def ver_reportes(self):
-        messagebox.showinfo(
-            "Información",
-            "Función de reportes en desarrollo"
-        )
+        try:
+            # Buscar los reportes más recientes
+            excel_files = list(self.report_path.glob("conciliacion_*.xlsx"))
+            pdf_files = list(self.report_path.glob("conciliacion_*.pdf"))
+            
+            if not excel_files and not pdf_files:
+                messagebox.showinfo("Información", "No se encontraron reportes generados.")
+                return
+                
+            # Ordenar por fecha de creación (más recientes primero)
+            if excel_files:
+                excel_files.sort(key=lambda x: x.stat().st_mtime, reverse=True)
+                # Abrir el archivo Excel más reciente
+                os.startfile(str(excel_files[0]))
+                
+            if pdf_files:
+                pdf_files.sort(key=lambda x: x.stat().st_mtime, reverse=True)
+                # Abrir el archivo PDF más reciente
+                os.startfile(str(pdf_files[0]))
+                
+        except Exception as e:
+            messagebox.showerror("Error", f"Error al abrir los reportes: {str(e)}")
 
     def show_instructions(self):
         """Muestra la ventana de instrucciones"""
