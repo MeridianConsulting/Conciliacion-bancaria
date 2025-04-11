@@ -191,7 +191,7 @@ class ReconciliationReport:
             return None
 
     def generate_excel_report(self, comparison_result):
-        """Genera un reporte Excel con los resultados de la conciliación"""
+        """Genera un reporte Excel con los resultados de la conciliación con formato profesional"""
         if not comparison_result:
             print("No hay resultados de comparación para generar el reporte")
             return False
@@ -205,17 +205,57 @@ class ReconciliationReport:
             writer = pd.ExcelWriter(excel_path, engine='xlsxwriter')
             workbook = writer.book
             
-            # Formato para encabezados
+            # Formatos mejorados
+            title_format = workbook.add_format({
+                'bold': True,
+                'font_size': 16,
+                'font_color': '#1F497D',
+                'align': 'center',
+                'valign': 'vcenter',
+                'border': 0
+            })
+            
             header_format = workbook.add_format({
                 'bold': True,
                 'bg_color': '#4F81BD',
                 'font_color': 'white',
-                'border': 1
+                'border': 1,
+                'align': 'center',
+                'valign': 'vcenter',
+                'text_wrap': True,
+                'font_size': 11
             })
             
-            # Formato para celdas de conciliación
-            conciliado_format = workbook.add_format({'bg_color': '#C6EFCE'})
-            no_conciliado_format = workbook.add_format({'bg_color': '#FFC7CE'})
+            # Formatos para datos
+            conciliado_format = workbook.add_format({
+                'bg_color': '#C6EFCE',
+                'border': 1,
+                'border_color': '#969696',
+                'align': 'left',
+                'valign': 'vcenter'
+            })
+            
+            no_conciliado_format = workbook.add_format({
+                'bg_color': '#FFC7CE',
+                'border': 1,
+                'border_color': '#969696',
+                'align': 'left',
+                'valign': 'vcenter'
+            })
+            
+            number_format = workbook.add_format({
+                'num_format': '#,##0.00',
+                'align': 'right',
+                'border': 1,
+                'border_color': '#969696'
+            })
+            
+            date_format = workbook.add_format({
+                'num_format': 'yyyy-mm-dd',
+                'align': 'center',
+                'border': 1,
+                'border_color': '#969696'
+            })
             
             # Hoja 1: Resumen
             df_resumen = pd.DataFrame({
@@ -226,67 +266,151 @@ class ReconciliationReport:
                     len(comparison_result['no_conciliadas_banco'])
                 ]
             })
-            df_resumen.to_excel(writer, sheet_name='Resumen', index=False)
+            df_resumen.to_excel(writer, sheet_name='Resumen', index=False, startrow=2)
             
-            # Dar formato a la hoja de resumen
+            # Configurar hoja de resumen
             worksheet = writer.sheets['Resumen']
             worksheet.set_column('A:A', 25)
             worksheet.set_column('B:B', 15)
+            worksheet.set_row(0, 30)
             
-            # Aplicar formato de encabezado
+            # Añadir título
+            worksheet.merge_range('A1:B1', 'RESUMEN DE CONCILIACIÓN BANCARIA', title_format)
+            worksheet.write(1, 0, f"Generado el: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+            
+            # Aplicar formatos
             for col_num, value in enumerate(df_resumen.columns.values):
-                worksheet.write(0, col_num, value, header_format)
+                worksheet.write(2, col_num, value, header_format)
+            
+            # Agregar formato condicional para el resumen
+            worksheet.conditional_format('A4:B4', {'type': 'cell', 'criteria': '>=', 'value': 0, 'format': conciliado_format})
+            worksheet.conditional_format('A5:B6', {'type': 'cell', 'criteria': '>=', 'value': 0, 'format': no_conciliado_format})
+            
+            # Agregar gráfico de pastel
+            chart = workbook.add_chart({'type': 'pie'})
+            chart.add_series({
+                'name': 'Resumen de Conciliación',
+                'categories': ['Resumen', 3, 0, 5, 0],
+                'values': ['Resumen', 3, 1, 5, 1],
+                'data_labels': {'percentage': True, 'category': True},
+            })
+            chart.set_title({'name': 'Distribución de Transacciones'})
+            chart.set_style(10)
+            worksheet.insert_chart('D3', chart, {'x_scale': 1.2, 'y_scale': 1.2})
             
             # Hoja 2: Transacciones Conciliadas
             if comparison_result['conciliadas']:
                 df_conciliadas = pd.DataFrame(comparison_result['conciliadas'])
-                df_conciliadas.to_excel(writer, sheet_name='Conciliadas', index=False)
+                df_conciliadas.to_excel(writer, sheet_name='Conciliadas', index=False, startrow=2)
                 
-                # Dar formato a la hoja
+                # Configurar hoja
                 worksheet = writer.sheets['Conciliadas']
-                worksheet.set_column('A:G', 18)
+                worksheet.set_column('A:B', 18)  # Fechas
+                worksheet.set_column('C:D', 40)  # Descripciones
+                worksheet.set_column('E:E', 15)  # Valor
+                worksheet.set_column('F:F', 20)  # Comprobante
+                worksheet.set_row(0, 30)
                 
-                # Aplicar formato de encabezado
+                # Añadir título
+                worksheet.merge_range('A1:F1', 'TRANSACCIONES CONCILIADAS', title_format)
+                worksheet.write(1, 0, f"Generado el: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+                
+                # Aplicar formatos de encabezado
                 for col_num, value in enumerate(df_conciliadas.columns.values):
-                    worksheet.write(0, col_num, value, header_format)
+                    worksheet.write(2, col_num, value, header_format)
                 
-                # Aplicar formato a las filas
-                for row_num in range(1, len(df_conciliadas) + 1):
-                    worksheet.set_row(row_num, None, conciliado_format)
+                # Aplicar formato a las filas y columnas específicas
+                for row_num in range(3, len(df_conciliadas) + 3):
+                    worksheet.set_row(row_num, None)
+                    for col_num in range(len(df_conciliadas.columns)):
+                        if col_num in [0, 1]:  # Columnas de fecha
+                            worksheet.write(row_num, col_num, df_conciliadas.iloc[row_num-3, col_num], date_format)
+                        elif col_num == 4:  # Columna de valor
+                            worksheet.write(row_num, col_num, df_conciliadas.iloc[row_num-3, col_num], number_format)
+                        else:
+                            worksheet.write(row_num, col_num, df_conciliadas.iloc[row_num-3, col_num], conciliado_format)
+                
+                # Añadir filtros
+                worksheet.autofilter(2, 0, 2 + len(df_conciliadas), len(df_conciliadas.columns) - 1)
+                
+                # Congelar paneles para facilitar la navegación
+                worksheet.freeze_panes(3, 0)
             
-            # Hoja 3: Solo en Contabilidad
+            # Hoja 3: Solo en Contabilidad (similar formato)
             if comparison_result['no_conciliadas_contabilidad']:
                 df_conta = pd.DataFrame(comparison_result['no_conciliadas_contabilidad'])
-                df_conta.to_excel(writer, sheet_name='Solo Contabilidad', index=False)
+                df_conta.to_excel(writer, sheet_name='Solo Contabilidad', index=False, startrow=2)
                 
-                # Dar formato a la hoja
+                # Configurar hoja
                 worksheet = writer.sheets['Solo Contabilidad']
-                worksheet.set_column('A:E', 18)
+                worksheet.set_column('A:A', 18)  # Fecha
+                worksheet.set_column('B:B', 40)  # Descripción
+                worksheet.set_column('C:C', 15)  # Valor
+                worksheet.set_column('D:E', 20)  # Comprobante y Estado
+                worksheet.set_row(0, 30)
                 
-                # Aplicar formato de encabezado
+                # Añadir título
+                worksheet.merge_range('A1:E1', 'TRANSACCIONES SOLO EN CONTABILIDAD', title_format)
+                worksheet.write(1, 0, f"Generado el: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+                
+                # Aplicar formatos de encabezado
                 for col_num, value in enumerate(df_conta.columns.values):
-                    worksheet.write(0, col_num, value, header_format)
+                    worksheet.write(2, col_num, value, header_format)
                 
-                # Aplicar formato a las filas
-                for row_num in range(1, len(df_conta) + 1):
-                    worksheet.set_row(row_num, None, no_conciliado_format)
-            
-            # Hoja 4: Solo en Banco
+                # Aplicar formato a las filas y columnas específicas
+                for row_num in range(3, len(df_conta) + 3):
+                    worksheet.set_row(row_num, None)
+                    for col_num in range(len(df_conta.columns)):
+                        if col_num == 0:  # Columna de fecha
+                            worksheet.write(row_num, col_num, df_conta.iloc[row_num-3, col_num], date_format)
+                        elif col_num == 2:  # Columna de valor
+                            worksheet.write(row_num, col_num, df_conta.iloc[row_num-3, col_num], number_format)
+                        else:
+                            worksheet.write(row_num, col_num, df_conta.iloc[row_num-3, col_num], no_conciliado_format)
+                
+                # Añadir filtros
+                worksheet.autofilter(2, 0, 2 + len(df_conta), len(df_conta.columns) - 1)
+                
+                # Congelar paneles para facilitar la navegación
+                worksheet.freeze_panes(3, 0)
+                
+            # Hoja 4: Solo en Banco (similar formato)
             if comparison_result['no_conciliadas_banco']:
                 df_banco = pd.DataFrame(comparison_result['no_conciliadas_banco'])
-                df_banco.to_excel(writer, sheet_name='Solo Banco', index=False)
+                df_banco.to_excel(writer, sheet_name='Solo Banco', index=False, startrow=2)
                 
-                # Dar formato a la hoja
+                # Configurar hoja
                 worksheet = writer.sheets['Solo Banco']
-                worksheet.set_column('A:E', 18)
+                worksheet.set_column('A:A', 18)  # Fecha
+                worksheet.set_column('B:B', 40)  # Descripción
+                worksheet.set_column('C:C', 15)  # Valor
+                worksheet.set_column('D:E', 20)  # Oficina y Estado
+                worksheet.set_row(0, 30)
                 
-                # Aplicar formato de encabezado
+                # Añadir título
+                worksheet.merge_range('A1:E1', 'TRANSACCIONES SOLO EN BANCO', title_format)
+                worksheet.write(1, 0, f"Generado el: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+                
+                # Aplicar formatos de encabezado
                 for col_num, value in enumerate(df_banco.columns.values):
-                    worksheet.write(0, col_num, value, header_format)
+                    worksheet.write(2, col_num, value, header_format)
                 
-                # Aplicar formato a las filas
-                for row_num in range(1, len(df_banco) + 1):
-                    worksheet.set_row(row_num, None, no_conciliado_format)
+                # Aplicar formato a las filas y columnas específicas
+                for row_num in range(3, len(df_banco) + 3):
+                    worksheet.set_row(row_num, None)
+                    for col_num in range(len(df_banco.columns)):
+                        if col_num == 0:  # Columna de fecha
+                            worksheet.write(row_num, col_num, df_banco.iloc[row_num-3, col_num], date_format)
+                        elif col_num == 2:  # Columna de valor
+                            worksheet.write(row_num, col_num, df_banco.iloc[row_num-3, col_num], number_format)
+                        else:
+                            worksheet.write(row_num, col_num, df_banco.iloc[row_num-3, col_num], no_conciliado_format)
+                
+                # Añadir filtros
+                worksheet.autofilter(2, 0, 2 + len(df_banco), len(df_banco.columns) - 1)
+                
+                # Congelar paneles para facilitar la navegación
+                worksheet.freeze_panes(3, 0)
             
             # Guardar el archivo Excel
             writer.close()
@@ -350,7 +474,7 @@ class ReconciliationReport:
                 ('ALIGN', (0, 0), (-1, -1), 'CENTER'),
                 ('FONTNAME', (0, 0), (-1, 0), 'Helvetica-Bold'),
                 ('BOTTOMPADDING', (0, 0), (-1, 0), 12),
-                ('BACKGROUND', (0, 1), (-1, 1), colors.lightgreen),
+                ('BACKGROUND', (0, 1), (-1, 3), colors.lightgreen),
                 ('BACKGROUND', (0, 2), (-1, 3), colors.lightcoral),
                 ('GRID', (0, 0), (-1, -1), 1, colors.black)
             ]))
