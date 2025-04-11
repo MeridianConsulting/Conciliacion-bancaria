@@ -328,25 +328,66 @@ class ReconciliationReport:
                     len(comparison_result['no_conciliadas_banco'])
                 ]
             })
+
+            # Calcular el porcentaje de conciliación
+            total_transacciones = sum(df_resumen['Cantidad'])
+            df_resumen['Porcentaje'] = (df_resumen['Cantidad'] / total_transacciones * 100).round(2)
+
             df_resumen.to_excel(writer, sheet_name='Resumen', index=False, startrow=2)
             
             # Configurar hoja de resumen
             worksheet = writer.sheets['Resumen']
             worksheet.set_column('A:A', 30)  # Ampliar columna para evitar corte del título
             worksheet.set_column('B:B', 15)
+            worksheet.set_column('C:C', 15)  # Nueva columna para porcentaje
             worksheet.set_row(0, 30)
+            worksheet.set_row(1, 20)
             
             # Añadir título
-            worksheet.merge_range('A1:C1', 'RESUMEN DE CONCILIACIÓN BANCARIA', title_format)
+            worksheet.merge_range('A1:D1', 'RESUMEN DE CONCILIACIÓN BANCARIA', title_format)
             worksheet.write(1, 0, f"Generado el: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
             
             # Aplicar formatos
             for col_num, value in enumerate(df_resumen.columns.values):
                 worksheet.write(2, col_num, value, header_format)
             
-            # Agregar formato condicional para el resumen
-            worksheet.conditional_format('A4:B4', {'type': 'cell', 'criteria': '>=', 'value': 0, 'format': conciliado_format})
-            worksheet.conditional_format('A5:B6', {'type': 'cell', 'criteria': '>=', 'value': 0, 'format': no_conciliado_format})
+            # Crear un gráfico de columnas agrupadas para el resumen
+            chart = workbook.add_chart({'type': 'column'})
+
+            # Agregar series de datos al gráfico
+            chart.add_series({
+                'name': 'Transacciones Conciliadas',
+                'categories': '=Resumen!$A$4:$A$6',
+                'values': '=Resumen!$B$4:$B$6',
+            })
+
+            chart.add_series({
+                'name': 'Solo en Contabilidad',
+                'categories': '=Resumen!$A$4:$A$6',
+                'values': '=Resumen!$C$4:$C$6',
+            })
+
+            chart.add_series({
+                'name': 'Solo en Banco',
+                'categories': '=Resumen!$A$4:$A$6',
+                'values': '=Resumen!$D$4:$D$6',
+            })
+
+            # Configurar el gráfico
+            chart.set_title({'name': 'Resumen de Conciliación Bancaria'})
+            chart.set_x_axis({'name': 'Categoría'})
+            chart.set_y_axis({'name': 'Cantidad'})
+            chart.set_style(10)  # Estilo del gráfico
+            chart.set_legend({'position': 'top'})
+
+            # Insertar el gráfico en la hoja de resumen
+            worksheet.insert_chart('D2', chart)
+
+            # Formato adicional para la hoja de resumen
+            worksheet.set_row(0, 30)  # Ajustar altura de la fila del título
+            worksheet.set_column('A:A', 30)  # Ampliar columna para evitar corte del título
+            worksheet.set_column('B:B', 15)  # Ampliar columna de cantidad
+            worksheet.set_row(1, 20)  # Ajustar altura de la fila de fecha
             
             # Hoja 2: Transacciones Conciliadas
             if comparison_result['conciliadas']:
