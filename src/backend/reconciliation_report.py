@@ -245,6 +245,13 @@ class ReconciliationReport:
             writer = pd.ExcelWriter(excel_path, engine='xlsxwriter')
             workbook = writer.book
             
+            # --- NUEVOS FORMATOS SOLO PARA LA HOJA RESUMEN ---
+            # Paleta de colores profesional para hoja de resumen
+            COLOR_HEADER = '#3366CC'       # Azul profesional para encabezados
+            COLOR_CONCILIADO = '#27AE60'   # Verde para conciliadas
+            COLOR_CONTABILIDAD = '#E74C3C' # Rojo para solo contabilidad
+            COLOR_BANCO = '#F39C12'        # Naranja para solo banco
+            
             # Formatos mejorados
             title_format = workbook.add_format({
                 'bold': True,
@@ -319,6 +326,68 @@ class ReconciliationReport:
                 'bg_color': '#C6EFCE'  # Mismo color de fondo que conciliado_format
             })
             
+            # Formato para tabla de resumen
+            resumen_header_format = workbook.add_format({
+                'bold': True,
+                'bg_color': COLOR_HEADER,
+                'font_color': 'white',
+                'border': 1,
+                'border_color': '#CCCCCC',
+                'align': 'center',
+                'valign': 'vcenter',
+                'text_wrap': True,
+                'font_size': 11
+            })
+            
+            # Formatos para celdas de datos del resumen
+            resumen_number_format = workbook.add_format({
+                'num_format': '#,##0',
+                'align': 'center',
+                'border': 1,
+                'border_color': '#CCCCCC'
+            })
+            
+            resumen_percent_format = workbook.add_format({
+                'num_format': '0.00%',
+                'align': 'center',
+                'border': 1,
+                'border_color': '#CCCCCC'
+            })
+            
+            # Formatos por categoría
+            resumen_conciliado_format = workbook.add_format({
+                'bg_color': '#D5F5E3',  # Verde claro
+                'border': 1,
+                'border_color': '#CCCCCC',
+                'align': 'left',
+                'valign': 'vcenter'
+            })
+            
+            resumen_contabilidad_format = workbook.add_format({
+                'bg_color': '#FADBD8',  # Rojo claro
+                'border': 1,
+                'border_color': '#CCCCCC',
+                'align': 'left',
+                'valign': 'vcenter'
+            })
+            
+            resumen_banco_format = workbook.add_format({
+                'bg_color': '#FCF3CF',  # Amarillo claro
+                'border': 1,
+                'border_color': '#CCCCCC',
+                'align': 'left',
+                'valign': 'vcenter'
+            })
+            
+            resumen_total_format = workbook.add_format({
+                'bold': True,
+                'bg_color': '#EBF5FB',  # Azul muy claro
+                'border': 1,
+                'border_color': '#CCCCCC',
+                'align': 'left',
+                'valign': 'vcenter'
+            })
+            
             # Hoja 1: Resumen
             df_resumen = pd.DataFrame({
                 'Categoría': ['Transacciones Conciliadas', 'Solo en Contabilidad', 'Solo en Banco'],
@@ -331,63 +400,209 @@ class ReconciliationReport:
 
             # Calcular el porcentaje de conciliación
             total_transacciones = sum(df_resumen['Cantidad'])
-            df_resumen['Porcentaje'] = (df_resumen['Cantidad'] / total_transacciones * 100).round(2)
+            df_resumen['Porcentaje'] = (df_resumen['Cantidad'] / total_transacciones)
 
-            df_resumen.to_excel(writer, sheet_name='Resumen', index=False, startrow=2)
+            # Crear dataframe para Excel
+            df_resumen_excel = df_resumen.copy()
+            # Formatear los porcentajes como cadenas para evitar problemas
+            df_resumen_excel['Porcentaje'] = df_resumen_excel['Porcentaje'].apply(
+                lambda x: f"{x:.2%}"
+            )
             
-            # Configurar hoja de resumen
+            # Crear la hoja de resumen a través de pandas
+            df_resumen_excel.to_excel(writer, sheet_name='Resumen', index=False, startrow=2)
+            
+            # Obtener la hoja creada
             worksheet = writer.sheets['Resumen']
-            worksheet.set_column('A:A', 30)  # Ampliar columna para evitar corte del título
-            worksheet.set_column('B:B', 15)
-            worksheet.set_column('C:C', 15)  # Nueva columna para porcentaje
-            worksheet.set_row(0, 30)
-            worksheet.set_row(1, 20)
+            
+            # Configurar columnas
+            worksheet.set_column('A:A', 35)  # Columna categoría
+            worksheet.set_column('B:B', 15)  # Columna cantidad
+            worksheet.set_column('C:C', 15)  # Columna porcentaje
+            worksheet.set_column('D:D', 3)   # Espacio
+            worksheet.set_column('E:J', 20)  # Espacio para gráfico
+            
+            # Configurar filas
+            worksheet.set_row(0, 30)  # Fila de título
+            worksheet.set_row(1, 20)  # Fila de fecha
             
             # Añadir título
-            worksheet.merge_range('A1:D1', 'RESUMEN DE CONCILIACIÓN BANCARIA', title_format)
+            worksheet.merge_range('A1:J1', 'RESUMEN DE CONCILIACIÓN BANCARIA', title_format)
             worksheet.write(1, 0, f"Generado el: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
             
-            # Aplicar formatos
+            # Reemplazar encabezados con formato personalizado
             for col_num, value in enumerate(df_resumen.columns.values):
-                worksheet.write(2, col_num, value, header_format)
+                worksheet.write(2, col_num, value, resumen_header_format)
             
-            # Crear un gráfico de columnas agrupadas para el resumen
-            chart = workbook.add_chart({'type': 'column'})
-
-            # Agregar series de datos al gráfico
-            chart.add_series({
-                'name': 'Transacciones Conciliadas',
-                'categories': '=Resumen!$A$4:$A$6',
-                'values': '=Resumen!$B$4:$B$6',
+            # Aplicar formatos a las celdas de datos
+            # Para evitar errores con porcentajes, aplicamos formatos celda por celda
+            for row_idx, (_, row) in enumerate(df_resumen.iterrows(), start=3):
+                # Determinamos el formato según la categoría
+                if row_idx == 3:  # Transacciones Conciliadas
+                    cell_format = resumen_conciliado_format
+                elif row_idx == 4:  # Solo en Contabilidad
+                    cell_format = resumen_contabilidad_format
+                else:  # Solo en Banco
+                    cell_format = resumen_banco_format
+                
+                # Aplicar formatos celda por celda
+                worksheet.write(row_idx, 0, row['Categoría'], cell_format)
+                worksheet.write(row_idx, 1, row['Cantidad'], resumen_number_format)
+                
+                # Para porcentajes, escribimos el valor como decimal y aplicamos formato de porcentaje
+                value_decimal = row['Porcentaje']  # El valor ya es decimal (ej: 0.85)
+                worksheet.write(row_idx, 2, value_decimal, resumen_percent_format)
+            
+            # Añadir fila de total
+            total_row = 6
+            worksheet.write(total_row, 0, 'Total', resumen_total_format)
+            worksheet.write(total_row, 1, total_transacciones, resumen_number_format)
+            worksheet.write(total_row, 2, 1.0, resumen_percent_format)  # 100%
+            
+            # Crear un gráfico tipo pie (pastel) para porcentajes - más simple y menos problemas
+            pie_chart = workbook.add_chart({'type': 'pie'})
+            
+            # Agregar datos al gráfico, usando referencias de celdas simples
+            pie_chart.add_series({
+                'name': 'Distribución de Transacciones',
+                'categories': ['Resumen', 3, 0, 5, 0],  # Referencia directa a celdas (sin usar strings)
+                'values': ['Resumen', 3, 1, 5, 1],  # Referencia directa a celdas (sin usar strings)
+                'points': [
+                    {'fill': {'color': COLOR_CONCILIADO}},   # Verde para conciliadas
+                    {'fill': {'color': COLOR_CONTABILIDAD}}, # Rojo para solo contabilidad
+                    {'fill': {'color': COLOR_BANCO}}         # Naranja para solo banco
+                ]
             })
-
-            chart.add_series({
-                'name': 'Solo en Contabilidad',
-                'categories': '=Resumen!$A$4:$A$6',
-                'values': '=Resumen!$C$4:$C$6',
-            })
-
-            chart.add_series({
-                'name': 'Solo en Banco',
-                'categories': '=Resumen!$A$4:$A$6',
-                'values': '=Resumen!$D$4:$D$6',
-            })
-
+            
             # Configurar el gráfico
-            chart.set_title({'name': 'Resumen de Conciliación Bancaria'})
-            chart.set_x_axis({'name': 'Categoría'})
-            chart.set_y_axis({'name': 'Cantidad'})
-            chart.set_style(10)  # Estilo del gráfico
-            chart.set_legend({'position': 'top'})
-
-            # Insertar el gráfico en la hoja de resumen
-            worksheet.insert_chart('D2', chart)
-
-            # Formato adicional para la hoja de resumen
-            worksheet.set_row(0, 30)  # Ajustar altura de la fila del título
-            worksheet.set_column('A:A', 30)  # Ampliar columna para evitar corte del título
-            worksheet.set_column('B:B', 15)  # Ampliar columna de cantidad
-            worksheet.set_row(1, 20)  # Ajustar altura de la fila de fecha
+            pie_chart.set_title({'name': 'Distribución de Transacciones'})
+            pie_chart.set_style(10)  # Estilo profesional
+            pie_chart.set_size({'width': 440, 'height': 300})
+            
+            # Posicionar el gráfico a la derecha de la tabla
+            worksheet.insert_chart('E3', pie_chart)
+            
+            # ------------------------------------------------------------------------
+            # CREAR UN FORMATO DE TEXTO SIMPLE PARA EL VELOCÍMETRO EN LUGAR DE UN GRÁFICO
+            # ------------------------------------------------------------------------
+            
+            # Obtener el porcentaje de transacciones conciliadas
+            porcentaje_conciliadas = df_resumen['Porcentaje'].iloc[0]  # Porcentaje como decimal (0-1)
+            
+            # Determinar el nivel y color según el porcentaje de conciliación
+            if porcentaje_conciliadas >= 0.9:
+                nivel_texto = "EXCELENTE"
+                nivel_color = "#27AE60"  # Verde
+            elif porcentaje_conciliadas >= 0.7:
+                nivel_texto = "BUENO"
+                nivel_color = "#F39C12"  # Amarillo/Naranja
+            else:
+                nivel_texto = "BAJO"
+                nivel_color = "#E74C3C"  # Rojo
+            
+            # Formato para el bloque de indicador
+            indicador_titulo_format = workbook.add_format({
+                'bold': True,
+                'font_size': 16,
+                'font_color': '#333333',
+                'align': 'center',
+                'valign': 'vcenter',
+                'top': 1,
+                'left': 1,
+                'right': 1
+            })
+            
+            indicador_valor_format = workbook.add_format({
+                'bold': True,
+                'font_size': 28,
+                'font_color': nivel_color,
+                'align': 'center',
+                'valign': 'vcenter',
+                'num_format': '0.0%',
+                'left': 1,
+                'right': 1
+            })
+            
+            indicador_nivel_format = workbook.add_format({
+                'bold': True,
+                'font_size': 18,
+                'align': 'center',
+                'valign': 'vcenter',
+                'bg_color': nivel_color,
+                'font_color': 'white',
+                'left': 1,
+                'right': 1,
+                'bottom': 1
+            })
+            
+            # Añadir indicador de nivel de conciliación en forma de bloque de texto
+            nivel_row = 18
+            worksheet.merge_range(f'E{nivel_row}:J{nivel_row}', 'INDICADOR DE CONCILIACIÓN', indicador_titulo_format)
+            worksheet.merge_range(f'E{nivel_row+1}:J{nivel_row+1}', porcentaje_conciliadas, indicador_valor_format)
+            worksheet.merge_range(f'E{nivel_row+2}:J{nivel_row+2}', nivel_texto, indicador_nivel_format)
+            
+            # Aumentar altura de filas para mejor visualización
+            worksheet.set_row(nivel_row, 30)    # Título
+            worksheet.set_row(nivel_row+1, 45)  # Valor
+            worksheet.set_row(nivel_row+2, 35)  # Nivel
+            
+            # Añadir leyenda de colores
+            leyenda_row = nivel_row + 4
+            
+            # Formato para título de la leyenda
+            leyenda_titulo_format = workbook.add_format({
+                'bold': True,
+                'font_size': 14,
+                'font_color': '#333333',
+                'align': 'center',
+                'valign': 'vcenter',
+                'top': 1,
+                'left': 1,
+                'right': 1
+            })
+            
+            # Formatos para los niveles
+            verde_format = workbook.add_format({
+                'bg_color': '#27AE60',
+                'border': 1,
+                'pattern': 1
+            })
+            
+            amarillo_format = workbook.add_format({
+                'bg_color': '#F39C12',
+                'border': 1,
+                'pattern': 1
+            })
+            
+            rojo_format = workbook.add_format({
+                'bg_color': '#E74C3C',
+                'border': 1,
+                'pattern': 1
+            })
+            
+            leyenda_texto_format = workbook.add_format({
+                'font_size': 12,
+                'align': 'left',
+                'valign': 'vcenter'
+            })
+            
+            # Título de la leyenda
+            worksheet.merge_range(f'E{leyenda_row}:J{leyenda_row}', 'NIVELES DE CONCILIACIÓN', leyenda_titulo_format)
+            
+            # Color verde - Excelente
+            worksheet.write(f'E{leyenda_row+1}', '', verde_format)
+            worksheet.merge_range(f'F{leyenda_row+1}:J{leyenda_row+1}', 'EXCELENTE: ≥ 90% conciliado', leyenda_texto_format)
+            
+            # Color amarillo - Bueno
+            worksheet.write(f'E{leyenda_row+2}', '', amarillo_format)
+            worksheet.merge_range(f'F{leyenda_row+2}:J{leyenda_row+2}', 'BUENO: 70% - 89% conciliado', leyenda_texto_format)
+            
+            # Color rojo - Bajo
+            worksheet.write(f'E{leyenda_row+3}', '', rojo_format)
+            worksheet.merge_range(f'F{leyenda_row+3}:J{leyenda_row+3}', 'BAJO: < 70% conciliado', leyenda_texto_format)
+            
+            # Ajustar tamaño para la columna de muestra de color
+            worksheet.set_column('E:E', 8)
             
             # Hoja 2: Transacciones Conciliadas
             if comparison_result['conciliadas']:
