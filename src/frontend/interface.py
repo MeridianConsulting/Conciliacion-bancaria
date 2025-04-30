@@ -599,8 +599,9 @@ class ConciliacionBancaria(tk.Tk):
             # Copiar archivos al directorio de entrada
             for archivo in archivos:
                 destino = self.input_bank_path / os.path.basename(archivo)
-                shutil.copy2(archivo, destino)
-                print(f"Archivo copiado: {destino}")
+                if not destino.exists():  # Solo copiar si no existe ya
+                    shutil.copy2(archivo, destino)
+                    print(f"Archivo copiado: {destino}")
 
     def cargar_registros(self):
         # Solicitar al usuario seleccionar archivos
@@ -621,8 +622,9 @@ class ConciliacionBancaria(tk.Tk):
             # Copiar archivos al directorio de entrada
             for archivo in archivos:
                 destino = self.input_accounting_path / os.path.basename(archivo)
-                shutil.copy2(archivo, destino)
-                print(f"Archivo copiado: {destino}")
+                if not destino.exists():  # Solo copiar si no existe ya
+                    shutil.copy2(archivo, destino)
+                    print(f"Archivo copiado: {destino}")
 
     def eliminar_extractos(self):
         seleccionados = self.extractos_listbox.curselection()

@@ -7,14 +7,18 @@ import traceback
 
 class Reconciliation:
     def __init__(self):
-        # Obtener la ruta absoluta del proyecto
+        # Configurar rutas
         self.project_root = Path(__file__).parent.parent.parent
-        self.accounting_path = self.project_root / 'data' / 'input' / 'accounting'
+        self.input_accounting_path = self.project_root / 'data' / 'input' / 'accounting'
+        self.input_bank_path = self.project_root / 'data' / 'input' / 'bank'
         self.output_path = self.project_root / 'data' / 'output'
+        self.temp_path = self.project_root / 'data' / 'temp'
         
         # Crear directorios si no existen
-        self.accounting_path.mkdir(parents=True, exist_ok=True)
+        self.input_accounting_path.mkdir(parents=True, exist_ok=True)
+        self.input_bank_path.mkdir(parents=True, exist_ok=True)
         self.output_path.mkdir(parents=True, exist_ok=True)
+        self.temp_path.mkdir(parents=True, exist_ok=True)
 
     def extract_header_info(self, df):
         """Extrae la información del encabezado del reporte"""
@@ -90,15 +94,18 @@ class Reconciliation:
         return data
 
     def extract_excel_to_json(self):
-        """Extrae los archivos Excel de Siigo y los convierte a JSON con formato mejorado"""
+        """Extrae los archivos Excel de registros contables y los convierte a JSON con formato comparable"""
         try:
-            all_data = []
-            excel_files = list(self.accounting_path.glob('*.xlsx'))
+            # No modificar archivos en input/accounting, solo leerlos
+            excel_files = list(self.input_accounting_path.glob("*.xlsx"))
             
             if not excel_files:
-                print(f"No se encontraron archivos Excel en {self.accounting_path}")
+                print("No se encontraron archivos Excel en el directorio de registros contables")
                 return False
-
+            
+            print(f"Procesando {len(excel_files)} archivos Excel de registros contables...")
+            
+            all_data = []
             for excel_file in excel_files:
                 print(f"Procesando archivo: {excel_file.name}")
                 
@@ -226,7 +233,7 @@ class Reconciliation:
         Obtiene información sobre los archivos Excel disponibles
         """
         try:
-            excel_files = list(self.accounting_path.glob('*.xlsx'))
+            excel_files = list(self.input_accounting_path.glob('*.xlsx'))
             info = []
             
             for excel_file in excel_files:
@@ -247,15 +254,16 @@ class Reconciliation:
     def extract_bank_excel_to_json(self):
         """Extrae los archivos Excel de extractos bancarios y los convierte a JSON con formato comparable"""
         try:
-            bank_data = []
-            bank_path = self.project_root / 'data' / 'input' / 'bank'
-            # Ignorar archivos temporales de Excel que empiezan con ~$
-            excel_files = [f for f in bank_path.glob('*.xlsx') if not f.name.startswith('~$')]
+            # No modificar archivos en input/bank, solo leerlos
+            excel_files = list(self.input_bank_path.glob("*.xlsx"))
             
             if not excel_files:
-                print(f"No se encontraron archivos Excel en {bank_path}")
+                print("No se encontraron archivos Excel en el directorio de extractos bancarios")
                 return False
-
+            
+            print(f"Procesando {len(excel_files)} archivos Excel de extractos bancarios...")
+            
+            bank_data = []
             for excel_file in excel_files:
                 print(f"Procesando extracto bancario: {excel_file.name}")
                 
