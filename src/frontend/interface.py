@@ -638,12 +638,14 @@ class ConciliacionBancaria(tk.Tk):
                     try:
                         # Cambiar permisos del archivo para protegerlo si está en uso
                         os.chmod(archivo_path, 0o400)  # Solo lectura
-                        # Mover a un directorio de respaldo en lugar de eliminar
+                        # Copiar a un directorio de respaldo en lugar de mover
                         backup_dir = self.project_root / 'data' / 'backup' / 'bank'
                         backup_dir.mkdir(parents=True, exist_ok=True)
                         backup_path = backup_dir / archivo
-                        shutil.move(archivo_path, backup_path)
+                        shutil.copy2(archivo_path, backup_path)
                         print(f"Archivo respaldado: {backup_path}")
+                        # Eliminamos el archivo original después de crear el backup
+                        os.remove(archivo_path)
                     except Exception as e:
                         print(f"Error al procesar archivo: {e}")
                 
@@ -665,12 +667,14 @@ class ConciliacionBancaria(tk.Tk):
                     try:
                         # Cambiar permisos del archivo para protegerlo si está en uso
                         os.chmod(archivo_path, 0o400)  # Solo lectura
-                        # Mover a un directorio de respaldo en lugar de eliminar
+                        # Copiar a un directorio de respaldo en lugar de mover
                         backup_dir = self.project_root / 'data' / 'backup' / 'accounting'
                         backup_dir.mkdir(parents=True, exist_ok=True)
                         backup_path = backup_dir / archivo
-                        shutil.move(archivo_path, backup_path)
+                        shutil.copy2(archivo_path, backup_path)
                         print(f"Archivo respaldado: {backup_path}")
+                        # Eliminamos el archivo original después de crear el backup
+                        os.remove(archivo_path)
                     except Exception as e:
                         print(f"Error al procesar archivo: {e}")
                 

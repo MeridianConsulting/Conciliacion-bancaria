@@ -69,9 +69,8 @@ def main():
     try:
         app = ConciliacionBancaria()
         
-        # Iniciar protección de archivos en segundo plano
-        protector_thread = threading.Thread(target=iniciar_proteccion, args=(app,), daemon=True)
-        protector_thread.start()
+        # Iniciar protección de archivos después de que la aplicación esté lista
+        app.after(1000, lambda: threading.Thread(target=iniciar_proteccion, args=(app,), daemon=True).start())
         
         app.mainloop()
     except Exception as e:
