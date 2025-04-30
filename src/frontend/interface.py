@@ -591,17 +591,13 @@ class ConciliacionBancaria(tk.Tk):
             # Guardar lista de archivos seleccionados
             self.extractos_bancarios.extend(archivos)
             
-            # Mostrar archivos en la lista
+            # Mostrar archivos en la lista sin copiarlos
             for archivo in archivos:
                 nombre_archivo = os.path.basename(archivo)
                 self.extractos_listbox.insert(tk.END, nombre_archivo)
-                
-            # Copiar archivos al directorio de entrada
-            for archivo in archivos:
-                destino = self.input_bank_path / os.path.basename(archivo)
-                if not destino.exists():  # Solo copiar si no existe ya
-                    shutil.copy2(archivo, destino)
-                    print(f"Archivo copiado: {destino}")
+                print(f"Archivo referenciado: {archivo}")
+            
+            # NO copiar archivos físicamente al directorio de entrada
 
     def cargar_registros(self):
         # Solicitar al usuario seleccionar archivos
@@ -614,17 +610,13 @@ class ConciliacionBancaria(tk.Tk):
             # Guardar lista de archivos seleccionados
             self.registros_contables.extend(archivos)
             
-            # Mostrar archivos en la lista
+            # Mostrar archivos en la lista sin copiarlos
             for archivo in archivos:
                 nombre_archivo = os.path.basename(archivo)
                 self.registros_listbox.insert(tk.END, nombre_archivo)
-                
-            # Copiar archivos al directorio de entrada
-            for archivo in archivos:
-                destino = self.input_accounting_path / os.path.basename(archivo)
-                if not destino.exists():  # Solo copiar si no existe ya
-                    shutil.copy2(archivo, destino)
-                    print(f"Archivo copiado: {destino}")
+                print(f"Archivo referenciado: {archivo}")
+            
+            # NO copiar archivos físicamente al directorio de entrada
 
     def eliminar_extractos(self):
         seleccionados = self.extractos_listbox.curselection()
@@ -633,23 +625,6 @@ class ConciliacionBancaria(tk.Tk):
             for i in sorted(seleccionados, reverse=True):
                 archivo = self.extractos_listbox.get(i)
                 self.extractos_listbox.delete(i)
-                
-                # Eliminar del directorio de entrada si existe
-                archivo_path = self.input_bank_path / archivo
-                if archivo_path.exists():
-                    try:
-                        # Cambiar permisos del archivo para protegerlo si está en uso
-                        os.chmod(archivo_path, 0o400)  # Solo lectura
-                        # Copiar a un directorio de respaldo en lugar de mover
-                        backup_dir = self.project_root / 'data' / 'backup' / 'bank'
-                        backup_dir.mkdir(parents=True, exist_ok=True)
-                        backup_path = backup_dir / archivo
-                        shutil.copy2(archivo_path, backup_path)
-                        print(f"Archivo respaldado: {backup_path}")
-                        # Eliminamos el archivo original después de crear el backup
-                        os.remove(archivo_path)
-                    except Exception as e:
-                        print(f"Error al procesar archivo: {e}")
                 
                 # Eliminar de la lista interna
                 if i < len(self.extractos_bancarios):
@@ -662,23 +637,6 @@ class ConciliacionBancaria(tk.Tk):
             for i in sorted(seleccionados, reverse=True):
                 archivo = self.registros_listbox.get(i)
                 self.registros_listbox.delete(i)
-                
-                # Eliminar del directorio de entrada si existe
-                archivo_path = self.input_accounting_path / archivo
-                if archivo_path.exists():
-                    try:
-                        # Cambiar permisos del archivo para protegerlo si está en uso
-                        os.chmod(archivo_path, 0o400)  # Solo lectura
-                        # Copiar a un directorio de respaldo en lugar de mover
-                        backup_dir = self.project_root / 'data' / 'backup' / 'accounting'
-                        backup_dir.mkdir(parents=True, exist_ok=True)
-                        backup_path = backup_dir / archivo
-                        shutil.copy2(archivo_path, backup_path)
-                        print(f"Archivo respaldado: {backup_path}")
-                        # Eliminamos el archivo original después de crear el backup
-                        os.remove(archivo_path)
-                    except Exception as e:
-                        print(f"Error al procesar archivo: {e}")
                 
                 # Eliminar de la lista interna
                 if i < len(self.registros_contables):
@@ -698,13 +656,17 @@ class ConciliacionBancaria(tk.Tk):
         self.update()
         
         try:
-            # Paso 1: Procesar archivos contables
-            print("=== Procesando archivos contables ===")
-            contabilidad_ok = self.reconciliation.extract_excel_to_json()
+            # Usar directamente las rutas de archivos originales almacenadas en:
+            # self.extractos_bancarios - para archivos de banco
+            # self.registros_contables - para archivos de contabilidad
             
-            # Paso 2: Procesar extractos bancarios
+            # Paso 1: Procesar archivos contables con rutas originales
+            print("=== Procesando archivos contables ===")
+            contabilidad_ok = self.reconciliation.extract_excel_to_json(self.registros_contables)
+            
+            # Paso 2: Procesar extractos bancarios con rutas originales
             print("=== Procesando extractos bancarios ===")
-            banco_ok = self.reconciliation.extract_bank_excel_to_json()
+            banco_ok = self.reconciliation.extract_bank_excel_to_json(self.extractos_bancarios)
             
             # Paso 3: Generar reportes
             if contabilidad_ok and banco_ok:

@@ -93,14 +93,18 @@ class Reconciliation:
         # Para otros tipos de datos, retornar sin cambios
         return data
 
-    def extract_excel_to_json(self):
+    def extract_excel_to_json(self, excel_paths=None):
         """Extrae los archivos Excel de registros contables y los convierte a JSON con formato comparable"""
         try:
-            # No modificar archivos en input/accounting, solo leerlos
-            excel_files = list(self.input_accounting_path.glob("*.xlsx"))
+            # Usar las rutas proporcionadas o buscar en el directorio predeterminado
+            excel_files = []
+            if excel_paths:
+                excel_files = [Path(path) for path in excel_paths]
+            else:
+                excel_files = list(self.input_accounting_path.glob("*.xlsx"))
             
             if not excel_files:
-                print("No se encontraron archivos Excel en el directorio de registros contables")
+                print("No se encontraron archivos Excel para procesar")
                 return False
             
             print(f"Procesando {len(excel_files)} archivos Excel de registros contables...")
@@ -251,14 +255,18 @@ class Reconciliation:
             print(f"Error obteniendo información de archivos: {str(e)}")
             return []
 
-    def extract_bank_excel_to_json(self):
+    def extract_bank_excel_to_json(self, excel_paths=None):
         """Extrae los archivos Excel de extractos bancarios y los convierte a JSON con formato comparable"""
         try:
-            # No modificar archivos en input/bank, solo leerlos
-            excel_files = list(self.input_bank_path.glob("*.xlsx"))
+            # Usar las rutas proporcionadas o buscar en el directorio predeterminado
+            excel_files = []
+            if excel_paths:
+                excel_files = [Path(path) for path in excel_paths]
+            else:
+                excel_files = list(self.input_bank_path.glob("*.xlsx"))
             
             if not excel_files:
-                print("No se encontraron archivos Excel en el directorio de extractos bancarios")
+                print("No se encontraron archivos Excel para procesar")
                 return False
             
             print(f"Procesando {len(excel_files)} archivos Excel de extractos bancarios...")
