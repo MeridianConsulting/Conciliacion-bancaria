@@ -304,6 +304,9 @@ class Reconciliation:
                                             return 0.0
                                         if isinstance(value, (int, float)):
                                             return float(value)
+                                        # Verificar si la cadena solo contiene espacios
+                                        if isinstance(value, str) and value.strip() == "":
+                                            return 0.0
                                         # Remover comas y convertir a float
                                         return float(str(value).replace(',', ''))
 
@@ -315,13 +318,27 @@ class Reconciliation:
                                     except (ValueError, TypeError):
                                         fecha_formateada = "2025-03-01 00:00:00"  # Valor predeterminado
 
+                                    # Función para buscar columna de forma segura
+                                    def get_column_value(df_row, possible_names, default=""):
+                                        for name in possible_names:
+                                            if name in df_row:
+                                                return df_row[name]
+                                        return default
+
+                                    # Buscar columnas con diferentes nombres posibles
+                                    descripcion = get_column_value(row, ['Descripción de la transacción', 'Descripcion', 'Descripción', 'Concepto'])
+                                    oficina = get_column_value(row, ['Oficina transacción', 'Oficina', 'Sucursal'])
+                                    debitos = get_column_value(row, ['Débitos', 'Debitos', 'Cargo', 'Cargos'], 0)
+                                    creditos = get_column_value(row, ['Créditos', 'Creditos', 'Abono', 'Abonos'], 0)
+                                    saldo = get_column_value(row, ['Saldo', 'Balance'], 0)
+
                                     movement = {
                                         'FECHA': fecha_formateada,
-                                        'DESCRIPCION': str(row['Descripción de la transacción']).strip() if pd.notna(row['Descripción de la transacción']) else '',
-                                        'OFICINA': str(row['Oficina transacción']).strip() if pd.notna(row['Oficina transacción']) else '',
-                                        'DEBITOS': convert_to_float(row['Débitos']),
-                                        'CREDITOS': convert_to_float(row['Créditos']),
-                                        'SALDO': convert_to_float(row['Saldo'])
+                                        'DESCRIPCION': str(descripcion).strip() if pd.notna(descripcion) else '',
+                                        'OFICINA': str(oficina).strip() if pd.notna(oficina) else '',
+                                        'DEBITOS': convert_to_float(debitos),
+                                        'CREDITOS': convert_to_float(creditos),
+                                        'SALDO': convert_to_float(saldo)
                                     }
                                     normalized_data.append(movement)
                                 except Exception as e:

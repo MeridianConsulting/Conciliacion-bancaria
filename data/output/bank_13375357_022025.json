@@ -1,0 +1,5073 @@
+{
+  "metadata": {
+    "archivo": "13375357_022025.xlsx",
+    "fecha_proceso": "2025-04-30 11:13:23",
+    "resumen_encabezado": {}
+  },
+  "movimientos": [
+    {
+      "FECHA": "2025-03-01 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CARDIO_INF",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-03 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-03 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-03 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-03 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-03 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-03 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-03 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-03 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-03 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-03 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-03 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-03 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-03 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-03 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-03 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-03 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-03 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CTROL_OPE_",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-03 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-03 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CTROL_OPE_",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-03 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-04 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-04 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-04 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-04 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-04 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-04 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-04 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE 73",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-04 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-05 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-05 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-02 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-06 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-06 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-06 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-06 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-06 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-06 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-06 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-07 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-07 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-07 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-07 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-07 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-07 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-07 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-07 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-07 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-07 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-07 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-07 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-07 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-07 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-07 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-07 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-07 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-07 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-07 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-07 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-07 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-07 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-07 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-07 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-07 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-07 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-07 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-07 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-07 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-07 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-07 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-07 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-07 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-07 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-10 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-10 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-10 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-10 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-10 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CTROL_OPE_",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-10 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-10 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CTROL_OPE_",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-10 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-10 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CTROL_OPE_",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-10 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-10 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CTROL_OPE_",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-10 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-10 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CTROL_OPE_",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-10 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-02 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-10 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CTROL_OPE_",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-10 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-10 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CTROL_OPE_",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-10 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-10 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CTROL_OPE_",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-10 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-10 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CTROL_OPE_",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-10 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CTROL_OPE_",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-11 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-11 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-11 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-11 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-11 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-11 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-11 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-11 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-11 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-11 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-11 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-11 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-11 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-11 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-11 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-11 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-11 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-12 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE 73",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-13 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-13 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-14 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-14 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-18 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-18 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-18 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-18 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-18 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-19 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-19 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-19 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-19 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-19 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-19 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "SUC_DIGITA",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-19 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-19 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-19 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-19 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE 73",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-20 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "OFC. PPAL.",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-20 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-20 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-21 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-24 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-24 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-24 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-24 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-24 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-24 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE 73",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-02 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-25 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-25 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-25 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-25 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-25 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-25 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-25 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-25 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-25 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-25 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-25 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-25 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-25 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-25 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-25 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-25 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-25 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-25 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-25 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-26 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-26 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-26 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-26 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-27 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-27 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-27 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-27 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-27 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-02 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-02 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-02 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-02 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-02 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-02 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-02 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-02 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "EXT_CAJAV",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "CALLE82_CR",
+      "SALDO": 0.0
+    }
+  ]
+}
