@@ -1,7 +1,7 @@
 {
   "metadata": {
     "archivo": "13375357_012025.xlsx",
-    "fecha_proceso": "2025-04-30 11:19:55",
+    "fecha_proceso": "2025-04-30 11:47:33",
     "resumen_encabezado": {}
   },
   "movimientos": [
@@ -251,14 +251,6 @@
       "DEBITOS": 1976002.0,
       "CREDITOS": 0.0,
       "OFICINA": "CALLE82_CR",
-      "SALDO": 2037071490.38
-    },
-    {
-      "FECHA": "2025-03-01 00:00:00",
-      "DESCRIPCION": "Vienen .......",
-      "DEBITOS": 0.0,
-      "CREDITOS": 0.0,
-      "OFICINA": "",
       "SALDO": 2037071490.38
     },
     {
@@ -702,14 +694,6 @@
       "SALDO": 1586969005.69
     },
     {
-      "FECHA": "2025-03-01 00:00:00",
-      "DESCRIPCION": "Vienen .......",
-      "DEBITOS": 0.0,
-      "CREDITOS": 0.0,
-      "OFICINA": "",
-      "SALDO": 1586969005.69
-    },
-    {
       "FECHA": "2025-03-15 00:00:00",
       "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
       "DEBITOS": 2884.0,
@@ -1147,14 +1131,6 @@
       "DEBITOS": 14592.0,
       "CREDITOS": 0.0,
       "OFICINA": "CALLE82_CR",
-      "SALDO": 136887721.69
-    },
-    {
-      "FECHA": "2025-03-01 00:00:00",
-      "DESCRIPCION": "Vienen .......",
-      "DEBITOS": 0.0,
-      "CREDITOS": 0.0,
-      "OFICINA": "",
       "SALDO": 136887721.69
     },
     {

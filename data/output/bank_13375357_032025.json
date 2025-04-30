@@ -1,7 +1,7 @@
 {
   "metadata": {
     "archivo": "13375357_032025.xlsx",
-    "fecha_proceso": "2025-04-30 11:22:59",
+    "fecha_proceso": "2025-04-30 11:32:54",
     "resumen_encabezado": {}
   },
   "movimientos": [
@@ -260,14 +260,6 @@
       "CREDITOS": 0.0,
       "OFICINA": "Calle82_Cr",
       "SALDO": 889731.53
-    },
-    {
-      "FECHA": "2025-03-05 00:00:00",
-      "DESCRIPCION": "",
-      "DEBITOS": 80.0,
-      "CREDITOS": 0.0,
-      "OFICINA": "",
-      "SALDO": 889651.53
     },
     {
       "FECHA": "2025-03-05 00:00:00",
@@ -599,14 +591,6 @@
     },
     {
       "FECHA": "2025-03-06 00:00:00",
-      "DESCRIPCION": "",
-      "DEBITOS": 196.0,
-      "CREDITOS": 0.0,
-      "OFICINA": "",
-      "SALDO": 35706806.53
-    },
-    {
-      "FECHA": "2025-03-06 00:00:00",
       "DESCRIPCION": "ND Transferencias ACH",
       "DEBITOS": 1323280.0,
       "CREDITOS": 0.0,
@@ -932,14 +916,6 @@
       "CREDITOS": 0.0,
       "OFICINA": "Calle82_Cr",
       "SALDO": 142635418.53
-    },
-    {
-      "FECHA": "2025-03-07 00:00:00",
-      "DESCRIPCION": "",
-      "DEBITOS": 4563000.0,
-      "CREDITOS": 0.0,
-      "OFICINA": "",
-      "SALDO": 138072418.53
     },
     {
       "FECHA": "2025-03-07 00:00:00",
@@ -1271,14 +1247,6 @@
     },
     {
       "FECHA": "2025-03-07 00:00:00",
-      "DESCRIPCION": "",
-      "DEBITOS": 6225546.0,
-      "CREDITOS": 0.0,
-      "OFICINA": "",
-      "SALDO": 50225934.53
-    },
-    {
-      "FECHA": "2025-03-07 00:00:00",
       "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
       "DEBITOS": 24902.0,
       "CREDITOS": 0.0,
@@ -1604,14 +1572,6 @@
       "CREDITOS": 0.0,
       "OFICINA": "Calle82_Cr",
       "SALDO": 24846850.53
-    },
-    {
-      "FECHA": "2025-03-11 00:00:00",
-      "DESCRIPCION": "",
-      "DEBITOS": 83000.0,
-      "CREDITOS": 0.0,
-      "OFICINA": "",
-      "SALDO": 24763850.53
     },
     {
       "FECHA": "2025-03-11 00:00:00",
@@ -1943,14 +1903,6 @@
     },
     {
       "FECHA": "2025-03-14 00:00:00",
-      "DESCRIPCION": "",
-      "DEBITOS": 249000.0,
-      "CREDITOS": 0.0,
-      "OFICINA": "",
-      "SALDO": 825693072.75
-    },
-    {
-      "FECHA": "2025-03-14 00:00:00",
       "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
       "DEBITOS": 996.0,
       "CREDITOS": 0.0,
@@ -2276,14 +2228,6 @@
       "CREDITOS": 0.0,
       "OFICINA": "Calle82_Cr",
       "SALDO": 483489666.75
-    },
-    {
-      "FECHA": "2025-03-14 00:00:00",
-      "DESCRIPCION": "",
-      "DEBITOS": 24453720.0,
-      "CREDITOS": 0.0,
-      "OFICINA": "",
-      "SALDO": 459035946.75
     },
     {
       "FECHA": "2025-03-14 00:00:00",
@@ -2615,14 +2559,6 @@
     },
     {
       "FECHA": "2025-03-20 00:00:00",
-      "DESCRIPCION": "",
-      "DEBITOS": 17086.0,
-      "CREDITOS": 0.0,
-      "OFICINA": "",
-      "SALDO": 29763981.75
-    },
-    {
-      "FECHA": "2025-03-20 00:00:00",
       "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
       "DEBITOS": 22249.0,
       "CREDITOS": 0.0,
@@ -2948,14 +2884,6 @@
       "CREDITOS": 0.0,
       "OFICINA": "Calle82_Cr",
       "SALDO": 4326718.75
-    },
-    {
-      "FECHA": "2025-03-21 00:00:00",
-      "DESCRIPCION": "",
-      "DEBITOS": 0.0,
-      "CREDITOS": 200101.0,
-      "OFICINA": "",
-      "SALDO": 4526819.75
     },
     {
       "FECHA": "2025-03-21 00:00:00",
@@ -3287,14 +3215,6 @@
     },
     {
       "FECHA": "2025-03-28 00:00:00",
-      "DESCRIPCION": "",
-      "DEBITOS": 3153500.0,
-      "CREDITOS": 0.0,
-      "OFICINA": "",
-      "SALDO": 474106955.24
-    },
-    {
-      "FECHA": "2025-03-28 00:00:00",
       "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
       "DEBITOS": 12614.0,
       "CREDITOS": 0.0,
@@ -3620,14 +3540,6 @@
       "CREDITOS": 0.0,
       "OFICINA": "Calle82_Cr",
       "SALDO": 2046096975.24
-    },
-    {
-      "FECHA": "2025-03-31 00:00:00",
-      "DESCRIPCION": "",
-      "DEBITOS": 37287.0,
-      "CREDITOS": 0.0,
-      "OFICINA": "",
-      "SALDO": 2046059688.24
     },
     {
       "FECHA": "2025-03-31 00:00:00",
@@ -3959,14 +3871,6 @@
     },
     {
       "FECHA": "2025-03-31 00:00:00",
-      "DESCRIPCION": "",
-      "DEBITOS": 25550.0,
-      "CREDITOS": 0.0,
-      "OFICINA": "",
-      "SALDO": 1786533024.24
-    },
-    {
-      "FECHA": "2025-03-31 00:00:00",
       "DESCRIPCION": "ND Transferencias ACH",
       "DEBITOS": 7765630.0,
       "CREDITOS": 0.0,
@@ -4292,14 +4196,6 @@
       "CREDITOS": 0.0,
       "OFICINA": "Calle82_Cr",
       "SALDO": 1520533491.24
-    },
-    {
-      "FECHA": "2025-03-31 00:00:00",
-      "DESCRIPCION": "",
-      "DEBITOS": 26853.0,
-      "CREDITOS": 0.0,
-      "OFICINA": "",
-      "SALDO": 1520506638.24
     },
     {
       "FECHA": "2025-03-31 00:00:00",
@@ -4631,14 +4527,6 @@
     },
     {
       "FECHA": "2025-03-31 00:00:00",
-      "DESCRIPCION": "",
-      "DEBITOS": 38928.0,
-      "CREDITOS": 0.0,
-      "OFICINA": "",
-      "SALDO": 1292477649.24
-    },
-    {
-      "FECHA": "2025-03-31 00:00:00",
       "DESCRIPCION": "ND Transferencias ACH",
       "DEBITOS": 17071916.0,
       "CREDITOS": 0.0,
@@ -4964,14 +4852,6 @@
       "CREDITOS": 0.0,
       "OFICINA": "Calle82_Cr",
       "SALDO": 1051165338.24
-    },
-    {
-      "FECHA": "2025-03-31 00:00:00",
-      "DESCRIPCION": "",
-      "DEBITOS": 26625.0,
-      "CREDITOS": 0.0,
-      "OFICINA": "",
-      "SALDO": 1051138713.24
     },
     {
       "FECHA": "2025-03-31 00:00:00",
@@ -5303,14 +5183,6 @@
     },
     {
       "FECHA": "2025-03-31 00:00:00",
-      "DESCRIPCION": "",
-      "DEBITOS": 6857.0,
-      "CREDITOS": 0.0,
-      "OFICINA": "",
-      "SALDO": 919022024.24
-    },
-    {
-      "FECHA": "2025-03-31 00:00:00",
       "DESCRIPCION": "ND Transferencias ACH",
       "DEBITOS": 14423504.0,
       "CREDITOS": 0.0,
@@ -5636,14 +5508,6 @@
       "CREDITOS": 0.0,
       "OFICINA": "Calle82_Cr",
       "SALDO": 853854705.24
-    },
-    {
-      "FECHA": "2025-03-31 00:00:00",
-      "DESCRIPCION": "",
-      "DEBITOS": 10117.0,
-      "CREDITOS": 0.0,
-      "OFICINA": "",
-      "SALDO": 853844588.24
     },
     {
       "FECHA": "2025-03-31 00:00:00",
@@ -5975,14 +5839,6 @@
     },
     {
       "FECHA": "2025-03-31 00:00:00",
-      "DESCRIPCION": "",
-      "DEBITOS": 31842.0,
-      "CREDITOS": 0.0,
-      "OFICINA": "",
-      "SALDO": 754303374.24
-    },
-    {
-      "FECHA": "2025-03-31 00:00:00",
       "DESCRIPCION": "ND Transferencias ACH",
       "DEBITOS": 7980500.0,
       "CREDITOS": 0.0,
@@ -6308,14 +6164,6 @@
       "CREDITOS": 0.0,
       "OFICINA": "Calle82_Cr",
       "SALDO": 543203043.24
-    },
-    {
-      "FECHA": "2025-03-31 00:00:00",
-      "DESCRIPCION": "",
-      "DEBITOS": 67031.0,
-      "CREDITOS": 0.0,
-      "OFICINA": "",
-      "SALDO": 543136012.24
     },
     {
       "FECHA": "2025-03-31 00:00:00",
@@ -6647,14 +6495,6 @@
     },
     {
       "FECHA": "2025-03-31 00:00:00",
-      "DESCRIPCION": "",
-      "DEBITOS": 30131.0,
-      "CREDITOS": 0.0,
-      "OFICINA": "",
-      "SALDO": 319200580.24
-    },
-    {
-      "FECHA": "2025-03-31 00:00:00",
       "DESCRIPCION": "ND Transferencias ACH",
       "DEBITOS": 9717766.0,
       "CREDITOS": 0.0,
@@ -6980,14 +6820,6 @@
       "CREDITOS": 0.0,
       "OFICINA": "Calle82_Cr",
       "SALDO": 74249543.24
-    },
-    {
-      "FECHA": "2025-03-31 00:00:00",
-      "DESCRIPCION": "",
-      "DEBITOS": 38691.0,
-      "CREDITOS": 0.0,
-      "OFICINA": "",
-      "SALDO": 74210852.24
     },
     {
       "FECHA": "2025-03-31 00:00:00",

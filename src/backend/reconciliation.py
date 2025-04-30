@@ -148,7 +148,7 @@ class Reconciliation:
                             for campo in campos_requeridos:
                                 if campo in column_names:
                                     col_idx = column_names.index(campo)
-                                    value = row[col_idx] if col_idx < len(row) else ""
+                                    value = row.iloc[col_idx] if col_idx < len(row) else ""
                                     
                                     # Convertir NaN a cadena vacía
                                     if pd.isna(value):
@@ -299,7 +299,7 @@ class Reconciliation:
                             if pd.notna(row['Día']):  # Solo procesar filas con día válido
                                 try:
                                     # Verificar que no estamos procesando una fila de encabezado repetida
-                                    primera_celda = str(row[0]).strip().upper() if pd.notna(row[0]) else ""
+                                    primera_celda = str(row.iloc[0]).strip().upper() if pd.notna(row.iloc[0]) else ""
                                     if "DÍA" in primera_celda or "DIA" in primera_celda or "DESCRIPCIÓN" in primera_celda:
                                         continue  # Saltar filas que son encabezados repetidos
                                     
