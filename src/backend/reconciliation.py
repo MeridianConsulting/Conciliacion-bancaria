@@ -298,17 +298,27 @@ class Reconciliation:
                         for _, row in data_df.iterrows():
                             if pd.notna(row['Día']):  # Solo procesar filas con día válido
                                 try:
+                                    # Verificar que no estamos procesando una fila de encabezado repetida
+                                    primera_celda = str(row[0]).strip().upper() if pd.notna(row[0]) else ""
+                                    if "DÍA" in primera_celda or "DIA" in primera_celda or "DESCRIPCIÓN" in primera_celda:
+                                        continue  # Saltar filas que son encabezados repetidos
+                                    
                                     # Función auxiliar para convertir valores monetarios
                                     def convert_to_float(value):
                                         if pd.isna(value):
                                             return 0.0
                                         if isinstance(value, (int, float)):
                                             return float(value)
-                                        # Verificar si la cadena solo contiene espacios
+                                        # Verificar si la cadena solo contiene espacios o está vacía
                                         if isinstance(value, str) and value.strip() == "":
                                             return 0.0
                                         # Remover comas y convertir a float
-                                        return float(str(value).replace(',', ''))
+                                        try:
+                                            return float(str(value).replace(',', ''))
+                                        except (ValueError, TypeError):
+                                            # Si no se puede convertir, retornar 0.0
+                                            print(f"No se pudo convertir '{value}' a número, usando 0.0 en su lugar")
+                                            return 0.0
 
                                     # Formatear la fecha como YYYY-MM-DD HH:MM:SS
                                     try:
@@ -326,19 +336,44 @@ class Reconciliation:
                                         return default
 
                                     # Buscar columnas con diferentes nombres posibles
-                                    descripcion = get_column_value(row, ['Descripción de la transacción', 'Descripcion', 'Descripción', 'Concepto'])
-                                    oficina = get_column_value(row, ['Oficina transacción', 'Oficina', 'Sucursal'])
-                                    debitos = get_column_value(row, ['Débitos', 'Debitos', 'Cargo', 'Cargos'], 0)
-                                    creditos = get_column_value(row, ['Créditos', 'Creditos', 'Abono', 'Abonos'], 0)
-                                    saldo = get_column_value(row, ['Saldo', 'Balance'], 0)
+                                    descripcion_col = None
+                                    for col in row.index:
+                                        if isinstance(col, str) and "descripci" in col.lower():
+                                            descripcion_col = col
+                                            break
 
+                                    oficina_col = None
+                                    for col in row.index:
+                                        if isinstance(col, str) and ("oficina" in col.lower() or "sucursal" in col.lower()):
+                                            oficina_col = col
+                                            break
+
+                                    debitos_col = None
+                                    for col in row.index:
+                                        if isinstance(col, str) and ("débit" in col.lower() or "debit" in col.lower() or "cargo" in col.lower()):
+                                            debitos_col = col
+                                            break
+
+                                    creditos_col = None
+                                    for col in row.index:
+                                        if isinstance(col, str) and ("crédit" in col.lower() or "credit" in col.lower() or "abono" in col.lower()):
+                                            creditos_col = col
+                                            break
+
+                                    saldo_col = None
+                                    for col in row.index:
+                                        if isinstance(col, str) and ("saldo" in col.lower() or "balance" in col.lower()):
+                                            saldo_col = col
+                                            break
+
+                                    # Luego usa estas variables para acceder a los valores
                                     movement = {
                                         'FECHA': fecha_formateada,
-                                        'DESCRIPCION': str(descripcion).strip() if pd.notna(descripcion) else '',
-                                        'OFICINA': str(oficina).strip() if pd.notna(oficina) else '',
-                                        'DEBITOS': convert_to_float(debitos),
-                                        'CREDITOS': convert_to_float(creditos),
-                                        'SALDO': convert_to_float(saldo)
+                                        'DESCRIPCION': str(row[descripcion_col]).strip() if descripcion_col and pd.notna(row[descripcion_col]) else '',
+                                        'OFICINA': str(row[oficina_col]).strip() if oficina_col and pd.notna(row[oficina_col]) else '',
+                                        'DEBITOS': convert_to_float(row[debitos_col] if debitos_col else 0),
+                                        'CREDITOS': convert_to_float(row[creditos_col] if creditos_col else 0),
+                                        'SALDO': convert_to_float(row[saldo_col] if saldo_col else 0)
                                     }
                                     normalized_data.append(movement)
                                 except Exception as e:
