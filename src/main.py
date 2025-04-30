@@ -1,76 +1,53 @@
 from frontend.interface import ConciliacionBancaria
 from backend.reconciliation import Reconciliation
 from backend.reconciliation_report import ReconciliationReport
-from watchdog.observers import Observer
-from watchdog.events import FileSystemEventHandler
 import os
 import time
-import threading
 from pathlib import Path
 
-class ArchivoProtector(FileSystemEventHandler):
-    def __init__(self, directorios):
-        self.directorios = directorios
-        
-    def on_deleted(self, event):
-        # Comprobar si es un archivo Excel
-        if event.src_path.endswith('.xlsx'):
-            print(f"Se detectó intento de eliminación: {event.src_path}")
-            # Buscar en directorio de backup si existe una copia
-            nombre_archivo = os.path.basename(event.src_path)
-            for dir_base in self.directorios:
-                backup_dir = dir_base.parent / 'backup'
-                if backup_dir.exists():
-                    for subdir in backup_dir.glob('*'):
-                        if subdir.is_dir():
-                            backup_path = subdir / nombre_archivo
-                            if backup_path.exists():
-                                # Restaurar archivo desde backup
-                                import shutil
-                                dest_dir = Path(os.path.dirname(event.src_path))
-                                dest_dir.mkdir(parents=True, exist_ok=True)
-                                shutil.copy2(backup_path, event.src_path)
-                                print(f"Archivo restaurado desde backup: {nombre_archivo}")
-                                # Proteger archivo restaurado
-                                if os.name == 'nt':
-                                    import win32api, win32con
-                                    win32api.SetFileAttributes(event.src_path, win32con.FILE_ATTRIBUTE_READONLY)
-                                else:
-                                    os.chmod(event.src_path, 0o444)
-                                break
-
-def iniciar_proteccion(app):
-    # Directorios a monitorear
-    directorios = [
-        app.input_bank_path,
-        app.input_accounting_path,
-        app.report_path
-    ]
-    
-    # Iniciar observadores
-    event_handler = ArchivoProtector(directorios)
-    observer = Observer()
-    
-    for directorio in directorios:
-        if directorio.exists():
-            observer.schedule(event_handler, str(directorio), recursive=False)
-    
-    observer.start()
-    
+def proteger_archivos(directorio):
+    """Protege archivos Excel contra eliminación accidental"""
     try:
-        while True:
-            time.sleep(1)
-    except KeyboardInterrupt:
-        observer.stop()
-    observer.join()
+        if directorio.exists():
+            for archivo in directorio.glob("*.xlsx"):
+                try:
+                    # Cambiar atributos del archivo para protegerlo
+                    if os.name == 'nt':  # Windows
+                        import win32api, win32con
+                        win32api.SetFileAttributes(str(archivo), win32con.FILE_ATTRIBUTE_READONLY)
+                    else:
+                        os.chmod(archivo, 0o444)
+                    print(f"Archivo protegido: {archivo}")
+                except Exception as e:
+                    print(f"No se pudo proteger {archivo}: {e}")
+    except Exception as e:
+        print(f"Error al procesar directorio {directorio}: {e}")
 
 def main():
     """Inicia la aplicación de conciliación bancaria"""
     try:
         app = ConciliacionBancaria()
         
-        # Iniciar protección de archivos después de que la aplicación esté lista
-        app.after(1000, lambda: threading.Thread(target=iniciar_proteccion, args=(app,), daemon=True).start())
+        # Función para proteger archivos una vez que la aplicación esté iniciada
+        def proteger_archivos_al_inicio():
+            try:
+                project_root = Path(__file__).parent.parent
+                directorios = [
+                    project_root / 'data' / 'input' / 'bank',
+                    project_root / 'data' / 'input' / 'accounting',
+                    project_root / 'data' / 'output',
+                    project_root / 'data' / 'reports'
+                ]
+                
+                for directorio in directorios:
+                    proteger_archivos(directorio)
+                    
+                print("Protección de archivos completada")
+            except Exception as e:
+                print(f"Error en protección de archivos: {e}")
+        
+        # Llamar a la protección después de que la interfaz esté completamente cargada
+        app.after(3000, proteger_archivos_al_inicio)
         
         app.mainloop()
     except Exception as e:
