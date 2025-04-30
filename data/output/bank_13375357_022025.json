@@ -1,7 +1,7 @@
 {
   "metadata": {
     "archivo": "13375357_022025.xlsx",
-    "fecha_proceso": "2025-04-30 11:32:54",
+    "fecha_proceso": "2025-04-30 11:56:55",
     "resumen_encabezado": {}
   },
   "movimientos": [
@@ -251,14 +251,6 @@
       "DEBITOS": 1204.0,
       "CREDITOS": 0.0,
       "OFICINA": "CALLE82_CR",
-      "SALDO": 437587321.69
-    },
-    {
-      "FECHA": "2025-03-02 00:00:00",
-      "DESCRIPCION": "Vienen .......",
-      "DEBITOS": 0.0,
-      "CREDITOS": 0.0,
-      "OFICINA": "",
       "SALDO": 437587321.69
     },
     {
@@ -702,14 +694,6 @@
       "SALDO": 54914025.14
     },
     {
-      "FECHA": "2025-03-02 00:00:00",
-      "DESCRIPCION": "Vienen .......",
-      "DEBITOS": 0.0,
-      "CREDITOS": 0.0,
-      "OFICINA": "",
-      "SALDO": 54914025.14
-    },
-    {
       "FECHA": "2025-03-10 00:00:00",
       "DESCRIPCION": "Cheque pagado Canje",
       "DEBITOS": 7125990.0,
@@ -1147,14 +1131,6 @@
       "DEBITOS": 0.0,
       "CREDITOS": 39100.0,
       "OFICINA": "CALLE 73",
-      "SALDO": 1245588116.8
-    },
-    {
-      "FECHA": "2025-03-02 00:00:00",
-      "DESCRIPCION": "Vienen .......",
-      "DEBITOS": 0.0,
-      "CREDITOS": 0.0,
-      "OFICINA": "",
       "SALDO": 1245588116.8
     },
     {
@@ -1598,14 +1574,6 @@
       "SALDO": 1053963638.0
     },
     {
-      "FECHA": "2025-03-02 00:00:00",
-      "DESCRIPCION": "Vienen .......",
-      "DEBITOS": 0.0,
-      "CREDITOS": 0.0,
-      "OFICINA": "",
-      "SALDO": 1053963638.0
-    },
-    {
       "FECHA": "2025-03-28 00:00:00",
       "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
       "DEBITOS": 26000.0,
@@ -2043,14 +2011,6 @@
       "DEBITOS": 32354.0,
       "CREDITOS": 0.0,
       "OFICINA": "CALLE82_CR",
-      "SALDO": 752715982.0
-    },
-    {
-      "FECHA": "2025-03-02 00:00:00",
-      "DESCRIPCION": "Vienen .......",
-      "DEBITOS": 0.0,
-      "CREDITOS": 0.0,
-      "OFICINA": "",
       "SALDO": 752715982.0
     },
     {
@@ -2494,14 +2454,6 @@
       "SALDO": 434530893.0
     },
     {
-      "FECHA": "2025-03-02 00:00:00",
-      "DESCRIPCION": "Vienen .......",
-      "DEBITOS": 0.0,
-      "CREDITOS": 0.0,
-      "OFICINA": "",
-      "SALDO": 434530893.0
-    },
-    {
       "FECHA": "2025-03-28 00:00:00",
       "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
       "DEBITOS": 53320.0,
@@ -2939,14 +2891,6 @@
       "DEBITOS": 40764.0,
       "CREDITOS": 0.0,
       "OFICINA": "CALLE82_CR",
-      "SALDO": 179756579.0
-    },
-    {
-      "FECHA": "2025-03-02 00:00:00",
-      "DESCRIPCION": "Vienen .......",
-      "DEBITOS": 0.0,
-      "CREDITOS": 0.0,
-      "OFICINA": "",
       "SALDO": 179756579.0
     },
     {
@@ -3390,14 +3334,6 @@
       "SALDO": 17521463.0
     },
     {
-      "FECHA": "2025-03-02 00:00:00",
-      "DESCRIPCION": "Vienen .......",
-      "DEBITOS": 0.0,
-      "CREDITOS": 0.0,
-      "OFICINA": "",
-      "SALDO": 17521463.0
-    },
-    {
       "FECHA": "2025-03-28 00:00:00",
       "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
       "DEBITOS": 6038.0,
@@ -3835,14 +3771,6 @@
       "DEBITOS": 17471995.0,
       "CREDITOS": 0.0,
       "OFICINA": "CALLE82_CR",
-      "SALDO": 471556129.0
-    },
-    {
-      "FECHA": "2025-03-02 00:00:00",
-      "DESCRIPCION": "Vienen .......",
-      "DEBITOS": 0.0,
-      "CREDITOS": 0.0,
-      "OFICINA": "",
       "SALDO": 471556129.0
     },
     {
@@ -4286,14 +4214,6 @@
       "SALDO": 159528029.0
     },
     {
-      "FECHA": "2025-03-02 00:00:00",
-      "DESCRIPCION": "Vienen .......",
-      "DEBITOS": 0.0,
-      "CREDITOS": 0.0,
-      "OFICINA": "",
-      "SALDO": 159528029.0
-    },
-    {
       "FECHA": "2025-03-28 00:00:00",
       "DESCRIPCION": "ND Transferencias ACH",
       "DEBITOS": 8527949.0,
@@ -4731,14 +4651,6 @@
       "DEBITOS": 711764.0,
       "CREDITOS": 0.0,
       "OFICINA": "CALLE82_CR",
-      "SALDO": 55802767.0
-    },
-    {
-      "FECHA": "2025-03-02 00:00:00",
-      "DESCRIPCION": "Vienen .......",
-      "DEBITOS": 0.0,
-      "CREDITOS": 0.0,
-      "OFICINA": "",
       "SALDO": 55802767.0
     },
     {
