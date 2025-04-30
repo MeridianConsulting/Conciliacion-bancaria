@@ -1,7 +1,14 @@
 # Sistema de Conciliación Bancaria
 
 ## Descripción
-Este proyecto implementa un sistema automatizado para la conciliación de extractos bancarios con registros contables. El sistema permite procesar diferentes formatos de archivos Excel, normalizar los datos y realizar la conciliación automática.
+Este sistema automatiza la conciliación de extractos bancarios con registros contables, procesando diferentes formatos de archivos Excel, normalizando datos y generando informes detallados. Ideal para departamentos financieros y contables que requieren simplificar el proceso de conciliación bancaria.
+
+## Características Principales
+- Procesamiento de múltiples formatos de extractos bancarios y registros contables
+- Normalización automática de datos para la conciliación
+- Detección inteligente de coincidencias con tolerancia en fechas
+- Generación de reportes detallados en Excel y PDF
+- Interfaz gráfica intuitiva y fácil de usar
 
 ## Estructura del Proyecto
 
