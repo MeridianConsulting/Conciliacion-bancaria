@@ -264,29 +264,19 @@ class ConciliacionBancaria(tk.Tk):
                 if os.name == 'nt':
                     # Establecer ID único para la aplicación
                     app_id = "ConciliacionBancaria.Application.1.0"
+                    # Intentar configurar AppID para la barra de tareas
                     try:
-                        import ctypes
-                        ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(app_id)
-                        
-                        # Intentar registrar el ícono a nivel de sistema
-                        import win32gui
-                        import win32con
-                        import win32api
-                        
-                        # Asegurarse que el handle de la ventana esté disponible
-                        self.update_idletasks()
-                        
-                        # Establecer el ícono grande y pequeño
-                        big_icon = win32gui.LoadImage(0, icon_path, win32con.IMAGE_ICON, 32, 32, win32con.LR_LOADFROMFILE)
-                        small_icon = win32gui.LoadImage(0, icon_path, win32con.IMAGE_ICON, 16, 16, win32con.LR_LOADFROMFILE)
-                        
-                        hwnd = int(self.winfo_id())  # Handle de la ventana
-                        win32gui.SendMessage(hwnd, win32con.WM_SETICON, win32con.ICON_BIG, big_icon)
-                        win32gui.SendMessage(hwnd, win32con.WM_SETICON, win32con.ICON_SMALL, small_icon)
+                        from ctypes import windll
+                        windll.shell32.SetCurrentProcessExplicitAppUserModelID(app_id)
+                        # Crear acceso directo para mejorar asociación de íconos
+                        self.create_shortcut(icon_path, app_id)
                     except Exception as e:
-                        print(f"Error al configurar ícono avanzado: {e}")
+                        print(f"No se pudo configurar AppID: {e}")
         except Exception as e:
-            print(f"Error cargando el ícono básico: {e}")
+            print(f"Error al configurar ícono: {e}")
+        
+        # Proteger archivos al iniciar
+        self.proteger_archivos_excel()
         
         # Agregar estas líneas para la configuración de la ventana
         self.configure_window_size()
@@ -645,8 +635,17 @@ class ConciliacionBancaria(tk.Tk):
                 # Eliminar del directorio de entrada si existe
                 archivo_path = self.input_bank_path / archivo
                 if archivo_path.exists():
-                    archivo_path.unlink()
-                    print(f"Archivo eliminado: {archivo_path}")
+                    try:
+                        # Cambiar permisos del archivo para protegerlo si está en uso
+                        os.chmod(archivo_path, 0o400)  # Solo lectura
+                        # Mover a un directorio de respaldo en lugar de eliminar
+                        backup_dir = self.project_root / 'data' / 'backup' / 'bank'
+                        backup_dir.mkdir(parents=True, exist_ok=True)
+                        backup_path = backup_dir / archivo
+                        shutil.move(archivo_path, backup_path)
+                        print(f"Archivo respaldado: {backup_path}")
+                    except Exception as e:
+                        print(f"Error al procesar archivo: {e}")
                 
                 # Eliminar de la lista interna
                 if i < len(self.extractos_bancarios):
@@ -663,8 +662,17 @@ class ConciliacionBancaria(tk.Tk):
                 # Eliminar del directorio de entrada si existe
                 archivo_path = self.input_accounting_path / archivo
                 if archivo_path.exists():
-                    archivo_path.unlink()
-                    print(f"Archivo eliminado: {archivo_path}")
+                    try:
+                        # Cambiar permisos del archivo para protegerlo si está en uso
+                        os.chmod(archivo_path, 0o400)  # Solo lectura
+                        # Mover a un directorio de respaldo en lugar de eliminar
+                        backup_dir = self.project_root / 'data' / 'backup' / 'accounting'
+                        backup_dir.mkdir(parents=True, exist_ok=True)
+                        backup_path = backup_dir / archivo
+                        shutil.move(archivo_path, backup_path)
+                        print(f"Archivo respaldado: {backup_path}")
+                    except Exception as e:
+                        print(f"Error al procesar archivo: {e}")
                 
                 # Eliminar de la lista interna
                 if i < len(self.registros_contables):
@@ -788,6 +796,35 @@ Resumen:
             shortcut.WorkingDirectory = os.path.dirname(os.path.abspath(sys.argv[0]))
             shortcut.IconLocation = icon_path
             shortcut.save()
+
+    def proteger_archivos_excel(self):
+        """Protege los archivos Excel contra eliminación accidental"""
+        try:
+            # Directorios donde están los archivos
+            directorios = [
+                self.input_bank_path,
+                self.input_accounting_path,
+                self.report_path
+            ]
+            
+            # Proteger todos los archivos Excel en estos directorios
+            for directorio in directorios:
+                if directorio.exists():
+                    for archivo in directorio.glob("*.xlsx"):
+                        try:
+                            # Cambiar atributos del archivo para protegerlo
+                            if os.name == 'nt':  # Windows
+                                # Establecer atributo de solo lectura
+                                import win32api, win32con
+                                win32api.SetFileAttributes(str(archivo), win32con.FILE_ATTRIBUTE_READONLY)
+                            else:
+                                # Para sistemas Unix/Linux
+                                os.chmod(archivo, 0o444)  # Solo lectura para todos
+                            print(f"Archivo protegido: {archivo}")
+                        except Exception as e:
+                            print(f"No se pudo proteger el archivo {archivo}: {e}")
+        except Exception as e:
+            print(f"Error al proteger archivos: {e}")
 
 def main():
     try:
