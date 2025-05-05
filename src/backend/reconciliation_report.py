@@ -52,6 +52,16 @@ class ReconciliationReport:
 
     def compare_transactions(self):
         """Compara las transacciones entre registros contables y extractos bancarios"""
+        print("\n=== CRITERIOS DE CONCILIACIÓN ===")
+        print("Las transacciones se marcan como conciliadas si cumplen CUALQUIERA de estos criterios:")
+        print("\nCRITERIO 1 (Original):")
+        print("- La diferencia de importe es menor a 1.0 unidades")
+        print("- La diferencia entre fechas es menor o igual a 3 días")
+        print("\nCRITERIO 2 (Por comprobante):")
+        print("- El número de comprobante es EXACTAMENTE igual")
+        print("- La diferencia de importe es menor a 1.0 unidades")
+        print("===========================\n")
+        
         accounting_data, bank_data = self.load_json_data()
         if not accounting_data or not bank_data:
             return False
@@ -109,7 +119,8 @@ class ReconciliationReport:
                             'debito': safe_float(movement.get('CREDITOS', 0)),  # Invertido: CREDITOS del banco como DEBITOS
                             'credito': safe_float(movement.get('DEBITOS', 0)),  # Invertido: DEBITOS del banco como CREDITOS
                             'valor': safe_float(movement.get('CREDITOS', 0)) if safe_float(movement.get('CREDITOS', 0)) > 0 else safe_float(movement.get('DEBITOS', 0)),
-                            'oficina': movement.get('OFICINA', '')
+                            'oficina': movement.get('OFICINA', ''),
+                            'comprobante': movement.get('COMPROBANTE', '')  # Añadir campo comprobante
                         })
             
             print(f"Transacciones extraídas (sin 'Impuesto trans. Fina Cta Cte'): {len(accounting_transactions)} contables, {len(bank_transactions)} bancarias")
@@ -134,8 +145,8 @@ class ReconciliationReport:
                     if accounting_matched[i] or bank_matched[j]:
                         continue
                         
-                    # Criterios de coincidencia (valor exacto y fechas similares)
-                    value_match = abs(row_acc['valor'] - row_bank['valor']) < 0.01
+                    # CRITERIO ORIGINAL: valor casi exacto y fechas cercanas
+                    value_match_original = abs(row_acc['valor'] - row_bank['valor']) < 1.0
                     
                     # Extraer el día del mes de las fechas formateadas
                     try:
@@ -147,13 +158,25 @@ class ReconciliationReport:
                         # Si hay error al extraer fechas, considerar fechas no compatibles
                         date_diff = False
                     
-                    if value_match and date_diff:
+                    # NUEVO CRITERIO: comprobante idéntico y mayor tolerancia en el valor
+                    comprobante_acc = str(row_acc['comprobante']).strip()
+                    comprobante_bank = str(row_bank.get('comprobante', '')).strip()
+                    comprobante_match = comprobante_acc and comprobante_bank and comprobante_acc == comprobante_bank
+                    value_match_tolerant = abs(row_acc['valor'] - row_bank['valor']) < 1.0
+                    
+                    # Calcular la diferencia de valor para mostrarla en el reporte
+                    value_diff = abs(row_acc['valor'] - row_bank['valor'])
+                    
+                    # Conciliar si cumple el criterio original O el nuevo criterio de comprobante
+                    if (value_match_original and date_diff) or (comprobante_match and value_match_tolerant):
                         conciliadas.append({
                             'fecha_contabilidad': row_acc['fecha'],
                             'fecha_banco': row_bank['fecha'],
                             'descripcion_contabilidad': row_acc['descripcion'],
                             'descripcion_banco': row_bank['descripcion'],
-                            'valor': row_acc['valor'],
+                            'valor_contabilidad': row_acc['valor'],
+                            'valor_banco': row_bank.get('valor', row_acc['valor']),
+                            'diferencia': value_diff,
                             'comprobante': row_acc['comprobante'],
                             'estado': 'Conciliado'
                         })
@@ -177,7 +200,8 @@ class ReconciliationReport:
                         'fecha': row_bank['fecha'],
                         'descripcion': row_bank['descripcion'],
                         'valor': row_bank['valor'],
-                        'oficina': row_bank['oficina'],
+                        'comprobante': row_bank.get('comprobante', ''),
+                        'oficina': row_bank.get('oficina', ''),
                         'estado': 'No Conciliado - Solo en Banco'
                     })
             
@@ -216,16 +240,20 @@ class ReconciliationReport:
         # Aplicar formatos a las celdas
         header_format, data_format, date_format, number_format = formats
         
+        # Lista de columnas numéricas para aplicar formato de número
+        numeric_columns = ['valor', 'valor_contabilidad', 'valor_banco', 'diferencia']
+        
         # Aplicar formato a todas las filas de datos
         for row_num in range(start_row, len(df) + start_row):
             worksheet.set_row(row_num, None)
             for col_num in range(len(df.columns)):
                 cell_value = df.iloc[row_num-start_row, col_num]
+                column_name = df.columns[col_num]
                 
                 # Aplicar formato según el tipo de datos
-                if has_date and col_num == 0:  # Primera columna (fecha)
+                if has_date and (column_name == 'fecha' or column_name == 'fecha_contabilidad' or column_name == 'fecha_banco'):  
                     worksheet.write(row_num, col_num, cell_value, date_format)
-                elif has_number and col_num in [2, 4]:  # Columnas de valores numéricos
+                elif has_number and column_name in numeric_columns:  # Columnas de valores numéricos
                     worksheet.write(row_num, col_num, cell_value, number_format)
                 else:
                     worksheet.write(row_num, col_num, cell_value, data_format)
@@ -613,8 +641,8 @@ class ReconciliationReport:
                 worksheet = writer.sheets['Conciliadas']
                 worksheet.set_row(0, 30)
                 
-                # Añadir título
-                worksheet.merge_range('A1:G1', 'TRANSACCIONES CONCILIADAS', title_format)
+                # Ajustar título para incluir todas las columnas
+                worksheet.merge_range('A1:H1', 'TRANSACCIONES CONCILIADAS', title_format)
                 worksheet.write(1, 0, f"Generado el: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
                 
                 # Aplicar formatos de encabezado
@@ -667,8 +695,8 @@ class ReconciliationReport:
                 worksheet = writer.sheets['Solo Banco']
                 worksheet.set_row(0, 30)
                 
-                # Añadir título
-                worksheet.merge_range('A1:E1', 'TRANSACCIONES SOLO EN BANCO', title_format)
+                # Añadir título (actualizado para incluir todas las columnas)
+                worksheet.merge_range('A1:F1', 'TRANSACCIONES SOLO EN BANCO', title_format)
                 worksheet.write(1, 0, f"Generado el: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
                 
                 # Aplicar formatos de encabezado
@@ -710,6 +738,7 @@ class ReconciliationReport:
             
             # Usar orientación horizontal (landscape) para más espacio
             from reportlab.lib.pagesizes import landscape
+            from reportlab.platypus import LongTable
             doc = SimpleDocTemplate(
                 str(pdf_path), 
                 pagesize=landscape(letter),
@@ -759,8 +788,8 @@ class ReconciliationReport:
                 elements.append(Paragraph("Transacciones Conciliadas", styles["Heading2"]))
                 elements.append(Spacer(1, 6))
                 
-                # Encabezados
-                data = [["Fecha Cont.", "Fecha Banco", "Descripción Contabilidad", "Descripción Banco", "Valor", "Comprobante"]]
+                # Encabezados actualizados para mostrar ambos valores y la diferencia
+                data = [["Fecha Cont.", "Fecha Banco", "Descripción Contabilidad", "Descripción Banco", "Valor Contabilidad", "Valor Banco", "Diferencia", "Comprobante"]]
                 
                 # Datos
                 for trans in comparison_result['conciliadas']:
@@ -769,12 +798,13 @@ class ReconciliationReport:
                         str(trans['fecha_banco']),
                         str(trans['descripcion_contabilidad']),
                         str(trans['descripcion_banco']),
-                        f"{trans['valor']:,.2f}",
+                        f"{trans['valor_contabilidad']:,.2f}",
+                        f"{trans['valor_banco']:,.2f}",
+                        f"{trans['diferencia']:,.2f}",
                         str(trans['comprobante'])
                     ])
                 
                 # Crear tabla con ajuste automático
-                from reportlab.platypus import LongTable
                 table = LongTable(data, repeatRows=1)
                 table.setStyle(TableStyle([
                     ('BACKGROUND', (0, 0), (-1, 0), colors.blue),
@@ -828,8 +858,8 @@ class ReconciliationReport:
                 elements.append(Paragraph("Transacciones Solo en Banco", styles["Heading2"]))
                 elements.append(Spacer(1, 6))
                 
-                # Encabezados
-                data = [["Fecha", "Descripción", "Valor", "Oficina"]]
+                # Encabezados actualizados para incluir comprobante
+                data = [["Fecha", "Descripción", "Valor", "Comprobante", "Oficina"]]
                 
                 # Datos
                 for trans in comparison_result['no_conciliadas_banco']:
@@ -837,6 +867,7 @@ class ReconciliationReport:
                         str(trans['fecha']),
                         str(trans['descripcion']),
                         f"{trans['valor']:,.2f}",
+                        str(trans['comprobante']),
                         str(trans['oficina'])
                     ])
                 
