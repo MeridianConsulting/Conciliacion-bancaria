@@ -30,8 +30,8 @@ class InstruccionesWindow(tk.Toplevel):
         self.transient(parent)
         self.grab_set()
         
-        # Configurar el tema oscuro para la ventana
-        self.configure(bg='#1e1e2e')
+        # Configurar el tema claro para la ventana (coincidiendo con bank_selector)
+        self.configure(bg='#F8F9FA')  # Usando el color light_bg de bank_selector
         
         # Centrar la ventana
         self.center_window()
@@ -61,45 +61,45 @@ class InstruccionesWindow(tk.Toplevel):
         # Estilo para el contenido
         style = ttk.Style()
         
-        # Configurar estilos para el tema oscuro
+        # Configurar estilos para el tema claro
         style.configure('Instructions.TFrame',
-                       background='#1e1e2e')
+                       background='#F8F9FA')  # light_bg
         
         style.configure('Instructions.TLabel',
-                       background='#1e1e2e',
-                       foreground='#ffffff',
+                       background='#F8F9FA',  # light_bg
+                       foreground='#212529',  # dark_text
                        font=('Segoe UI', 11),
                        wraplength=750,
                        padding=5)
         
         style.configure('InstructionsTitle.TLabel',
-                       background='#1e1e2e',
-                       foreground='#ffffff',
+                       background='#F8F9FA',  # light_bg
+                       foreground='#0A2F5C',  # primary (azul oscuro)
                        font=('Segoe UI', 16, 'bold'),
                        padding=(0, 10))
         
         # Configurar estilo para el botón Entendido
         style.configure('Instructions.TButton',
-                       background='#e01b24',  # Mismo rojo que los botones de eliminar
-                       foreground='#ffffff',
+                       background='#0066B3',  # Azul secundario (secondary de bank_selector) 
+                       foreground='#FFFFFF',  # Texto blanco
                        padding=(20, 10))
         
         style.map('Instructions.TButton',
-                 background=[('active', '#a51d2d')])  # Mismo hover que los botones de eliminar
+                 background=[('active', '#0A2F5C')])  # Hover en azul más oscuro (primary)
         
-        # Frame principal con tema oscuro
+        # Frame principal con tema claro
         self.main_frame = ttk.Frame(self, style='Instructions.TFrame')
         self.main_frame.pack(fill='both', expand=True, padx=20, pady=20)
         
-        # Canvas con scrollbar (tema oscuro)
+        # Canvas con scrollbar (tema claro)
         self.canvas = tk.Canvas(
             self.main_frame,
-            bg='#1e1e2e',
+            bg='#F8F9FA',
             highlightthickness=0,
             bd=0
         )
         
-        # Scrollbar con tema oscuro
+        # Scrollbar con tema claro
         self.scrollbar = ttk.Scrollbar(
             self.main_frame,
             orient="vertical",
@@ -115,7 +115,7 @@ class InstruccionesWindow(tk.Toplevel):
         # Configurar scroll
         self.canvas.configure(
             yscrollcommand=self.scrollbar.set,
-            bg='#1e1e2e'  # Asegurar que el canvas tenga fondo oscuro
+            bg='#F8F9FA'  # Asegurar que el canvas tenga fondo claro
         )
         
         # Pack scrollbar y canvas
@@ -284,19 +284,19 @@ class ConciliacionBancaria(tk.Tk):
         
         # Definir las paletas de colores
         self.theme = {
-            'bg_primary': '#1e1e2e',
-            'bg_secondary': '#2a2a3e',
-            'bg_tertiary': '#313244',
-            'button_bg': '#3584e4',
-            'button_hover': '#1a5fb4',
-            'text_primary': '#ffffff',
-            'text_secondary': '#9999a8',
-            'border': '#363649',
-            'listbox_bg': '#2a2a3e',
-            'listbox_fg': '#ffffff',
-            'card_shadow': '0 2px 4px rgba(0, 0, 0, 0.2)',
-            'delete_button_bg': '#e01b24',        # Nuevo color rojo para el botón eliminar
-            'delete_button_hover': '#a51d2d'      # Nuevo color rojo más oscuro para el hover
+            'bg_primary': '#F8F9FA',           # Fondo principal claro (light_bg de bank_selector)
+            'bg_secondary': '#FFFFFF',         # Fondo secundario blanco (white de bank_selector)
+            'bg_tertiary': '#E9ECEF',          # Fondo terciario gris claro (light_gray de bank_selector)
+            'button_bg': '#0066B3',            # Azul secundario para botones (secondary de bank_selector)
+            'button_hover': '#0A2F5C',         # Azul principal más oscuro (primary de bank_selector)
+            'text_primary': '#212529',         # Texto principal negro suave (dark_text de bank_selector)
+            'text_secondary': '#6C757D',       # Texto secundario gris (secondary_text de bank_selector)
+            'border': '#CED4DA',               # Borde gris medio (medium_gray de bank_selector)
+            'listbox_bg': '#FFFFFF',           # Fondo de listbox blanco (white de bank_selector)
+            'listbox_fg': '#212529',           # Texto de listbox negro suave (dark_text de bank_selector)
+            'card_shadow': '0 2px 8px rgba(0, 0, 0, 0.1)',  # Sombra igual a bank_selector
+            'delete_button_bg': '#dc3545',     # Rojo para botón eliminar (danger de bank_selector)
+            'delete_button_hover': '#a51d2d'   # Rojo más oscuro para hover (versión oscura de danger)
         }
         
         # Configurar el estilo de la aplicación

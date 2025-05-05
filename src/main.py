@@ -14,7 +14,6 @@ def launch_main_app():
     except Exception as e:
         print(f"Error al iniciar la aplicación principal: {str(e)}")
         traceback.print_exc()
-        messagebox.showerror("Error", f"Error al iniciar la aplicación principal: {str(e)}")
 
 def show_unavailable_message(bank_name):
     """Muestra un mensaje de función no disponible para el banco seleccionado"""
