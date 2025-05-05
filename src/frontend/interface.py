@@ -284,19 +284,22 @@ class ConciliacionBancaria(tk.Tk):
         
         # Definir las paletas de colores
         self.theme = {
-            'bg_primary': '#F8F9FA',           # Fondo principal claro (light_bg de bank_selector)
-            'bg_secondary': '#FFFFFF',         # Fondo secundario blanco (white de bank_selector)
-            'bg_tertiary': '#E9ECEF',          # Fondo terciario gris claro (light_gray de bank_selector)
-            'button_bg': '#0066B3',            # Azul secundario para botones (secondary de bank_selector)
-            'button_hover': '#0A2F5C',         # Azul principal más oscuro (primary de bank_selector)
-            'text_primary': '#212529',         # Texto principal negro suave (dark_text de bank_selector)
-            'text_secondary': '#6C757D',       # Texto secundario gris (secondary_text de bank_selector)
-            'border': '#CED4DA',               # Borde gris medio (medium_gray de bank_selector)
-            'listbox_bg': '#FFFFFF',           # Fondo de listbox blanco (white de bank_selector)
-            'listbox_fg': '#212529',           # Texto de listbox negro suave (dark_text de bank_selector)
-            'card_shadow': '0 2px 8px rgba(0, 0, 0, 0.1)',  # Sombra igual a bank_selector
-            'delete_button_bg': '#dc3545',     # Rojo para botón eliminar (danger de bank_selector)
-            'delete_button_hover': '#a51d2d'   # Rojo más oscuro para hover (versión oscura de danger)
+            'bg_primary': '#F4F7FA',           # Fondo principal sugerido
+            'bg_secondary': '#FFFFFF',         # Fondo secundario blanco para contenedores
+            'bg_tertiary': '#F4F7FA',          # Mantener coherencia con el fondo principal
+            'button_bg_primary': '#38B000',    # Verde primario para botones principales
+            'button_hover_primary': '#40C800', # Verde primario hover (+12%)
+            'button_bg_secondary': '#4FB0C6',  # Turquesa para botón "Ver Reportes"
+            'button_hover_secondary': '#5EC5DC', # Turquesa hover (+12%)
+            'text_primary': '#2A2F35',         # Gris oscuro para texto principal
+            'text_subtitle': '#1E325A',        # Azul para subtítulos
+            'text_secondary': '#6C757D',       # Gris para texto secundario
+            'border': '#D0D5DD',               # Gris neutro para bordes
+            'listbox_bg': '#FFFFFF',           # Fondo blanco para listbox
+            'listbox_fg': '#2A2F35',           # Texto negro para listbox
+            'delete_button_bg': '#E63946',     # Rojo para botón eliminar
+            'delete_button_hover': '#FF4050',  # Rojo hover (+12%)
+            'shadow': '0 2px 8px rgba(0, 0, 0, 0.05)'  # Sombra sutil
         }
         
         # Configurar el estilo de la aplicación
@@ -382,10 +385,12 @@ class ConciliacionBancaria(tk.Tk):
         self.style.configure('Main.TFrame',
                            background=self.theme['bg_primary'])
         
-        # Estilo para las tarjetas
+        # Estilo para las tarjetas (con sombra)
         self.style.configure('Card.TFrame',
                            background=self.theme['bg_secondary'],
-                           relief='flat')
+                           relief='solid',
+                           borderwidth=1,
+                           bordercolor=self.theme['border'])
         
         # Estilo para el título principal
         self.style.configure('Title.TLabel',
@@ -397,38 +402,41 @@ class ConciliacionBancaria(tk.Tk):
         # Estilo para los títulos de las tarjetas
         self.style.configure('CardTitle.TLabel',
                            background=self.theme['bg_secondary'],
-                           foreground=self.theme['text_primary'],
+                           foreground=self.theme['text_subtitle'],
                            font=('Segoe UI', 16, 'bold'),
                            padding=(0, 5))
         
         # Estilo para botones principales
         self.style.configure('Primary.TButton',
-                           background=self.theme['button_bg'],
-                           foreground=self.theme['text_primary'],
+                           background=self.theme['button_bg_primary'],
+                           foreground='#FFFFFF',  # Texto blanco para contraste
                            font=('Segoe UI', 11),
                            padding=(15, 8),
                            relief='flat',
                            borderwidth=0)
         
         self.style.map('Primary.TButton',
-                      background=[('active', self.theme['button_hover'])])
+                      background=[('active', self.theme['button_hover_primary'])])
         
         # Estilo para botones secundarios
         self.style.configure('Secondary.TButton',
-                           background=self.theme['bg_tertiary'],
-                           foreground=self.theme['text_secondary'],
+                           background=self.theme['button_bg_secondary'],
+                           foreground='#FFFFFF',  # Texto blanco para contraste
                            font=('Segoe UI', 10),
                            padding=(12, 6))
         
+        self.style.map('Secondary.TButton',
+                      background=[('active', self.theme['button_hover_secondary'])])
+        
         # Estilo para el contenedor de la lista
         self.style.configure('ListContainer.TFrame',
-                           background=self.theme['bg_secondary'],
+                           background=self.theme['listbox_bg'],
                            relief='flat')
         
         # Agregar estilo para botones de eliminar
         self.style.configure('Delete.TButton',
                            background=self.theme['delete_button_bg'],
-                           foreground=self.theme['text_primary'],
+                           foreground='#FFFFFF',  # Texto blanco para contraste
                            font=('Segoe UI', 10),
                            padding=(12, 6))
         
@@ -448,11 +456,11 @@ class ConciliacionBancaria(tk.Tk):
         title.grid(row=0, column=0)
         
         # Frame para registros contables (ahora es Paso 1)
-        extractos_frame = self.create_card_frame("⚡ Paso 1: Cargar Extractos Bancarios ", 1)
+        extractos_frame = self.create_card_frame("🔷 Paso 1: Cargar Extractos Bancarios ", 1)
         extractos_frame.grid_columnconfigure(0, weight=1)  # Centrar contenido
         
         # Contenedor para la lista de extractos
-        list_container_extractos = ttk.Frame(extractos_frame, style='Card.TFrame')
+        list_container_extractos = ttk.Frame(extractos_frame, style='ListContainer.TFrame')
         list_container_extractos.grid(row=1, column=0, sticky='ew', padx=30, pady=15)
         
         # Lista de extractos con ancho ajustado
@@ -465,7 +473,9 @@ class ConciliacionBancaria(tk.Tk):
             width=80,  # Ancho aumentado a 80 caracteres
             font=('Segoe UI', 10),
             relief='flat',
-            borderwidth=0
+            borderwidth=1,
+            highlightthickness=1,
+            highlightbackground=self.theme['border']
         )
         self.extractos_listbox.pack(fill='both', expand=True)
         
@@ -476,7 +486,7 @@ class ConciliacionBancaria(tk.Tk):
         # Botón cargar extractos
         load_extractos_btn = ttk.Button(
             extractos_buttons_frame,
-            text="🏠 Cargar Extractos Bancarios",
+            text="🔄 Cargar Extractos Bancarios",
             command=self.cargar_extractos,
             style='Primary.TButton'
         )
@@ -492,11 +502,11 @@ class ConciliacionBancaria(tk.Tk):
         delete_extractos_btn.pack(side='left', padx=5)
         
         # Frame para extractos bancarios (ahora es Paso 2)
-        registros_frame = self.create_card_frame("🎲 Paso 2: Cargar Registros Contables", 2)
+        registros_frame = self.create_card_frame("🔷 Paso 2: Cargar Registros Contables", 2)
         registros_frame.grid_columnconfigure(0, weight=1)  # Centrar contenido
         
         # Contenedor para la lista de registros
-        list_container_registros = ttk.Frame(registros_frame, style='Card.TFrame')
+        list_container_registros = ttk.Frame(registros_frame, style='ListContainer.TFrame')
         list_container_registros.grid(row=1, column=0, sticky='ew', padx=30, pady=15)
         
         # Lista de registros con ancho ajustado
@@ -509,7 +519,9 @@ class ConciliacionBancaria(tk.Tk):
             width=80,  # Ancho aumentado a 80 caracteres
             font=('Segoe UI', 10),
             relief='flat',
-            borderwidth=0
+            borderwidth=1,
+            highlightthickness=1,
+            highlightbackground=self.theme['border']
         )
         self.registros_listbox.pack(fill='both', expand=True)
         
@@ -520,7 +532,7 @@ class ConciliacionBancaria(tk.Tk):
         # Botón cargar registros
         load_registros_btn = ttk.Button(
             registros_buttons_frame,
-            text="🎲 Cargar Registros Contables",
+            text="🔄 Cargar Registros Contables",
             command=self.cargar_registros,
             style='Primary.TButton'
         )
@@ -535,9 +547,13 @@ class ConciliacionBancaria(tk.Tk):
         )
         delete_registros_btn.pack(side='left', padx=5)
         
+        # Separador visual
+        separator = ttk.Separator(self.container, orient='horizontal')
+        separator.grid(row=3, column=0, sticky='ew', pady=10)
+        
         # Frame para botones de acción
-        actions_frame = ttk.Frame(self.container, style='Card.TFrame')
-        actions_frame.grid(row=3, column=0, sticky='ew', pady=(20, 0))
+        actions_frame = ttk.Frame(self.container, style='Main.TFrame')
+        actions_frame.grid(row=4, column=0, sticky='ew', pady=(10, 0))
         actions_frame.grid_columnconfigure(0, weight=1)
         actions_frame.grid_columnconfigure(1, weight=1)
         
@@ -554,7 +570,7 @@ class ConciliacionBancaria(tk.Tk):
             actions_frame,
             text="Ver Reportes",
             command=self.ver_reportes,
-            style='Primary.TButton'
+            style='Secondary.TButton'
         )
         reportes_btn.grid(row=0, column=1, padx=5, pady=15)
 
