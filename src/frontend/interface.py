@@ -9,6 +9,23 @@ from backend.reconciliation_report import ReconciliationReport
 from pathlib import Path
 import shutil
 import datetime
+import tkinter.font as tkfont
+import threading
+
+# --- Constantes de Diseño --- #
+COLOR_BG_MAIN = "#F4F7FA"
+COLOR_BG_CARD = "#FFFFFF"
+COLOR_TEXT_DARK = "#2A2F35"
+COLOR_TEXT_SUBTLE = "#6C757D"
+COLOR_PRIMARY_ACCENT = "#1E325A"  # Azul cabecera
+COLOR_SUCCESS = "#38B000"        # Verde primario
+COLOR_SUCCESS_HOVER = "#40C800"   # Verde hover (+12% aprox)
+COLOR_SECONDARY_ACCENT = "#4FB0C6" # Turquesa suave
+COLOR_SECONDARY_HOVER = "#5EC5DC"  # Turquesa hover (+12% aprox)
+COLOR_ALERT = "#E63946"           # Rojo alerta
+COLOR_ALERT_HOVER = "#FF4050"     # Rojo hover (+12% aprox)
+COLOR_BORDER = "#D0D5DD"           # Gris neutro para bordes
+COLOR_WHITE = "#FFFFFF"
 
 class InstruccionesWindow(tk.Toplevel):
     def __init__(self, parent):
@@ -247,111 +264,86 @@ class InstruccionesWindow(tk.Toplevel):
 class ConciliacionBancaria(tk.Tk):
     def __init__(self):
         super().__init__()
-        
-        # Configuración inicial
-        self.title("Sistema de Conciliación Bancaria")
-        
-        # Configurar íconos para Windows (tanto ventana como barra de tareas)
-        try:
-            # Ruta absoluta al ícono
-            icon_path = os.path.abspath(os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), 'assets', 'logo.ico'))
-            
-            if os.path.exists(icon_path):
-                # Establecer ícono para la ventana
-                self.iconbitmap(default=icon_path)
-                
-                # Configuración específica para la barra de tareas de Windows
-                if os.name == 'nt':
-                    # Establecer ID único para la aplicación
-                    app_id = "ConciliacionBancaria.Application.1.0"
-                    # Intentar configurar AppID para la barra de tareas
-                    try:
-                        from ctypes import windll
-                        windll.shell32.SetCurrentProcessExplicitAppUserModelID(app_id)
-                        # Crear acceso directo para mejorar asociación de íconos
-                        self.create_shortcut(icon_path, app_id)
-                    except Exception as e:
-                        print(f"No se pudo configurar AppID: {e}")
-        except Exception as e:
-            print(f"Error al configurar ícono: {e}")
-        
-        # Proteger archivos al iniciar
-        self.proteger_archivos_excel()
-        
-        # Agregar estas líneas para la configuración de la ventana
-        self.configure_window_size()
+
+        # --- Configuración Inicial --- #
+        self.title("Sistema de Conciliación Bancaria - Meridian Consulting")
+        self.configure(bg=COLOR_BG_MAIN)
+        self.load_fonts() # Cargar fuentes primero
+        self.setup_icon()
+        self.configure_window_size() # Ajustar tamaño y mínimo
         self.bind("<Configure>", self.on_window_resize)
-        
-        # Definir las paletas de colores
-        self.theme = {
-            'bg_primary': '#F4F7FA',           # Fondo principal sugerido
-            'bg_secondary': '#FFFFFF',         # Fondo secundario blanco para contenedores
-            'bg_tertiary': '#F4F7FA',          # Mantener coherencia con el fondo principal
-            'button_bg_primary': '#38B000',    # Verde primario para botones principales
-            'button_hover_primary': '#40C800', # Verde primario hover (+12%)
-            'button_bg_secondary': '#4FB0C6',  # Turquesa para botón "Ver Reportes"
-            'button_hover_secondary': '#5EC5DC', # Turquesa hover (+12%)
-            'text_primary': '#2A2F35',         # Gris oscuro para texto principal
-            'text_subtitle': '#1E325A',        # Azul para subtítulos
-            'text_secondary': '#6C757D',       # Gris para texto secundario
-            'border': '#D0D5DD',               # Gris neutro para bordes
-            'listbox_bg': '#FFFFFF',           # Fondo blanco para listbox
-            'listbox_fg': '#2A2F35',           # Texto negro para listbox
-            'delete_button_bg': '#E63946',     # Rojo para botón eliminar
-            'delete_button_hover': '#FF4050',  # Rojo hover (+12%)
-            'shadow': '0 2px 8px rgba(0, 0, 0, 0.05)'  # Sombra sutil
-        }
-        
-        # Configurar el estilo de la aplicación
-        self.configure(bg=self.theme['bg_primary'])
-        
-        # Crear contenedor principal con márgenes optimizados
-        self.container = ttk.Frame(self, style='Main.TFrame')
-        self.container.grid(row=0, column=0, sticky="nsew", padx=30, pady=20)
-        
-        # Configurar grid
-        self.grid_rowconfigure(0, weight=1)
-        self.grid_columnconfigure(0, weight=1)
-        
-        # Configurar pesos de las filas del contenedor
-        self.container.grid_rowconfigure(0, weight=0)  # Título
-        self.container.grid_rowconfigure(1, weight=3)  # Extractos
-        self.container.grid_rowconfigure(2, weight=3)  # Registros
-        self.container.grid_rowconfigure(3, weight=1)  # Botones
-        self.container.grid_columnconfigure(0, weight=1)
-        
-        # Configurar estilos
+
+        # --- Rutas y Backend --- #
+        self.setup_paths()
+        self.proteger_archivos_excel() # Intentar proteger (con manejo de errores interno)
+        self.reconciliation = Reconciliation()
+        self.report_generator = ReconciliationReport()
+
+        # --- Estado UI --- #
+        self.extractos_bancarios = []
+        self.registros_contables = []
+        self.is_loading_extractos = False
+        self.is_loading_registros = False
+        self.is_processing = False
+
+        # --- Estilos TTK --- #
         self.style = ttk.Style()
         self.style.theme_use('clam')
         self.configure_styles()
-        
-        # Variables para almacenar los archivos
-        self.extractos_bancarios = []
-        self.registros_contables = []
-        
-        # Ruta de entrada y salida
+
+        # --- Crear Widgets --- #
+        self.create_widgets()
+
+        # --- Mostrar Instrucciones (Opcional) --- #
+        # self.after(500, self.show_instructions)
+
+    def load_fonts(self):
+        """Carga fuentes preferidas o usa alternativas del sistema."""
+        families = tkfont.families()
+        primary_font = "Segoe UI" # Default
+        if 'Inter' in families:
+            primary_font = 'Inter'
+        elif 'Roboto' in families:
+            primary_font = 'Roboto'
+        elif 'Segoe UI' in families:
+            primary_font = 'Segoe UI' # Ya es el default, pero explícito
+        elif 'Helvetica' in families:
+            primary_font = 'Helvetica'
+        elif 'Arial' in families:
+            primary_font = 'Arial'
+        else:
+            primary_font = tkfont.nametofont("TkDefaultFont").actual()["family"]
+
+        self.FONT_TITLE = (primary_font, 24, 'bold')
+        self.FONT_SUBTITLE = (primary_font, 16, 'bold')
+        self.FONT_BODY = (primary_font, 11)
+        self.FONT_BODY_BOLD = (primary_font, 11, 'bold')
+        self.FONT_BUTTON = (primary_font, 11, 'bold')
+        self.FONT_CAPTION = (primary_font, 9)
+
+    def setup_icon(self):
+        """Configura el ícono de la ventana y la barra de tareas."""
+        try:
+            icon_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', 'assets', 'logo.ico'))
+            if os.path.exists(icon_path):
+                self.iconbitmap(default=icon_path)
+                if os.name == 'nt':
+                    app_id = "Meridian.ConciliacionBancaria.1"
+                    ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(app_id)
+        except Exception as e:
+            print(f"Advertencia: No se pudo configurar el ícono: {e}")
+
+    def setup_paths(self):
+        """Configura las rutas del proyecto y crea directorios necesarios."""
         self.project_root = Path(__file__).parent.parent.parent
         self.input_bank_path = self.project_root / 'data' / 'input' / 'bank'
         self.input_accounting_path = self.project_root / 'data' / 'input' / 'accounting'
         self.output_path = self.project_root / 'data' / 'output'
         self.report_path = self.project_root / 'data' / 'reports'
-        
-        # Crear directorios necesarios
-        self.input_bank_path.mkdir(parents=True, exist_ok=True)
-        self.input_accounting_path.mkdir(parents=True, exist_ok=True)
-        self.output_path.mkdir(parents=True, exist_ok=True)
-        self.report_path.mkdir(parents=True, exist_ok=True)
-        
-        # Crear widgets
-        self.create_widgets()
-        
-        # Mostrar instrucciones al inicio
-        self.after(500, self.show_instructions)
-        
-        # Inicializar los controladores del backend
-        self.reconciliation = Reconciliation()
-        self.report_generator = ReconciliationReport()
-    
+
+        for path in [self.input_bank_path, self.input_accounting_path, self.output_path, self.report_path]:
+            path.mkdir(parents=True, exist_ok=True)
+
     def configure_window_size(self):
         """Configura el tamaño inicial de la ventana basado en la resolución de la pantalla"""
         try:
@@ -380,215 +372,218 @@ class ConciliacionBancaria(tk.Tk):
         self.minsize(900, 700)  # Tamaño mínimo ajustado al contenido
 
     def configure_styles(self):
-        """Configura los estilos personalizados para los widgets"""
-        # Estilo para el frame principal
-        self.style.configure('Main.TFrame',
-                           background=self.theme['bg_primary'])
+        """Configura los estilos TTK para los widgets"""
+        # Estilo base para Frames
+        self.style.configure('TFrame', background=COLOR_BG_MAIN)
+
+        # Frame principal que contiene todo
+        self.style.configure('MainContainer.TFrame', background=COLOR_BG_MAIN)
+
+        # Frame tipo "Card" para cada paso
+        self.style.configure('Card.TFrame', 
+                           background=COLOR_BG_CARD, 
+                           relief='solid', 
+                           borderwidth=1, 
+                           bordercolor=COLOR_BORDER)
+
+        # Estilo para el título principal de la aplicación
+        self.style.configure('Title.TLabel', 
+                           background=COLOR_BG_MAIN, 
+                           foreground=COLOR_TEXT_DARK, 
+                           font=self.FONT_TITLE, 
+                           anchor='center')
+
+        # Estilo para los subtítulos de cada paso ("Paso 1:", etc.)
+        self.style.configure('Subtitle.TLabel', 
+                           background=COLOR_BG_CARD, 
+                           foreground=COLOR_PRIMARY_ACCENT, 
+                           font=self.FONT_SUBTITLE)
         
-        # Estilo para las tarjetas (con sombra)
-        self.style.configure('Card.TFrame',
-                           background=self.theme['bg_secondary'],
-                           relief='solid',
-                           borderwidth=1,
-                           bordercolor=self.theme['border'])
-        
-        # Estilo para el título principal
-        self.style.configure('Title.TLabel',
-                           background=self.theme['bg_primary'],
-                           foreground=self.theme['text_primary'],
-                           font=('Segoe UI', 28, 'bold'),
-                           padding=(0, 10, 0, 20))
-        
-        # Estilo para los títulos de las tarjetas
-        self.style.configure('CardTitle.TLabel',
-                           background=self.theme['bg_secondary'],
-                           foreground=self.theme['text_subtitle'],
-                           font=('Segoe UI', 16, 'bold'),
-                           padding=(0, 5))
-        
-        # Estilo para botones principales
-        self.style.configure('Primary.TButton',
-                           background=self.theme['button_bg_primary'],
-                           foreground='#FFFFFF',  # Texto blanco para contraste
-                           font=('Segoe UI', 11),
-                           padding=(15, 8),
-                           relief='flat',
+        # Estilo para texto cuerpo normal
+        self.style.configure('Body.TLabel', 
+                           background=COLOR_BG_CARD, 
+                           foreground=COLOR_TEXT_DARK, 
+                           font=self.FONT_BODY)
+
+        # --- Estilos de Botones --- #
+        button_padding = (20, 10) # Padding horizontal y vertical para botones
+
+        # Botón Primario (Cargar)
+        self.style.configure('Success.TButton', 
+                           background=COLOR_SUCCESS,
+                           foreground=COLOR_WHITE, 
+                           font=self.FONT_BUTTON, 
+                           padding=button_padding, 
+                           relief='flat', 
                            borderwidth=0)
+        self.style.map('Success.TButton', 
+                       background=[('active', COLOR_SUCCESS_HOVER), ('disabled', '#B0B0B0')])
+
+        # Botón Secundario (Ver Reportes)
+        self.style.configure('Secondary.TButton', 
+                           background=COLOR_SECONDARY_ACCENT, 
+                           foreground=COLOR_WHITE, 
+                           font=self.FONT_BUTTON, 
+                           padding=button_padding, 
+                           relief='flat', 
+                           borderwidth=0)
+        self.style.map('Secondary.TButton', 
+                       background=[('active', COLOR_SECONDARY_HOVER), ('disabled', '#B0B0B0')])
+
+        # Botón de Alerta (Eliminar)
+        self.style.configure('Alert.TButton', 
+                           background=COLOR_ALERT, 
+                           foreground=COLOR_WHITE, 
+                           font=self.FONT_BUTTON, 
+                           padding=button_padding, 
+                           relief='flat', 
+                           borderwidth=0)
+        self.style.map('Alert.TButton', 
+                       background=[('active', COLOR_ALERT_HOVER), ('disabled', '#B0B0B0')])
+
+        # --- Estilos Treeview --- #
+        self.style.configure('Treeview', 
+                           background=COLOR_WHITE, 
+                           foreground=COLOR_TEXT_DARK, 
+                           fieldbackground=COLOR_WHITE, 
+                           rowheight=25, 
+                           font=self.FONT_BODY, 
+                           relief='solid', 
+                           borderwidth=1, 
+                           bordercolor=COLOR_BORDER)
+        self.style.map('Treeview', background=[('selected', COLOR_PRIMARY_ACCENT)]) # Color de selección
         
-        self.style.map('Primary.TButton',
-                      background=[('active', self.theme['button_hover_primary'])])
-        
-        # Estilo para botones secundarios
-        self.style.configure('Secondary.TButton',
-                           background=self.theme['button_bg_secondary'],
-                           foreground='#FFFFFF',  # Texto blanco para contraste
-                           font=('Segoe UI', 10),
-                           padding=(12, 6))
-        
-        self.style.map('Secondary.TButton',
-                      background=[('active', self.theme['button_hover_secondary'])])
-        
-        # Estilo para el contenedor de la lista
-        self.style.configure('ListContainer.TFrame',
-                           background=self.theme['listbox_bg'],
-                           relief='flat')
-        
-        # Agregar estilo para botones de eliminar
-        self.style.configure('Delete.TButton',
-                           background=self.theme['delete_button_bg'],
-                           foreground='#FFFFFF',  # Texto blanco para contraste
-                           font=('Segoe UI', 10),
-                           padding=(12, 6))
-        
-        self.style.map('Delete.TButton',
-                      background=[('active', self.theme['delete_button_hover'])])
+        self.style.configure("Treeview.Heading", 
+                           background=COLOR_BG_MAIN, 
+                           foreground=COLOR_PRIMARY_ACCENT, 
+                           font=self.FONT_BODY_BOLD, 
+                           relief="flat")
+        self.style.map("Treeview.Heading", background=[('active', COLOR_BORDER)])
 
     def create_widgets(self):
-        # Título principal
-        title_frame = ttk.Frame(self.container, style='Main.TFrame')
-        title_frame.grid(row=0, column=0, sticky='ew', pady=(0, 20))
-        title_frame.grid_columnconfigure(0, weight=1)
-        
-        title = ttk.Label(title_frame,
-                         text="Sistema de Conciliación Bancaria",
-                         style='Title.TLabel',
-                         anchor='center')
-        title.grid(row=0, column=0)
-        
-        # Frame para registros contables (ahora es Paso 1)
-        extractos_frame = self.create_card_frame("🔷 Paso 1: Cargar Extractos Bancarios ", 1)
-        extractos_frame.grid_columnconfigure(0, weight=1)  # Centrar contenido
-        
-        # Contenedor para la lista de extractos
-        list_container_extractos = ttk.Frame(extractos_frame, style='ListContainer.TFrame')
-        list_container_extractos.grid(row=1, column=0, sticky='ew', padx=30, pady=15)
-        
-        # Lista de extractos con ancho ajustado
-        self.extractos_listbox = tk.Listbox(
-            list_container_extractos,
-            bg=self.theme['listbox_bg'],
-            fg=self.theme['listbox_fg'],
-            selectmode=tk.EXTENDED,
-            height=6,
-            width=80,  # Ancho aumentado a 80 caracteres
-            font=('Segoe UI', 10),
-            relief='flat',
-            borderwidth=1,
-            highlightthickness=1,
-            highlightbackground=self.theme['border']
+        """Crea y organiza los widgets principales de la interfaz."""
+        # Contenedor principal con padding
+        main_frame = ttk.Frame(self, padding=(30, 20), style='MainContainer.TFrame')
+        main_frame.pack(fill=tk.BOTH, expand=True)
+
+        # Configurar filas y columnas para expandir
+        main_frame.grid_rowconfigure(1, weight=1) # Fila para Paso 1
+        main_frame.grid_rowconfigure(2, weight=1) # Fila para Paso 2
+        main_frame.grid_columnconfigure(0, weight=1)
+
+        # --- Título --- #
+        title_label = ttk.Label(main_frame, 
+                                text="Sistema de Conciliación Bancaria", 
+                                style='Title.TLabel')
+        title_label.grid(row=0, column=0, pady=(0, 30), sticky='ew')
+
+        # --- Paso 1: Extractos Bancarios --- #
+        self.extractos_frame = self.create_step_ui(
+            main_frame, 
+            title="Paso 1: Cargar Extractos Bancarios",
+            load_command=self.cargar_extractos_con_spinner,
+            delete_command=self.confirmar_eliminar_extractos,
+            treeview_attr="extractos_treeview",
+            load_btn_attr="load_extractos_btn"
         )
-        self.extractos_listbox.pack(fill='both', expand=True)
-        
-        # Frame para los botones de extractos
-        extractos_buttons_frame = ttk.Frame(extractos_frame, style='Card.TFrame')
-        extractos_buttons_frame.grid(row=2, column=0, sticky='e', padx=20, pady=(0, 10))
-        
-        # Botón cargar extractos
-        load_extractos_btn = ttk.Button(
-            extractos_buttons_frame,
-            text="🔄 Cargar Extractos Bancarios",
-            command=self.cargar_extractos,
-            style='Primary.TButton'
+        self.extractos_frame.grid(row=1, column=0, sticky='nsew', pady=(0, 20))
+
+        # --- Paso 2: Registros Contables --- #
+        self.registros_frame = self.create_step_ui(
+            main_frame, 
+            title="Paso 2: Cargar Registros Contables",
+            load_command=self.cargar_registros_con_spinner,
+            delete_command=self.confirmar_eliminar_registros,
+            treeview_attr="registros_treeview",
+            load_btn_attr="load_registros_btn"
         )
-        load_extractos_btn.pack(side='left', padx=5)
-        
-        # Botón eliminar extractos
-        delete_extractos_btn = ttk.Button(
-            extractos_buttons_frame,
-            text="Eliminar Seleccionados",
-            command=self.eliminar_extractos,
-            style='Delete.TButton'
-        )
-        delete_extractos_btn.pack(side='left', padx=5)
-        
-        # Frame para extractos bancarios (ahora es Paso 2)
-        registros_frame = self.create_card_frame("🔷 Paso 2: Cargar Registros Contables", 2)
-        registros_frame.grid_columnconfigure(0, weight=1)  # Centrar contenido
-        
-        # Contenedor para la lista de registros
-        list_container_registros = ttk.Frame(registros_frame, style='ListContainer.TFrame')
-        list_container_registros.grid(row=1, column=0, sticky='ew', padx=30, pady=15)
-        
-        # Lista de registros con ancho ajustado
-        self.registros_listbox = tk.Listbox(
-            list_container_registros,
-            bg=self.theme['listbox_bg'],
-            fg=self.theme['listbox_fg'],
-            selectmode=tk.EXTENDED,
-            height=6,
-            width=80,  # Ancho aumentado a 80 caracteres
-            font=('Segoe UI', 10),
-            relief='flat',
-            borderwidth=1,
-            highlightthickness=1,
-            highlightbackground=self.theme['border']
-        )
-        self.registros_listbox.pack(fill='both', expand=True)
-        
-        # Frame para los botones de registros
-        registros_buttons_frame = ttk.Frame(registros_frame, style='Card.TFrame')
-        registros_buttons_frame.grid(row=2, column=0, columnspan=2, sticky='e', padx=20, pady=(0, 10))
-        
-        # Botón cargar registros
-        load_registros_btn = ttk.Button(
-            registros_buttons_frame,
-            text="🔄 Cargar Registros Contables",
-            command=self.cargar_registros,
-            style='Primary.TButton'
-        )
-        load_registros_btn.pack(side='left', padx=5)
-        
-        # Botón eliminar registros
-        delete_registros_btn = ttk.Button(
-            registros_buttons_frame,
-            text="Eliminar Seleccionados",
-            command=self.eliminar_registros,
-            style='Delete.TButton'
-        )
-        delete_registros_btn.pack(side='left', padx=5)
-        
-        # Separador visual
-        separator = ttk.Separator(self.container, orient='horizontal')
-        separator.grid(row=3, column=0, sticky='ew', pady=10)
-        
-        # Frame para botones de acción
-        actions_frame = ttk.Frame(self.container, style='Main.TFrame')
-        actions_frame.grid(row=4, column=0, sticky='ew', pady=(10, 0))
-        actions_frame.grid_columnconfigure(0, weight=1)
-        actions_frame.grid_columnconfigure(1, weight=1)
-        
-        # Botones de acción
-        conciliacion_btn = ttk.Button(
-            actions_frame,
-            text="Iniciar Conciliación",
-            command=self.iniciar_conciliacion,
-            style='Primary.TButton'
-        )
-        conciliacion_btn.grid(row=0, column=0, padx=5, pady=15)
-        
-        reportes_btn = ttk.Button(
+        self.registros_frame.grid(row=2, column=0, sticky='nsew', pady=(0, 30))
+
+        # --- Línea Divisoria --- #
+        separator = ttk.Separator(main_frame, orient='horizontal')
+        separator.grid(row=3, column=0, sticky='ew', pady=(0, 20))
+
+        # --- Botones de Acción Finales --- #
+        actions_frame = ttk.Frame(main_frame, style='MainContainer.TFrame')
+        actions_frame.grid(row=4, column=0, sticky='ew')
+        actions_frame.grid_columnconfigure(0, weight=1) # Espaciador
+        actions_frame.grid_columnconfigure(1, weight=0) # Botón Reportes
+        actions_frame.grid_columnconfigure(2, weight=0) # Botón Conciliar
+
+        self.reportes_btn = ttk.Button(
             actions_frame,
             text="Ver Reportes",
             command=self.ver_reportes,
             style='Secondary.TButton'
         )
-        reportes_btn.grid(row=0, column=1, padx=5, pady=15)
+        self.reportes_btn.grid(row=0, column=1, sticky='e', padx=(0, 15))
 
-    def create_card_frame(self, title, row):
-        """Crea un frame tipo tarjeta con título"""
-        frame = ttk.Frame(self.container, style='Card.TFrame')
-        frame.grid(row=row, column=0, sticky='nsew', pady=10)
-        frame.grid_columnconfigure(0, weight=1)
-        
-        # Título de la tarjeta
-        title_label = ttk.Label(
-            frame,
-            text=title,
-            style='CardTitle.TLabel'
+        self.conciliacion_btn = ttk.Button(
+            actions_frame,
+            text="Iniciar Conciliación",
+            command=self.iniciar_conciliacion,
+            style='Success.TButton' # Usar estilo Success para verde
         )
-        title_label.grid(row=0, column=0, sticky='w', padx=20, pady=10)
+        self.conciliacion_btn.grid(row=0, column=2, sticky='e')
+
+    def create_step_ui(self, parent, title, load_command, delete_command, treeview_attr, load_btn_attr):
+        """Crea la UI para una sección de carga de archivos (Paso 1 o Paso 2)."""
+        # Frame contenedor tipo Card
+        card_frame = ttk.Frame(parent, padding=20, style='Card.TFrame')
+        card_frame.grid_columnconfigure(0, weight=1)
+        card_frame.grid_rowconfigure(1, weight=1) # Hacer que TreeView se expanda
+
+        # Subtítulo del paso
+        subtitle_label = ttk.Label(card_frame, text=title, style='Subtitle.TLabel')
+        subtitle_label.grid(row=0, column=0, sticky='w', pady=(0, 15))
+
+        # --- TreeView para mostrar archivos --- #
+        tree_frame = ttk.Frame(card_frame, style='TFrame', padding=0) # Frame sin padding interno extra
+        tree_frame.grid(row=1, column=0, sticky='nsew', pady=(0, 15))
+        tree_frame.grid_columnconfigure(0, weight=1)
+        tree_frame.grid_rowconfigure(0, weight=1)
+
+        columns = ('nombre', 'tamaño')
+        treeview = ttk.Treeview(tree_frame, columns=columns, show='headings', height=5, style='Treeview')
+
+        treeview.heading('nombre', text='Nombre del Archivo', anchor='w')
+        treeview.heading('tamaño', text='Tamaño', anchor='e')
+        treeview.column('nombre', stretch=tk.YES, anchor='w')
+        treeview.column('tamaño', width=120, stretch=tk.NO, anchor='e')
+
+        # Scrollbar
+        scrollbar = ttk.Scrollbar(tree_frame, orient="vertical", command=treeview.yview)
+        treeview.configure(yscrollcommand=scrollbar.set)
+
+        treeview.grid(row=0, column=0, sticky='nsew')
+        scrollbar.grid(row=0, column=1, sticky='ns')
         
-        return frame
+        # Guardar referencia al TreeView
+        setattr(self, treeview_attr, treeview)
+
+        # --- Botones de Carga y Eliminación --- #
+        button_frame = ttk.Frame(card_frame, style='Card.TFrame') # Fondo blanco de la card
+        button_frame.grid(row=2, column=0, sticky='e')
+
+        load_btn = ttk.Button(
+            button_frame,
+            text="Cargar Archivos",
+            command=load_command,
+            style='Success.TButton' # Usar estilo Success para verde
+        )
+        load_btn.pack(side=tk.LEFT, padx=(0, 15))
+        # Guardar referencia al botón de carga
+        setattr(self, load_btn_attr, load_btn)
+
+        delete_btn = ttk.Button(
+            button_frame,
+            text="Eliminar Seleccionados",
+            command=delete_command,
+            style='Alert.TButton'
+        )
+        delete_btn.pack(side=tk.LEFT)
+
+        return card_frame
 
     def on_window_resize(self, event):
         """Maneja el evento de redimensionamiento de la ventana"""
@@ -596,71 +591,142 @@ class ConciliacionBancaria(tk.Tk):
             # Actualizar el layout si es necesario
             self.update_idletasks()
 
-    def cargar_extractos(self):
-        # Solicitar al usuario seleccionar archivos
-        archivos = filedialog.askopenfilenames(
-            title="Seleccionar Registros Contables",
-            filetypes=(("Archivos Excel", "*.xlsx"), ("Todos los archivos", "*.*"))
+    def cargar_extractos_con_spinner(self):
+        """Carga extractos bancarios mostrando un spinner durante el proceso"""
+        if getattr(self, 'is_loading_extractos', False):
+            return
+
+        self.is_loading_extractos = True
+        original_text = self.load_extractos_btn.cget('text')
+        self.load_extractos_btn.config(text="Cargando...", state="disabled", style='Success.TButton') # Mantener estilo
+        self.update_idletasks()
+
+        def process():
+            try:
+                archivos = filedialog.askopenfilenames(
+                    title="Seleccionar Extractos Bancarios",
+                    filetypes=(("Archivos Excel", "*.xlsx"), ("Todos los archivos", "*.*"))
+                )
+                if archivos:
+                    self.extractos_bancarios.extend(archivos)
+                    for archivo in archivos:
+                        nombre_archivo = os.path.basename(archivo)
+                        tamaño = self.get_file_size(archivo)
+                        self.extractos_treeview.insert('', 'end', values=(nombre_archivo, tamaño))
+                    self.after(0, lambda: messagebox.showinfo("Éxito", f"Se cargaron {len(archivos)} extractos bancarios."))
+            except Exception as e:
+                print(f"Error cargando extractos: {e}")
+                self.after(0, lambda: messagebox.showerror("Error", f"Error al cargar extractos: {e}"))
+            finally:
+                self.is_loading_extractos = False
+                # Usar after para asegurar que se ejecute en el hilo principal
+                self.after(0, lambda: self.load_extractos_btn.config(text=original_text, state="normal"))
+
+        threading.Thread(target=process, daemon=True).start()
+
+    def cargar_registros_con_spinner(self):
+        """Carga registros contables mostrando un spinner durante el proceso"""
+        if getattr(self, 'is_loading_registros', False):
+            return
+
+        self.is_loading_registros = True
+        original_text = self.load_registros_btn.cget('text')
+        self.load_registros_btn.config(text="Cargando...", state="disabled", style='Success.TButton') # Mantener estilo
+        self.update_idletasks()
+
+        def process():
+            try:
+                archivos = filedialog.askopenfilenames(
+                    title="Seleccionar Registros Contables",
+                    filetypes=(("Archivos Excel", "*.xlsx"), ("Todos los archivos", "*.*"))
+                )
+                if archivos:
+                    self.registros_contables.extend(archivos)
+                    for archivo in archivos:
+                        nombre_archivo = os.path.basename(archivo)
+                        tamaño = self.get_file_size(archivo)
+                        self.registros_treeview.insert('', 'end', values=(nombre_archivo, tamaño))
+                    self.after(0, lambda: messagebox.showinfo("Éxito", f"Se cargaron {len(archivos)} registros contables."))
+            except Exception as e:
+                print(f"Error cargando registros: {e}")
+                self.after(0, lambda: messagebox.showerror("Error", f"Error al cargar registros: {e}"))
+            finally:
+                self.is_loading_registros = False
+                self.after(0, lambda: self.load_registros_btn.config(text=original_text, state="normal"))
+
+        threading.Thread(target=process, daemon=True).start()
+
+    def confirmar_eliminar_extractos(self):
+        """Muestra diálogo de confirmación y elimina extractos seleccionados."""
+        seleccionados = self.extractos_treeview.selection()
+        if not seleccionados:
+            messagebox.showinfo("Información", "No hay extractos seleccionados para eliminar.")
+            return
+
+        confirmar = messagebox.askyesno(
+            "Confirmar Eliminación",
+            f"¿Está seguro de que desea eliminar {len(seleccionados)} extracto(s) seleccionado(s)?",
+            icon='warning'
         )
-        
-        if archivos:
-            # Guardar lista de archivos seleccionados
-            self.registros_contables.extend(archivos)
-            
-            # Mostrar archivos en la lista sin copiarlos
-            for archivo in archivos:
-                nombre_archivo = os.path.basename(archivo)
-                self.extractos_listbox.insert(tk.END, nombre_archivo)
-                print(f"Archivo referenciado: {archivo}")
-            
-            # NO copiar archivos físicamente al directorio de entrada
 
-    def cargar_registros(self):
-        # Solicitar al usuario seleccionar archivos
-        archivos = filedialog.askopenfilenames(
-            title="Seleccionar Extractos Bancarios",
-            filetypes=(("Archivos Excel", "*.xlsx"), ("Todos los archivos", "*.*"))
+        if confirmar:
+            items_a_eliminar = list(seleccionados) # Copiar selección
+            indices_a_eliminar = sorted([self.extractos_treeview.index(item) for item in items_a_eliminar], reverse=True)
+            
+            for index in indices_a_eliminar:
+                if index < len(self.extractos_bancarios):
+                     del self.extractos_bancarios[index]
+            
+            for item_id in items_a_eliminar:
+                 self.extractos_treeview.delete(item_id)
+
+            messagebox.showinfo("Éxito", f"Se eliminaron {len(seleccionados)} extracto(s).")
+
+    def confirmar_eliminar_registros(self):
+        """Muestra diálogo de confirmación y elimina registros seleccionados."""
+        seleccionados = self.registros_treeview.selection()
+        if not seleccionados:
+            messagebox.showinfo("Información", "No hay registros seleccionados para eliminar.")
+            return
+
+        confirmar = messagebox.askyesno(
+            "Confirmar Eliminación",
+            f"¿Está seguro de que desea eliminar {len(seleccionados)} registro(s) seleccionado(s)?",
+            icon='warning'
         )
-        
-        if archivos:
-            # Guardar lista de archivos seleccionados
-            self.extractos_bancarios.extend(archivos)
-            
-            # Mostrar archivos en la lista sin copiarlos
-            for archivo in archivos:
-                nombre_archivo = os.path.basename(archivo)
-                self.registros_listbox.insert(tk.END, nombre_archivo)
-                print(f"Archivo referenciado: {archivo}")
-            
-            # NO copiar archivos físicamente al directorio de entrada
 
-    def eliminar_extractos(self):
-        seleccionados = self.extractos_listbox.curselection()
-        if seleccionados:
-            # Eliminar desde el final para no afectar los índices
-            for i in sorted(seleccionados, reverse=True):
-                archivo = self.extractos_listbox.get(i)
-                self.extractos_listbox.delete(i)
-                
-                # Eliminar de la lista interna
-                if i < len(self.extractos_bancarios):
-                    self.extractos_bancarios.pop(i)
+        if confirmar:
+            items_a_eliminar = list(seleccionados) # Copiar selección
+            indices_a_eliminar = sorted([self.registros_treeview.index(item) for item in items_a_eliminar], reverse=True)
 
-    def eliminar_registros(self):
-        seleccionados = self.registros_listbox.curselection()
-        if seleccionados:
-            # Eliminar desde el final para no afectar los índices
-            for i in sorted(seleccionados, reverse=True):
-                archivo = self.registros_listbox.get(i)
-                self.registros_listbox.delete(i)
-                
-                # Eliminar de la lista interna
-                if i < len(self.registros_contables):
-                    self.registros_contables.pop(i)
+            for index in indices_a_eliminar:
+                 if index < len(self.registros_contables):
+                     del self.registros_contables[index]
+            
+            for item_id in items_a_eliminar:
+                self.registros_treeview.delete(item_id)
+
+            messagebox.showinfo("Éxito", f"Se eliminaron {len(seleccionados)} registro(s).")
+
+    def get_file_size(self, file_path):
+        """Devuelve el tamaño del archivo en formato legible (KB, MB)."""
+        try:
+            size_bytes = os.path.getsize(file_path)
+            if size_bytes < 1024:
+                return f"{size_bytes} B"
+            elif size_bytes < 1024**2:
+                return f"{size_bytes / 1024:.1f} KB"
+            else:
+                return f"{size_bytes / (1024**2):.1f} MB"
+        except FileNotFoundError:
+            return "N/A"
+        except Exception as e:
+            print(f"Error obteniendo tamaño de {file_path}: {e}")
+            return "Error"
 
     def iniciar_conciliacion(self):
         # Verificar que se hayan cargado archivos
-        if not self.extractos_listbox.size() or not self.registros_listbox.size():
+        if not self.extractos_treeview.size() or not self.registros_treeview.size():
             messagebox.showwarning(
                 "Archivos Faltantes",
                 "Debe cargar al menos un extracto bancario y un registro contable"
