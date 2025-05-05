@@ -258,7 +258,6 @@ class Reconciliation:
     def extract_bank_excel_to_json(self, excel_paths=None):
         """Extrae los archivos Excel de extractos bancarios y los convierte a JSON con formato comparable"""
         try:
-            # Usar las rutas proporcionadas o buscar en el directorio predeterminado
             excel_files = []
             if excel_paths:
                 excel_files = [Path(path) for path in excel_paths]
