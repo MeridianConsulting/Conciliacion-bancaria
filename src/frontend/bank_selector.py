@@ -2,15 +2,16 @@ import tkinter as tk
 from tkinter import ttk
 import os
 from pathlib import Path
+from PIL import Image, ImageTk
 
 class BankSelector(tk.Tk):
     def __init__(self):
         super().__init__()
         
-        # Configuración básica de la ventana
+        # Configuración básica de la ventana - Aumentar resolución
         self.title("Meridian Consulting LTDA - Conciliación Bancaria")
-        self.geometry("900x700")  # Ampliamos la ventana para mejor distribución
-        self.minsize(900, 700)    # Tamaño mínimo también ajustado
+        self.geometry("1200x800")  # Resolución aumentada
+        self.minsize(1200, 800)    # Tamaño mínimo también ajustado
         
         # Establecer el ícono si está disponible
         try:
@@ -38,21 +39,21 @@ class BankSelector(tk.Tk):
             'card_shadow': '0 2px 8px rgba(0, 0, 0, 0.1)' # Sombra para tarjetas
         }
         
-        # Colores para logos de bancos (con degradados suaves)
-        self.bank_gradients = {
-            'Itaú': ('linear-gradient(135deg, #EC7000, #FF8E29)', self.colors['white']),
-            'BBVA': ('linear-gradient(135deg, #072146, #1A3C6E)', self.colors['white']),
-            'Bancolombia': ('linear-gradient(135deg, #FFDD00, #EECC00)', self.colors['dark_text']),
-            'Banco de Bogotá': ('linear-gradient(135deg, #144684, #1E5AA9)', self.colors['white']),
-            'Banco de Occidente': ('linear-gradient(135deg, #E30613, #F02E3A)', self.colors['white']),
-            'AV Villas': ('linear-gradient(135deg, #E31937, #F23D55)', self.colors['white']),
-            'Credicorp': ('linear-gradient(135deg, #003865, #0A4D80)', self.colors['white']),
-            'Corficolombiana': ('linear-gradient(135deg, #006341, #007A51)', self.colors['white']),
-            'Fiduciaria': ('linear-gradient(135deg, #1D4289, #2857AC)', self.colors['white'])
+        # Mapeo de nombres de bancos a archivos de logo
+        self.bank_logos = {
+            'Itaú': 'itau.png',
+            'BBVA': 'BBVA.png',
+            'Bancolombia': 'Bancolombia.png',
+            'Banco de Bogotá': 'BancoBogota.png',
+            'Banco de Occidente': 'Occidente.png',
+            'AV Villas': 'AvVillas.png',
+            'Credicorp': 'Credicorp.png',
+            'Corficolombiana': 'Corfi.jpeg',
+            'Fiduciaria': 'Fidu.jpg'
         }
         
         # Lista de bancos disponibles
-        self.available_banks = list(self.bank_gradients.keys())
+        self.available_banks = list(self.bank_logos.keys())
         
         # Variable para almacenar el banco seleccionado
         self.selected_bank = tk.StringVar()
@@ -63,13 +64,16 @@ class BankSelector(tk.Tk):
         
         # Cargar fuentes modernas (fallback a fuentes del sistema si no están disponibles)
         self.fonts = {
-            'title': ('Segoe UI', 16, 'bold'),
-            'subtitle': ('Segoe UI', 14, 'normal'),
-            'body': ('Segoe UI', 12, 'normal'),
-            'button': ('Segoe UI', 12, 'normal'),
+            'title': ('Segoe UI', 22, 'bold'),    # Ligeramente reducido
+            'subtitle': ('Segoe UI', 16, 'normal'),
+            'body': ('Segoe UI', 12, 'normal'),   # Reducido
+            'button': ('Segoe UI', 12, 'normal'), # Reducido
             'caption': ('Segoe UI', 10, 'normal'),
-            'bank_name': ('Segoe UI', 13, 'bold')
+            'bank_name': ('Segoe UI', 14, 'bold') # Reducido
         }
+        
+        # Diccionario para almacenar las imágenes (evitar que se eliminen por el recolector de basura)
+        self.images = {}
         
         # Centrar la ventana
         self.center_window()
@@ -92,11 +96,11 @@ class BankSelector(tk.Tk):
         screen_height = self.winfo_screenheight()
         
         # Calcular posición
-        x = (screen_width - 900) // 2
-        y = (screen_height - 700) // 2
+        x = (screen_width - 1200) // 2
+        y = (screen_height - 800) // 2
         
         # Posicionar ventana
-        self.geometry(f"900x700+{x}+{y}")
+        self.geometry(f"1200x800+{x}+{y}")
     
     def create_rounded_frame(self, parent, bg_color='#FFFFFF', corner_radius=10, **kwargs):
         """Crea un frame con esquinas redondeadas usando un canvas"""
@@ -140,83 +144,89 @@ class BankSelector(tk.Tk):
     
     def create_content(self):
         # =========== CONTAINER PRINCIPAL ===========
+        # Usar un contenedor vertical para organizar los elementos
         main_container = tk.Frame(self, bg=self.colors['light_bg'])
-        main_container.pack(fill="both", expand=True, padx=25, pady=25)
+        main_container.pack(fill="both", expand=True)
         
         # =========== ENCABEZADO ===========
-        header = tk.Frame(main_container, bg=self.colors['primary'], height=80)
-        header.pack(fill="x", side="top", pady=(0, 30))
+        header = tk.Frame(main_container, bg=self.colors['primary'])
+        header.pack(fill="x", side="top")
         
         # Logos e iconos
         meridian_label = tk.Label(
             header,
             text="MERIDIAN CONSULTING",
-            font=('Segoe UI', 20, 'bold'),
+            font=('Segoe UI', 18, 'bold'),  # Reducido
             fg=self.colors['white'],
             bg=self.colors['primary']
         )
-        meridian_label.pack(side="left", padx=30, pady=20)
+        meridian_label.pack(side="left", padx=30, pady=12)  # Reducido
         
         # Título centrado
         title_label = tk.Label(
             header,
             text="Sistema de Conciliación Bancaria",
-            font=('Segoe UI', 16),
+            font=('Segoe UI', 14),  # Reducido
             fg=self.colors['white'],
             bg=self.colors['primary']
         )
         title_label.place(relx=0.5, rely=0.5, anchor="center")
         
         # =========== CONTENIDO PRINCIPAL ===========
-        content = tk.Frame(main_container, bg=self.colors['light_bg'])
-        content.pack(fill="both", expand=True, padx=20, pady=10)
+        # Contenedor para organizar el contenido con altura máxima
+        content_container = tk.Frame(main_container, bg=self.colors['light_bg'])
+        content_container.pack(fill="both", expand=True, padx=20, pady=(15, 0))
         
         # Título de la sección con tipografía mejorada
         section_title = tk.Label(
-            content,
+            content_container,
             text="Seleccione su banco",
             font=self.fonts['title'],
             fg=self.colors['dark_text'],
             bg=self.colors['light_bg']
         )
-        section_title.pack(anchor="center", pady=(0, 15))
+        section_title.pack(pady=(0, 5))  # Reducido
         
         # Descripción simplificada
         description = tk.Label(
-            content,
+            content_container,
             text="Haga clic en la tarjeta del banco con el que desea realizar la conciliación",
             font=self.fonts['body'],
             fg=self.colors['secondary_text'],
             bg=self.colors['light_bg']
         )
-        description.pack(anchor="center", pady=(0, 25))
+        description.pack(pady=(0, 10))
         
         # =========== GRID DE BANCOS ===========
         # Frame contenedor para la cuadrícula de bancos
-        banks_container = tk.Frame(content, bg=self.colors['light_bg'])
-        banks_container.pack(fill="both", expand=True, padx=10, pady=10)
+        banks_container = tk.Frame(content_container, bg=self.colors['light_bg'])
+        banks_container.pack(fill="both", expand=True, padx=10, pady=5)  # Reducido
         
         # Configurar grid
-        for i in range(3):
+        num_columns = 3
+        for i in range(num_columns):
             banks_container.columnconfigure(i, weight=1)
-        for i in range(3):
+        for i in range(3):  # 3 filas
             banks_container.rowconfigure(i, weight=1)
+        
+        # Cargar todas las imágenes primero
+        self.load_bank_images()
         
         # Crear tarjetas para cada banco
         self.bank_buttons = {}
         
         for i, bank_name in enumerate(self.available_banks):
-            row = i // 3
-            col = i % 3
+            row = i // num_columns
+            col = i % num_columns
             
             # Crear marco exterior para tarjeta con padding
             card_outer = tk.Frame(
                 banks_container,
                 bg=self.colors['light_bg'],
-                padx=10,
-                pady=10
+                padx=5,  # Reducido
+                pady=5   # Reducido
             )
-            card_outer.grid(row=row, column=col, sticky="nsew")
+            card_outer.grid(row=row, column=col, sticky="nsew", padx=5, pady=5)
             
             # Crear tarjeta con efecto de sombra y bordes redondeados
             card = tk.Frame(
@@ -228,162 +238,289 @@ class BankSelector(tk.Tk):
             )
             card.pack(fill="both", expand=True)
             
-            # Aplicar estilo de tarjeta
-            bank_gradient, text_color = self.bank_gradients[bank_name]
+            # Referencia al logo del banco
+            logo_key = self.bank_logos[bank_name]
             
-            # Como no podemos usar CSS gradients, usamos colores sólidos
-            bg_color = bank_gradient.split(', ')[1].replace(')', '')
+            # Crear contenedor cuadrado para el logo (tamaño fijo exactamente cuadrado)
+            logo_size = 100  # REDUCIDO: Tamaño fijo en píxeles
+            logo_container = tk.Frame(card, bg=self.colors['white'], width=logo_size, height=logo_size)
+            logo_container.pack(pady=(10, 5))
+            logo_container.pack_propagate(False)  # Mantener tamaño fijo
             
-            # Botón del banco con estilo mejorado
-            btn = tk.Button(
-                card,
-                text=bank_name,
-                font=self.fonts['bank_name'],
-                fg=text_color,
-                bg=bg_color,
-                relief="flat",
-                bd=0,
-                padx=15,
-                pady=20,
-                cursor="hand2",  # Cursor de mano al pasar por encima
-                command=lambda b=bank_name: self.select_bank(b)
-            )
-            btn.pack(fill="both", expand=True)
+            # Si tenemos la imagen cargada, mostrarla
+            if logo_key in self.images and self.images[logo_key]:
+                # Imagen del logo
+                logo_label = tk.Label(
+                    logo_container,
+                    image=self.images[logo_key],
+                    bg=self.colors['white'],
+                    bd=0
+                )
+                logo_label.place(relx=0.5, rely=0.5, anchor="center")  # Centrar logo
+                
+                # Nombre del banco debajo del contenedor de logo
+                name_label = tk.Label(
+                    card,
+                    text=bank_name,
+                    font=self.fonts['bank_name'],
+                    fg=self.colors['dark_text'],
+                    bg=self.colors['white']
+                )
+                name_label.pack(pady=(0, 10))
+            else:
+                # Fallback si no se puede cargar la imagen
+                name_label = tk.Label(
+                    logo_container,
+                    text=bank_name,
+                    font=self.fonts['bank_name'],
+                    fg=self.colors['dark_text'],
+                    bg=self.colors['white']
+                )
+                name_label.place(relx=0.5, rely=0.5, anchor="center")
             
-            # Agregar eventos para efectos hover
-            btn.bind("<Enter>", lambda e, btn=btn, card=card: self.on_hover_enter(btn, card))
-            btn.bind("<Leave>", lambda e, btn=btn, card=card: self.on_hover_leave(btn, card))
+            # Hacer que toda la tarjeta sea clickeable
+            card.bind("<Button-1>", lambda e, b=bank_name: self.select_bank(b))
+            logo_container.bind("<Button-1>", lambda e, b=bank_name: self.select_bank(b)) 
+            logo_label.bind("<Button-1>", lambda e, b=bank_name: self.select_bank(b)) if 'logo_label' in locals() else None
+            name_label.bind("<Button-1>", lambda e, b=bank_name: self.select_bank(b))
+            
+            # Cambiar cursor al pasar sobre elementos clickeables
+            for widget in [card, logo_container, logo_label if 'logo_label' in locals() else None, name_label]:
+                if widget:
+                    widget.bind("<Enter>", lambda e, c=card: self.on_hover_enter(c))
+                    widget.bind("<Leave>", lambda e, c=card: self.on_hover_leave(c))
+                    widget.config(cursor="hand2")
             
             # Agregar a diccionario de botones
             self.bank_buttons[bank_name] = {
-                'button': btn,
                 'card': card,
-                'outer': card_outer
+                'outer': card_outer,
+                'logo_container': logo_container
             }
         
-        # =========== BOTONES DE ACCIÓN ===========
-        # Frame para botones de navegación
-        actions_frame = tk.Frame(main_container, bg=self.colors['light_bg'], height=70)
-        actions_frame.pack(fill="x", side="bottom", pady=(25, 0))
+        # =========== FOOTER CON BOTONES DE NAVEGACIÓN (FIJO) ===========
+        # Footer siempre visible en la parte inferior
+        footer_height = 120  # Altura ligeramente aumentada para el footer
+        footer_frame = tk.Frame(main_container, bg=self.colors['light_bg'], height=footer_height)
+        footer_frame.pack(side="bottom", fill="x", pady=(10, 10))
+        footer_frame.pack_propagate(False)  # Impedir que el footer cambie su tamaño
         
-        # Contenedor para alinear botones a la derecha
-        buttons_container = tk.Frame(actions_frame, bg=self.colors['light_bg'])
-        buttons_container.pack(side="right", padx=20)
+        # Línea separadora destacada
+        separator = tk.Frame(footer_frame, height=3, bg=self.colors['secondary'])
+        separator.pack(fill="x", pady=(0, 15))
         
-        # Botón Salir
+        # Contenedor para los botones de acción
+        buttons_frame = tk.Frame(footer_frame, bg=self.colors['light_bg'], height=60)
+        buttons_frame.pack(fill="x", padx=30, pady=(0, 10))
+        
+        # Botón Salir (a la izquierda) con estilo mejorado
         self.exit_btn = tk.Button(
-            buttons_container,
+            buttons_frame,
             text="Salir",
             font=self.fonts['button'],
             fg=self.colors['white'],
             bg=self.colors['danger'],
-            relief="flat",
-            padx=25,
-            pady=10,
+            relief="raised",
+            bd=2,
+            padx=20,  # Reducido
+            pady=10,  # Reducido
             cursor="hand2",
             command=self.on_closing
         )
-        self.exit_btn.pack(side="left", padx=(0, 15))
+        self.exit_btn.pack(side="left")
         
-        # Dar efecto hover al botón salir
+        # Añadir efectos hover al botón salir
         self.exit_btn.bind("<Enter>", lambda e: self.exit_btn.config(bg="#c82333"))
         self.exit_btn.bind("<Leave>", lambda e: self.exit_btn.config(bg=self.colors['danger']))
         
-        # Botón Continuar
+        # Botón Continuar (a la derecha) con estilo mejorado
         self.continue_btn = tk.Button(
-            buttons_container,
+            buttons_frame,
             text="Continuar",
             font=self.fonts['button'],
             fg=self.colors['white'],
-            bg=self.colors['success'],
-            relief="flat",
-            padx=25,
-            pady=10,
+            bg=self.colors['success'] if self.selected_bank.get() else '#A0A0A0',  # Gris si deshabilitado
+            relief="raised",
+            bd=2,
+            padx=20,  # Reducido
+            pady=10,  # Reducido
             state='disabled',
-            cursor="hand2",
+            cursor="hand2" if self.selected_bank.get() else "arrow",
             command=self.on_continue
         )
-        self.continue_btn.pack(side="left")
+        self.continue_btn.pack(side="right")
         
-        # Dar efecto hover al botón continuar
-        self.continue_btn.bind("<Enter>", lambda e: self.continue_btn.config(bg="#218838") if self.continue_btn['state'] == 'normal' else None)
-        self.continue_btn.bind("<Leave>", lambda e: self.continue_btn.config(bg=self.colors['success']) if self.continue_btn['state'] == 'normal' else None)
+        # Añadir efectos hover al botón continuar (solo si está habilitado)
+        def on_continue_enter(e):
+            if self.continue_btn['state'] == 'normal':
+                self.continue_btn.config(bg="#218838")
         
-        # =========== PIE DE PÁGINA SIMPLIFICADO ===========
-        footer = tk.Frame(main_container, bg=self.colors['light_bg'], height=30)
-        footer.pack(fill="x", side="bottom", pady=(15, 0))
+        def on_continue_leave(e):
+            if self.continue_btn['state'] == 'normal':
+                self.continue_btn.config(bg=self.colors['success'])
+        
+        self.continue_btn.bind("<Enter>", on_continue_enter)
+        self.continue_btn.bind("<Leave>", on_continue_leave)
         
         # Copyright simplificado y centrado
         copyright_label = tk.Label(
-            footer,
+            footer_frame,
             text="© 2024 Meridian Consulting LTDA.",
             font=self.fonts['caption'],
             fg=self.colors['secondary_text'],
             bg=self.colors['light_bg']
         )
-        copyright_label.pack(pady=5)
+        copyright_label.pack(side="bottom", pady=(0, 5))
     
-    def on_hover_enter(self, button, card):
-        """Efecto al pasar el cursor sobre un botón de banco"""
-        # Guardar referencia al botón con hover actual
-        self.hover_button = button
+    def load_bank_images(self):
+        """Carga las imágenes de logos de bancos y las redimensiona apropiadamente"""
+        # Directorio de assets
+        assets_dir = os.path.abspath(os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), 'assets'))
         
-        # Aplicar efecto si no está seleccionado
-        selected_btn = self.selected_bank.get()
-        if button['text'] != selected_btn:
-            # Efecto de elevación con borde
+        # Intentar cargar cada imagen
+        for bank_name, logo_file in self.bank_logos.items():
+            try:
+                # Ruta completa al archivo
+                image_path = os.path.join(assets_dir, logo_file)
+                
+                if os.path.exists(image_path):
+                    try:
+                        # Intentar cargar con PIL para redimensionar
+                        from PIL import Image, ImageTk
+                        
+                        # Abrir y redimensionar la imagen
+                        img = Image.open(image_path)
+                        
+                        # Tamaño fijo para logos
+                        max_size = 80  # REDUCIDO: Tamaño para logos cuadrados
+                        
+                        # Calcular dimensiones manteniendo proporción
+                        width, height = img.size
+                        if width > height:
+                            new_width = max_size
+                            new_height = int(height * (max_size / width))
+                        else:
+                            new_height = max_size
+                            new_width = int(width * (max_size / height))
+                        
+                        # Redimensionar
+                        img = img.resize((new_width, new_height), Image.Resampling.LANCZOS)
+                        
+                        # Convertir a formato que tkinter pueda usar
+                        photo = ImageTk.PhotoImage(img)
+                        
+                        # Guardar referencia
+                        self.images[logo_file] = photo
+                        
+                    except ImportError:
+                        # Fallback a tkinter nativo si PIL no está disponible
+                        print("PIL no disponible, usando tkinter PhotoImage directamente")
+                        photo = tk.PhotoImage(file=image_path)
+                        self.images[logo_file] = photo
+                else:
+                    print(f"Archivo de logo no encontrado: {image_path}")
+                    self.images[logo_file] = None
+            except Exception as e:
+                print(f"Error cargando logo {logo_file}: {e}")
+                self.images[logo_file] = None
+    
+    def on_hover_enter(self, card):
+        """Efecto al pasar el cursor sobre una tarjeta de banco"""
+        try:
+            # Encontrar a qué banco pertenece esta tarjeta
+            bank_name = None
+            for name, widgets in self.bank_buttons.items():
+                if widgets['card'] == card:
+                    bank_name = name
+                    break
+            
+            if bank_name is None or bank_name == self.selected_bank.get():
+                return  # No hacer nada si ya está seleccionado
+            
+            # Aplicar efecto de hover
             card.config(
                 highlightbackground=self.colors['secondary'],
                 highlightthickness=2
             )
-            # Pequeño efecto de escalado (simulado con padding)
-            button.config(padx=13, pady=18)
+        except Exception as e:
+            print(f"Error en hover enter: {e}")
     
-    def on_hover_leave(self, button, card):
-        """Efecto al quitar el cursor de un botón de banco"""
-        # Quitar referencia al botón con hover
-        self.hover_button = None
-        
-        # Restaurar estilo normal si no está seleccionado
-        selected_btn = self.selected_bank.get()
-        if button['text'] != selected_btn:
+    def on_hover_leave(self, card):
+        """Efecto al quitar el cursor de una tarjeta de banco"""
+        try:
+            # Encontrar a qué banco pertenece esta tarjeta
+            bank_name = None
+            for name, widgets in self.bank_buttons.items():
+                if widgets['card'] == card:
+                    bank_name = name
+                    break
+            
+            if bank_name is None or bank_name == self.selected_bank.get():
+                return  # No hacer nada si ya está seleccionado
+            
+            # Restaurar estado normal
             card.config(
                 highlightbackground=self.colors['medium_gray'],
                 highlightthickness=1
             )
-            button.config(padx=15, pady=20)
+        except Exception as e:
+            print(f"Error en hover leave: {e}")
     
     def select_bank(self, bank_name):
         """Maneja la selección de un banco"""
-        # Actualizar variable
-        self.selected_bank.set(bank_name)
-        
-        # Resetear todos los botones
-        for name, widgets in self.bank_buttons.items():
-            button = widgets['button']
-            card = widgets['card']
+        try:
+            # Actualizar variable
+            self.selected_bank.set(bank_name)
             
-            if name == bank_name:
-                # Seleccionado: destacar con borde y efecto visual
-                card.config(
-                    highlightbackground=self.colors['secondary'],
-                    highlightthickness=3
-                )
-                # Efecto de presionado
-                button.config(padx=13, pady=18)
-            else:
-                # No seleccionado: restaurar estilo normal
-                card.config(
-                    highlightbackground=self.colors['medium_gray'],
-                    highlightthickness=1
-                )
-                button.config(padx=15, pady=20)
-        
-        # Habilitar botón continuar
-        self.continue_btn.config(state='normal')
-        
-        # Mostrar banco seleccionado
-        print(f"Banco seleccionado: {bank_name}")
+            # Resetear todos los botones
+            for name, widgets in self.bank_buttons.items():
+                card = widgets['card']
+                
+                if name == bank_name:
+                    # Seleccionado: destacar con borde y efecto visual
+                    card.config(
+                        highlightbackground=self.colors['secondary'],
+                        highlightthickness=3
+                    )
+                    # Añadir efecto de tarjeta seleccionada
+                    card.config(relief="sunken")
+                else:
+                    # No seleccionado: restaurar estilo normal
+                    card.config(
+                        highlightbackground=self.colors['medium_gray'],
+                        highlightthickness=1
+                    )
+                    # Restaurar relieve normal
+                    card.config(relief="flat")
+            
+            # Habilitar botón continuar con estilo destacado
+            self.continue_btn.config(
+                state='normal',
+                bg=self.colors['success'],
+                cursor="hand2"
+            )
+            
+            # Añadir un destello visual para indicar que se puede continuar
+            # Guardar color original
+            original_bg = self.continue_btn.cget("bg")
+            # Hacer parpadear el botón brevemente
+            def flash_button():
+                # Cambiar a color de destello
+                self.continue_btn.config(bg="#2fd151")  # Color más brillante
+                # Programar retorno al color original
+                self.after(200, lambda: self.continue_btn.config(bg=original_bg))
+                # Programar segundo destello
+                self.after(400, lambda: self.continue_btn.config(bg="#2fd151"))
+                # Restaurar color final
+                self.after(600, lambda: self.continue_btn.config(bg=original_bg))
+            
+            # Ejecutar destello
+            self.after(100, flash_button)
+            
+            # Mostrar mensaje de confirmación
+            print(f"Banco seleccionado: {bank_name}")
+        except Exception as e:
+            print(f"Error seleccionando banco: {e}")
     
     def on_continue(self):
         # Marcar que se ha seleccionado un banco
