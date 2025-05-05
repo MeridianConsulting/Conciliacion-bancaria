@@ -448,7 +448,7 @@ class ConciliacionBancaria(tk.Tk):
         title.grid(row=0, column=0)
         
         # Frame para registros contables (ahora es Paso 1)
-        extractos_frame = self.create_card_frame("⚡ Paso 1: Cargar Registros Contables", 1)
+        extractos_frame = self.create_card_frame("⚡ Paso 1: Cargar Extractos Bancarios ", 1)
         extractos_frame.grid_columnconfigure(0, weight=1)  # Centrar contenido
         
         # Contenedor para la lista de extractos
@@ -476,7 +476,7 @@ class ConciliacionBancaria(tk.Tk):
         # Botón cargar extractos
         load_extractos_btn = ttk.Button(
             extractos_buttons_frame,
-            text="🏠 Cargar Registros Contables",
+            text="🏠 Cargar Extractos Bancarios",
             command=self.cargar_extractos,
             style='Primary.TButton'
         )
@@ -492,7 +492,7 @@ class ConciliacionBancaria(tk.Tk):
         delete_extractos_btn.pack(side='left', padx=5)
         
         # Frame para extractos bancarios (ahora es Paso 2)
-        registros_frame = self.create_card_frame("🎲 Paso 2: Cargar Extractos Bancarios", 2)
+        registros_frame = self.create_card_frame("🎲 Paso 2: Cargar Registros Contables", 2)
         registros_frame.grid_columnconfigure(0, weight=1)  # Centrar contenido
         
         # Contenedor para la lista de registros
@@ -520,7 +520,7 @@ class ConciliacionBancaria(tk.Tk):
         # Botón cargar registros
         load_registros_btn = ttk.Button(
             registros_buttons_frame,
-            text="🎲 Cargar Extractos Bancarios",
+            text="🎲 Cargar Registros Contables",
             command=self.cargar_registros,
             style='Primary.TButton'
         )
