@@ -661,7 +661,9 @@ class ReconciliationReport:
             
             # Hoja 3: Solo en Contabilidad
             if comparison_result['no_conciliadas_contabilidad']:
-                df_conta = pd.DataFrame(comparison_result['no_conciliadas_contabilidad'])
+                # Ordenar los datos por valor antes de crear el DataFrame
+                sorted_contabilidad = sorted(comparison_result['no_conciliadas_contabilidad'], key=lambda x: x.get('valor', 0))
+                df_conta = pd.DataFrame(sorted_contabilidad)
                 df_conta.to_excel(writer, sheet_name='Solo Contabilidad', index=False, startrow=2)
                 
                 # Configurar hoja
@@ -685,10 +687,12 @@ class ReconciliationReport:
                 
                 # Congelar paneles
                 worksheet.freeze_panes(3, 0)
-                
+            
             # Hoja 4: Solo en Banco
             if comparison_result['no_conciliadas_banco']:
-                df_banco = pd.DataFrame(comparison_result['no_conciliadas_banco'])
+                # Ordenar los datos por valor antes de crear el DataFrame
+                sorted_banco = sorted(comparison_result['no_conciliadas_banco'], key=lambda x: x.get('valor', 0))
+                df_banco = pd.DataFrame(sorted_banco)
                 df_banco.to_excel(writer, sheet_name='Solo Banco', index=False, startrow=2)
                 
                 # Configurar hoja
