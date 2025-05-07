@@ -83,8 +83,13 @@ class ReconciliationReport:
             # Extraer transacciones contables
             for doc in accounting_data:
                 for movement in doc.get('movimientos', []):
-                    # VALIDACIÓN IMPORTANTE: Filtrar "Impuesto trans. Fina Cta Cte"
-                    if "Impuesto trans. Fina Cta Cte" in str(movement.get('DESCRIPCION', '')):
+                    # VALIDACIÓN MEJORADA: Filtrar impuestos específicos
+                    description = str(movement.get('DESCRIPCION', '')).lower()
+                    if any(tax_term in description for tax_term in [
+                        'impuesto trans', 'impuesto al valor agregado', 'iva', 
+                        'retencion en la fuente', 'retención en la fuente',
+                        'impuesto de renta'
+                    ]):
                         continue  # Saltar esta transacción
                         
                     # Verificar que tenga los campos requeridos
@@ -103,8 +108,13 @@ class ReconciliationReport:
             # Extraer transacciones bancarias
             for doc in bank_data:
                 for movement in doc.get('movimientos', []):
-                    # VALIDACIÓN IMPORTANTE: Filtrar "Impuesto trans. Fina Cta Cte"
-                    if "Impuesto trans. Fina Cta Cte" in str(movement.get('DESCRIPCION', '')):
+                    # VALIDACIÓN MEJORADA: Filtrar impuestos específicos
+                    description = str(movement.get('DESCRIPCION', '')).lower()
+                    if any(tax_term in description for tax_term in [
+                        'impuesto trans', 'impuesto al valor agregado', 'iva', 
+                        'retencion en la fuente', 'retención en la fuente',
+                        'impuesto de renta','impuesto' 
+                    ]):
                         continue  # Saltar esta transacción
                         
                     # Verificar que tenga los campos requeridos
@@ -128,7 +138,7 @@ class ReconciliationReport:
                             'comprobante': movement.get('COMPROBANTE', '')  # Añadir campo comprobante
                         })
             
-            print(f"Transacciones extraídas (sin 'Impuesto trans. Fina Cta Cte'): {len(accounting_transactions)} contables, {len(bank_transactions)} bancarias")
+            print(f"Transacciones extraídas (excluyendo impuestos específicos): {len(accounting_transactions)} contables, {len(bank_transactions)} bancarias")
             
             # Crear DataFrames para facilitar la comparación
             df_accounting = pd.DataFrame(accounting_transactions)
@@ -205,6 +215,8 @@ class ReconciliationReport:
                         'fecha': row_bank['fecha'],
                         'descripcion': row_bank['descripcion'],
                         'valor': row_bank['valor'],
+                        'debito': row_bank['debito'],
+                        'credito': row_bank['credito'],
                         'comprobante': row_bank.get('comprobante', ''),
                         'oficina': row_bank.get('oficina', ''),
                         'estado': 'No Conciliado - Solo en Banco'
@@ -673,7 +685,7 @@ class ReconciliationReport:
                 # Agregar columnas Débito y Crédito
                 df_conta['Débito'] = df_conta['valor'].where(df_conta['valor'] < 0, 0).abs()
                 df_conta['Crédito'] = df_conta['valor'].where(df_conta['valor'] > 0, 0)
-                # Reordenar columnas
+                # Reordenar columnas - Mantener la columna de descripción como solicitado
                 cols_conta = ['fecha', 'descripcion', 'Débito', 'Crédito', 'comprobante', 'estado']
                 df_conta = df_conta.reindex(columns=cols_conta)
                 df_conta.to_excel(writer, sheet_name='Solo Contabilidad', index=False, startrow=2)
@@ -683,7 +695,7 @@ class ReconciliationReport:
                 worksheet.set_row(0, 30)
                 
                 # Añadir título
-                worksheet.merge_range('A1:E1', 'TRANSACCIONES SOLO EN CONTABILIDAD', title_format)
+                worksheet.merge_range('A1:F1', 'TRANSACCIONES SOLO EN CONTABILIDAD', title_format)
                 worksheet.write(1, 0, f"Generado el: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
                 
                 # Aplicar formatos de encabezado
@@ -706,9 +718,13 @@ class ReconciliationReport:
                 sorted_banco = sorted(comparison_result['no_conciliadas_banco'], key=lambda x: x.get('valor', 0))
                 # Crear DataFrame con columnas explícitas
                 df_banco = pd.DataFrame(sorted_banco)
-                # Agregar columnas Débito y Crédito
-                df_banco['Débito'] = df_banco['valor'].where(df_banco['valor'] < 0, 0).abs()
-                df_banco['Crédito'] = df_banco['valor'].where(df_banco['valor'] > 0, 0)
+                
+                # Agregar columnas Débito y Crédito pero INVERTIDAS como solicitado:
+                # Los créditos en el banco son entradas (lado izquierdo) - equivalentes a débitos en contabilidad
+                # Los débitos en el banco son salidas (lado derecho) - equivalentes a créditos en contabilidad
+                df_banco['Crédito'] = df_banco['debito']  # Débitos del banco van como créditos (lado derecho)
+                df_banco['Débito'] = df_banco['credito']  # Créditos del banco van como débitos (lado izquierdo)
+                
                 # Reordenar columnas
                 cols_banco = ['fecha', 'descripcion', 'Débito', 'Crédito', 'comprobante', 'oficina', 'estado']
                 df_banco = df_banco.reindex(columns=cols_banco)
@@ -719,7 +735,7 @@ class ReconciliationReport:
                 worksheet.set_row(0, 30)
                 
                 # Añadir título (actualizado para incluir todas las columnas)
-                worksheet.merge_range('A1:F1', 'TRANSACCIONES SOLO EN BANCO', title_format)
+                worksheet.merge_range('A1:G1', 'TRANSACCIONES SOLO EN BANCO', title_format)
                 worksheet.write(1, 0, f"Generado el: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
                 
                 # Aplicar formatos de encabezado
