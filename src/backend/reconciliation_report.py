@@ -89,7 +89,7 @@ class ReconciliationReport:
                         'impuesto trans', 'impuesto al valor agregado', 'iva', 
                         'retencion en la fuente', 'retención en la fuente',
                         'impuesto de renta', 'impuesto', 'pago de intereses capitalizados',
-                        'retención en la fuente ahorros'
+                        'retención en la fuente ahorros', 'nd intereses', 'com. transferencia ach'
                     ]):
                         continue  # Saltar esta transacción
                         
@@ -115,7 +115,7 @@ class ReconciliationReport:
                         'impuesto trans', 'impuesto al valor agregado', 'iva', 
                         'retencion en la fuente', 'retención en la fuente',
                         'impuesto de renta', 'impuesto', 'pago de intereses capitalizados',
-                        'retención en la fuente ahorros'
+                        'retención en la fuente ahorros', 'nd intereses', 'com. transferencia ach'
                     ]):
                         continue  # Saltar esta transacción
                         
@@ -260,7 +260,7 @@ class ReconciliationReport:
         header_format, data_format, date_format, number_format = formats
         
         # Lista de columnas numéricas para aplicar formato de número
-        numeric_columns = ['valor', 'valor_contabilidad', 'valor_banco', 'diferencia']
+        numeric_columns = ['valor', 'valor_contabilidad', 'valor_banco', 'diferencia', 'Débito', 'Crédito']
         
         # Aplicar formato a todas las filas de datos
         for row_num in range(start_row, len(df) + start_row):
@@ -339,16 +339,18 @@ class ReconciliationReport:
                 'text_wrap': True  # Activar ajuste de texto
             })
             
+            # Formato contable para campos numéricos
             number_format = workbook.add_format({
-                'num_format': '#,##0.00',
+                'num_format': '#,##0.00_);[Red](#,##0.00)',  # Formato contable: negativo en rojo y entre paréntesis
                 'align': 'right',
                 'border': 1,
                 'border_color': '#969696',
                 'bg_color': '#FFC7CE'  # Mismo color de fondo que no_conciliado_format
             })
             
+            # Formato contable para conciliados
             conciliado_number_format = workbook.add_format({
-                'num_format': '#,##0.00',
+                'num_format': '#,##0.00_);[Red](#,##0.00)',  # Formato contable: negativo en rojo y entre paréntesis
                 'align': 'right',
                 'border': 1,
                 'border_color': '#969696',
@@ -388,7 +390,7 @@ class ReconciliationReport:
             
             # Formatos para celdas de datos del resumen
             resumen_number_format = workbook.add_format({
-                'num_format': '#,##0',
+                'num_format': '#,##0_);[Red](#,##0)',  # Formato contable para cantidades enteras
                 'align': 'center',
                 'border': 1,
                 'border_color': '#CCCCCC'
