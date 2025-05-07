@@ -88,7 +88,8 @@ class ReconciliationReport:
                     if any(tax_term in description for tax_term in [
                         'impuesto trans', 'impuesto al valor agregado', 'iva', 
                         'retencion en la fuente', 'retención en la fuente',
-                        'impuesto de renta'
+                        'impuesto de renta', 'impuesto', 'pago de intereses capitalizados',
+                        'retención en la fuente ahorros'
                     ]):
                         continue  # Saltar esta transacción
                         
@@ -113,7 +114,8 @@ class ReconciliationReport:
                     if any(tax_term in description for tax_term in [
                         'impuesto trans', 'impuesto al valor agregado', 'iva', 
                         'retencion en la fuente', 'retención en la fuente',
-                        'impuesto de renta','impuesto' 
+                        'impuesto de renta', 'impuesto', 'pago de intereses capitalizados',
+                        'retención en la fuente ahorros'
                     ]):
                         continue  # Saltar esta transacción
                         
