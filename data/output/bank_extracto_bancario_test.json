@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "archivo": "extracto_bancario_test.xlsx",
+    "fecha_proceso": "2025-05-07 12:22:37",
+    "resumen_encabezado": {}
+  },
+  "movimientos": [
+    {
+      "FECHA": "2025-03-01 00:00:00",
+      "DESCRIPCION": "Transferencia recibida",
+      "DEBITOS": 0.0,
+      "CREDITOS": 1500000.0,
+      "OFICINA": "Central",
+      "SALDO": 1500000.0
+    },
+    {
+      "FECHA": "2025-03-02 00:00:00",
+      "DESCRIPCION": "Pago de servicios",
+      "DEBITOS": 350000.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "Norte",
+      "SALDO": 1150000.0
+    },
+    {
+      "FECHA": "2025-03-03 00:00:00",
+      "DESCRIPCION": "Depósito en efectivo",
+      "DEBITOS": 0.0,
+      "CREDITOS": 500000.0,
+      "OFICINA": "Sur",
+      "SALDO": 1650000.0
+    },
+    {
+      "FECHA": "2025-03-05 00:00:00",
+      "DESCRIPCION": "Retiro cajero automático",
+      "DEBITOS": 200000.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "Este",
+      "SALDO": 1450000.0
+    },
+    {
+      "FECHA": "2025-03-08 00:00:00",
+      "DESCRIPCION": "Pago de nómina",
+      "DEBITOS": 0.0,
+      "CREDITOS": 2500000.0,
+      "OFICINA": "Oeste",
+      "SALDO": 3950000.0
+    },
+    {
+      "FECHA": "2025-03-10 00:00:00",
+      "DESCRIPCION": "Transferencia enviada",
+      "DEBITOS": 1200000.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "Central",
+      "SALDO": 2750000.0
+    }
+  ]
+}

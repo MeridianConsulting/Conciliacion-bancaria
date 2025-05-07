@@ -1,0 +1,555 @@
+{
+  "metadata": {
+    "tipo_reporte": "MOVIMIENTO CUENTAS - GENERAL",
+    "periodo": "De: ABR  1/2025 A: ABR 30/2025",
+    "fecha_proceso": "Procesado en: 2025/05/07  11:52:08:41"
+  },
+  "movimientos": [
+    {
+      "FECHA": "2025-04-01 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 296259.0,
+      "COMPROBANTE": "G 003 00000008044 003"
+    },
+    {
+      "FECHA": "2025-04-01 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 2091449.0,
+      "COMPROBANTE": "G 003 00000008083 002"
+    },
+    {
+      "FECHA": "2025-04-01 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 378663.0,
+      "COMPROBANTE": "G 003 00000008084 002"
+    },
+    {
+      "FECHA": "2025-04-02 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 44810646.0,
+      "COMPROBANTE": "G 003 00000008056 002"
+    },
+    {
+      "FECHA": "2025-04-02 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 589949300.0,
+      "COMPROBANTE": "G 003 00000008158 003"
+    },
+    {
+      "FECHA": "2025-04-02 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 26581200.0,
+      "COMPROBANTE": "G 003 00000008163 002"
+    },
+    {
+      "FECHA": "2025-04-03 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 6677100.0,
+      "COMPROBANTE": "G 003 00000008057 003"
+    },
+    {
+      "FECHA": "2025-04-03 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 6681600.0,
+      "COMPROBANTE": "G 003 00000008087 003"
+    },
+    {
+      "FECHA": "2025-04-04 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 230000000.0,
+      "COMPROBANTE": "R 001 00000003287 001"
+    },
+    {
+      "FECHA": "2025-04-07 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 792000.0,
+      "COMPROBANTE": "G 003 00000008093 002"
+    },
+    {
+      "FECHA": "2025-04-07 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 72000.0,
+      "COMPROBANTE": "G 003 00000008141 002"
+    },
+    {
+      "FECHA": "2025-04-08 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 4852800.0,
+      "COMPROBANTE": "G 003 00000008005 002"
+    },
+    {
+      "FECHA": "2025-04-08 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 5856700.0,
+      "COMPROBANTE": "G 003 00000008006 002"
+    },
+    {
+      "FECHA": "2025-04-08 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 1287700.0,
+      "COMPROBANTE": "G 003 00000008047 002"
+    },
+    {
+      "FECHA": "2025-04-08 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 1292000.0,
+      "COMPROBANTE": "G 003 00000008048 002"
+    },
+    {
+      "FECHA": "2025-04-08 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 1457000.0,
+      "COMPROBANTE": "G 003 00000008050 002"
+    },
+    {
+      "FECHA": "2025-04-08 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 4991400.0,
+      "COMPROBANTE": "G 003 00000008051 002"
+    },
+    {
+      "FECHA": "2025-04-08 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 6056600.0,
+      "COMPROBANTE": "G 003 00000008053 002"
+    },
+    {
+      "FECHA": "2025-04-08 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 10647000.0,
+      "COMPROBANTE": "G 003 00000008054 002"
+    },
+    {
+      "FECHA": "2025-04-08 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 10854400.0,
+      "COMPROBANTE": "G 003 00000008055 002"
+    },
+    {
+      "FECHA": "2025-04-08 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 3993200.0,
+      "COMPROBANTE": "G 003 00000008095 002"
+    },
+    {
+      "FECHA": "2025-04-08 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 7775600.0,
+      "COMPROBANTE": "G 003 00000008096 002"
+    },
+    {
+      "FECHA": "2025-04-08 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 5484800.0,
+      "COMPROBANTE": "G 003 00000008097 002"
+    },
+    {
+      "FECHA": "2025-04-09 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 455680.0,
+      "COMPROBANTE": "G 003 00000007963 002"
+    },
+    {
+      "FECHA": "2025-04-09 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 218510.0,
+      "COMPROBANTE": "G 003 00000007969 002"
+    },
+    {
+      "FECHA": "2025-04-09 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 186602.0,
+      "COMPROBANTE": "G 003 00000007972 002"
+    },
+    {
+      "FECHA": "2025-04-09 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 1731196.0,
+      "COMPROBANTE": "G 003 00000007984 002"
+    },
+    {
+      "FECHA": "2025-04-09 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": 980000000.0,
+      "CREDITOS": "",
+      "COMPROBANTE": "R 001 00000003284 002"
+    },
+    {
+      "FECHA": "2025-04-10 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 150000000.0,
+      "COMPROBANTE": "R 001 00000003302 001"
+    },
+    {
+      "FECHA": "2025-04-11 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 641600.0,
+      "COMPROBANTE": "G 003 00000008155 003"
+    },
+    {
+      "FECHA": "2025-04-11 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 1489500.0,
+      "COMPROBANTE": "G 003 00000008157 003"
+    },
+    {
+      "FECHA": "2025-04-11 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 76700.0,
+      "COMPROBANTE": "G 003 00000008159 003"
+    },
+    {
+      "FECHA": "2025-04-11 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 19716300.0,
+      "COMPROBANTE": "G 003 00000008160 002"
+    },
+    {
+      "FECHA": "2025-04-11 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 453900.0,
+      "COMPROBANTE": "G 003 00000008161 003"
+    },
+    {
+      "FECHA": "2025-04-11 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 1376800.0,
+      "COMPROBANTE": "G 003 00000008162 003"
+    },
+    {
+      "FECHA": "2025-04-11 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 546700.0,
+      "COMPROBANTE": "G 003 00000008164 003"
+    },
+    {
+      "FECHA": "2025-04-11 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 36439600.0,
+      "COMPROBANTE": "G 003 00000008166 002"
+    },
+    {
+      "FECHA": "2025-04-14 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 35000.0,
+      "COMPROBANTE": "G 003 00000007993 003"
+    },
+    {
+      "FECHA": "2025-04-14 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 637230.0,
+      "COMPROBANTE": "G 003 00000008045 002"
+    },
+    {
+      "FECHA": "2025-04-14 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": 1000000000.0,
+      "CREDITOS": "",
+      "COMPROBANTE": "R 001 00000003286 002"
+    },
+    {
+      "FECHA": "2025-04-15 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 5400000.0,
+      "COMPROBANTE": "G 003 00000008052 006"
+    },
+    {
+      "FECHA": "2025-04-15 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 789000.0,
+      "COMPROBANTE": "G 003 00000008139 002"
+    },
+    {
+      "FECHA": "2025-04-15 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 100000000.0,
+      "COMPROBANTE": "R 001 00000003301 001"
+    },
+    {
+      "FECHA": "2025-04-16 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 4259400.0,
+      "COMPROBANTE": "G 003 00000008090 002"
+    },
+    {
+      "FECHA": "2025-04-16 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 585000000.0,
+      "COMPROBANTE": "R 001 00000003303 001"
+    },
+    {
+      "FECHA": "2025-04-19 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 14498785.0,
+      "COMPROBANTE": "G 003 00000008142 004"
+    },
+    {
+      "FECHA": "2025-04-21 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 882168.0,
+      "COMPROBANTE": "G 003 00000008046 003"
+    },
+    {
+      "FECHA": "2025-04-21 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 11600.0,
+      "COMPROBANTE": "G 003 00000008094 002"
+    },
+    {
+      "FECHA": "2025-04-21 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 680000000.0,
+      "COMPROBANTE": "R 001 00000003288 001"
+    },
+    {
+      "FECHA": "2025-04-22 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 1207100.0,
+      "COMPROBANTE": "G 003 00000008049 002"
+    },
+    {
+      "FECHA": "2025-04-23 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 526278.0,
+      "COMPROBANTE": "G 003 00000008058 002"
+    },
+    {
+      "FECHA": "2025-04-23 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 76978.0,
+      "COMPROBANTE": "G 003 00000008091 002"
+    },
+    {
+      "FECHA": "2025-04-23 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 47600.0,
+      "COMPROBANTE": "G 003 00000008092 002"
+    },
+    {
+      "FECHA": "2025-04-24 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 3254000.0,
+      "COMPROBANTE": "G 003 00000007922 002"
+    },
+    {
+      "FECHA": "2025-04-24 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 244000.0,
+      "COMPROBANTE": "G 003 00000007923 002"
+    },
+    {
+      "FECHA": "2025-04-24 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 244000.0,
+      "COMPROBANTE": "G 003 00000007924 002"
+    },
+    {
+      "FECHA": "2025-04-24 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 244000.0,
+      "COMPROBANTE": "G 003 00000007925 002"
+    },
+    {
+      "FECHA": "2025-04-24 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 244000.0,
+      "COMPROBANTE": "G 003 00000007926 002"
+    },
+    {
+      "FECHA": "2025-04-24 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 5921000.0,
+      "COMPROBANTE": "G 003 00000007927 002"
+    },
+    {
+      "FECHA": "2025-04-24 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 3475000.0,
+      "COMPROBANTE": "G 003 00000007928 002"
+    },
+    {
+      "FECHA": "2025-04-24 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 3475000.0,
+      "COMPROBANTE": "G 003 00000007929 002"
+    },
+    {
+      "FECHA": "2025-04-24 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 5921000.0,
+      "COMPROBANTE": "G 003 00000007930 002"
+    },
+    {
+      "FECHA": "2025-04-24 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 5735000.0,
+      "COMPROBANTE": "G 003 00000007992 002"
+    },
+    {
+      "FECHA": "2025-04-24 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 8323000.0,
+      "COMPROBANTE": "G 003 00000007994 002"
+    },
+    {
+      "FECHA": "2025-04-24 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 250000.0,
+      "COMPROBANTE": "G 003 00000007995 002"
+    },
+    {
+      "FECHA": "2025-04-24 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 250000.0,
+      "COMPROBANTE": "G 003 00000007996 002"
+    },
+    {
+      "FECHA": "2025-04-24 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 250000.0,
+      "COMPROBANTE": "G 003 00000008003 002"
+    },
+    {
+      "FECHA": "2025-04-24 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 250000.0,
+      "COMPROBANTE": "G 003 00000008004 002"
+    },
+    {
+      "FECHA": "2025-04-24 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 34810000.0,
+      "COMPROBANTE": "G 003 00000008131 002"
+    },
+    {
+      "FECHA": "2025-04-24 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 250000.0,
+      "COMPROBANTE": "G 003 00000008132 002"
+    },
+    {
+      "FECHA": "2025-04-24 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 21900.0,
+      "COMPROBANTE": "G 003 00000008156 002"
+    },
+    {
+      "FECHA": "2025-04-25 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 259263.0,
+      "COMPROBANTE": "G 003 00000008089 003"
+    },
+    {
+      "FECHA": "2025-04-29 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 2816400.0,
+      "COMPROBANTE": "G 003 00000008165 002"
+    },
+    {
+      "FECHA": "2025-04-29 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 778764.0,
+      "COMPROBANTE": "G 003 00000008168 003"
+    },
+    {
+      "FECHA": "2025-04-29 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 466661.0,
+      "COMPROBANTE": "G 003 00000008169 002"
+    },
+    {
+      "FECHA": "2025-04-30 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 18743307.0,
+      "COMPROBANTE": "G 003 00000008153 002"
+    },
+    {
+      "FECHA": "2025-04-30 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 1478672.0,
+      "COMPROBANTE": "L 008 00000003731 009"
+    },
+    {
+      "FECHA": "2025-04-30 00:00:00",
+      "DESCRIPCION": "CTA AH ITAU 013195142",
+      "DEBITOS": "",
+      "CREDITOS": 800000000.0,
+      "COMPROBANTE": "R 001 00000003310 001"
+    }
+  ]
+}

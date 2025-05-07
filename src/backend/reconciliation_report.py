@@ -110,15 +110,20 @@ class ReconciliationReport:
                     # Verificar que tenga los campos requeridos
                     if all(k in movement for k in ['FECHA', 'DESCRIPCION', 'DEBITOS', 'CREDITOS']):
                         # Invertir débitos y créditos para comparación correcta
-                        # Lo que es débito en banco se considera crédito en contabilidad y viceversa
+                        debito = safe_float(movement.get('CREDITOS', 0))  # Invertido: CREDITOS del banco como DEBITOS
+                        credito = safe_float(movement.get('DEBITOS', 0))  # Invertido: DEBITOS del banco como CREDITOS
+                        valor = debito if debito > 0 else credito
+                        # FILTRO: Omitir movimientos con valor absoluto 0
+                        if abs(valor) == 0:
+                            continue
                         bank_transactions.append({
                             'tipo': 'banco',
                             'archivo': doc.get('metadata', {}).get('archivo', ''),
                             'fecha': movement.get('FECHA', ''),
                             'descripcion': movement.get('DESCRIPCION', ''),
-                            'debito': safe_float(movement.get('CREDITOS', 0)),  # Invertido: CREDITOS del banco como DEBITOS
-                            'credito': safe_float(movement.get('DEBITOS', 0)),  # Invertido: DEBITOS del banco como CREDITOS
-                            'valor': safe_float(movement.get('CREDITOS', 0)) if safe_float(movement.get('CREDITOS', 0)) > 0 else safe_float(movement.get('DEBITOS', 0)),
+                            'debito': debito,
+                            'credito': credito,
+                            'valor': valor,
                             'oficina': movement.get('OFICINA', ''),
                             'comprobante': movement.get('COMPROBANTE', '')  # Añadir campo comprobante
                         })
@@ -663,7 +668,14 @@ class ReconciliationReport:
             if comparison_result['no_conciliadas_contabilidad']:
                 # Ordenar los datos por valor antes de crear el DataFrame
                 sorted_contabilidad = sorted(comparison_result['no_conciliadas_contabilidad'], key=lambda x: x.get('valor', 0))
+                # Crear DataFrame con columnas explícitas
                 df_conta = pd.DataFrame(sorted_contabilidad)
+                # Agregar columnas Débito y Crédito
+                df_conta['Débito'] = df_conta['valor'].where(df_conta['valor'] < 0, 0).abs()
+                df_conta['Crédito'] = df_conta['valor'].where(df_conta['valor'] > 0, 0)
+                # Reordenar columnas
+                cols_conta = ['fecha', 'descripcion', 'Débito', 'Crédito', 'comprobante', 'estado']
+                df_conta = df_conta.reindex(columns=cols_conta)
                 df_conta.to_excel(writer, sheet_name='Solo Contabilidad', index=False, startrow=2)
                 
                 # Configurar hoja
@@ -692,7 +704,14 @@ class ReconciliationReport:
             if comparison_result['no_conciliadas_banco']:
                 # Ordenar los datos por valor antes de crear el DataFrame
                 sorted_banco = sorted(comparison_result['no_conciliadas_banco'], key=lambda x: x.get('valor', 0))
+                # Crear DataFrame con columnas explícitas
                 df_banco = pd.DataFrame(sorted_banco)
+                # Agregar columnas Débito y Crédito
+                df_banco['Débito'] = df_banco['valor'].where(df_banco['valor'] < 0, 0).abs()
+                df_banco['Crédito'] = df_banco['valor'].where(df_banco['valor'] > 0, 0)
+                # Reordenar columnas
+                cols_banco = ['fecha', 'descripcion', 'Débito', 'Crédito', 'comprobante', 'oficina', 'estado']
+                df_banco = df_banco.reindex(columns=cols_banco)
                 df_banco.to_excel(writer, sheet_name='Solo Banco', index=False, startrow=2)
                 
                 # Configurar hoja
