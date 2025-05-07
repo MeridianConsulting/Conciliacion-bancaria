@@ -121,10 +121,15 @@ class ReconciliationReport:
                         
                     # Verificar que tenga los campos requeridos
                     if all(k in movement for k in ['FECHA', 'DESCRIPCION', 'DEBITOS', 'CREDITOS']):
-                        # Invertir débitos y créditos para comparación correcta
-                        debito = safe_float(movement.get('CREDITOS', 0))  # Invertido: CREDITOS del banco como DEBITOS
-                        credito = safe_float(movement.get('DEBITOS', 0))  # Invertido: DEBITOS del banco como CREDITOS
+                        # Invertir débitos y créditos para mantener consistencia con contabilidad
+                        # Débitos del banco corresponden a créditos en contabilidad
+                        # Créditos del banco corresponden a débitos en contabilidad
+                        debito = safe_float(movement.get('CREDITOS', 0))  # Créditos del banco como débitos
+                        credito = safe_float(movement.get('DEBITOS', 0))  # Débitos del banco como créditos
+                        
+                        # El valor es el monto diferente de cero
                         valor = debito if debito > 0 else credito
+                        
                         # FILTRO: Omitir movimientos con valor absoluto 0
                         if abs(valor) == 0:
                             continue
@@ -723,11 +728,11 @@ class ReconciliationReport:
                 # Crear DataFrame con columnas explícitas
                 df_banco = pd.DataFrame(sorted_banco)
                 
-                # Agregar columnas Débito y Crédito pero INVERTIDAS como solicitado:
-                # Los créditos en el banco son entradas (lado izquierdo) - equivalentes a débitos en contabilidad
-                # Los débitos en el banco son salidas (lado derecho) - equivalentes a créditos en contabilidad
-                df_banco['Crédito'] = df_banco['debito']  # Débitos del banco van como créditos (lado derecho)
-                df_banco['Débito'] = df_banco['credito']  # Créditos del banco van como débitos (lado izquierdo)
+                # Invertir Débitos y Créditos para mantener consistencia con contabilidad
+                # Nota: Ya están invertidos en los datos originales (debito = CREDITOS del banco, credito = DEBITOS del banco)
+                # Usar los campos debito y credito ya invertidos
+                df_banco['Débito'] = df_banco['debito']
+                df_banco['Crédito'] = df_banco['credito']
                 
                 # Reordenar columnas - quitar comprobante y oficina como solicitado
                 cols_banco = ['fecha', 'descripcion', 'Débito', 'Crédito', 'estado']
