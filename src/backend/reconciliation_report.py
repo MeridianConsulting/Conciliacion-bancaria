@@ -196,8 +196,12 @@ class ReconciliationReport:
                             'fecha_banco': row_bank['fecha'],
                             'descripcion_contabilidad': row_acc['descripcion'],
                             'descripcion_banco': row_bank['descripcion'],
+                            'debito_contabilidad': row_acc['debito'],
+                            'credito_contabilidad': row_acc['credito'],
+                            'debito_banco': row_bank['debito'],
+                            'credito_banco': row_bank['credito'],
                             'valor_contabilidad': row_acc['valor'],
-                            'valor_banco': row_bank.get('valor', row_acc['valor']),
+                            'valor_banco': row_bank['valor'],
                             'diferencia': value_diff,
                             'comprobante': row_acc['comprobante'],
                             'estado': 'Conciliado'
@@ -265,7 +269,8 @@ class ReconciliationReport:
         header_format, data_format, date_format, number_format = formats
         
         # Lista de columnas numéricas para aplicar formato de número
-        numeric_columns = ['valor', 'valor_contabilidad', 'valor_banco', 'diferencia', 'Débito', 'Crédito']
+        numeric_columns = ['valor', 'valor_contabilidad', 'valor_banco', 'diferencia', 'Débito', 'Crédito', 
+                          'debito_contabilidad', 'credito_contabilidad', 'debito_banco', 'credito_banco']
         
         # Aplicar formato a todas las filas de datos
         for row_num in range(start_row, len(df) + start_row):
@@ -660,7 +665,24 @@ class ReconciliationReport:
             
             # Hoja 2: Transacciones Conciliadas
             if comparison_result['conciliadas']:
+                # Crear DataFrame con la estructura completa
                 df_conciliadas = pd.DataFrame(comparison_result['conciliadas'])
+                
+                # Reordenar las columnas para mejor visualización
+                column_order = [
+                    'fecha_contabilidad', 'fecha_banco', 
+                    'descripcion_contabilidad', 'descripcion_banco',
+                    'debito_contabilidad', 'credito_contabilidad', 
+                    'debito_banco', 'credito_banco',
+                    'valor_contabilidad', 'valor_banco', 'diferencia',
+                    'comprobante', 'estado'
+                ]
+                
+                # Filtrar para incluir solo las columnas que existen
+                available_columns = [col for col in column_order if col in df_conciliadas.columns]
+                df_conciliadas = df_conciliadas[available_columns]
+                
+                # Exportar a Excel
                 df_conciliadas.to_excel(writer, sheet_name='Conciliadas', index=False, startrow=2)
                 
                 # Configurar hoja
@@ -668,7 +690,7 @@ class ReconciliationReport:
                 worksheet.set_row(0, 30)
                 
                 # Ajustar título para incluir todas las columnas
-                worksheet.merge_range('A1:H1', 'TRANSACCIONES CONCILIADAS', title_format)
+                worksheet.merge_range(f'A1:{chr(65 + len(available_columns) - 1)}1', 'TRANSACCIONES CONCILIADAS', title_format)
                 worksheet.write(1, 0, f"Generado el: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
                 
                 # Aplicar formatos de encabezado
@@ -836,20 +858,31 @@ class ReconciliationReport:
                 elements.append(Paragraph("Transacciones Conciliadas", styles["Heading2"]))
                 elements.append(Spacer(1, 6))
                 
-                # Encabezados actualizados para mostrar ambos valores y la diferencia
-                data = [["Fecha Cont.", "Fecha Banco", "Descripción Contabilidad", "Descripción Banco", "Valor Contabilidad", "Valor Banco", "Diferencia", "Comprobante"]]
+                # Encabezados actualizados para mostrar débitos y créditos
+                data = [["Fecha Cont.", "Fecha Banco", "Descripción Contabilidad", "Descripción Banco", 
+                        "Débito Cont.", "Crédito Cont.", "Débito Banco", "Crédito Banco", 
+                        "Valor Cont.", "Valor Banco", "Diferencia"]]
                 
                 # Datos
                 for trans in comparison_result['conciliadas']:
+                    # Obtener los valores de débito y crédito
+                    debito_cont = trans.get('debito_contabilidad', 0)
+                    credito_cont = trans.get('credito_contabilidad', 0)
+                    debito_banco = trans.get('debito_banco', 0)
+                    credito_banco = trans.get('credito_banco', 0)
+                    
                     data.append([
                         str(trans['fecha_contabilidad']),
                         str(trans['fecha_banco']),
                         str(trans['descripcion_contabilidad']),
                         str(trans['descripcion_banco']),
+                        f"{debito_cont:,.2f}" if debito_cont != 0 else "",
+                        f"{credito_cont:,.2f}" if credito_cont != 0 else "",
+                        f"{debito_banco:,.2f}" if debito_banco != 0 else "",
+                        f"{credito_banco:,.2f}" if credito_banco != 0 else "",
                         f"{trans['valor_contabilidad']:,.2f}",
                         f"{trans['valor_banco']:,.2f}",
-                        f"{trans['diferencia']:,.2f}",
-                        str(trans['comprobante'])
+                        f"{trans['diferencia']:,.2f}"
                     ])
                 
                 # Crear tabla con ajuste automático
