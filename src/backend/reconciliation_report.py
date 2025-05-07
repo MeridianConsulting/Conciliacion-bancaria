@@ -725,8 +725,8 @@ class ReconciliationReport:
                 df_banco['Crédito'] = df_banco['debito']  # Débitos del banco van como créditos (lado derecho)
                 df_banco['Débito'] = df_banco['credito']  # Créditos del banco van como débitos (lado izquierdo)
                 
-                # Reordenar columnas
-                cols_banco = ['fecha', 'descripcion', 'Débito', 'Crédito', 'comprobante', 'oficina', 'estado']
+                # Reordenar columnas - quitar comprobante y oficina como solicitado
+                cols_banco = ['fecha', 'descripcion', 'Débito', 'Crédito', 'estado']
                 df_banco = df_banco.reindex(columns=cols_banco)
                 df_banco.to_excel(writer, sheet_name='Solo Banco', index=False, startrow=2)
                 
@@ -735,7 +735,7 @@ class ReconciliationReport:
                 worksheet.set_row(0, 30)
                 
                 # Añadir título (actualizado para incluir todas las columnas)
-                worksheet.merge_range('A1:G1', 'TRANSACCIONES SOLO EN BANCO', title_format)
+                worksheet.merge_range('A1:E1', 'TRANSACCIONES SOLO EN BANCO', title_format)
                 worksheet.write(1, 0, f"Generado el: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
                 
                 # Aplicar formatos de encabezado
@@ -897,17 +897,15 @@ class ReconciliationReport:
                 elements.append(Paragraph("Transacciones Solo en Banco", styles["Heading2"]))
                 elements.append(Spacer(1, 6))
                 
-                # Encabezados actualizados para incluir comprobante
-                data = [["Fecha", "Descripción", "Valor", "Comprobante", "Oficina"]]
+                # Encabezados actualizados - quitar comprobante y oficina
+                data = [["Fecha", "Descripción", "Valor"]]
                 
                 # Datos
                 for trans in comparison_result['no_conciliadas_banco']:
                     data.append([
                         str(trans['fecha']),
                         str(trans['descripcion']),
-                        f"{trans['valor']:,.2f}",
-                        str(trans['comprobante']),
-                        str(trans['oficina'])
+                        f"{trans['valor']:,.2f}"
                     ])
                 
                 # Crear tabla con ajuste automático

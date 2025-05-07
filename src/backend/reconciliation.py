@@ -30,14 +30,33 @@ class Reconciliation:
         return header_info
 
     def get_column_names(self, df):
-        """Obtiene los nombres reales de las columnas del reporte"""
+        """Obtiene los nombres reales de las columnas del reporte con mayor tolerancia a variaciones"""
         # Buscar la fila que contiene los nombres de las columnas
         for idx, row in df.iterrows():
-            if "CUENTA" in str(row[0]) and "DESCRIPCION" in str(row[0]):
+            # Convertir a string en minúsculas para hacer la búsqueda más tolerante
+            row_str = ' '.join([str(val).lower() for val in row if pd.notna(val)])
+            
+            # Buscar términos comunes que indican que esta es la fila de encabezados
+            if "cuenta" in row_str and "descripcion" in row_str:
                 column_names = []
                 for value in row:
                     if pd.notna(value) and str(value).strip():
-                        column_names.append(str(value).strip())
+                        # Normalizar el nombre de la columna: eliminar espacios extra y convertir a mayúsculas
+                        col_name = str(value).strip().upper()
+                        
+                        # Manejar variaciones comunes de nombres de columnas
+                        if "DESCRIP" in col_name:
+                            col_name = "DESCRIPCION"
+                        elif "DEBIT" in col_name or "DÉBIT" in col_name or "CARGO" in col_name:
+                            col_name = "DEBITOS"
+                        elif "CREDIT" in col_name or "CRÉDIT" in col_name or "ABONO" in col_name:
+                            col_name = "CREDITOS"
+                        elif "COMPROB" in col_name or "DOCUMEN" in col_name or "DOC" in col_name:
+                            col_name = "COMPROBANTE"
+                        elif "FECH" in col_name:
+                            col_name = "FECHA"
+                        
+                        column_names.append(col_name)
                 return column_names
         return None
 
@@ -130,7 +149,8 @@ class Reconciliation:
                     # Encontrar el índice donde comienzan los datos reales
                     start_index = None
                     for idx, row in df.iterrows():
-                        if "CUENTA" in str(row[0]) and "DESCRIPCION" in str(row[0]):
+                        row_str = ' '.join([str(val).lower() for val in row if pd.notna(val)])
+                        if "cuenta" in row_str and "descripcion" in row_str:
                             start_index = idx + 1
                             break
 
@@ -141,9 +161,31 @@ class Reconciliation:
                     # Procesar solo las filas con datos
                     data_rows = []
                     
-                    # Campos requeridos
-                    campos_requeridos = ["COMPROBANTE", "FECHA", "DESCRIPCION", "DEBITOS", "CREDITOS"]
+                    # Campos requeridos con sus posibles variantes
+                    campos_requeridos = {
+                        "COMPROBANTE": ["COMPROBANTE", "COMPROB", "DOCUMENTO", "DOC", "NUMERO", "NRO"],
+                        "FECHA": ["FECHA", "DATE", "DIA", "DÍA"],
+                        "DESCRIPCION": ["DESCRIPCION", "DESCRIPCIÓN", "CONCEPTO", "DETALLE"],
+                        "DEBITOS": ["DEBITOS", "DÉBITOS", "DEBITO", "DÉBITO", "CARGO", "CARGOS", "DEBE"],
+                        "CREDITOS": ["CREDITOS", "CRÉDITOS", "CREDITO", "CRÉDITO", "ABONO", "ABONOS", "HABER"]
+                    }
                     
+                    # Mapear los nombres de columnas reales a los campos estándar
+                    column_mapping = {}
+                    for campo_std, variantes in campos_requeridos.items():
+                        for col_idx, col_name in enumerate(column_names):
+                            col_upper = col_name.upper()
+                            if any(variante in col_upper for variante in variantes):
+                                column_mapping[campo_std] = col_idx
+                                break
+                    
+                    # Verificar que tenemos al menos los campos esenciales
+                    campos_esenciales = ["DESCRIPCION", "DEBITOS", "CREDITOS"]
+                    if not all(campo in column_mapping for campo in campos_esenciales):
+                        print(f"No se encontraron todos los campos esenciales en {excel_file.name}")
+                        print(f"Campos encontrados: {column_mapping}")
+                        continue
+
                     for idx, row in df.iloc[start_index:].iterrows():
                         # Verificar si la fila tiene datos significativos
                         if pd.notna(row[0]) and str(row[0]).strip():
@@ -153,38 +195,36 @@ class Reconciliation:
                                 print(f"Encontrado fin de datos en fila {idx}")
                                 break
                                 
-                            # Crear nuevo registro con solo los campos solicitados
+                            # Crear nuevo registro con los campos mapeados
                             record = {}
                             
-                            for campo in campos_requeridos:
-                                if campo in column_names:
-                                    col_idx = column_names.index(campo)
-                                    value = row.iloc[col_idx] if col_idx < len(row) else ""
-                                    
-                                    # Convertir NaN a cadena vacía
-                                    if pd.isna(value):
-                                        value = ""
-                                    # Formatear la fecha en el estilo YYYY-MM-DD HH:MM:SS
-                                    elif campo == "FECHA":
-                                        try:
-                                            # Si es un número, considerarlo como el día del mes de marzo de 2025
-                                            if isinstance(value, (int, float)) or (isinstance(value, str) and value.strip().isdigit()):
-                                                day = int(float(value)) if isinstance(value, str) else int(value)
-                                                # Formatear el día con dos dígitos
-                                                day_str = f"{day:02d}"
-                                                value = f"2025-03-{day_str} 00:00:00"
-                                            else:
-                                                # Si no es número, dejarlo como string
-                                                value = str(value).strip()
-                                        except (ValueError, TypeError):
+                            for campo_std, col_idx in column_mapping.items():
+                                value = row.iloc[col_idx] if col_idx < len(row) else ""
+                                
+                                # Convertir NaN a cadena vacía
+                                if pd.isna(value):
+                                    value = ""
+                                # Formatear la fecha en el estilo YYYY-MM-DD HH:MM:SS
+                                elif campo_std == "FECHA":
+                                    try:
+                                        # Si es un número, considerarlo como el día del mes de marzo de 2025
+                                        if isinstance(value, (int, float)) or (isinstance(value, str) and value.strip().isdigit()):
+                                            day = int(float(value)) if isinstance(value, str) else int(value)
+                                            # Formatear el día con dos dígitos
+                                            day_str = f"{day:02d}"
+                                            value = f"2025-03-{day_str} 00:00:00"
+                                        else:
+                                            # Si no es número, dejarlo como string
                                             value = str(value).strip()
-                                    # Convertir números a float si es necesario
-                                    elif isinstance(value, (int, float)):
-                                        value = float(value)
-                                    else:
+                                    except (ValueError, TypeError):
                                         value = str(value).strip()
-                                    
-                                    record[campo] = value
+                                # Convertir números a float si es necesario
+                                elif isinstance(value, (int, float)):
+                                    value = float(value)
+                                else:
+                                    value = str(value).strip()
+                                
+                                record[campo_std] = value
                             
                             data_rows.append(record)
 
@@ -281,7 +321,9 @@ class Reconciliation:
                     # Extraer información del resumen (primeras filas)
                     resumen = {}
                     for idx, row in df.iterrows():
-                        if pd.isna(row[0]) or 'Día' in str(row[0]):  # Detener cuando llegue al encabezado de la tabla
+                        # Buscar cualquier variación de "Día", "Dia", "DIA", etc.
+                        row_str = ' '.join([str(val).lower() for val in row if pd.notna(val)])
+                        if pd.isna(row[0]) or any(day_var in row_str for day_var in ['día', 'dia', 'date', 'fecha']):
                             break
                         if len(row) >= 2 and pd.notna(row[0]) and pd.notna(row[1]):
                             concepto = str(row[0]).strip()
@@ -296,12 +338,17 @@ class Reconciliation:
                             if concepto:  # Solo agregar si hay concepto
                                 resumen[concepto] = valor
 
-                    # Buscar la fila que contiene "Día" como encabezado
+                    # Buscar la fila que contiene el encabezado de la tabla de movimientos
+                    # Flexibilidad para distintas variantes de encabezados
                     header_row = None
+                    header_terms = ['día', 'dia', 'date', 'fecha', 'descripción', 'descripcion', 'concepto']
+                    
                     for idx, row in df.iterrows():
-                        if pd.notna(row[0]) and 'Día' in str(row[0]):
-                            header_row = idx
-                            break
+                        if pd.notna(row[0]):
+                            row_str = ' '.join([str(val).lower() for val in row if pd.notna(val)])
+                            if any(term in row_str for term in header_terms):
+                                header_row = idx
+                                break
 
                     if header_row is not None:
                         # Obtener los datos desde la siguiente fila después de los encabezados
@@ -343,52 +390,48 @@ class Reconciliation:
                                     except (ValueError, TypeError):
                                         fecha_formateada = "2025-03-01 00:00:00"  # Valor predeterminado
 
-                                    # Función para buscar columna de forma segura
+                                    # Función para buscar columna de forma segura con mayor flexibilidad
                                     def get_column_value(df_row, possible_names, default=""):
+                                        # Convertir todos los nombres de columnas a minúsculas para comparación
+                                        columns_lower = {col.lower() if isinstance(col, str) else str(col): col 
+                                                        for col in df_row.index}
+                                        
                                         for name in possible_names:
-                                            if name in df_row:
-                                                return df_row[name]
+                                            # Buscar coincidencias exactas primero
+                                            if name.lower() in columns_lower:
+                                                return df_row[columns_lower[name.lower()]]
+                                            
+                                            # Luego buscar coincidencias parciales
+                                            for col_lower, original_col in columns_lower.items():
+                                                if name.lower() in col_lower:
+                                                    return df_row[original_col]
+                                        
                                         return default
 
-                                    # Buscar columnas con diferentes nombres posibles
-                                    descripcion_col = None
-                                    for col in row.index:
-                                        if isinstance(col, str) and "descripci" in col.lower():
-                                            descripcion_col = col
-                                            break
+                                    # Definir todas las posibles variantes de nombres de columnas
+                                    fecha_cols = ['dia', 'día', 'date', 'fecha', 'day']
+                                    descripcion_cols = ['descripcion', 'descripción', 'concepto', 'detalle', 'referencia', 'ref']
+                                    oficina_cols = ['oficina', 'sucursal', 'branch', 'office']
+                                    debitos_cols = ['debito', 'débito', 'debitos', 'débitos', 'cargo', 'cargos', 'salida', 'salidas']
+                                    creditos_cols = ['credito', 'crédito', 'creditos', 'créditos', 'abono', 'abonos', 'entrada', 'entradas']
+                                    saldo_cols = ['saldo', 'balance', 'total']
+                                    
+                                    # Buscar valores en las columnas usando las diferentes opciones de nombres
+                                    # Ya tenemos la fecha porque usamos el día directamente
+                                    descripcion = get_column_value(row, descripcion_cols, '')
+                                    oficina = get_column_value(row, oficina_cols, '')
+                                    debitos = convert_to_float(get_column_value(row, debitos_cols, 0))
+                                    creditos = convert_to_float(get_column_value(row, creditos_cols, 0))
+                                    saldo = convert_to_float(get_column_value(row, saldo_cols, 0))
 
-                                    oficina_col = None
-                                    for col in row.index:
-                                        if isinstance(col, str) and ("oficina" in col.lower() or "sucursal" in col.lower()):
-                                            oficina_col = col
-                                            break
-
-                                    debitos_col = None
-                                    for col in row.index:
-                                        if isinstance(col, str) and ("débit" in col.lower() or "debit" in col.lower() or "cargo" in col.lower()):
-                                            debitos_col = col
-                                            break
-
-                                    creditos_col = None
-                                    for col in row.index:
-                                        if isinstance(col, str) and ("crédit" in col.lower() or "credit" in col.lower() or "abono" in col.lower()):
-                                            creditos_col = col
-                                            break
-
-                                    saldo_col = None
-                                    for col in row.index:
-                                        if isinstance(col, str) and ("saldo" in col.lower() or "balance" in col.lower()):
-                                            saldo_col = col
-                                            break
-
-                                    # Luego usa estas variables para acceder a los valores
+                                    # Crear registro con los datos encontrados
                                     movement = {
                                         'FECHA': fecha_formateada,
-                                        'DESCRIPCION': str(row[descripcion_col]).strip() if descripcion_col and pd.notna(row[descripcion_col]) else '',
-                                        'OFICINA': str(row[oficina_col]).strip() if oficina_col and pd.notna(row[oficina_col]) else '',
-                                        'DEBITOS': convert_to_float(row[debitos_col] if debitos_col else 0),
-                                        'CREDITOS': convert_to_float(row[creditos_col] if creditos_col else 0),
-                                        'SALDO': convert_to_float(row[saldo_col] if saldo_col else 0)
+                                        'DESCRIPCION': str(descripcion).strip() if pd.notna(descripcion) else '',
+                                        'OFICINA': str(oficina).strip() if pd.notna(oficina) else '',
+                                        'DEBITOS': debitos,
+                                        'CREDITOS': creditos,
+                                        'SALDO': saldo
                                     }
                                     normalized_data.append(movement)
                                 except Exception as e:
