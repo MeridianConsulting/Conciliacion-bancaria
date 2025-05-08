@@ -5,6 +5,7 @@ import tkinter as tk
 from tkinter import messagebox
 import sys
 import traceback
+from resource_path import resource_path
 
 def launch_main_app():
     """Inicia la aplicación principal de conciliación para Itaú"""
@@ -26,6 +27,13 @@ def show_unavailable_message(bank_name):
 def main():
     """Función principal de la aplicación"""
     try:
+        # Establecer directorio de trabajo para asegurar que se encuentren los recursos
+        # cuando se ejecuta como .exe
+        if getattr(sys, 'frozen', False):
+            # Si estamos ejecutando como .exe (PyInstaller)
+            application_path = os.path.dirname(sys.executable)
+            os.chdir(application_path)
+        
         # Crear y mostrar el selector de bancos
         selector = BankSelector()
         selector.mainloop()
