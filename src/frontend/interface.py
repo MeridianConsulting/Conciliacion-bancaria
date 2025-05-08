@@ -760,9 +760,21 @@ class ConciliacionBancaria(tk.Tk):
                     mensaje = f"""
 Conciliación completada con éxito
 
-Archivos generados:
-- Excel: {os.path.basename(result['excel_report'])}
-- PDF: {os.path.basename(result['pdf_report'])}
+Archivos generados:"""
+                    
+                    # Verificar si se generó el reporte Excel
+                    if result['excel_report']:
+                        mensaje += f"\n- Excel: {os.path.basename(result['excel_report'])}"
+                    else:
+                        mensaje += "\n- Excel: No se pudo generar debido a un error"
+                    
+                    # Verificar si se generó el reporte PDF
+                    if result['pdf_report']:
+                        mensaje += f"\n- PDF: {os.path.basename(result['pdf_report'])}"
+                    else:
+                        mensaje += "\n- PDF: No se pudo generar debido a un error"
+                    
+                    mensaje += f"""
 
 Resumen:
 - Transacciones conciliadas: {len(result['comparison_result']['conciliadas'])}

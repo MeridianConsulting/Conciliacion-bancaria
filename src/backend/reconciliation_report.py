@@ -121,26 +121,25 @@ class ReconciliationReport:
                         
                     # Verificar que tenga los campos requeridos
                     if all(k in movement for k in ['FECHA', 'DESCRIPCION', 'DEBITOS', 'CREDITOS']):
-                        # Invertir débitos y créditos para mantener consistencia con contabilidad
-                        # Débitos del banco corresponden a créditos en contabilidad
-                        # Créditos del banco corresponden a débitos en contabilidad
-                        debito = safe_float(movement.get('CREDITOS', 0))  # Créditos del banco como débitos
-                        credito = safe_float(movement.get('DEBITOS', 0))  # Débitos del banco como créditos
+                        # Extraer los valores de débitos y créditos
+                        # Los valores ya están cargados correctamente (invertidos durante la carga)
+                        debito = safe_float(movement.get('DEBITOS', 0))
+                        credito = safe_float(movement.get('CREDITOS', 0))
                         
-                        # El valor es el monto diferente de cero
-                        valor = debito if debito > 0 else credito
+                        # El valor para comparación es el valor más grande entre débito y crédito
+                        valor_comp = debito if debito > 0 else credito
                         
                         # FILTRO: Omitir movimientos con valor absoluto 0
-                        if abs(valor) == 0:
+                        if abs(valor_comp) == 0:
                             continue
                         bank_transactions.append({
                             'tipo': 'banco',
                             'archivo': doc.get('metadata', {}).get('archivo', ''),
                             'fecha': movement.get('FECHA', ''),
                             'descripcion': movement.get('DESCRIPCION', ''),
-                            'debito': debito,
-                            'credito': credito,
-                            'valor': valor,
+                            'debito': debito,  # Valores correctamente cargados
+                            'credito': credito,  # Valores correctamente cargados
+                            'valor': valor_comp,  # Valor para comparación
                             'oficina': movement.get('OFICINA', ''),
                             'comprobante': movement.get('COMPROBANTE', '')  # Añadir campo comprobante
                         })
@@ -166,7 +165,8 @@ class ReconciliationReport:
                     # Si ya está conciliada, continuar con la siguiente
                     if accounting_matched[i] or bank_matched[j]:
                         continue
-                        
+                    
+                    # Comparar los valores para determinar coincidencia
                     # CRITERIO ORIGINAL: valor casi exacto y fechas cercanas
                     value_match_original = abs(row_acc['valor'] - row_bank['valor']) < 1.0
                     
@@ -198,10 +198,10 @@ class ReconciliationReport:
                             'descripcion_banco': row_bank['descripcion'],
                             'debito_contabilidad': row_acc['debito'],
                             'credito_contabilidad': row_acc['credito'],
-                            'debito_banco': row_bank['debito'],
-                            'credito_banco': row_bank['credito'],
+                            'debito_banco': row_bank['debito'],  # Valores correctamente cargados
+                            'credito_banco': row_bank['credito'],  # Valores correctamente cargados
                             'valor_contabilidad': row_acc['valor'],
-                            'valor_banco': row_bank['valor'],
+                            'valor_banco': row_bank['valor'],  # Valor para comparación
                             'diferencia': value_diff,
                             'comprobante': row_acc['comprobante'],
                             'estado': 'Conciliado'
@@ -225,9 +225,9 @@ class ReconciliationReport:
                     no_conciliadas_banco.append({
                         'fecha': row_bank['fecha'],
                         'descripcion': row_bank['descripcion'],
-                        'valor': row_bank['valor'],
-                        'debito': row_bank['debito'],
-                        'credito': row_bank['credito'],
+                        'valor': row_bank['valor'],  # Valor para comparación
+                        'debito': row_bank['debito'],  # Valores correctamente cargados
+                        'credito': row_bank['credito'],  # Valores correctamente cargados
                         'comprobante': row_bank.get('comprobante', ''),
                         'oficina': row_bank.get('oficina', ''),
                         'estado': 'No Conciliado - Solo en Banco'
@@ -272,20 +272,47 @@ class ReconciliationReport:
         numeric_columns = ['valor', 'valor_contabilidad', 'valor_banco', 'diferencia', 'Débito', 'Crédito', 
                           'debito_contabilidad', 'credito_contabilidad', 'debito_banco', 'credito_banco']
         
+        # Primero, limpiar el DataFrame para reemplazar NaN/INF con valores adecuados
+        df_cleaned = df.copy()
+        for col in df_cleaned.columns:
+            if col in numeric_columns:
+                # Reemplazar NaN/INF con 0 en columnas numéricas
+                df_cleaned[col] = df_cleaned[col].fillna(0)
+                # También manejar valores infinitos
+                df_cleaned[col] = df_cleaned[col].replace([float('inf'), float('-inf')], 0)
+            else:
+                # Reemplazar NaN con cadena vacía en columnas no numéricas
+                df_cleaned[col] = df_cleaned[col].fillna('')
+        
         # Aplicar formato a todas las filas de datos
-        for row_num in range(start_row, len(df) + start_row):
+        for row_num in range(start_row, len(df_cleaned) + start_row):
             worksheet.set_row(row_num, None)
-            for col_num in range(len(df.columns)):
-                cell_value = df.iloc[row_num-start_row, col_num]
-                column_name = df.columns[col_num]
+            for col_num in range(len(df_cleaned.columns)):
+                cell_value = df_cleaned.iloc[row_num-start_row, col_num]
+                column_name = df_cleaned.columns[col_num]
                 
                 # Aplicar formato según el tipo de datos
-                if has_date and (column_name == 'fecha' or column_name == 'fecha_contabilidad' or column_name == 'fecha_banco'):  
-                    worksheet.write(row_num, col_num, cell_value, date_format)
-                elif has_number and column_name in numeric_columns:  # Columnas de valores numéricos
-                    worksheet.write(row_num, col_num, cell_value, number_format)
+                if has_date and (column_name == 'fecha' or column_name == 'fecha_contabilidad' or column_name == 'fecha_banco'):
+                    if pd.isna(cell_value) or cell_value == '':
+                        worksheet.write_string(row_num, col_num, '', data_format)
+                    else:
+                        try:
+                            worksheet.write(row_num, col_num, cell_value, date_format)
+                        except Exception:
+                            # Si hay error, escribir como texto
+                            worksheet.write_string(row_num, col_num, str(cell_value), data_format)
+                elif has_number and column_name in numeric_columns:
+                    if pd.isna(cell_value) or not isinstance(cell_value, (int, float)):
+                        worksheet.write_string(row_num, col_num, '', data_format)
+                    else:
+                        try:
+                            worksheet.write_number(row_num, col_num, float(cell_value), number_format)
+                        except Exception:
+                            # Si hay error, escribir como texto
+                            worksheet.write_string(row_num, col_num, str(cell_value), data_format)
                 else:
-                    worksheet.write(row_num, col_num, cell_value, data_format)
+                    # Para otros tipos de datos, convertir a string
+                    worksheet.write_string(row_num, col_num, str(cell_value) if not pd.isna(cell_value) else '', data_format)
 
     def generate_excel_report(self, comparison_result):
         """Genera un reporte Excel con los resultados de la conciliación con formato profesional"""
@@ -298,8 +325,12 @@ class ReconciliationReport:
             timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
             excel_path = self.report_path / f"conciliacion_{timestamp}.xlsx"
             
-            # Crear un escritor de Excel
-            writer = pd.ExcelWriter(excel_path, engine='xlsxwriter')
+            # Crear un escritor de Excel con opción para manejar NaN/INF
+            writer = pd.ExcelWriter(
+                excel_path, 
+                engine='xlsxwriter', 
+                engine_kwargs={'options': {'nan_inf_to_errors': True}}
+            )
             workbook = writer.book
             
             # --- NUEVOS FORMATOS SOLO PARA LA HOJA RESUMEN ---
@@ -668,7 +699,7 @@ class ReconciliationReport:
                 # Crear DataFrame con la estructura completa
                 df_conciliadas = pd.DataFrame(comparison_result['conciliadas'])
                 
-                # Reordenar las columnas para mejor visualización
+                # Ordenar las columnas para mejor visualización
                 column_order = [
                     'fecha_contabilidad', 'fecha_banco', 
                     'descripcion_contabilidad', 'descripcion_banco',
@@ -747,14 +778,16 @@ class ReconciliationReport:
             if comparison_result['no_conciliadas_banco']:
                 # Ordenar los datos por valor antes de crear el DataFrame
                 sorted_banco = sorted(comparison_result['no_conciliadas_banco'], key=lambda x: x.get('valor', 0))
+                
                 # Crear DataFrame con columnas explícitas
                 df_banco = pd.DataFrame(sorted_banco)
                 
-                # Invertir Débitos y Créditos para mantener consistencia con contabilidad
-                # Nota: Ya están invertidos en los datos originales (debito = CREDITOS del banco, credito = DEBITOS del banco)
-                # Usar los campos debito y credito ya invertidos
-                df_banco['Débito'] = df_banco['debito']
-                df_banco['Crédito'] = df_banco['credito']
+                # Agregar las columnas Débito y Crédito con los valores correspondientes
+                if 'Débito' not in df_banco.columns and 'debito' in df_banco.columns:
+                    df_banco['Débito'] = df_banco['debito']
+                
+                if 'Crédito' not in df_banco.columns and 'credito' in df_banco.columns:
+                    df_banco['Crédito'] = df_banco['credito']
                 
                 # Reordenar columnas - quitar comprobante y oficina como solicitado
                 cols_banco = ['fecha', 'descripcion', 'Débito', 'Crédito', 'estado']
@@ -868,8 +901,10 @@ class ReconciliationReport:
                     # Obtener los valores de débito y crédito
                     debito_cont = trans.get('debito_contabilidad', 0)
                     credito_cont = trans.get('credito_contabilidad', 0)
-                    debito_banco = trans.get('debito_banco', 0)
-                    credito_banco = trans.get('credito_banco', 0)
+                    
+                    # Invertir débitos y créditos para el banco
+                    debito_banco = trans.get('credito_banco', 0)  # Crédito se muestra como débito
+                    credito_banco = trans.get('debito_banco', 0)  # Débito se muestra como crédito
                     
                     data.append([
                         str(trans['fecha_contabilidad']),
@@ -939,15 +974,19 @@ class ReconciliationReport:
                 elements.append(Paragraph("Transacciones Solo en Banco", styles["Heading2"]))
                 elements.append(Spacer(1, 6))
                 
-                # Encabezados actualizados - quitar comprobante y oficina
-                data = [["Fecha", "Descripción", "Valor"]]
+                # Encabezados actualizados - añadir Débito y Crédito
+                data = [["Fecha", "Descripción", "Débito", "Crédito", "Valor"]]
                 
-                # Datos
+                # Datos - MODIFICADO: Ya no necesitamos invertir débitos y créditos para el reporte
                 for trans in comparison_result['no_conciliadas_banco']:
+                    # Ya no es necesario invertir débitos y créditos
                     data.append([
                         str(trans['fecha']),
                         str(trans['descripcion']),
-                        f"{trans['valor']:,.2f}"
+                        # Usar los valores directamente, ya que fueron cargados correctamente
+                        f"{trans['debito']:,.2f}" if trans['debito'] != 0 else "",
+                        f"{trans['credito']:,.2f}" if trans['credito'] != 0 else "",
+                        f"{abs(trans['valor']):,.2f}"
                     ])
                 
                 # Crear tabla con ajuste automático

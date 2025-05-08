@@ -420,8 +420,16 @@ class Reconciliation:
                                     # Ya tenemos la fecha porque usamos el día directamente
                                     descripcion = get_column_value(row, descripcion_cols, '')
                                     oficina = get_column_value(row, oficina_cols, '')
-                                    debitos = convert_to_float(get_column_value(row, debitos_cols, 0))
-                                    creditos = convert_to_float(get_column_value(row, creditos_cols, 0))
+                                    
+                                    # MODIFICADO: Intercambiamos los valores de débitos y créditos al momento de procesarlos
+                                    # Obtenemos primero los valores originales
+                                    debitos_original = convert_to_float(get_column_value(row, debitos_cols, 0))
+                                    creditos_original = convert_to_float(get_column_value(row, creditos_cols, 0))
+                                    
+                                    # Invertimos los valores para corregir el problema de conciliación
+                                    debitos = creditos_original
+                                    creditos = debitos_original
+                                    
                                     saldo = convert_to_float(get_column_value(row, saldo_cols, 0))
 
                                     # Crear registro con los datos encontrados
@@ -429,8 +437,8 @@ class Reconciliation:
                                         'FECHA': fecha_formateada,
                                         'DESCRIPCION': str(descripcion).strip() if pd.notna(descripcion) else '',
                                         'OFICINA': str(oficina).strip() if pd.notna(oficina) else '',
-                                        'DEBITOS': debitos,
-                                        'CREDITOS': creditos,
+                                        'DEBITOS': debitos,  # Valor invertido (originalmente creditos)
+                                        'CREDITOS': creditos,  # Valor invertido (originalmente debitos)
                                         'SALDO': saldo
                                     }
                                     normalized_data.append(movement)

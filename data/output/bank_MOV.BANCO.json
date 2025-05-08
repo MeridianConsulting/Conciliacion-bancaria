@@ -1,0 +1,1897 @@
+{
+  "metadata": {
+    "archivo": "MOV.BANCO.xlsx",
+    "fecha_proceso": "2025-05-08 17:41:15",
+    "resumen_encabezado": {}
+  },
+  "movimientos": [
+    {
+      "FECHA": "2025-03-01 00:00:00",
+      "DESCRIPCION": "Pago por Internet PSE",
+      "DEBITOS": 0.0,
+      "CREDITOS": 2091449.0,
+      "OFICINA": "",
+      "SALDO": 661383140.3
+    },
+    {
+      "FECHA": "2025-03-01 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 8366.0,
+      "OFICINA": "",
+      "SALDO": 661374774.3
+    },
+    {
+      "FECHA": "2025-03-01 00:00:00",
+      "DESCRIPCION": "Pago por Internet PSE",
+      "DEBITOS": 0.0,
+      "CREDITOS": 378663.0,
+      "OFICINA": "",
+      "SALDO": 660996111.3
+    },
+    {
+      "FECHA": "2025-03-01 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 1515.0,
+      "OFICINA": "",
+      "SALDO": 660994596.3
+    },
+    {
+      "FECHA": "2025-03-01 00:00:00",
+      "DESCRIPCION": "Pago por Internet PSE",
+      "DEBITOS": 0.0,
+      "CREDITOS": 296258.68,
+      "OFICINA": "",
+      "SALDO": 660698337.62
+    },
+    {
+      "FECHA": "2025-03-01 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 1185.0,
+      "OFICINA": "",
+      "SALDO": 660697152.62
+    },
+    {
+      "FECHA": "2025-03-01 00:00:00",
+      "DESCRIPCION": "Pago de intereses capitalizados",
+      "DEBITOS": 44698.36,
+      "CREDITOS": 0.0,
+      "OFICINA": "",
+      "SALDO": 660741850.98
+    },
+    {
+      "FECHA": "2025-03-01 00:00:00",
+      "DESCRIPCION": "Retención en la Fuente Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 3129.0,
+      "OFICINA": "",
+      "SALDO": 660738721.98
+    },
+    {
+      "FECHA": "2025-03-01 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 13.0,
+      "OFICINA": "",
+      "SALDO": 660738708.98
+    },
+    {
+      "FECHA": "2025-03-02 00:00:00",
+      "DESCRIPCION": "Pago por Internet PSE",
+      "DEBITOS": 0.0,
+      "CREDITOS": 44810645.0,
+      "OFICINA": "",
+      "SALDO": 615928063.98
+    },
+    {
+      "FECHA": "2025-03-02 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 179243.0,
+      "OFICINA": "",
+      "SALDO": 615748820.98
+    },
+    {
+      "FECHA": "2025-03-02 00:00:00",
+      "DESCRIPCION": "NC Transferencias",
+      "DEBITOS": 250000000.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "",
+      "SALDO": 865748820.98
+    },
+    {
+      "FECHA": "2025-03-02 00:00:00",
+      "DESCRIPCION": "Pago por Internet PSE",
+      "DEBITOS": 0.0,
+      "CREDITOS": 26581200.0,
+      "OFICINA": "",
+      "SALDO": 839167620.98
+    },
+    {
+      "FECHA": "2025-03-02 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 106325.0,
+      "OFICINA": "",
+      "SALDO": 839061295.98
+    },
+    {
+      "FECHA": "2025-03-02 00:00:00",
+      "DESCRIPCION": "Pago por Internet PSE",
+      "DEBITOS": 0.0,
+      "CREDITOS": 589949300.0,
+      "OFICINA": "",
+      "SALDO": 249111995.98
+    },
+    {
+      "FECHA": "2025-03-02 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 2359797.0,
+      "OFICINA": "",
+      "SALDO": 246752198.98
+    },
+    {
+      "FECHA": "2025-03-02 00:00:00",
+      "DESCRIPCION": "CR Cambio Tasa Base: 2.500 % A 1.95",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "",
+      "SALDO": 246752198.98
+    },
+    {
+      "FECHA": "2025-03-02 00:00:00",
+      "DESCRIPCION": "Pago de intereses capitalizados",
+      "DEBITOS": 13056.11,
+      "CREDITOS": 0.0,
+      "OFICINA": "",
+      "SALDO": 246765255.09
+    },
+    {
+      "FECHA": "2025-03-02 00:00:00",
+      "DESCRIPCION": "Retención en la Fuente Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 914.0,
+      "OFICINA": "",
+      "SALDO": 246764341.09
+    },
+    {
+      "FECHA": "2025-03-02 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 4.0,
+      "OFICINA": "",
+      "SALDO": 246764337.09
+    },
+    {
+      "FECHA": "2025-03-03 00:00:00",
+      "DESCRIPCION": "Pago por Internet PSE",
+      "DEBITOS": 0.0,
+      "CREDITOS": 6681600.0,
+      "OFICINA": "",
+      "SALDO": 240082737.09
+    },
+    {
+      "FECHA": "2025-03-03 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 26726.0,
+      "OFICINA": "",
+      "SALDO": 240056011.09
+    },
+    {
+      "FECHA": "2025-03-03 00:00:00",
+      "DESCRIPCION": "Pago por Internet PSE",
+      "DEBITOS": 0.0,
+      "CREDITOS": 6677100.0,
+      "OFICINA": "",
+      "SALDO": 233378911.09
+    },
+    {
+      "FECHA": "2025-03-03 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 26708.0,
+      "OFICINA": "",
+      "SALDO": 233352203.09
+    },
+    {
+      "FECHA": "2025-03-03 00:00:00",
+      "DESCRIPCION": "Pago de intereses capitalizados",
+      "DEBITOS": 12347.1,
+      "CREDITOS": 0.0,
+      "OFICINA": "",
+      "SALDO": 233364550.19
+    },
+    {
+      "FECHA": "2025-03-03 00:00:00",
+      "DESCRIPCION": "Retención en la Fuente Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 864.0,
+      "OFICINA": "",
+      "SALDO": 233363686.19
+    },
+    {
+      "FECHA": "2025-03-03 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 3.0,
+      "OFICINA": "",
+      "SALDO": 233363683.19
+    },
+    {
+      "FECHA": "2025-03-04 00:00:00",
+      "DESCRIPCION": "ND Transferencia Canal Electronico",
+      "DEBITOS": 0.0,
+      "CREDITOS": 230000000.0,
+      "OFICINA": "",
+      "SALDO": 3363683.19
+    },
+    {
+      "FECHA": "2025-03-04 00:00:00",
+      "DESCRIPCION": "CR Cambio Tasa Base: 1.950 % A 0.01",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "",
+      "SALDO": 3363683.19
+    },
+    {
+      "FECHA": "2025-03-04 00:00:00",
+      "DESCRIPCION": "Pago de intereses capitalizados",
+      "DEBITOS": 0.92,
+      "CREDITOS": 0.0,
+      "OFICINA": "",
+      "SALDO": 3363684.11
+    },
+    {
+      "FECHA": "2025-03-05 00:00:00",
+      "DESCRIPCION": "Pago de intereses capitalizados",
+      "DEBITOS": 0.93,
+      "CREDITOS": 0.0,
+      "OFICINA": "",
+      "SALDO": 3363685.04
+    },
+    {
+      "FECHA": "2025-03-06 00:00:00",
+      "DESCRIPCION": "Pago de intereses capitalizados",
+      "DEBITOS": 0.92,
+      "CREDITOS": 0.0,
+      "OFICINA": "",
+      "SALDO": 3363685.96
+    },
+    {
+      "FECHA": "2025-03-07 00:00:00",
+      "DESCRIPCION": "Pago por Internet PSE",
+      "DEBITOS": 0.0,
+      "CREDITOS": 72000.0,
+      "OFICINA": "",
+      "SALDO": 3291685.96
+    },
+    {
+      "FECHA": "2025-03-07 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 288.0,
+      "OFICINA": "",
+      "SALDO": 3291397.96
+    },
+    {
+      "FECHA": "2025-03-07 00:00:00",
+      "DESCRIPCION": "NC Transferencias",
+      "DEBITOS": 820000000.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "",
+      "SALDO": 823291397.96
+    },
+    {
+      "FECHA": "2025-03-07 00:00:00",
+      "DESCRIPCION": "Pago por Internet PSE",
+      "DEBITOS": 0.0,
+      "CREDITOS": 792000.0,
+      "OFICINA": "",
+      "SALDO": 822499397.96
+    },
+    {
+      "FECHA": "2025-03-07 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 3168.0,
+      "OFICINA": "",
+      "SALDO": 822496229.96
+    },
+    {
+      "FECHA": "2025-03-07 00:00:00",
+      "DESCRIPCION": "CR Cambio Tasa Base: 0.010 % A 2.50",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "",
+      "SALDO": 822496229.96
+    },
+    {
+      "FECHA": "2025-03-07 00:00:00",
+      "DESCRIPCION": "Pago de intereses capitalizados",
+      "DEBITOS": 55644.59,
+      "CREDITOS": 0.0,
+      "OFICINA": "",
+      "SALDO": 822551874.55
+    },
+    {
+      "FECHA": "2025-03-07 00:00:00",
+      "DESCRIPCION": "Retención en la Fuente Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 3895.0,
+      "OFICINA": "",
+      "SALDO": 822547979.55
+    },
+    {
+      "FECHA": "2025-03-07 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 16.0,
+      "OFICINA": "",
+      "SALDO": 822547963.55
+    },
+    {
+      "FECHA": "2025-03-08 00:00:00",
+      "DESCRIPCION": "Pago por Internet PSE",
+      "DEBITOS": 0.0,
+      "CREDITOS": 6056600.0,
+      "OFICINA": "",
+      "SALDO": 816491363.55
+    },
+    {
+      "FECHA": "2025-03-08 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 24226.0,
+      "OFICINA": "",
+      "SALDO": 816467137.55
+    },
+    {
+      "FECHA": "2025-03-08 00:00:00",
+      "DESCRIPCION": "Pago por Internet PSE",
+      "DEBITOS": 0.0,
+      "CREDITOS": 7775600.0,
+      "OFICINA": "",
+      "SALDO": 808691537.55
+    },
+    {
+      "FECHA": "2025-03-08 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 31102.0,
+      "OFICINA": "",
+      "SALDO": 808660435.55
+    },
+    {
+      "FECHA": "2025-03-08 00:00:00",
+      "DESCRIPCION": "Pago por Internet PSE",
+      "DEBITOS": 0.0,
+      "CREDITOS": 5484800.0,
+      "OFICINA": "",
+      "SALDO": 803175635.55
+    },
+    {
+      "FECHA": "2025-03-08 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 21939.0,
+      "OFICINA": "",
+      "SALDO": 803153696.55
+    },
+    {
+      "FECHA": "2025-03-08 00:00:00",
+      "DESCRIPCION": "Pago por Internet PSE",
+      "DEBITOS": 0.0,
+      "CREDITOS": 3993200.0,
+      "OFICINA": "",
+      "SALDO": 799160496.55
+    },
+    {
+      "FECHA": "2025-03-08 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 15973.0,
+      "OFICINA": "",
+      "SALDO": 799144523.55
+    },
+    {
+      "FECHA": "2025-03-08 00:00:00",
+      "DESCRIPCION": "Pago por Internet PSE",
+      "DEBITOS": 0.0,
+      "CREDITOS": 1287700.0,
+      "OFICINA": "",
+      "SALDO": 797856823.55
+    },
+    {
+      "FECHA": "2025-03-08 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 5151.0,
+      "OFICINA": "",
+      "SALDO": 797851672.55
+    },
+    {
+      "FECHA": "2025-03-08 00:00:00",
+      "DESCRIPCION": "Pago por Internet PSE",
+      "DEBITOS": 0.0,
+      "CREDITOS": 4991400.0,
+      "OFICINA": "",
+      "SALDO": 792860272.55
+    },
+    {
+      "FECHA": "2025-03-08 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 19966.0,
+      "OFICINA": "",
+      "SALDO": 792840306.55
+    },
+    {
+      "FECHA": "2025-03-08 00:00:00",
+      "DESCRIPCION": "Pago por Internet PSE",
+      "DEBITOS": 0.0,
+      "CREDITOS": 1292000.0,
+      "OFICINA": "",
+      "SALDO": 791548306.55
+    },
+    {
+      "FECHA": "2025-03-08 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 5168.0,
+      "OFICINA": "",
+      "SALDO": 791543138.55
+    },
+    {
+      "FECHA": "2025-03-08 00:00:00",
+      "DESCRIPCION": "Pago por Internet PSE",
+      "DEBITOS": 0.0,
+      "CREDITOS": 1457000.0,
+      "OFICINA": "",
+      "SALDO": 790086138.55
+    },
+    {
+      "FECHA": "2025-03-08 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 5828.0,
+      "OFICINA": "",
+      "SALDO": 790080310.55
+    },
+    {
+      "FECHA": "2025-03-08 00:00:00",
+      "DESCRIPCION": "Pago por Internet PSE",
+      "DEBITOS": 0.0,
+      "CREDITOS": 4852800.0,
+      "OFICINA": "",
+      "SALDO": 785227510.55
+    },
+    {
+      "FECHA": "2025-03-08 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 19411.0,
+      "OFICINA": "",
+      "SALDO": 785208099.55
+    },
+    {
+      "FECHA": "2025-03-08 00:00:00",
+      "DESCRIPCION": "Pago por Internet PSE",
+      "DEBITOS": 0.0,
+      "CREDITOS": 5856700.0,
+      "OFICINA": "",
+      "SALDO": 779351399.55
+    },
+    {
+      "FECHA": "2025-03-08 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 23427.0,
+      "OFICINA": "",
+      "SALDO": 779327972.55
+    },
+    {
+      "FECHA": "2025-03-08 00:00:00",
+      "DESCRIPCION": "Pago por Internet PSE",
+      "DEBITOS": 0.0,
+      "CREDITOS": 10854400.0,
+      "OFICINA": "",
+      "SALDO": 768473572.55
+    },
+    {
+      "FECHA": "2025-03-08 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 43418.0,
+      "OFICINA": "",
+      "SALDO": 768430154.55
+    },
+    {
+      "FECHA": "2025-03-08 00:00:00",
+      "DESCRIPCION": "Pago por Internet PSE",
+      "DEBITOS": 0.0,
+      "CREDITOS": 10647000.0,
+      "OFICINA": "",
+      "SALDO": 757783154.55
+    },
+    {
+      "FECHA": "2025-03-08 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 42588.0,
+      "OFICINA": "",
+      "SALDO": 757740566.55
+    },
+    {
+      "FECHA": "2025-03-08 00:00:00",
+      "DESCRIPCION": "Pago de intereses capitalizados",
+      "DEBITOS": 51263.66,
+      "CREDITOS": 0.0,
+      "OFICINA": "",
+      "SALDO": 757791830.21
+    },
+    {
+      "FECHA": "2025-03-08 00:00:00",
+      "DESCRIPCION": "Retención en la Fuente Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 3588.0,
+      "OFICINA": "",
+      "SALDO": 757788242.21
+    },
+    {
+      "FECHA": "2025-03-08 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 14.0,
+      "OFICINA": "",
+      "SALDO": 757788228.21
+    },
+    {
+      "FECHA": "2025-03-09 00:00:00",
+      "DESCRIPCION": "Pago por Internet PSE",
+      "DEBITOS": 0.0,
+      "CREDITOS": 1731196.0,
+      "OFICINA": "",
+      "SALDO": 756057032.21
+    },
+    {
+      "FECHA": "2025-03-09 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 6925.0,
+      "OFICINA": "",
+      "SALDO": 756050107.21
+    },
+    {
+      "FECHA": "2025-03-09 00:00:00",
+      "DESCRIPCION": "Pago por Internet PSE",
+      "DEBITOS": 0.0,
+      "CREDITOS": 455680.0,
+      "OFICINA": "",
+      "SALDO": 755594427.21
+    },
+    {
+      "FECHA": "2025-03-09 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 1823.0,
+      "OFICINA": "",
+      "SALDO": 755592604.21
+    },
+    {
+      "FECHA": "2025-03-09 00:00:00",
+      "DESCRIPCION": "Pago por Internet PSE",
+      "DEBITOS": 0.0,
+      "CREDITOS": 186602.0,
+      "OFICINA": "",
+      "SALDO": 755406002.21
+    },
+    {
+      "FECHA": "2025-03-09 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 746.0,
+      "OFICINA": "",
+      "SALDO": 755405256.21
+    },
+    {
+      "FECHA": "2025-03-09 00:00:00",
+      "DESCRIPCION": "Pago por Internet PSE",
+      "DEBITOS": 0.0,
+      "CREDITOS": 218510.0,
+      "OFICINA": "",
+      "SALDO": 755186746.21
+    },
+    {
+      "FECHA": "2025-03-09 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 874.0,
+      "OFICINA": "",
+      "SALDO": 755185872.21
+    },
+    {
+      "FECHA": "2025-03-09 00:00:00",
+      "DESCRIPCION": "NC Trans. Banca Electrónica",
+      "DEBITOS": 980000000.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "",
+      "SALDO": 1735185872.21
+    },
+    {
+      "FECHA": "2025-03-09 00:00:00",
+      "DESCRIPCION": "Pago de intereses capitalizados",
+      "DEBITOS": 117391.08,
+      "CREDITOS": 0.0,
+      "OFICINA": "",
+      "SALDO": 1735303263.29
+    },
+    {
+      "FECHA": "2025-03-09 00:00:00",
+      "DESCRIPCION": "Retención en la Fuente Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 8217.0,
+      "OFICINA": "",
+      "SALDO": 1735295046.29
+    },
+    {
+      "FECHA": "2025-03-09 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 33.0,
+      "OFICINA": "",
+      "SALDO": 1735295013.29
+    },
+    {
+      "FECHA": "2025-03-10 00:00:00",
+      "DESCRIPCION": "ND Transferencia Canal Electronico",
+      "DEBITOS": 0.0,
+      "CREDITOS": 150000000.0,
+      "OFICINA": "",
+      "SALDO": 1585295013.29
+    },
+    {
+      "FECHA": "2025-03-10 00:00:00",
+      "DESCRIPCION": "Pago de intereses capitalizados",
+      "DEBITOS": 107250.46,
+      "CREDITOS": 0.0,
+      "OFICINA": "",
+      "SALDO": 1585402263.75
+    },
+    {
+      "FECHA": "2025-03-10 00:00:00",
+      "DESCRIPCION": "Retención en la Fuente Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 7508.0,
+      "OFICINA": "",
+      "SALDO": 1585394755.75
+    },
+    {
+      "FECHA": "2025-03-10 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 30.0,
+      "OFICINA": "",
+      "SALDO": 1585394725.75
+    },
+    {
+      "FECHA": "2025-03-11 00:00:00",
+      "DESCRIPCION": "Pago por Internet PSE",
+      "DEBITOS": 0.0,
+      "CREDITOS": 36439600.0,
+      "OFICINA": "",
+      "SALDO": 1548955125.75
+    },
+    {
+      "FECHA": "2025-03-11 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 145758.0,
+      "OFICINA": "",
+      "SALDO": 1548809367.75
+    },
+    {
+      "FECHA": "2025-03-11 00:00:00",
+      "DESCRIPCION": "Pago por Internet PSE",
+      "DEBITOS": 0.0,
+      "CREDITOS": 19716300.0,
+      "OFICINA": "",
+      "SALDO": 1529093067.75
+    },
+    {
+      "FECHA": "2025-03-11 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 78865.0,
+      "OFICINA": "",
+      "SALDO": 1529014202.75
+    },
+    {
+      "FECHA": "2025-03-11 00:00:00",
+      "DESCRIPCION": "Pago por Internet PSE",
+      "DEBITOS": 0.0,
+      "CREDITOS": 1376800.0,
+      "OFICINA": "",
+      "SALDO": 1527637402.75
+    },
+    {
+      "FECHA": "2025-03-11 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 5507.0,
+      "OFICINA": "",
+      "SALDO": 1527631895.75
+    },
+    {
+      "FECHA": "2025-03-11 00:00:00",
+      "DESCRIPCION": "Pago por Internet PSE",
+      "DEBITOS": 0.0,
+      "CREDITOS": 546700.0,
+      "OFICINA": "",
+      "SALDO": 1527085195.75
+    },
+    {
+      "FECHA": "2025-03-11 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 2187.0,
+      "OFICINA": "",
+      "SALDO": 1527083008.75
+    },
+    {
+      "FECHA": "2025-03-11 00:00:00",
+      "DESCRIPCION": "Pago por Internet PSE",
+      "DEBITOS": 0.0,
+      "CREDITOS": 1489500.0,
+      "OFICINA": "",
+      "SALDO": 1525593508.75
+    },
+    {
+      "FECHA": "2025-03-11 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 5958.0,
+      "OFICINA": "",
+      "SALDO": 1525587550.75
+    },
+    {
+      "FECHA": "2025-03-11 00:00:00",
+      "DESCRIPCION": "Pago por Internet PSE",
+      "DEBITOS": 0.0,
+      "CREDITOS": 453900.0,
+      "OFICINA": "",
+      "SALDO": 1525133650.75
+    },
+    {
+      "FECHA": "2025-03-11 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 1816.0,
+      "OFICINA": "",
+      "SALDO": 1525131834.75
+    },
+    {
+      "FECHA": "2025-03-11 00:00:00",
+      "DESCRIPCION": "Pago por Internet PSE",
+      "DEBITOS": 0.0,
+      "CREDITOS": 76700.0,
+      "OFICINA": "",
+      "SALDO": 1525055134.75
+    },
+    {
+      "FECHA": "2025-03-11 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 307.0,
+      "OFICINA": "",
+      "SALDO": 1525054827.75
+    },
+    {
+      "FECHA": "2025-03-11 00:00:00",
+      "DESCRIPCION": "Pago por Internet PSE",
+      "DEBITOS": 0.0,
+      "CREDITOS": 641600.0,
+      "OFICINA": "",
+      "SALDO": 1524413227.75
+    },
+    {
+      "FECHA": "2025-03-11 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 2566.0,
+      "OFICINA": "",
+      "SALDO": 1524410661.75
+    },
+    {
+      "FECHA": "2025-03-11 00:00:00",
+      "DESCRIPCION": "Pago de intereses capitalizados",
+      "DEBITOS": 103131.43,
+      "CREDITOS": 0.0,
+      "OFICINA": "",
+      "SALDO": 1524513793.18
+    },
+    {
+      "FECHA": "2025-03-11 00:00:00",
+      "DESCRIPCION": "Retención en la Fuente Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 7219.0,
+      "OFICINA": "",
+      "SALDO": 1524506574.18
+    },
+    {
+      "FECHA": "2025-03-11 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 29.0,
+      "OFICINA": "",
+      "SALDO": 1524506545.18
+    },
+    {
+      "FECHA": "2025-03-12 00:00:00",
+      "DESCRIPCION": "Pago de intereses capitalizados",
+      "DEBITOS": 103137.92,
+      "CREDITOS": 0.0,
+      "OFICINA": "",
+      "SALDO": 1524609683.1
+    },
+    {
+      "FECHA": "2025-03-12 00:00:00",
+      "DESCRIPCION": "Retención en la Fuente Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 7220.0,
+      "OFICINA": "",
+      "SALDO": 1524602463.1
+    },
+    {
+      "FECHA": "2025-03-12 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 29.0,
+      "OFICINA": "",
+      "SALDO": 1524602434.1
+    },
+    {
+      "FECHA": "2025-03-13 00:00:00",
+      "DESCRIPCION": "Pago de intereses capitalizados",
+      "DEBITOS": 103144.41,
+      "CREDITOS": 0.0,
+      "OFICINA": "",
+      "SALDO": 1524705578.51
+    },
+    {
+      "FECHA": "2025-03-13 00:00:00",
+      "DESCRIPCION": "Retención en la Fuente Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 7220.0,
+      "OFICINA": "",
+      "SALDO": 1524698358.51
+    },
+    {
+      "FECHA": "2025-03-13 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 29.0,
+      "OFICINA": "",
+      "SALDO": 1524698329.51
+    },
+    {
+      "FECHA": "2025-03-14 00:00:00",
+      "DESCRIPCION": "Pago por Internet PSE",
+      "DEBITOS": 0.0,
+      "CREDITOS": 35000.0,
+      "OFICINA": "",
+      "SALDO": 1524663329.51
+    },
+    {
+      "FECHA": "2025-03-14 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 140.0,
+      "OFICINA": "",
+      "SALDO": 1524663189.51
+    },
+    {
+      "FECHA": "2025-03-14 00:00:00",
+      "DESCRIPCION": "Pago por Internet PSE",
+      "DEBITOS": 0.0,
+      "CREDITOS": 637230.0,
+      "OFICINA": "",
+      "SALDO": 1524025959.51
+    },
+    {
+      "FECHA": "2025-03-14 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 2549.0,
+      "OFICINA": "",
+      "SALDO": 1524023410.51
+    },
+    {
+      "FECHA": "2025-03-14 00:00:00",
+      "DESCRIPCION": "NC Trans. Banca Electrónica",
+      "DEBITOS": 1000000000.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "",
+      "SALDO": 2524023410.51
+    },
+    {
+      "FECHA": "2025-03-14 00:00:00",
+      "DESCRIPCION": "CR Cambio Tasa Base: 2.500 % A 3.50",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "",
+      "SALDO": 2524023410.51
+    },
+    {
+      "FECHA": "2025-03-14 00:00:00",
+      "DESCRIPCION": "Pago de intereses capitalizados",
+      "DEBITOS": 237901.79,
+      "CREDITOS": 0.0,
+      "OFICINA": "",
+      "SALDO": 2524261312.3
+    },
+    {
+      "FECHA": "2025-03-14 00:00:00",
+      "DESCRIPCION": "Retención en la Fuente Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 16653.0,
+      "OFICINA": "",
+      "SALDO": 2524244659.3
+    },
+    {
+      "FECHA": "2025-03-14 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 67.0,
+      "OFICINA": "",
+      "SALDO": 2524244592.3
+    },
+    {
+      "FECHA": "2025-03-15 00:00:00",
+      "DESCRIPCION": "Pago por Internet PSE",
+      "DEBITOS": 0.0,
+      "CREDITOS": 789000.0,
+      "OFICINA": "",
+      "SALDO": 2523455592.3
+    },
+    {
+      "FECHA": "2025-03-15 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 3156.0,
+      "OFICINA": "",
+      "SALDO": 2523452436.3
+    },
+    {
+      "FECHA": "2025-03-15 00:00:00",
+      "DESCRIPCION": "Pago por Internet PSE",
+      "DEBITOS": 0.0,
+      "CREDITOS": 5400000.0,
+      "OFICINA": "",
+      "SALDO": 2518052436.3
+    },
+    {
+      "FECHA": "2025-03-15 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 21600.0,
+      "OFICINA": "",
+      "SALDO": 2518030836.3
+    },
+    {
+      "FECHA": "2025-03-15 00:00:00",
+      "DESCRIPCION": "ND Transferencia Canal Electronico",
+      "DEBITOS": 0.0,
+      "CREDITOS": 100000000.0,
+      "OFICINA": "",
+      "SALDO": 2418030836.3
+    },
+    {
+      "FECHA": "2025-03-15 00:00:00",
+      "DESCRIPCION": "Pago de intereses capitalizados",
+      "DEBITOS": 227911.47,
+      "CREDITOS": 0.0,
+      "OFICINA": "",
+      "SALDO": 2418258747.77
+    },
+    {
+      "FECHA": "2025-03-15 00:00:00",
+      "DESCRIPCION": "Retención en la Fuente Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 15954.0,
+      "OFICINA": "",
+      "SALDO": 2418242793.77
+    },
+    {
+      "FECHA": "2025-03-15 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 64.0,
+      "OFICINA": "",
+      "SALDO": 2418242729.77
+    },
+    {
+      "FECHA": "2025-03-16 00:00:00",
+      "DESCRIPCION": "Pago por Internet PSE",
+      "DEBITOS": 0.0,
+      "CREDITOS": 4259400.0,
+      "OFICINA": "",
+      "SALDO": 2413983329.77
+    },
+    {
+      "FECHA": "2025-03-16 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 17038.0,
+      "OFICINA": "",
+      "SALDO": 2413966291.77
+    },
+    {
+      "FECHA": "2025-03-16 00:00:00",
+      "DESCRIPCION": "ND Transferencia Canal Electronico",
+      "DEBITOS": 0.0,
+      "CREDITOS": 585000000.0,
+      "OFICINA": "",
+      "SALDO": 1828966291.77
+    },
+    {
+      "FECHA": "2025-03-16 00:00:00",
+      "DESCRIPCION": "CR Cambio Tasa Base: 3.500 % A 2.50",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "",
+      "SALDO": 1828966291.77
+    },
+    {
+      "FECHA": "2025-03-16 00:00:00",
+      "DESCRIPCION": "Pago de intereses capitalizados",
+      "DEBITOS": 123735.63,
+      "CREDITOS": 0.0,
+      "OFICINA": "",
+      "SALDO": 1829090027.4
+    },
+    {
+      "FECHA": "2025-03-16 00:00:00",
+      "DESCRIPCION": "Retención en la Fuente Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 8661.0,
+      "OFICINA": "",
+      "SALDO": 1829081366.4
+    },
+    {
+      "FECHA": "2025-03-16 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 35.0,
+      "OFICINA": "",
+      "SALDO": 1829081331.4
+    },
+    {
+      "FECHA": "2025-03-17 00:00:00",
+      "DESCRIPCION": "Pago de intereses capitalizados",
+      "DEBITOS": 123743.41,
+      "CREDITOS": 0.0,
+      "OFICINA": "",
+      "SALDO": 1829205074.81
+    },
+    {
+      "FECHA": "2025-03-17 00:00:00",
+      "DESCRIPCION": "Retención en la Fuente Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 8662.0,
+      "OFICINA": "",
+      "SALDO": 1829196412.81
+    },
+    {
+      "FECHA": "2025-03-17 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 35.0,
+      "OFICINA": "",
+      "SALDO": 1829196377.81
+    },
+    {
+      "FECHA": "2025-03-18 00:00:00",
+      "DESCRIPCION": "Pago de intereses capitalizados",
+      "DEBITOS": 123751.2,
+      "CREDITOS": 0.0,
+      "OFICINA": "",
+      "SALDO": 1829320129.01
+    },
+    {
+      "FECHA": "2025-03-18 00:00:00",
+      "DESCRIPCION": "Retención en la Fuente Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 8663.0,
+      "OFICINA": "",
+      "SALDO": 1829311466.01
+    },
+    {
+      "FECHA": "2025-03-18 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 35.0,
+      "OFICINA": "",
+      "SALDO": 1829311431.01
+    },
+    {
+      "FECHA": "2025-03-19 00:00:00",
+      "DESCRIPCION": "Deb Automaticos Leasing",
+      "DEBITOS": 0.0,
+      "CREDITOS": 14498785.0,
+      "OFICINA": "",
+      "SALDO": 1814812646.01
+    },
+    {
+      "FECHA": "2025-03-19 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 57995.0,
+      "OFICINA": "",
+      "SALDO": 1814754651.01
+    },
+    {
+      "FECHA": "2025-03-19 00:00:00",
+      "DESCRIPCION": "Pago de intereses capitalizados",
+      "DEBITOS": 122774.16,
+      "CREDITOS": 0.0,
+      "OFICINA": "",
+      "SALDO": 1814877425.17
+    },
+    {
+      "FECHA": "2025-03-19 00:00:00",
+      "DESCRIPCION": "Retención en la Fuente Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 8594.0,
+      "OFICINA": "",
+      "SALDO": 1814868831.17
+    },
+    {
+      "FECHA": "2025-03-19 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 34.0,
+      "OFICINA": "",
+      "SALDO": 1814868797.17
+    },
+    {
+      "FECHA": "2025-03-20 00:00:00",
+      "DESCRIPCION": "Pago de intereses capitalizados",
+      "DEBITOS": 122781.89,
+      "CREDITOS": 0.0,
+      "OFICINA": "",
+      "SALDO": 1814991579.06
+    },
+    {
+      "FECHA": "2025-03-20 00:00:00",
+      "DESCRIPCION": "Retención en la Fuente Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 8595.0,
+      "OFICINA": "",
+      "SALDO": 1814982984.06
+    },
+    {
+      "FECHA": "2025-03-20 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 34.0,
+      "OFICINA": "",
+      "SALDO": 1814982950.06
+    },
+    {
+      "FECHA": "2025-03-21 00:00:00",
+      "DESCRIPCION": "ND Transferencia Canal Electronico",
+      "DEBITOS": 0.0,
+      "CREDITOS": 680000000.0,
+      "OFICINA": "",
+      "SALDO": 1134982950.06
+    },
+    {
+      "FECHA": "2025-03-21 00:00:00",
+      "DESCRIPCION": "Pago por Internet PSE",
+      "DEBITOS": 0.0,
+      "CREDITOS": 11600.0,
+      "OFICINA": "",
+      "SALDO": 1134971350.06
+    },
+    {
+      "FECHA": "2025-03-21 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 46.0,
+      "OFICINA": "",
+      "SALDO": 1134971304.06
+    },
+    {
+      "FECHA": "2025-03-21 00:00:00",
+      "DESCRIPCION": "Pago por Internet PSE",
+      "DEBITOS": 0.0,
+      "CREDITOS": 882168.0,
+      "OFICINA": "",
+      "SALDO": 1134089136.06
+    },
+    {
+      "FECHA": "2025-03-21 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 3529.0,
+      "OFICINA": "",
+      "SALDO": 1134085607.06
+    },
+    {
+      "FECHA": "2025-03-21 00:00:00",
+      "DESCRIPCION": "Pago de intereses capitalizados",
+      "DEBITOS": 76724.65,
+      "CREDITOS": 0.0,
+      "OFICINA": "",
+      "SALDO": 1134162331.71
+    },
+    {
+      "FECHA": "2025-03-21 00:00:00",
+      "DESCRIPCION": "Retención en la Fuente Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 5371.0,
+      "OFICINA": "",
+      "SALDO": 1134156960.71
+    },
+    {
+      "FECHA": "2025-03-21 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 21.0,
+      "OFICINA": "",
+      "SALDO": 1134156939.71
+    },
+    {
+      "FECHA": "2025-03-22 00:00:00",
+      "DESCRIPCION": "Pago por Internet PSE",
+      "DEBITOS": 0.0,
+      "CREDITOS": 1207100.0,
+      "OFICINA": "",
+      "SALDO": 1132949839.71
+    },
+    {
+      "FECHA": "2025-03-22 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 4828.0,
+      "OFICINA": "",
+      "SALDO": 1132945011.71
+    },
+    {
+      "FECHA": "2025-03-22 00:00:00",
+      "DESCRIPCION": "Pago de intereses capitalizados",
+      "DEBITOS": 76647.48,
+      "CREDITOS": 0.0,
+      "OFICINA": "",
+      "SALDO": 1133021659.19
+    },
+    {
+      "FECHA": "2025-03-22 00:00:00",
+      "DESCRIPCION": "Retención en la Fuente Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 5365.0,
+      "OFICINA": "",
+      "SALDO": 1133016294.19
+    },
+    {
+      "FECHA": "2025-03-22 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 21.0,
+      "OFICINA": "",
+      "SALDO": 1133016273.19
+    },
+    {
+      "FECHA": "2025-03-23 00:00:00",
+      "DESCRIPCION": "Pago por Internet PSE",
+      "DEBITOS": 0.0,
+      "CREDITOS": 76977.0,
+      "OFICINA": "",
+      "SALDO": 1132939296.19
+    },
+    {
+      "FECHA": "2025-03-23 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 308.0,
+      "OFICINA": "",
+      "SALDO": 1132938988.19
+    },
+    {
+      "FECHA": "2025-03-23 00:00:00",
+      "DESCRIPCION": "Pago por Internet PSE",
+      "DEBITOS": 0.0,
+      "CREDITOS": 47600.0,
+      "OFICINA": "",
+      "SALDO": 1132891388.19
+    },
+    {
+      "FECHA": "2025-03-23 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 190.0,
+      "OFICINA": "",
+      "SALDO": 1132891198.19
+    },
+    {
+      "FECHA": "2025-03-23 00:00:00",
+      "DESCRIPCION": "Pago por Internet PSE",
+      "DEBITOS": 0.0,
+      "CREDITOS": 526278.0,
+      "OFICINA": "",
+      "SALDO": 1132364920.19
+    },
+    {
+      "FECHA": "2025-03-23 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 2105.0,
+      "OFICINA": "",
+      "SALDO": 1132362815.19
+    },
+    {
+      "FECHA": "2025-03-23 00:00:00",
+      "DESCRIPCION": "Pago de intereses capitalizados",
+      "DEBITOS": 76608.1,
+      "CREDITOS": 0.0,
+      "OFICINA": "",
+      "SALDO": 1132439423.29
+    },
+    {
+      "FECHA": "2025-03-23 00:00:00",
+      "DESCRIPCION": "Retención en la Fuente Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 5363.0,
+      "OFICINA": "",
+      "SALDO": 1132434060.29
+    },
+    {
+      "FECHA": "2025-03-23 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 21.0,
+      "OFICINA": "",
+      "SALDO": 1132434039.29
+    },
+    {
+      "FECHA": "2025-03-24 00:00:00",
+      "DESCRIPCION": "Pago por Internet PSE",
+      "DEBITOS": 0.0,
+      "CREDITOS": 21900.0,
+      "OFICINA": "",
+      "SALDO": 1132412139.29
+    },
+    {
+      "FECHA": "2025-03-24 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 88.0,
+      "OFICINA": "",
+      "SALDO": 1132412051.29
+    },
+    {
+      "FECHA": "2025-03-24 00:00:00",
+      "DESCRIPCION": "Pago por Internet PSE",
+      "DEBITOS": 0.0,
+      "CREDITOS": 34810000.0,
+      "OFICINA": "",
+      "SALDO": 1097602051.29
+    },
+    {
+      "FECHA": "2025-03-24 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 139240.0,
+      "OFICINA": "",
+      "SALDO": 1097462811.29
+    },
+    {
+      "FECHA": "2025-03-24 00:00:00",
+      "DESCRIPCION": "Pago por Internet PSE",
+      "DEBITOS": 0.0,
+      "CREDITOS": 3254000.0,
+      "OFICINA": "",
+      "SALDO": 1094208811.29
+    },
+    {
+      "FECHA": "2025-03-24 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 13016.0,
+      "OFICINA": "",
+      "SALDO": 1094195795.29
+    },
+    {
+      "FECHA": "2025-03-24 00:00:00",
+      "DESCRIPCION": "Pago por Internet PSE",
+      "DEBITOS": 0.0,
+      "CREDITOS": 5921000.0,
+      "OFICINA": "",
+      "SALDO": 1088274795.29
+    },
+    {
+      "FECHA": "2025-03-24 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 23684.0,
+      "OFICINA": "",
+      "SALDO": 1088251111.29
+    },
+    {
+      "FECHA": "2025-03-24 00:00:00",
+      "DESCRIPCION": "Pago por Internet PSE",
+      "DEBITOS": 0.0,
+      "CREDITOS": 5921000.0,
+      "OFICINA": "",
+      "SALDO": 1082330111.29
+    },
+    {
+      "FECHA": "2025-03-24 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 23684.0,
+      "OFICINA": "",
+      "SALDO": 1082306427.29
+    },
+    {
+      "FECHA": "2025-03-24 00:00:00",
+      "DESCRIPCION": "Pago por Internet PSE",
+      "DEBITOS": 0.0,
+      "CREDITOS": 3475000.0,
+      "OFICINA": "",
+      "SALDO": 1078831427.29
+    },
+    {
+      "FECHA": "2025-03-24 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 13900.0,
+      "OFICINA": "",
+      "SALDO": 1078817527.29
+    },
+    {
+      "FECHA": "2025-03-24 00:00:00",
+      "DESCRIPCION": "Pago por Internet PSE",
+      "DEBITOS": 0.0,
+      "CREDITOS": 3475000.0,
+      "OFICINA": "",
+      "SALDO": 1075342527.29
+    },
+    {
+      "FECHA": "2025-03-24 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 13900.0,
+      "OFICINA": "",
+      "SALDO": 1075328627.29
+    },
+    {
+      "FECHA": "2025-03-24 00:00:00",
+      "DESCRIPCION": "Pago por Internet PSE",
+      "DEBITOS": 0.0,
+      "CREDITOS": 244000.0,
+      "OFICINA": "",
+      "SALDO": 1075084627.29
+    },
+    {
+      "FECHA": "2025-03-24 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 976.0,
+      "OFICINA": "",
+      "SALDO": 1075083651.29
+    },
+    {
+      "FECHA": "2025-03-24 00:00:00",
+      "DESCRIPCION": "Pago por Internet PSE",
+      "DEBITOS": 0.0,
+      "CREDITOS": 244000.0,
+      "OFICINA": "",
+      "SALDO": 1074839651.29
+    },
+    {
+      "FECHA": "2025-03-24 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 976.0,
+      "OFICINA": "",
+      "SALDO": 1074838675.29
+    },
+    {
+      "FECHA": "2025-03-24 00:00:00",
+      "DESCRIPCION": "Pago por Internet PSE",
+      "DEBITOS": 0.0,
+      "CREDITOS": 244000.0,
+      "OFICINA": "",
+      "SALDO": 1074594675.29
+    },
+    {
+      "FECHA": "2025-03-24 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 976.0,
+      "OFICINA": "",
+      "SALDO": 1074593699.29
+    },
+    {
+      "FECHA": "2025-03-24 00:00:00",
+      "DESCRIPCION": "Pago por Internet PSE",
+      "DEBITOS": 0.0,
+      "CREDITOS": 244000.0,
+      "OFICINA": "",
+      "SALDO": 1074349699.29
+    },
+    {
+      "FECHA": "2025-03-24 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 976.0,
+      "OFICINA": "",
+      "SALDO": 1074348723.29
+    },
+    {
+      "FECHA": "2025-03-24 00:00:00",
+      "DESCRIPCION": "Pago por Internet PSE",
+      "DEBITOS": 0.0,
+      "CREDITOS": 5735000.0,
+      "OFICINA": "",
+      "SALDO": 1068613723.29
+    },
+    {
+      "FECHA": "2025-03-24 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 22940.0,
+      "OFICINA": "",
+      "SALDO": 1068590783.29
+    },
+    {
+      "FECHA": "2025-03-24 00:00:00",
+      "DESCRIPCION": "Pago por Internet PSE",
+      "DEBITOS": 0.0,
+      "CREDITOS": 8323000.0,
+      "OFICINA": "",
+      "SALDO": 1060267783.29
+    },
+    {
+      "FECHA": "2025-03-24 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 33292.0,
+      "OFICINA": "",
+      "SALDO": 1060234491.29
+    },
+    {
+      "FECHA": "2025-03-24 00:00:00",
+      "DESCRIPCION": "Pago por Internet PSE",
+      "DEBITOS": 0.0,
+      "CREDITOS": 250000.0,
+      "OFICINA": "",
+      "SALDO": 1059984491.29
+    },
+    {
+      "FECHA": "2025-03-24 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 1000.0,
+      "OFICINA": "",
+      "SALDO": 1059983491.29
+    },
+    {
+      "FECHA": "2025-03-24 00:00:00",
+      "DESCRIPCION": "Pago por Internet PSE",
+      "DEBITOS": 0.0,
+      "CREDITOS": 250000.0,
+      "OFICINA": "",
+      "SALDO": 1059733491.29
+    },
+    {
+      "FECHA": "2025-03-24 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 1000.0,
+      "OFICINA": "",
+      "SALDO": 1059732491.29
+    },
+    {
+      "FECHA": "2025-03-24 00:00:00",
+      "DESCRIPCION": "Pago por Internet PSE",
+      "DEBITOS": 0.0,
+      "CREDITOS": 250000.0,
+      "OFICINA": "",
+      "SALDO": 1059482491.29
+    },
+    {
+      "FECHA": "2025-03-24 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 1000.0,
+      "OFICINA": "",
+      "SALDO": 1059481491.29
+    },
+    {
+      "FECHA": "2025-03-24 00:00:00",
+      "DESCRIPCION": "Pago por Internet PSE",
+      "DEBITOS": 0.0,
+      "CREDITOS": 250000.0,
+      "OFICINA": "",
+      "SALDO": 1059231491.29
+    },
+    {
+      "FECHA": "2025-03-24 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 1000.0,
+      "OFICINA": "",
+      "SALDO": 1059230491.29
+    },
+    {
+      "FECHA": "2025-03-24 00:00:00",
+      "DESCRIPCION": "Pago por Internet PSE",
+      "DEBITOS": 0.0,
+      "CREDITOS": 250000.0,
+      "OFICINA": "",
+      "SALDO": 1058980491.29
+    },
+    {
+      "FECHA": "2025-03-24 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 1000.0,
+      "OFICINA": "",
+      "SALDO": 1058979491.29
+    },
+    {
+      "FECHA": "2025-03-24 00:00:00",
+      "DESCRIPCION": "Pago de intereses capitalizados",
+      "DEBITOS": 71643.47,
+      "CREDITOS": 0.0,
+      "OFICINA": "",
+      "SALDO": 1059051134.76
+    },
+    {
+      "FECHA": "2025-03-24 00:00:00",
+      "DESCRIPCION": "Retención en la Fuente Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 5015.0,
+      "OFICINA": "",
+      "SALDO": 1059046119.76
+    },
+    {
+      "FECHA": "2025-03-24 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 20.0,
+      "OFICINA": "",
+      "SALDO": 1059046099.76
+    },
+    {
+      "FECHA": "2025-03-25 00:00:00",
+      "DESCRIPCION": "Pago por Internet PSE",
+      "DEBITOS": 0.0,
+      "CREDITOS": 259263.0,
+      "OFICINA": "",
+      "SALDO": 1058786836.76
+    },
+    {
+      "FECHA": "2025-03-25 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 1037.0,
+      "OFICINA": "",
+      "SALDO": 1058785799.76
+    },
+    {
+      "FECHA": "2025-03-25 00:00:00",
+      "DESCRIPCION": "Pago de intereses capitalizados",
+      "DEBITOS": 71630.37,
+      "CREDITOS": 0.0,
+      "OFICINA": "",
+      "SALDO": 1058857430.13
+    },
+    {
+      "FECHA": "2025-03-25 00:00:00",
+      "DESCRIPCION": "Retención en la Fuente Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 5014.0,
+      "OFICINA": "",
+      "SALDO": 1058852416.13
+    },
+    {
+      "FECHA": "2025-03-25 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 20.0,
+      "OFICINA": "",
+      "SALDO": 1058852396.13
+    },
+    {
+      "FECHA": "2025-03-26 00:00:00",
+      "DESCRIPCION": "Pago de intereses capitalizados",
+      "DEBITOS": 71634.87,
+      "CREDITOS": 0.0,
+      "OFICINA": "",
+      "SALDO": 1058924031.0
+    },
+    {
+      "FECHA": "2025-03-26 00:00:00",
+      "DESCRIPCION": "Retención en la Fuente Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 5014.0,
+      "OFICINA": "",
+      "SALDO": 1058919017.0
+    },
+    {
+      "FECHA": "2025-03-26 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 20.0,
+      "OFICINA": "",
+      "SALDO": 1058918997.0
+    },
+    {
+      "FECHA": "2025-03-27 00:00:00",
+      "DESCRIPCION": "Pago de intereses capitalizados",
+      "DEBITOS": 71639.38,
+      "CREDITOS": 0.0,
+      "OFICINA": "",
+      "SALDO": 1058990636.38
+    },
+    {
+      "FECHA": "2025-03-27 00:00:00",
+      "DESCRIPCION": "Retención en la Fuente Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 5015.0,
+      "OFICINA": "",
+      "SALDO": 1058985621.38
+    },
+    {
+      "FECHA": "2025-03-27 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 20.0,
+      "OFICINA": "",
+      "SALDO": 1058985601.38
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "Pago de intereses capitalizados",
+      "DEBITOS": 71643.89,
+      "CREDITOS": 0.0,
+      "OFICINA": "",
+      "SALDO": 1059057245.27
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "Retención en la Fuente Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 5015.0,
+      "OFICINA": "",
+      "SALDO": 1059052230.27
+    },
+    {
+      "FECHA": "2025-03-28 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 20.0,
+      "OFICINA": "",
+      "SALDO": 1059052210.27
+    },
+    {
+      "FECHA": "2025-03-29 00:00:00",
+      "DESCRIPCION": "Pago por Internet PSE",
+      "DEBITOS": 0.0,
+      "CREDITOS": 778764.0,
+      "OFICINA": "",
+      "SALDO": 1058273446.27
+    },
+    {
+      "FECHA": "2025-03-29 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 3115.0,
+      "OFICINA": "",
+      "SALDO": 1058270331.27
+    },
+    {
+      "FECHA": "2025-03-29 00:00:00",
+      "DESCRIPCION": "Pago por Internet PSE",
+      "DEBITOS": 0.0,
+      "CREDITOS": 2816400.0,
+      "OFICINA": "",
+      "SALDO": 1055453931.27
+    },
+    {
+      "FECHA": "2025-03-29 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 11266.0,
+      "OFICINA": "",
+      "SALDO": 1055442665.27
+    },
+    {
+      "FECHA": "2025-03-29 00:00:00",
+      "DESCRIPCION": "Pago por Internet PSE",
+      "DEBITOS": 0.0,
+      "CREDITOS": 466661.0,
+      "OFICINA": "",
+      "SALDO": 1054976004.27
+    },
+    {
+      "FECHA": "2025-03-29 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 1867.0,
+      "OFICINA": "",
+      "SALDO": 1054974137.27
+    },
+    {
+      "FECHA": "2025-03-29 00:00:00",
+      "DESCRIPCION": "Pago de intereses capitalizados",
+      "DEBITOS": 71372.49,
+      "CREDITOS": 0.0,
+      "OFICINA": "",
+      "SALDO": 1055045509.76
+    },
+    {
+      "FECHA": "2025-03-29 00:00:00",
+      "DESCRIPCION": "Retención en la Fuente Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 4996.0,
+      "OFICINA": "",
+      "SALDO": 1055040513.76
+    },
+    {
+      "FECHA": "2025-03-29 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 20.0,
+      "OFICINA": "",
+      "SALDO": 1055040493.76
+    },
+    {
+      "FECHA": "2025-03-30 00:00:00",
+      "DESCRIPCION": "ND Transferencia Canal Electronico",
+      "DEBITOS": 0.0,
+      "CREDITOS": 800000000.0,
+      "OFICINA": "",
+      "SALDO": 255040493.76
+    },
+    {
+      "FECHA": "2025-03-30 00:00:00",
+      "DESCRIPCION": "CR Cambio Tasa Base: 2.500 % A 1.95",
+      "DEBITOS": 0.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "",
+      "SALDO": 255040493.76
+    },
+    {
+      "FECHA": "2025-03-30 00:00:00",
+      "DESCRIPCION": "Pago de intereses capitalizados",
+      "DEBITOS": 13494.67,
+      "CREDITOS": 0.0,
+      "OFICINA": "",
+      "SALDO": 255053988.43
+    },
+    {
+      "FECHA": "2025-03-30 00:00:00",
+      "DESCRIPCION": "Retención en la Fuente Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 945.0,
+      "OFICINA": "",
+      "SALDO": 255053043.43
+    },
+    {
+      "FECHA": "2025-03-30 00:00:00",
+      "DESCRIPCION": "Impuesto Trans finan Ahorros",
+      "DEBITOS": 0.0,
+      "CREDITOS": 4.0,
+      "OFICINA": "",
+      "SALDO": 255053039.43
+    }
+  ]
+}

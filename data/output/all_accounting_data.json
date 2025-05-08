@@ -2,2977 +2,2277 @@
   {
     "metadata": {
       "tipo_reporte": "MOVIMIENTO CUENTAS - GENERAL",
-      "periodo": "De: ABR  1/2025 A: ABR 30/2025",
-      "fecha_proceso": "Procesado en: 2025/05/07  13:44:33:33"
+      "periodo": "De: FEB  1/2025 A: FEB 28/2025",
+      "fecha_proceso": "Procesado en: 2025/04/28  16:20:11:14"
     },
     "movimientos": [
       {
-        "FECHA": "2025-04-01 00:00:00",
+        "FECHA": "2025-02-03 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 435000.0,
-        "COMPROBANTE": "G 003 00000007890 002"
+        "CREDITOS": 1138.0,
+        "COMPROBANTE": "G 003 00000007580 002"
       },
       {
-        "FECHA": "2025-04-01 00:00:00",
+        "FECHA": "2025-02-03 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 1064750.0,
-        "COMPROBANTE": "G 003 00000007978 002"
+        "CREDITOS": 1566529.0,
+        "COMPROBANTE": "G 003 00000007580 004"
       },
       {
-        "FECHA": "2025-04-01 00:00:00",
+        "FECHA": "2025-02-03 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": 3094015.0,
+        "DEBITOS": "",
+        "CREDITOS": 1138.0,
+        "COMPROBANTE": "G 003 00000007580 006"
+      },
+      {
+        "FECHA": "2025-02-03 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 1509530.0,
+        "COMPROBANTE": "G 003 00000007580 008"
+      },
+      {
+        "FECHA": "2025-02-03 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 12840013.0,
+        "COMPROBANTE": "G 003 00000007589 002"
+      },
+      {
+        "FECHA": "2025-02-03 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 2313801.0,
+        "COMPROBANTE": "G 003 00000007590 002"
+      },
+      {
+        "FECHA": "2025-02-03 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 2892321.0,
+        "COMPROBANTE": "G 003 00000007599 002"
+      },
+      {
+        "FECHA": "2025-02-03 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 1209147.0,
+        "COMPROBANTE": "G 003 00000007600 002"
+      },
+      {
+        "FECHA": "2025-02-03 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 1200000.0,
+        "COMPROBANTE": "G 003 00000007628 002"
+      },
+      {
+        "FECHA": "2025-02-03 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 10694.0,
+        "COMPROBANTE": "G 003 00000007677 004"
+      },
+      {
+        "FECHA": "2025-02-03 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": 703165696.52,
         "CREDITOS": "",
-        "COMPROBANTE": "R 001 00000003281 002"
+        "COMPROBANTE": "R 001 00000003210 004"
       },
       {
-        "FECHA": "2025-04-02 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 1209250.0,
-        "COMPROBANTE": "G 003 00000007979 002"
-      },
-      {
-        "FECHA": "2025-04-02 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 3000000.0,
-        "COMPROBANTE": "G 003 00000007981 002"
-      },
-      {
-        "FECHA": "2025-04-02 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 17763815.0,
-        "COMPROBANTE": "G 003 00000007982 002"
-      },
-      {
-        "FECHA": "2025-04-02 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 756000.0,
-        "COMPROBANTE": "L 008 00000003730 002"
-      },
-      {
-        "FECHA": "2025-04-03 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 2359003.0,
-        "COMPROBANTE": "G 003 00000007980 002"
-      },
-      {
-        "FECHA": "2025-04-03 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 10000000.0,
-        "COMPROBANTE": "G 003 00000008059 002"
-      },
-      {
-        "FECHA": "2025-04-03 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 739395.0,
-        "COMPROBANTE": "G 003 00000008170 002"
-      },
-      {
-        "FECHA": "2025-04-03 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": 9598666.0,
-        "CREDITOS": "",
-        "COMPROBANTE": "R 001 00000003282 004"
-      },
-      {
-        "FECHA": "2025-04-03 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": 400202.0,
-        "CREDITOS": "",
-        "COMPROBANTE": "R 001 00000003290 002"
-      },
-      {
-        "FECHA": "2025-04-04 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 43577548.0,
-        "COMPROBANTE": "G 003 00000007931 002"
-      },
-      {
-        "FECHA": "2025-04-04 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 18000000.0,
-        "COMPROBANTE": "G 003 00000007932 002"
-      },
-      {
-        "FECHA": "2025-04-04 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 1190000.0,
-        "COMPROBANTE": "G 003 00000007935 002"
-      },
-      {
-        "FECHA": "2025-04-04 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 45888542.0,
-        "COMPROBANTE": "G 003 00000007936 002"
-      },
-      {
-        "FECHA": "2025-04-04 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 19118680.0,
-        "COMPROBANTE": "G 003 00000007947 001"
-      },
-      {
-        "FECHA": "2025-04-04 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 23084545.0,
-        "COMPROBANTE": "G 003 00000007953 002"
-      },
-      {
-        "FECHA": "2025-04-04 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 36774640.0,
-        "COMPROBANTE": "G 003 00000007954 002"
-      },
-      {
-        "FECHA": "2025-04-04 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 16151430.0,
-        "COMPROBANTE": "G 003 00000007955 002"
-      },
-      {
-        "FECHA": "2025-04-04 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 14795720.0,
-        "COMPROBANTE": "G 003 00000007957 002"
-      },
-      {
-        "FECHA": "2025-04-04 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 892404.0,
-        "COMPROBANTE": "G 003 00000007960 002"
-      },
-      {
-        "FECHA": "2025-04-04 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 1073971.0,
-        "COMPROBANTE": "G 003 00000007962 002"
-      },
-      {
-        "FECHA": "2025-04-04 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 315919.0,
-        "COMPROBANTE": "G 003 00000007965 002"
-      },
-      {
-        "FECHA": "2025-04-04 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 1674897.0,
-        "COMPROBANTE": "G 003 00000007966 002"
-      },
-      {
-        "FECHA": "2025-04-04 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 16614096.0,
-        "COMPROBANTE": "G 003 00000007999 002"
-      },
-      {
-        "FECHA": "2025-04-04 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 19402202.38,
-        "COMPROBANTE": "G 003 00000008088 002"
-      },
-      {
-        "FECHA": "2025-04-04 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": 230000000.0,
-        "CREDITOS": "",
-        "COMPROBANTE": "R 001 00000003287 002"
-      },
-      {
-        "FECHA": "2025-04-04 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": 88793.0,
-        "CREDITOS": "",
-        "COMPROBANTE": "R 001 00000003291 002"
-      },
-      {
-        "FECHA": "2025-04-04 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": 34120444.0,
-        "CREDITOS": "",
-        "COMPROBANTE": "R 001 00000003300 004"
-      },
-      {
-        "FECHA": "2025-04-07 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 3168589.0,
-        "COMPROBANTE": "G 003 00000007964 002"
-      },
-      {
-        "FECHA": "2025-04-07 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": 997400454.0,
-        "CREDITOS": "",
-        "COMPROBANTE": "R 001 00000003297 004"
-      },
-      {
-        "FECHA": "2025-04-07 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": 25520249.0,
-        "CREDITOS": "",
-        "COMPROBANTE": "R 001 00000003299 004"
-      },
-      {
-        "FECHA": "2025-04-09 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 4563000.0,
-        "COMPROBANTE": "G 003 00000007933 002"
-      },
-      {
-        "FECHA": "2025-04-09 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 608913.0,
-        "COMPROBANTE": "G 003 00000007939 002"
-      },
-      {
-        "FECHA": "2025-04-09 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 2459700.0,
-        "COMPROBANTE": "G 003 00000007948 002"
-      },
-      {
-        "FECHA": "2025-04-09 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 2381645.0,
-        "COMPROBANTE": "G 003 00000007951 004"
-      },
-      {
-        "FECHA": "2025-04-09 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 4740000.0,
-        "COMPROBANTE": "G 003 00000007958 004"
-      },
-      {
-        "FECHA": "2025-04-09 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 402000.0,
-        "COMPROBANTE": "G 003 00000007961 002"
-      },
-      {
-        "FECHA": "2025-04-09 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 2900000.0,
-        "COMPROBANTE": "G 003 00000007967 002"
-      },
-      {
-        "FECHA": "2025-04-09 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 500000.0,
-        "COMPROBANTE": "G 003 00000007970 002"
-      },
-      {
-        "FECHA": "2025-04-09 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 13239060.0,
-        "COMPROBANTE": "G 003 00000007973 009"
-      },
-      {
-        "FECHA": "2025-04-09 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 5763000.0,
-        "COMPROBANTE": "G 003 00000007975 003"
-      },
-      {
-        "FECHA": "2025-04-09 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 26147900.0,
-        "COMPROBANTE": "G 003 00000007977 011"
-      },
-      {
-        "FECHA": "2025-04-09 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 16899750.0,
-        "COMPROBANTE": "G 003 00000007983 008"
-      },
-      {
-        "FECHA": "2025-04-09 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 5380000.0,
-        "COMPROBANTE": "G 003 00000007985 004"
-      },
-      {
-        "FECHA": "2025-04-09 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 1100000.0,
-        "COMPROBANTE": "G 003 00000007989 002"
-      },
-      {
-        "FECHA": "2025-04-09 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 5425145.0,
-        "COMPROBANTE": "G 003 00000007997 002"
-      },
-      {
-        "FECHA": "2025-04-09 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 980000000.0,
-        "COMPROBANTE": "R 001 00000003284 001"
-      },
-      {
-        "FECHA": "2025-04-09 00:00:00",
+        "FECHA": "2025-02-03 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": 200101.0,
         "CREDITOS": "",
-        "COMPROBANTE": "R 001 00000003292 002"
+        "COMPROBANTE": "R 001 00000003211 002"
       },
       {
-        "FECHA": "2025-04-10 00:00:00",
+        "FECHA": "2025-02-04 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 1599000.0,
-        "COMPROBANTE": "G 003 00000007956 002"
+        "CREDITOS": 400000.0,
+        "COMPROBANTE": "G 003 00000007597 002"
       },
       {
-        "FECHA": "2025-04-10 00:00:00",
+        "FECHA": "2025-02-04 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 38000.0,
-        "COMPROBANTE": "G 003 00000007991 003"
+        "CREDITOS": 357755900.0,
+        "COMPROBANTE": "G 003 00000007666 003"
       },
       {
-        "FECHA": "2025-04-10 00:00:00",
+        "FECHA": "2025-02-04 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 2863452.0,
-        "COMPROBANTE": "G 003 00000007998 002"
-      },
-      {
-        "FECHA": "2025-04-10 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": 150000000.0,
+        "DEBITOS": 300000.0,
         "CREDITOS": "",
-        "COMPROBANTE": "R 001 00000003302 002"
+        "COMPROBANTE": "R 001 00000003224 002"
       },
       {
-        "FECHA": "2025-04-11 00:00:00",
+        "FECHA": "2025-02-04 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": 955221.0,
+        "CREDITOS": "",
+        "COMPROBANTE": "R 001 00000003229 002"
+      },
+      {
+        "FECHA": "2025-02-05 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 514686.0,
-        "COMPROBANTE": "G 003 00000007934 003"
+        "CREDITOS": 300959.0,
+        "COMPROBANTE": "G 003 00000007670 002"
       },
       {
-        "FECHA": "2025-04-11 00:00:00",
+        "FECHA": "2025-02-06 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 1323280.0,
-        "COMPROBANTE": "G 003 00000007937 002"
+        "CREDITOS": 19272788.0,
+        "COMPROBANTE": "G 003 00000007588 002"
       },
       {
-        "FECHA": "2025-04-11 00:00:00",
+        "FECHA": "2025-02-06 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 5443040.0,
-        "COMPROBANTE": "G 003 00000007938 002"
+        "CREDITOS": 14190873.0,
+        "COMPROBANTE": "G 003 00000007591 002"
       },
       {
-        "FECHA": "2025-04-11 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 3039448.0,
-        "COMPROBANTE": "G 003 00000007940 002"
-      },
-      {
-        "FECHA": "2025-04-11 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 1338309.0,
-        "COMPROBANTE": "G 003 00000007941 002"
-      },
-      {
-        "FECHA": "2025-04-11 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 12796453.0,
-        "COMPROBANTE": "G 003 00000007942 002"
-      },
-      {
-        "FECHA": "2025-04-11 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 404400.0,
-        "COMPROBANTE": "G 003 00000007943 002"
-      },
-      {
-        "FECHA": "2025-04-11 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 37128.0,
-        "COMPROBANTE": "G 003 00000007944 002"
-      },
-      {
-        "FECHA": "2025-04-11 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 1349589.0,
-        "COMPROBANTE": "G 003 00000007945 002"
-      },
-      {
-        "FECHA": "2025-04-11 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 231012.0,
-        "COMPROBANTE": "G 003 00000007946 002"
-      },
-      {
-        "FECHA": "2025-04-11 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 301125.0,
-        "COMPROBANTE": "G 003 00000007949 002"
-      },
-      {
-        "FECHA": "2025-04-11 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 523800.0,
-        "COMPROBANTE": "G 003 00000007950 002"
-      },
-      {
-        "FECHA": "2025-04-11 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 3413112.0,
-        "COMPROBANTE": "G 003 00000007952 002"
-      },
-      {
-        "FECHA": "2025-04-11 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 3000000.0,
-        "COMPROBANTE": "G 003 00000007974 002"
-      },
-      {
-        "FECHA": "2025-04-11 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 2000000.0,
-        "COMPROBANTE": "G 003 00000007976 002"
-      },
-      {
-        "FECHA": "2025-04-11 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 1450000.0,
-        "COMPROBANTE": "G 003 00000007986 002"
-      },
-      {
-        "FECHA": "2025-04-11 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 4000000.0,
-        "COMPROBANTE": "G 003 00000007987 002"
-      },
-      {
-        "FECHA": "2025-04-11 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 5091600.0,
-        "COMPROBANTE": "G 003 00000007988 003"
-      },
-      {
-        "FECHA": "2025-04-11 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 20015224.0,
-        "COMPROBANTE": "G 003 00000008000 002"
-      },
-      {
-        "FECHA": "2025-04-14 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 2287180.0,
-        "COMPROBANTE": "G 003 00000007959 002"
-      },
-      {
-        "FECHA": "2025-04-14 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 403620.0,
-        "COMPROBANTE": "G 003 00000007968 002"
-      },
-      {
-        "FECHA": "2025-04-14 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 1328806.0,
-        "COMPROBANTE": "G 003 00000007971 002"
-      },
-      {
-        "FECHA": "2025-04-14 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 672700.0,
-        "COMPROBANTE": "G 003 00000007990 002"
-      },
-      {
-        "FECHA": "2025-04-14 00:00:00",
+        "FECHA": "2025-02-06 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
         "CREDITOS": 10000000.0,
-        "COMPROBANTE": "G 003 00000008002 002"
+        "COMPROBANTE": "G 003 00000007680 002"
       },
       {
-        "FECHA": "2025-04-14 00:00:00",
+        "FECHA": "2025-02-06 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 1000000000.0,
-        "COMPROBANTE": "R 001 00000003286 001"
-      },
-      {
-        "FECHA": "2025-04-14 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": 1135696732.0,
+        "DEBITOS": 6713060.0,
         "CREDITOS": "",
-        "COMPROBANTE": "R 001 00000003296 010"
+        "COMPROBANTE": "R 001 00000003218 002"
       },
       {
-        "FECHA": "2025-04-15 00:00:00",
+        "FECHA": "2025-02-07 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 22006284.0,
-        "COMPROBANTE": "G 003 00000008001 002"
+        "CREDITOS": 2900000.0,
+        "COMPROBANTE": "G 003 00000007582 002"
       },
       {
-        "FECHA": "2025-04-15 00:00:00",
+        "FECHA": "2025-02-07 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 10212613.0,
-        "COMPROBANTE": "G 003 00000008060 002"
+        "CREDITOS": 4563000.0,
+        "COMPROBANTE": "G 003 00000007584 002"
       },
       {
-        "FECHA": "2025-04-15 00:00:00",
+        "FECHA": "2025-02-07 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 10211199.0,
-        "COMPROBANTE": "G 003 00000008061 002"
+        "CREDITOS": 434939.0,
+        "COMPROBANTE": "G 003 00000007585 002"
       },
       {
-        "FECHA": "2025-04-15 00:00:00",
+        "FECHA": "2025-02-07 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 8198243.0,
-        "COMPROBANTE": "G 003 00000008062 002"
+        "CREDITOS": 2459700.0,
+        "COMPROBANTE": "G 003 00000007586 002"
       },
       {
-        "FECHA": "2025-04-15 00:00:00",
+        "FECHA": "2025-02-07 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 10211199.0,
-        "COMPROBANTE": "G 003 00000008063 002"
+        "CREDITOS": 2511254.0,
+        "COMPROBANTE": "G 003 00000007587 002"
       },
       {
-        "FECHA": "2025-04-15 00:00:00",
+        "FECHA": "2025-02-07 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 8731702.0,
-        "COMPROBANTE": "G 003 00000008064 002"
+        "CREDITOS": 7125990.0,
+        "COMPROBANTE": "G 003 00000007592 005"
       },
       {
-        "FECHA": "2025-04-15 00:00:00",
+        "FECHA": "2025-02-07 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 9651812.0,
-        "COMPROBANTE": "G 003 00000008065 002"
+        "CREDITOS": 4874000.0,
+        "COMPROBANTE": "G 003 00000007593 003"
       },
       {
-        "FECHA": "2025-04-15 00:00:00",
+        "FECHA": "2025-02-07 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 7882910.0,
-        "COMPROBANTE": "G 003 00000008066 002"
+        "CREDITOS": 7486.0,
+        "COMPROBANTE": "G 003 00000007594 003"
       },
       {
-        "FECHA": "2025-04-15 00:00:00",
+        "FECHA": "2025-02-07 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 8265790.0,
-        "COMPROBANTE": "G 003 00000008067 002"
+        "CREDITOS": 5443039.0,
+        "COMPROBANTE": "G 003 00000007601 002"
       },
       {
-        "FECHA": "2025-04-15 00:00:00",
+        "FECHA": "2025-02-07 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 10614199.0,
-        "COMPROBANTE": "G 003 00000008068 002"
+        "CREDITOS": 2775752.0,
+        "COMPROBANTE": "G 003 00000007602 002"
       },
       {
-        "FECHA": "2025-04-15 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 8422090.0,
-        "COMPROBANTE": "G 003 00000008069 002"
-      },
-      {
-        "FECHA": "2025-04-15 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 9840812.0,
-        "COMPROBANTE": "G 003 00000008070 002"
-      },
-      {
-        "FECHA": "2025-04-15 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 8319036.0,
-        "COMPROBANTE": "G 003 00000008071 002"
-      },
-      {
-        "FECHA": "2025-04-15 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 3462439.0,
-        "COMPROBANTE": "G 003 00000008072 002"
-      },
-      {
-        "FECHA": "2025-04-15 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 11314940.0,
-        "COMPROBANTE": "G 003 00000008073 002"
-      },
-      {
-        "FECHA": "2025-04-15 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 9296974.0,
-        "COMPROBANTE": "G 003 00000008074 002"
-      },
-      {
-        "FECHA": "2025-04-15 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 8198243.0,
-        "COMPROBANTE": "G 003 00000008075 002"
-      },
-      {
-        "FECHA": "2025-04-15 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 7616614.0,
-        "COMPROBANTE": "G 003 00000008076 002"
-      },
-      {
-        "FECHA": "2025-04-15 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 8266090.0,
-        "COMPROBANTE": "G 003 00000008077 002"
-      },
-      {
-        "FECHA": "2025-04-15 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 8265790.0,
-        "COMPROBANTE": "G 003 00000008078 002"
-      },
-      {
-        "FECHA": "2025-04-15 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 5122023.0,
-        "COMPROBANTE": "G 003 00000008079 002"
-      },
-      {
-        "FECHA": "2025-04-15 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 8265790.0,
-        "COMPROBANTE": "G 003 00000008080 002"
-      },
-      {
-        "FECHA": "2025-04-15 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 11888615.0,
-        "COMPROBANTE": "G 003 00000008081 002"
-      },
-      {
-        "FECHA": "2025-04-15 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 8859370.0,
-        "COMPROBANTE": "G 003 00000008082 002"
-      },
-      {
-        "FECHA": "2025-04-15 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 892340.0,
-        "COMPROBANTE": "G 003 00000008140 002"
-      },
-      {
-        "FECHA": "2025-04-15 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 355000.0,
-        "COMPROBANTE": "G 003 00000008172 002"
-      },
-      {
-        "FECHA": "2025-04-15 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 355000.0,
-        "COMPROBANTE": "G 003 00000008173 002"
-      },
-      {
-        "FECHA": "2025-04-15 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 355000.0,
-        "COMPROBANTE": "G 003 00000008174 002"
-      },
-      {
-        "FECHA": "2025-04-15 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": 2062677.0,
-        "CREDITOS": "",
-        "COMPROBANTE": "R 001 00000003293 002"
-      },
-      {
-        "FECHA": "2025-04-15 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": 100000000.0,
-        "CREDITOS": "",
-        "COMPROBANTE": "R 001 00000003301 002"
-      },
-      {
-        "FECHA": "2025-04-16 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 45958702.0,
-        "COMPROBANTE": "G 003 00000008007 003"
-      },
-      {
-        "FECHA": "2025-04-16 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 17397780.0,
-        "COMPROBANTE": "G 003 00000008008 002"
-      },
-      {
-        "FECHA": "2025-04-16 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 53626455.0,
-        "COMPROBANTE": "G 003 00000008009 002"
-      },
-      {
-        "FECHA": "2025-04-16 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 36462568.0,
-        "COMPROBANTE": "G 003 00000008010 002"
-      },
-      {
-        "FECHA": "2025-04-16 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 60849571.0,
-        "COMPROBANTE": "G 003 00000008011 009"
-      },
-      {
-        "FECHA": "2025-04-16 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 30953975.0,
-        "COMPROBANTE": "G 003 00000008012 002"
-      },
-      {
-        "FECHA": "2025-04-16 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 3366375.0,
-        "COMPROBANTE": "G 003 00000008013 002"
-      },
-      {
-        "FECHA": "2025-04-16 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 14579356.0,
-        "COMPROBANTE": "G 003 00000008014 002"
-      },
-      {
-        "FECHA": "2025-04-16 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 43413964.0,
-        "COMPROBANTE": "G 003 00000008016 003"
-      },
-      {
-        "FECHA": "2025-04-16 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 42778530.0,
-        "COMPROBANTE": "G 003 00000008017 002"
-      },
-      {
-        "FECHA": "2025-04-16 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 8669754.0,
-        "COMPROBANTE": "G 003 00000008018 004"
-      },
-      {
-        "FECHA": "2025-04-16 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 421199.0,
-        "COMPROBANTE": "G 003 00000008019 002"
-      },
-      {
-        "FECHA": "2025-04-16 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 43577548.0,
-        "COMPROBANTE": "G 003 00000008020 002"
-      },
-      {
-        "FECHA": "2025-04-16 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 45688764.0,
-        "COMPROBANTE": "G 003 00000008021 002"
-      },
-      {
-        "FECHA": "2025-04-16 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 9632260.0,
-        "COMPROBANTE": "G 003 00000008022 002"
-      },
-      {
-        "FECHA": "2025-04-16 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 14133780.0,
-        "COMPROBANTE": "G 003 00000008023 002"
-      },
-      {
-        "FECHA": "2025-04-16 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 87103064.0,
-        "COMPROBANTE": "G 003 00000008024 004"
-      },
-      {
-        "FECHA": "2025-04-16 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 4126935.0,
-        "COMPROBANTE": "G 003 00000008027 003"
-      },
-      {
-        "FECHA": "2025-04-16 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 23615764.0,
-        "COMPROBANTE": "G 003 00000008028 002"
-      },
-      {
-        "FECHA": "2025-04-16 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 10616199.0,
-        "COMPROBANTE": "G 003 00000008029 002"
-      },
-      {
-        "FECHA": "2025-04-16 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 1454544.0,
-        "COMPROBANTE": "G 003 00000008030 002"
-      },
-      {
-        "FECHA": "2025-04-16 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 4808700.0,
-        "COMPROBANTE": "G 003 00000008031 003"
-      },
-      {
-        "FECHA": "2025-04-16 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 220400.0,
-        "COMPROBANTE": "G 003 00000008032 002"
-      },
-      {
-        "FECHA": "2025-04-16 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 221792.0,
-        "COMPROBANTE": "G 003 00000008033 002"
-      },
-      {
-        "FECHA": "2025-04-16 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 220400.0,
-        "COMPROBANTE": "G 003 00000008034 002"
-      },
-      {
-        "FECHA": "2025-04-16 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 789705.0,
-        "COMPROBANTE": "G 003 00000008035 004"
-      },
-      {
-        "FECHA": "2025-04-16 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 209000.0,
-        "COMPROBANTE": "G 003 00000008036 002"
-      },
-      {
-        "FECHA": "2025-04-16 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 1045350.0,
-        "COMPROBANTE": "G 003 00000008037 002"
-      },
-      {
-        "FECHA": "2025-04-16 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 1782620.0,
-        "COMPROBANTE": "G 003 00000008038 002"
-      },
-      {
-        "FECHA": "2025-04-16 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 2971367.0,
-        "COMPROBANTE": "G 003 00000008039 002"
-      },
-      {
-        "FECHA": "2025-04-16 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 220400.0,
-        "COMPROBANTE": "G 003 00000008040 002"
-      },
-      {
-        "FECHA": "2025-04-16 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 2127413.0,
-        "COMPROBANTE": "G 003 00000008041 002"
-      },
-      {
-        "FECHA": "2025-04-16 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 1259304.0,
-        "COMPROBANTE": "G 003 00000008043 003"
-      },
-      {
-        "FECHA": "2025-04-16 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": 585000000.0,
-        "CREDITOS": "",
-        "COMPROBANTE": "R 001 00000003303 002"
-      },
-      {
-        "FECHA": "2025-04-21 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 1000000.0,
-        "COMPROBANTE": "G 003 00000008042 002"
-      },
-      {
-        "FECHA": "2025-04-21 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 650670744.0,
-        "COMPROBANTE": "G 003 00000008138 005"
-      },
-      {
-        "FECHA": "2025-04-21 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": 680000000.0,
-        "CREDITOS": "",
-        "COMPROBANTE": "R 001 00000003288 002"
-      },
-      {
-        "FECHA": "2025-04-21 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": 535235447.0,
-        "CREDITOS": "",
-        "COMPROBANTE": "R 001 00000003289 005"
-      },
-      {
-        "FECHA": "2025-04-22 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 50247148.0,
-        "COMPROBANTE": "G 003 00000008098 002"
-      },
-      {
-        "FECHA": "2025-04-22 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 8266090.0,
-        "COMPROBANTE": "G 003 00000008099 002"
-      },
-      {
-        "FECHA": "2025-04-22 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 9651812.0,
-        "COMPROBANTE": "G 003 00000008100 002"
-      },
-      {
-        "FECHA": "2025-04-22 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 8443090.0,
-        "COMPROBANTE": "G 003 00000008101 002"
-      },
-      {
-        "FECHA": "2025-04-22 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 5573066.0,
-        "COMPROBANTE": "G 003 00000008102 002"
-      },
-      {
-        "FECHA": "2025-04-22 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 176695.0,
-        "COMPROBANTE": "G 003 00000008126 002"
-      },
-      {
-        "FECHA": "2025-04-22 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": 708306.0,
-        "CREDITOS": "",
-        "COMPROBANTE": "R 001 00000003294 002"
-      },
-      {
-        "FECHA": "2025-04-22 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": 47450.0,
-        "CREDITOS": "",
-        "COMPROBANTE": "R 001 00000003295 002"
-      },
-      {
-        "FECHA": "2025-04-23 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 121235041.0,
-        "COMPROBANTE": "G 003 00000008130 008"
-      },
-      {
-        "FECHA": "2025-04-23 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": 32271932.49,
-        "CREDITOS": "",
-        "COMPROBANTE": "R 001 00000003298 003"
-      },
-      {
-        "FECHA": "2025-04-24 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 4204734.0,
-        "COMPROBANTE": "G 003 00000007738 002"
-      },
-      {
-        "FECHA": "2025-04-24 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 1500000.0,
-        "COMPROBANTE": "G 003 00000008086 002"
-      },
-      {
-        "FECHA": "2025-04-24 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 846983.0,
-        "COMPROBANTE": "G 003 00000008103 002"
-      },
-      {
-        "FECHA": "2025-04-24 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 846983.0,
-        "COMPROBANTE": "G 003 00000008104 002"
-      },
-      {
-        "FECHA": "2025-04-24 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 30470520.0,
-        "COMPROBANTE": "G 003 00000008105 002"
-      },
-      {
-        "FECHA": "2025-04-24 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 41999216.0,
-        "COMPROBANTE": "G 003 00000008107 002"
-      },
-      {
-        "FECHA": "2025-04-24 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 9247601.0,
-        "COMPROBANTE": "G 003 00000008108 002"
-      },
-      {
-        "FECHA": "2025-04-24 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 6921733.0,
-        "COMPROBANTE": "G 003 00000008109 002"
-      },
-      {
-        "FECHA": "2025-04-24 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 31531231.0,
-        "COMPROBANTE": "G 003 00000008110 003"
-      },
-      {
-        "FECHA": "2025-04-24 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 2868906.0,
-        "COMPROBANTE": "G 003 00000008112 002"
-      },
-      {
-        "FECHA": "2025-04-24 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 39893199.0,
-        "COMPROBANTE": "G 003 00000008113 002"
-      },
-      {
-        "FECHA": "2025-04-24 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 11160941.0,
-        "COMPROBANTE": "G 003 00000008114 002"
-      },
-      {
-        "FECHA": "2025-04-24 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 1472880.0,
-        "COMPROBANTE": "G 003 00000008115 002"
-      },
-      {
-        "FECHA": "2025-04-24 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 62474752.0,
-        "COMPROBANTE": "G 003 00000008116 002"
-      },
-      {
-        "FECHA": "2025-04-24 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 64978529.0,
-        "COMPROBANTE": "G 003 00000008117 002"
-      },
-      {
-        "FECHA": "2025-04-24 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 8061371.0,
-        "COMPROBANTE": "G 003 00000008118 002"
-      },
-      {
-        "FECHA": "2025-04-24 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 6544142.0,
-        "COMPROBANTE": "G 003 00000008119 002"
-      },
-      {
-        "FECHA": "2025-04-24 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 1462350.0,
-        "COMPROBANTE": "G 003 00000008120 002"
-      },
-      {
-        "FECHA": "2025-04-24 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 2987400.0,
-        "COMPROBANTE": "G 003 00000008121 002"
-      },
-      {
-        "FECHA": "2025-04-24 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 8034498.0,
-        "COMPROBANTE": "G 003 00000008122 002"
-      },
-      {
-        "FECHA": "2025-04-24 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 44367817.0,
-        "COMPROBANTE": "G 003 00000008123 002"
-      },
-      {
-        "FECHA": "2025-04-24 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 70689.0,
-        "COMPROBANTE": "G 003 00000008124 002"
-      },
-      {
-        "FECHA": "2025-04-24 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 2388554.0,
-        "COMPROBANTE": "G 003 00000008125 002"
-      },
-      {
-        "FECHA": "2025-04-24 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 2725563.0,
-        "COMPROBANTE": "G 003 00000008127 002"
-      },
-      {
-        "FECHA": "2025-04-24 00:00:00",
+        "FECHA": "2025-02-07 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
         "CREDITOS": 2509175.0,
-        "COMPROBANTE": "G 003 00000008128 002"
+        "COMPROBANTE": "G 003 00000007603 002"
       },
       {
-        "FECHA": "2025-04-24 00:00:00",
+        "FECHA": "2025-02-07 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 1918432.0,
-        "COMPROBANTE": "G 003 00000008129 002"
+        "CREDITOS": 2569178.0,
+        "COMPROBANTE": "G 003 00000007604 002"
       },
       {
-        "FECHA": "2025-04-25 00:00:00",
+        "FECHA": "2025-02-07 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 385000.0,
+        "COMPROBANTE": "G 003 00000007605 003"
+      },
+      {
+        "FECHA": "2025-02-07 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 10586056.0,
+        "COMPROBANTE": "G 003 00000007606 002"
+      },
+      {
+        "FECHA": "2025-02-07 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 22433200.0,
+        "COMPROBANTE": "G 003 00000007608 009"
+      },
+      {
+        "FECHA": "2025-02-07 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 7763000.0,
+        "COMPROBANTE": "G 003 00000007609 003"
+      },
+      {
+        "FECHA": "2025-02-07 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 5380000.0,
+        "COMPROBANTE": "G 003 00000007610 004"
+      },
+      {
+        "FECHA": "2025-02-07 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 19899750.0,
+        "COMPROBANTE": "G 003 00000007611 009"
+      },
+      {
+        "FECHA": "2025-02-07 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 1859200.0,
+        "COMPROBANTE": "G 003 00000007612 002"
+      },
+      {
+        "FECHA": "2025-02-07 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 1100000.0,
+        "COMPROBANTE": "G 003 00000007614 002"
+      },
+      {
+        "FECHA": "2025-02-07 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 142119.0,
+        "COMPROBANTE": "G 003 00000007620 002"
+      },
+      {
+        "FECHA": "2025-02-07 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 1432899.0,
+        "COMPROBANTE": "G 003 00000007622 002"
+      },
+      {
+        "FECHA": "2025-02-07 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 19601659.04,
+        "COMPROBANTE": "G 003 00000007668 002"
+      },
+      {
+        "FECHA": "2025-02-07 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
         "CREDITOS": 10000000.0,
-        "COMPROBANTE": "G 003 00000007736 002"
+        "COMPROBANTE": "G 003 00000007671 002"
       },
       {
-        "FECHA": "2025-04-25 00:00:00",
+        "FECHA": "2025-02-07 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 18000000.0,
-        "COMPROBANTE": "G 003 00000007737 002"
-      },
-      {
-        "FECHA": "2025-04-25 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 40489890.0,
-        "COMPROBANTE": "G 003 00000008106 002"
-      },
-      {
-        "FECHA": "2025-04-25 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 21735328.0,
-        "COMPROBANTE": "G 003 00000008133 002"
-      },
-      {
-        "FECHA": "2025-04-25 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": 466400.0,
+        "DEBITOS": 47450.0,
         "CREDITOS": "",
-        "COMPROBANTE": "R 001 00000003305 002"
+        "COMPROBANTE": "R 001 00000003214 002"
       },
       {
-        "FECHA": "2025-04-25 00:00:00",
+        "FECHA": "2025-02-07 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": 384331031.0,
+        "DEBITOS": "",
+        "CREDITOS": 300000000.0,
+        "COMPROBANTE": "R 001 00000003219 002"
+      },
+      {
+        "FECHA": "2025-02-10 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 750000.0,
+        "COMPROBANTE": "G 003 00000007595 002"
+      },
+      {
+        "FECHA": "2025-02-10 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 400000.0,
+        "COMPROBANTE": "G 003 00000007607 002"
+      },
+      {
+        "FECHA": "2025-02-10 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 500000.0,
+        "COMPROBANTE": "G 003 00000007613 002"
+      },
+      {
+        "FECHA": "2025-02-10 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": 47450.0,
         "CREDITOS": "",
-        "COMPROBANTE": "R 001 00000003307 004"
+        "COMPROBANTE": "R 001 00000003213 002"
       },
       {
-        "FECHA": "2025-04-28 00:00:00",
+        "FECHA": "2025-02-10 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 4099191.0,
-        "COMPROBANTE": "G 003 00000007739 002"
-      },
-      {
-        "FECHA": "2025-04-28 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 3671617.0,
-        "COMPROBANTE": "G 003 00000008111 002"
-      },
-      {
-        "FECHA": "2025-04-28 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 1606500.0,
-        "COMPROBANTE": "G 003 00000008134 002"
-      },
-      {
-        "FECHA": "2025-04-28 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 507003.0,
-        "COMPROBANTE": "G 003 00000008135 002"
-      },
-      {
-        "FECHA": "2025-04-28 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 1714902.0,
-        "COMPROBANTE": "G 003 00000008136 002"
-      },
-      {
-        "FECHA": "2025-04-28 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 1500000.0,
-        "COMPROBANTE": "G 003 00000008137 002"
-      },
-      {
-        "FECHA": "2025-04-28 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 6603435.0,
-        "COMPROBANTE": "G 003 00000008143 003"
-      },
-      {
-        "FECHA": "2025-04-28 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 1190000.0,
-        "COMPROBANTE": "G 003 00000008144 002"
-      },
-      {
-        "FECHA": "2025-04-29 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": 1061005971.0,
+        "DEBITOS": 32271932.0,
         "CREDITOS": "",
-        "COMPROBANTE": "R 001 00000003308 007"
+        "COMPROBANTE": "R 001 00000003228 002"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-11 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 9084510.0,
-        "COMPROBANTE": "G 003 00000008145 002"
+        "CREDITOS": 865529.0,
+        "COMPROBANTE": "G 003 00000007581 002"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-11 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 711750.0,
-        "COMPROBANTE": "G 003 00000008146 004"
+        "CREDITOS": 865529.0,
+        "COMPROBANTE": "G 003 00000007583 002"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-11 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 711750.0,
-        "COMPROBANTE": "G 003 00000008146 005"
+        "CREDITOS": 3986533.0,
+        "COMPROBANTE": "G 003 00000007615 003"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-11 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 711750.0,
-        "COMPROBANTE": "G 003 00000008146 006"
+        "CREDITOS": 3601620.0,
+        "COMPROBANTE": "G 003 00000007616 002"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-11 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 771100.0,
-        "COMPROBANTE": "G 003 00000008146 008"
+        "CREDITOS": 680000.0,
+        "COMPROBANTE": "G 003 00000007617 002"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-11 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 905700.0,
-        "COMPROBANTE": "G 003 00000008146 010"
+        "CREDITOS": 783200.0,
+        "COMPROBANTE": "G 003 00000007618 003"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-11 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 1067625.0,
-        "COMPROBANTE": "G 003 00000008146 015"
+        "CREDITOS": 501637.0,
+        "COMPROBANTE": "G 003 00000007619 002"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-11 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 1067625.0,
-        "COMPROBANTE": "G 003 00000008146 016"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 1067625.0,
-        "COMPROBANTE": "G 003 00000008146 017"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 1067625.0,
-        "COMPROBANTE": "G 003 00000008146 018"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 1423500.0,
-        "COMPROBANTE": "G 003 00000008146 020"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 1509500.0,
-        "COMPROBANTE": "G 003 00000008146 022"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 1604745.0,
-        "COMPROBANTE": "G 003 00000008146 024"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 1813779.0,
-        "COMPROBANTE": "G 003 00000008146 026"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 1883000.0,
-        "COMPROBANTE": "G 003 00000008146 028"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 1910771.0,
-        "COMPROBANTE": "G 003 00000008146 030"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 1913180.0,
-        "COMPROBANTE": "G 003 00000008146 033"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 1913180.0,
-        "COMPROBANTE": "G 003 00000008146 034"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 2156600.0,
-        "COMPROBANTE": "G 003 00000008146 036"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 2500000.0,
-        "COMPROBANTE": "G 003 00000008146 038"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 2501826.0,
-        "COMPROBANTE": "G 003 00000008146 040"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 2590803.0,
-        "COMPROBANTE": "G 003 00000008146 042"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 3023200.0,
-        "COMPROBANTE": "G 003 00000008146 044"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 3207889.0,
-        "COMPROBANTE": "G 003 00000008146 046"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 5552802.0,
-        "COMPROBANTE": "G 003 00000008146 048"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 8065239.0,
-        "COMPROBANTE": "G 003 00000008146 050"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 14364703.0,
-        "COMPROBANTE": "G 003 00000008146 052"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 14916177.0,
-        "COMPROBANTE": "G 003 00000008146 054"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 717754.0,
-        "COMPROBANTE": "G 003 00000008147 002"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 1505756.0,
-        "COMPROBANTE": "G 003 00000008147 004"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 1509500.0,
-        "COMPROBANTE": "G 003 00000008147 006"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 2363800.0,
-        "COMPROBANTE": "G 003 00000008147 008"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 2500000.0,
-        "COMPROBANTE": "G 003 00000008147 010"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 2620040.0,
-        "COMPROBANTE": "G 003 00000008147 013"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 2620040.0,
-        "COMPROBANTE": "G 003 00000008147 014"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 2711921.0,
-        "COMPROBANTE": "G 003 00000008147 016"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 5284245.0,
-        "COMPROBANTE": "G 003 00000008147 018"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 5293999.0,
-        "COMPROBANTE": "G 003 00000008147 020"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 5344677.0,
-        "COMPROBANTE": "G 003 00000008147 022"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 5812540.0,
-        "COMPROBANTE": "G 003 00000008147 024"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 6222400.0,
-        "COMPROBANTE": "G 003 00000008147 026"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 7322364.0,
-        "COMPROBANTE": "G 003 00000008147 028"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 7322427.0,
-        "COMPROBANTE": "G 003 00000008147 031"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 7322427.0,
-        "COMPROBANTE": "G 003 00000008147 032"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 7352534.0,
-        "COMPROBANTE": "G 003 00000008147 034"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 7468132.0,
-        "COMPROBANTE": "G 003 00000008147 036"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 7718558.0,
-        "COMPROBANTE": "G 003 00000008147 038"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 7933432.0,
-        "COMPROBANTE": "G 003 00000008147 040"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 8026730.0,
-        "COMPROBANTE": "G 003 00000008147 042"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 8725522.0,
-        "COMPROBANTE": "G 003 00000008147 044"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 8924623.0,
-        "COMPROBANTE": "G 003 00000008147 046"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 9016082.0,
-        "COMPROBANTE": "G 003 00000008147 048"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 9018622.0,
-        "COMPROBANTE": "G 003 00000008147 050"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 9026454.0,
-        "COMPROBANTE": "G 003 00000008147 052"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 9059282.0,
-        "COMPROBANTE": "G 003 00000008147 054"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 9066623.0,
-        "COMPROBANTE": "G 003 00000008147 057"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 9066623.0,
-        "COMPROBANTE": "G 003 00000008147 058"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 9116583.0,
-        "COMPROBANTE": "G 003 00000008147 060"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 9120623.0,
-        "COMPROBANTE": "G 003 00000008147 062"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 9125623.0,
-        "COMPROBANTE": "G 003 00000008147 064"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 9190623.0,
-        "COMPROBANTE": "G 003 00000008147 066"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 9207282.0,
-        "COMPROBANTE": "G 003 00000008147 068"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 9414530.0,
-        "COMPROBANTE": "G 003 00000008147 070"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 9491381.0,
-        "COMPROBANTE": "G 003 00000008147 072"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 9594624.0,
-        "COMPROBANTE": "G 003 00000008147 074"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 9637618.0,
-        "COMPROBANTE": "G 003 00000008147 076"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 9808989.0,
-        "COMPROBANTE": "G 003 00000008147 078"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 9824463.0,
-        "COMPROBANTE": "G 003 00000008147 080"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 11012266.0,
-        "COMPROBANTE": "G 003 00000008147 082"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 11617626.0,
-        "COMPROBANTE": "G 003 00000008147 084"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 12055892.0,
-        "COMPROBANTE": "G 003 00000008147 086"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 12301915.0,
-        "COMPROBANTE": "G 003 00000008147 088"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 12906420.0,
-        "COMPROBANTE": "G 003 00000008147 090"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 13011866.0,
-        "COMPROBANTE": "G 003 00000008147 092"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 14412592.0,
-        "COMPROBANTE": "G 003 00000008147 094"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 14541318.0,
-        "COMPROBANTE": "G 003 00000008147 096"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 14625338.0,
-        "COMPROBANTE": "G 003 00000008147 098"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 14665446.0,
-        "COMPROBANTE": "G 003 00000008147 100"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 14684820.0,
-        "COMPROBANTE": "G 003 00000008147 102"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 14732592.0,
-        "COMPROBANTE": "G 003 00000008147 104"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 14796800.0,
-        "COMPROBANTE": "G 003 00000008147 106"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 16290338.0,
-        "COMPROBANTE": "G 003 00000008147 108"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 17179024.0,
-        "COMPROBANTE": "G 003 00000008147 110"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 18501724.0,
-        "COMPROBANTE": "G 003 00000008147 112"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 18814141.0,
-        "COMPROBANTE": "G 003 00000008147 114"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 19636887.0,
-        "COMPROBANTE": "G 003 00000008147 116"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 20732341.0,
-        "COMPROBANTE": "G 003 00000008147 118"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 21806149.0,
-        "COMPROBANTE": "G 003 00000008147 121"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 21806149.0,
-        "COMPROBANTE": "G 003 00000008147 122"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 21994361.0,
-        "COMPROBANTE": "G 003 00000008147 124"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 22879957.0,
-        "COMPROBANTE": "G 003 00000008147 126"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 33497440.0,
-        "COMPROBANTE": "G 003 00000008147 128"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 2620040.0,
-        "COMPROBANTE": "G 003 00000008148 002"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 4221734.0,
-        "COMPROBANTE": "G 003 00000008148 004"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 4724506.0,
-        "COMPROBANTE": "G 003 00000008148 006"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 5567010.0,
-        "COMPROBANTE": "G 003 00000008148 008"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 5714997.0,
-        "COMPROBANTE": "G 003 00000008148 010"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 6115510.0,
-        "COMPROBANTE": "G 003 00000008148 012"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 6249681.0,
-        "COMPROBANTE": "G 003 00000008148 014"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 6249682.0,
-        "COMPROBANTE": "G 003 00000008148 018"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 6249682.0,
-        "COMPROBANTE": "G 003 00000008148 019"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 6249682.0,
-        "COMPROBANTE": "G 003 00000008148 020"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 6705510.0,
-        "COMPROBANTE": "G 003 00000008148 022"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 6724713.0,
-        "COMPROBANTE": "G 003 00000008148 024"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 7048809.0,
-        "COMPROBANTE": "G 003 00000008148 026"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 7205510.0,
-        "COMPROBANTE": "G 003 00000008148 028"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 7537699.0,
-        "COMPROBANTE": "G 003 00000008148 030"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 7705510.0,
-        "COMPROBANTE": "G 003 00000008148 033"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 7705510.0,
-        "COMPROBANTE": "G 003 00000008148 034"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 8205510.0,
-        "COMPROBANTE": "G 003 00000008148 036"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 8663909.0,
-        "COMPROBANTE": "G 003 00000008148 038"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 8790710.0,
-        "COMPROBANTE": "G 003 00000008148 040"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 8812083.0,
-        "COMPROBANTE": "G 003 00000008148 042"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 8832510.0,
-        "COMPROBANTE": "G 003 00000008148 044"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 8902235.0,
-        "COMPROBANTE": "G 003 00000008148 046"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 8937510.0,
-        "COMPROBANTE": "G 003 00000008148 065"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 8937510.0,
-        "COMPROBANTE": "G 003 00000008148 066"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 8937510.0,
-        "COMPROBANTE": "G 003 00000008148 067"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 8937510.0,
-        "COMPROBANTE": "G 003 00000008148 068"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 8937510.0,
-        "COMPROBANTE": "G 003 00000008148 069"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 8937510.0,
-        "COMPROBANTE": "G 003 00000008148 070"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 8937510.0,
-        "COMPROBANTE": "G 003 00000008148 071"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 8937510.0,
-        "COMPROBANTE": "G 003 00000008148 072"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 8937510.0,
-        "COMPROBANTE": "G 003 00000008148 073"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 8937510.0,
-        "COMPROBANTE": "G 003 00000008148 074"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 8937510.0,
-        "COMPROBANTE": "G 003 00000008148 075"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 8937510.0,
-        "COMPROBANTE": "G 003 00000008148 076"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 8937510.0,
-        "COMPROBANTE": "G 003 00000008148 077"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 8937510.0,
-        "COMPROBANTE": "G 003 00000008148 078"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 8937510.0,
-        "COMPROBANTE": "G 003 00000008148 079"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 8937510.0,
-        "COMPROBANTE": "G 003 00000008148 080"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 8937510.0,
-        "COMPROBANTE": "G 003 00000008148 081"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 8937510.0,
-        "COMPROBANTE": "G 003 00000008148 082"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 8982510.0,
-        "COMPROBANTE": "G 003 00000008148 084"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 9016098.0,
-        "COMPROBANTE": "G 003 00000008148 086"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 9046510.0,
-        "COMPROBANTE": "G 003 00000008148 088"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 9082510.0,
-        "COMPROBANTE": "G 003 00000008148 090"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 9084510.0,
-        "COMPROBANTE": "G 003 00000008148 093"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 9084510.0,
-        "COMPROBANTE": "G 003 00000008148 094"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 9091510.0,
-        "COMPROBANTE": "G 003 00000008148 096"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 9101510.0,
-        "COMPROBANTE": "G 003 00000008148 098"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 9111510.0,
-        "COMPROBANTE": "G 003 00000008148 100"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 9126309.0,
-        "COMPROBANTE": "G 003 00000008148 102"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 9204510.0,
-        "COMPROBANTE": "G 003 00000008148 104"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 10807320.0,
-        "COMPROBANTE": "G 003 00000008148 106"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 10830830.0,
-        "COMPROBANTE": "G 003 00000008148 108"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 10987320.0,
-        "COMPROBANTE": "G 003 00000008148 110"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 11596320.0,
-        "COMPROBANTE": "G 003 00000008148 112"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 11796320.0,
-        "COMPROBANTE": "G 003 00000008148 114"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 11819159.0,
-        "COMPROBANTE": "G 003 00000008148 116"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 12360320.0,
-        "COMPROBANTE": "G 003 00000008148 118"
-      },
-      {
-        "FECHA": "2025-04-30 00:00:00",
-        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 12773653.0,
-        "COMPROBANTE": "G 003 00000008148 120"
+        "DEBITOS": 50000000.0,
+        "CREDITOS": "",
+        "COMPROBANTE": "R 001 00000003230 001"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-12 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 13014420.0,
-        "COMPROBANTE": "G 003 00000008148 122"
+        "DEBITOS": 80300.0,
+        "CREDITOS": "",
+        "COMPROBANTE": "N 001 00000002234 014"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-13 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 13119320.0,
-        "COMPROBANTE": "G 003 00000008148 124"
+        "CREDITOS": 1064750.0,
+        "COMPROBANTE": "G 003 00000007682 002"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-14 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 13238850.0,
-        "COMPROBANTE": "G 003 00000008148 126"
+        "CREDITOS": 29625284.0,
+        "COMPROBANTE": "G 003 00000007672 002"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-18 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 13261646.0,
-        "COMPROBANTE": "G 003 00000008148 128"
+        "CREDITOS": 55590136.61,
+        "COMPROBANTE": "G 003 00000007673 003"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-18 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 13330520.0,
-        "COMPROBANTE": "G 003 00000008148 130"
+        "DEBITOS": 258235.0,
+        "CREDITOS": "",
+        "COMPROBANTE": "R 001 00000003223 002"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-18 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 13497912.0,
-        "COMPROBANTE": "G 003 00000008148 132"
+        "DEBITOS": 100000000.0,
+        "CREDITOS": "",
+        "COMPROBANTE": "R 001 00000003236 002"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-18 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 13650971.0,
-        "COMPROBANTE": "G 003 00000008148 134"
+        "DEBITOS": 700000000.0,
+        "CREDITOS": "",
+        "COMPROBANTE": "R 001 00000003237 002"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-19 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 13785620.0,
-        "COMPROBANTE": "G 003 00000008148 136"
+        "DEBITOS": 43900.0,
+        "CREDITOS": "",
+        "COMPROBANTE": "N 001 00000002238 004"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-19 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 13940319.0,
-        "COMPROBANTE": "G 003 00000008148 139"
+        "DEBITOS": 466200773.03,
+        "CREDITOS": "",
+        "COMPROBANTE": "R 001 00000003209 003"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-19 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 13940319.0,
-        "COMPROBANTE": "G 003 00000008148 140"
+        "DEBITOS": 46458854.0,
+        "CREDITOS": "",
+        "COMPROBANTE": "R 001 00000003215 002"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-19 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 13940320.0,
-        "COMPROBANTE": "G 003 00000008148 156"
+        "DEBITOS": 63546495.0,
+        "CREDITOS": "",
+        "COMPROBANTE": "R 001 00000003217 002"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-19 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 13940320.0,
-        "COMPROBANTE": "G 003 00000008148 157"
+        "DEBITOS": 837200.0,
+        "CREDITOS": "",
+        "COMPROBANTE": "R 001 00000003222 003"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-19 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 13940320.0,
-        "COMPROBANTE": "G 003 00000008148 158"
+        "DEBITOS": 32271932.0,
+        "CREDITOS": "",
+        "COMPROBANTE": "R 001 00000003226 002"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-20 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 13940320.0,
-        "COMPROBANTE": "G 003 00000008148 159"
+        "CREDITOS": 147428268.0,
+        "COMPROBANTE": "G 003 00000007669 005"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-20 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 13940320.0,
-        "COMPROBANTE": "G 003 00000008148 160"
+        "CREDITOS": 712287732.0,
+        "COMPROBANTE": "G 003 00000007669 006"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-21 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 13940320.0,
-        "COMPROBANTE": "G 003 00000008148 161"
+        "DEBITOS": 100000000.0,
+        "CREDITOS": "",
+        "COMPROBANTE": "R 001 00000003244 002"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-24 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 13940320.0,
-        "COMPROBANTE": "G 003 00000008148 162"
+        "CREDITOS": 13816000.0,
+        "COMPROBANTE": "G 003 00000007679 004"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-24 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 13940320.0,
-        "COMPROBANTE": "G 003 00000008148 163"
+        "CREDITOS": 15038975.22,
+        "COMPROBANTE": "G 003 00000007681 002"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-24 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": "",
-        "CREDITOS": 13940320.0,
-        "COMPROBANTE": "G 003 00000008148 164"
+        "DEBITOS": 680430519.0,
+        "CREDITOS": "",
+        "COMPROBANTE": "R 001 00000003216 009"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-25 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 13940320.0,
-        "COMPROBANTE": "G 003 00000008148 165"
+        "CREDITOS": 1309679.99,
+        "COMPROBANTE": "G 003 00000007634 002"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-25 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 13940320.0,
-        "COMPROBANTE": "G 003 00000008148 166"
+        "CREDITOS": 130680.0,
+        "COMPROBANTE": "G 003 00000007635 002"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-25 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 13940320.0,
-        "COMPROBANTE": "G 003 00000008148 167"
+        "CREDITOS": 956629.0,
+        "COMPROBANTE": "G 003 00000007636 002"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-25 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 13940320.0,
-        "COMPROBANTE": "G 003 00000008148 168"
+        "CREDITOS": 2699326.0,
+        "COMPROBANTE": "G 003 00000007637 002"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-25 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 13940320.0,
-        "COMPROBANTE": "G 003 00000008148 169"
+        "CREDITOS": 10797304.0,
+        "COMPROBANTE": "G 003 00000007638 002"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-25 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 13940320.0,
-        "COMPROBANTE": "G 003 00000008148 170"
+        "CREDITOS": 31240280.0,
+        "COMPROBANTE": "G 003 00000007639 002"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-25 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 14030320.0,
-        "COMPROBANTE": "G 003 00000008148 172"
+        "CREDITOS": 10137264.0,
+        "COMPROBANTE": "G 003 00000007640 003"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-25 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 14107320.0,
-        "COMPROBANTE": "G 003 00000008148 174"
+        "CREDITOS": 1345400.0,
+        "COMPROBANTE": "G 003 00000007641 002"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-25 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 14274320.0,
-        "COMPROBANTE": "G 003 00000008148 179"
+        "CREDITOS": 2674206.0,
+        "COMPROBANTE": "G 003 00000007642 003"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-26 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 14274320.0,
-        "COMPROBANTE": "G 003 00000008148 180"
+        "CREDITOS": 213010.0,
+        "COMPROBANTE": "G 003 00000007643 002"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-26 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 14274320.0,
-        "COMPROBANTE": "G 003 00000008148 181"
+        "CREDITOS": 468435.0,
+        "COMPROBANTE": "G 003 00000007644 002"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-27 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 14274320.0,
-        "COMPROBANTE": "G 003 00000008148 182"
+        "CREDITOS": 3350560.0,
+        "COMPROBANTE": "G 003 00000007662 002"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-28 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 14274323.0,
-        "COMPROBANTE": "G 003 00000008148 184"
+        "CREDITOS": 6000000.0,
+        "COMPROBANTE": "G 003 00000007654 002"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-28 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 14415820.0,
-        "COMPROBANTE": "G 003 00000008148 186"
+        "CREDITOS": 1509526.0,
+        "COMPROBANTE": "G 003 00000007656 002"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-28 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 14417320.0,
-        "COMPROBANTE": "G 003 00000008148 188"
+        "CREDITOS": 1509527.0,
+        "COMPROBANTE": "G 003 00000007656 004"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-28 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 14442320.0,
-        "COMPROBANTE": "G 003 00000008148 190"
+        "CREDITOS": 1566528.0,
+        "COMPROBANTE": "G 003 00000007656 006"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-28 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 14573320.0,
-        "COMPROBANTE": "G 003 00000008148 192"
+        "CREDITOS": 1509529.0,
+        "COMPROBANTE": "G 003 00000007656 008"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-28 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 14576320.0,
-        "COMPROBANTE": "G 003 00000008148 194"
+        "CREDITOS": 1509530.0,
+        "COMPROBANTE": "G 003 00000007656 010"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-28 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 14988546.0,
-        "COMPROBANTE": "G 003 00000008148 196"
+        "CREDITOS": 1566531.0,
+        "COMPROBANTE": "G 003 00000007656 012"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-28 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 15561646.0,
-        "COMPROBANTE": "G 003 00000008148 198"
+        "CREDITOS": 1509532.0,
+        "COMPROBANTE": "G 003 00000007656 014"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-28 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 18370646.0,
-        "COMPROBANTE": "G 003 00000008148 200"
+        "CREDITOS": 5489546.0,
+        "COMPROBANTE": "G 003 00000007657 002"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-28 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 19261646.0,
-        "COMPROBANTE": "G 003 00000008148 202"
+        "CREDITOS": 4083931.0,
+        "COMPROBANTE": "G 003 00000007657 004"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-28 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 2065970.0,
-        "COMPROBANTE": "G 003 00000008149 002"
+        "CREDITOS": 3490382.0,
+        "COMPROBANTE": "G 003 00000007657 006"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-28 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 2620040.0,
-        "COMPROBANTE": "G 003 00000008149 004"
+        "CREDITOS": 6759582.0,
+        "COMPROBANTE": "G 003 00000007657 008"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-28 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 3369617.0,
-        "COMPROBANTE": "G 003 00000008149 006"
+        "CREDITOS": 7746583.0,
+        "COMPROBANTE": "G 003 00000007657 010"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-28 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 3950959.0,
-        "COMPROBANTE": "G 003 00000008149 008"
+        "CREDITOS": 4823100.0,
+        "COMPROBANTE": "G 003 00000007657 012"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-28 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 4658058.0,
-        "COMPROBANTE": "G 003 00000008149 010"
+        "CREDITOS": 7960616.0,
+        "COMPROBANTE": "G 003 00000007657 014"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-28 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 4822983.0,
-        "COMPROBANTE": "G 003 00000008149 012"
+        "CREDITOS": 7960636.0,
+        "COMPROBANTE": "G 003 00000007657 016"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-28 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 5480800.0,
-        "COMPROBANTE": "G 003 00000008149 014"
+        "CREDITOS": 4823135.0,
+        "COMPROBANTE": "G 003 00000007657 018"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-28 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 5489567.0,
-        "COMPROBANTE": "G 003 00000008149 016"
+        "CREDITOS": 7960651.0,
+        "COMPROBANTE": "G 003 00000007657 020"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-28 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 6759500.0,
-        "COMPROBANTE": "G 003 00000008149 018"
+        "CREDITOS": 7980652.0,
+        "COMPROBANTE": "G 003 00000007657 022"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-28 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 7195500.0,
-        "COMPROBANTE": "G 003 00000008149 020"
+        "CREDITOS": 5037012.0,
+        "COMPROBANTE": "G 003 00000007657 024"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-28 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 7753500.0,
-        "COMPROBANTE": "G 003 00000008149 022"
+        "CREDITOS": 7102706.0,
+        "COMPROBANTE": "G 003 00000007657 026"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-28 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 7776230.0,
-        "COMPROBANTE": "G 003 00000008149 024"
+        "CREDITOS": 7960708.0,
+        "COMPROBANTE": "G 003 00000007657 028"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-28 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
         "CREDITOS": 7960500.0,
-        "COMPROBANTE": "G 003 00000008149 030"
+        "COMPROBANTE": "G 003 00000007657 030"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-28 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
         "CREDITOS": 7960500.0,
-        "COMPROBANTE": "G 003 00000008149 031"
+        "COMPROBANTE": "G 003 00000007657 032"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-28 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 7960500.0,
-        "COMPROBANTE": "G 003 00000008149 032"
+        "CREDITOS": 6587600.0,
+        "COMPROBANTE": "G 003 00000007657 034"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-28 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 7960500.0,
-        "COMPROBANTE": "G 003 00000008149 033"
+        "CREDITOS": 3290434.0,
+        "COMPROBANTE": "G 003 00000007657 036"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-28 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 7960500.0,
-        "COMPROBANTE": "G 003 00000008149 034"
+        "CREDITOS": 3292124.0,
+        "COMPROBANTE": "G 003 00000007657 038"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-28 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 8089500.0,
-        "COMPROBANTE": "G 003 00000008149 036"
+        "CREDITOS": 1834028.0,
+        "COMPROBANTE": "G 003 00000007657 040"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-28 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 1509500.0,
-        "COMPROBANTE": "G 003 00000008150 002"
+        "CREDITOS": 2774767.0,
+        "COMPROBANTE": "G 003 00000007657 042"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-28 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 1509500.0,
-        "COMPROBANTE": "G 003 00000008150 004"
+        "CREDITOS": 2291581.0,
+        "COMPROBANTE": "G 003 00000007657 044"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-28 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 1566500.0,
-        "COMPROBANTE": "G 003 00000008150 006"
+        "CREDITOS": 3607433.0,
+        "COMPROBANTE": "G 003 00000007657 046"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-28 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 1509500.0,
-        "COMPROBANTE": "G 003 00000008150 008"
+        "CREDITOS": 7790984.0,
+        "COMPROBANTE": "G 003 00000007658 002"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-28 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 1509500.0,
-        "COMPROBANTE": "G 003 00000008150 010"
+        "CREDITOS": 6106745.0,
+        "COMPROBANTE": "G 003 00000007658 004"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-28 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 1566500.0,
-        "COMPROBANTE": "G 003 00000008150 012"
+        "CREDITOS": 13329886.0,
+        "COMPROBANTE": "G 003 00000007658 006"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-28 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 1436000.0,
-        "COMPROBANTE": "G 003 00000008150 014"
+        "CREDITOS": 8540987.0,
+        "COMPROBANTE": "G 003 00000007658 008"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-28 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 1209250.0,
-        "COMPROBANTE": "G 003 00000008151 002"
+        "CREDITOS": 5156488.0,
+        "COMPROBANTE": "G 003 00000007658 010"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-28 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 2121161.0,
-        "COMPROBANTE": "G 003 00000008152 002"
+        "CREDITOS": 13663889.0,
+        "COMPROBANTE": "G 003 00000007658 012"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-28 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 236262.0,
-        "COMPROBANTE": "G 003 00000008167 002"
+        "CREDITOS": 8540990.0,
+        "COMPROBANTE": "G 003 00000007658 014"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-28 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 782925.0,
-        "COMPROBANTE": "G 003 00000008175 002"
+        "CREDITOS": 8540991.0,
+        "COMPROBANTE": "G 003 00000007658 016"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-28 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
         "DEBITOS": "",
-        "CREDITOS": 16465326.0,
-        "COMPROBANTE": "L 008 00000003731 005"
+        "CREDITOS": 8540992.0,
+        "COMPROBANTE": "G 003 00000007658 018"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-28 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": 7800.0,
+        "DEBITOS": "",
+        "CREDITOS": 8540993.0,
+        "COMPROBANTE": "G 003 00000007658 020"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 8540994.0,
+        "COMPROBANTE": "G 003 00000007658 022"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 10953895.0,
+        "COMPROBANTE": "G 003 00000007658 024"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 8540996.0,
+        "COMPROBANTE": "G 003 00000007658 026"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 8540997.0,
+        "COMPROBANTE": "G 003 00000007658 028"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 13448199.0,
+        "COMPROBANTE": "G 003 00000007658 030"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 8540999.0,
+        "COMPROBANTE": "G 003 00000007658 032"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 8726000.0,
+        "COMPROBANTE": "G 003 00000007658 034"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 8680001.0,
+        "COMPROBANTE": "G 003 00000007658 036"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 12217743.0,
+        "COMPROBANTE": "G 003 00000007658 038"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 8541003.0,
+        "COMPROBANTE": "G 003 00000007658 040"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 8541004.0,
+        "COMPROBANTE": "G 003 00000007658 042"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 8680005.0,
+        "COMPROBANTE": "G 003 00000007658 044"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 8541006.0,
+        "COMPROBANTE": "G 003 00000007658 046"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 2855900.0,
+        "COMPROBANTE": "G 003 00000007658 048"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 8602008.0,
+        "COMPROBANTE": "G 003 00000007658 050"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 7795009.0,
+        "COMPROBANTE": "G 003 00000007658 052"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 13756910.0,
+        "COMPROBANTE": "G 003 00000007658 054"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 8371022.0,
+        "COMPROBANTE": "G 003 00000007658 056"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 13329913.0,
+        "COMPROBANTE": "G 003 00000007658 058"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 7795014.0,
+        "COMPROBANTE": "G 003 00000007658 060"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 13329917.0,
+        "COMPROBANTE": "G 003 00000007658 062"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 9170145.0,
+        "COMPROBANTE": "G 003 00000007658 064"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 13329920.0,
+        "COMPROBANTE": "G 003 00000007658 066"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 13329921.0,
+        "COMPROBANTE": "G 003 00000007658 068"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 5940922.0,
+        "COMPROBANTE": "G 003 00000007658 070"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 8680023.0,
+        "COMPROBANTE": "G 003 00000007658 072"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 8541024.0,
+        "COMPROBANTE": "G 003 00000007658 074"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 8686025.0,
+        "COMPROBANTE": "G 003 00000007658 076"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 8680026.0,
+        "COMPROBANTE": "G 003 00000007658 078"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 8600027.0,
+        "COMPROBANTE": "G 003 00000007658 080"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 6795028.0,
+        "COMPROBANTE": "G 003 00000007658 082"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 8541029.0,
+        "COMPROBANTE": "G 003 00000007658 084"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 8607030.0,
+        "COMPROBANTE": "G 003 00000007658 086"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 8541031.0,
+        "COMPROBANTE": "G 003 00000007658 088"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 8776032.0,
+        "COMPROBANTE": "G 003 00000007658 090"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 10190954.0,
+        "COMPROBANTE": "G 003 00000007658 092"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 12480485.0,
+        "COMPROBANTE": "G 003 00000007658 094"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 13329956.0,
+        "COMPROBANTE": "G 003 00000007658 096"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 13598957.0,
+        "COMPROBANTE": "G 003 00000007658 098"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 13401958.0,
+        "COMPROBANTE": "G 003 00000007658 100"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 17540859.0,
+        "COMPROBANTE": "G 003 00000007658 102"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 13663960.0,
+        "COMPROBANTE": "G 003 00000007658 104"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 13663961.0,
+        "COMPROBANTE": "G 003 00000007658 106"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 18388862.0,
+        "COMPROBANTE": "G 003 00000007658 108"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 15488863.0,
+        "COMPROBANTE": "G 003 00000007658 110"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 13786964.0,
+        "COMPROBANTE": "G 003 00000007658 112"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 5795065.0,
+        "COMPROBANTE": "G 003 00000007658 114"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 8541066.0,
+        "COMPROBANTE": "G 003 00000007658 116"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 8541067.0,
+        "COMPROBANTE": "G 003 00000007658 118"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 5940968.0,
+        "COMPROBANTE": "G 003 00000007658 120"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 5457319.0,
+        "COMPROBANTE": "G 003 00000007658 122"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 12221131.0,
+        "COMPROBANTE": "G 003 00000007658 124"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 8541071.0,
+        "COMPROBANTE": "G 003 00000007658 126"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 13953972.0,
+        "COMPROBANTE": "G 003 00000007658 128"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 13369973.0,
+        "COMPROBANTE": "G 003 00000007658 130"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 12469974.0,
+        "COMPROBANTE": "G 003 00000007658 132"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 13663975.0,
+        "COMPROBANTE": "G 003 00000007658 134"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 8541076.0,
+        "COMPROBANTE": "G 003 00000007658 136"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 8541077.0,
+        "COMPROBANTE": "G 003 00000007658 138"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 8534078.0,
+        "COMPROBANTE": "G 003 00000007658 140"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 15388879.0,
+        "COMPROBANTE": "G 003 00000007658 142"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 12756479.0,
+        "COMPROBANTE": "G 003 00000007658 144"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 13426981.0,
+        "COMPROBANTE": "G 003 00000007658 146"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 5940982.0,
+        "COMPROBANTE": "G 003 00000007658 148"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 5940983.0,
+        "COMPROBANTE": "G 003 00000007658 150"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 10814904.0,
+        "COMPROBANTE": "G 003 00000007658 152"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 13830985.0,
+        "COMPROBANTE": "G 003 00000007658 154"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 13329986.0,
+        "COMPROBANTE": "G 003 00000007658 156"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 14888887.0,
+        "COMPROBANTE": "G 003 00000007658 158"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 12750988.0,
+        "COMPROBANTE": "G 003 00000007658 160"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 13329989.0,
+        "COMPROBANTE": "G 003 00000007658 162"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 12453990.0,
+        "COMPROBANTE": "G 003 00000007658 164"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 13329991.0,
+        "COMPROBANTE": "G 003 00000007658 166"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 13329992.0,
+        "COMPROBANTE": "G 003 00000007658 168"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 13329993.0,
+        "COMPROBANTE": "G 003 00000007658 170"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 18209894.0,
+        "COMPROBANTE": "G 003 00000007658 172"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 5857345.0,
+        "COMPROBANTE": "G 003 00000007658 174"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 13117296.0,
+        "COMPROBANTE": "G 003 00000007658 176"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 8790097.0,
+        "COMPROBANTE": "G 003 00000007658 178"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 13663998.0,
+        "COMPROBANTE": "G 003 00000007658 180"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 7493998.0,
+        "COMPROBANTE": "G 003 00000007658 182"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 5941000.0,
+        "COMPROBANTE": "G 003 00000007658 184"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 13330001.0,
+        "COMPROBANTE": "G 003 00000007658 186"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 8541102.0,
+        "COMPROBANTE": "G 003 00000007658 188"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 8088602.0,
+        "COMPROBANTE": "G 003 00000007658 190"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 13330005.0,
+        "COMPROBANTE": "G 003 00000007658 192"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 13329800.0,
+        "COMPROBANTE": "G 003 00000007658 194"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 4105283.0,
+        "COMPROBANTE": "G 003 00000007658 196"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 6500000.0,
+        "COMPROBANTE": "G 003 00000007658 198"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 2620073.0,
+        "COMPROBANTE": "G 003 00000007659 002"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 2995663.0,
+        "COMPROBANTE": "G 003 00000007659 004"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 1171499.0,
+        "COMPROBANTE": "G 003 00000007659 006"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 2363836.0,
+        "COMPROBANTE": "G 003 00000007659 008"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 12951737.0,
+        "COMPROBANTE": "G 003 00000007659 010"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 2499838.0,
+        "COMPROBANTE": "G 003 00000007659 012"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 1509539.0,
+        "COMPROBANTE": "G 003 00000007659 014"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 8714940.0,
+        "COMPROBANTE": "G 003 00000007659 016"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 8527941.0,
+        "COMPROBANTE": "G 003 00000007659 018"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 8713942.0,
+        "COMPROBANTE": "G 003 00000007659 020"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 8527943.0,
+        "COMPROBANTE": "G 003 00000007659 022"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 8780944.0,
+        "COMPROBANTE": "G 003 00000007659 024"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 9047164.0,
+        "COMPROBANTE": "G 003 00000007659 026"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 8462845.0,
+        "COMPROBANTE": "G 003 00000007659 028"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 8928823.0,
+        "COMPROBANTE": "G 003 00000007659 030"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 8527948.0,
+        "COMPROBANTE": "G 003 00000007659 032"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 8527949.0,
+        "COMPROBANTE": "G 003 00000007659 034"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 7313750.0,
+        "COMPROBANTE": "G 003 00000007659 036"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 8655751.0,
+        "COMPROBANTE": "G 003 00000007659 038"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 8796752.0,
+        "COMPROBANTE": "G 003 00000007659 040"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 8655753.0,
+        "COMPROBANTE": "G 003 00000007659 042"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 6580114.0,
+        "COMPROBANTE": "G 003 00000007659 044"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 7429994.0,
+        "COMPROBANTE": "G 003 00000007659 046"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 18000856.0,
+        "COMPROBANTE": "G 003 00000007659 048"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 21086656.0,
+        "COMPROBANTE": "G 003 00000007659 050"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 14082558.0,
+        "COMPROBANTE": "G 003 00000007659 052"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 13627559.0,
+        "COMPROBANTE": "G 003 00000007659 054"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 24933791.0,
+        "COMPROBANTE": "G 003 00000007659 056"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 14498293.0,
+        "COMPROBANTE": "G 003 00000007659 058"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 11036762.0,
+        "COMPROBANTE": "G 003 00000007659 060"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 17471995.0,
+        "COMPROBANTE": "G 003 00000007659 062"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 16410779.0,
+        "COMPROBANTE": "G 003 00000007659 064"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 13824080.0,
+        "COMPROBANTE": "G 003 00000007659 066"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 5914766.0,
+        "COMPROBANTE": "G 003 00000007659 068"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 8934466.0,
+        "COMPROBANTE": "G 003 00000007659 070"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 11338523.0,
+        "COMPROBANTE": "G 003 00000007659 072"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 2526319.0,
+        "COMPROBANTE": "G 003 00000007659 074"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 10854570.0,
+        "COMPROBANTE": "G 003 00000007659 076"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 8617371.0,
+        "COMPROBANTE": "G 003 00000007659 078"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 9203103.0,
+        "COMPROBANTE": "G 003 00000007659 080"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 8753373.0,
+        "COMPROBANTE": "G 003 00000007659 082"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 7035319.0,
+        "COMPROBANTE": "G 003 00000007659 084"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 20850674.0,
+        "COMPROBANTE": "G 003 00000007659 086"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 7029036.0,
+        "COMPROBANTE": "G 003 00000007659 088"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 2620117.0,
+        "COMPROBANTE": "G 003 00000007659 090"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 23319078.0,
+        "COMPROBANTE": "G 003 00000007659 092"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 11868818.0,
+        "COMPROBANTE": "G 003 00000007659 094"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 13235634.0,
+        "COMPROBANTE": "G 003 00000007659 096"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 13235635.0,
+        "COMPROBANTE": "G 003 00000007659 098"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 20066737.0,
+        "COMPROBANTE": "G 003 00000007659 100"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 19515474.0,
+        "COMPROBANTE": "G 003 00000007659 102"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 20850739.0,
+        "COMPROBANTE": "G 003 00000007659 104"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 9203172.0,
+        "COMPROBANTE": "G 003 00000007659 106"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 8984904.0,
+        "COMPROBANTE": "G 003 00000007659 108"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 6990705.0,
+        "COMPROBANTE": "G 003 00000007659 110"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 5700658.0,
+        "COMPROBANTE": "G 003 00000007659 112"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 5868256.0,
+        "COMPROBANTE": "G 003 00000007659 114"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 12232446.0,
+        "COMPROBANTE": "G 003 00000007659 116"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 18893150.0,
+        "COMPROBANTE": "G 003 00000007659 118"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 15937249.0,
+        "COMPROBANTE": "G 003 00000007659 120"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 9079234.0,
+        "COMPROBANTE": "G 003 00000007659 122"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 3222876.0,
+        "COMPROBANTE": "G 003 00000007659 124"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 2214800.0,
+        "COMPROBANTE": "G 003 00000007660 002"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 1509501.0,
+        "COMPROBANTE": "G 003 00000007660 004"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 1913181.0,
+        "COMPROBANTE": "G 003 00000007660 006"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 1913183.0,
+        "COMPROBANTE": "G 003 00000007660 008"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 14451995.0,
+        "COMPROBANTE": "G 003 00000007660 010"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 2594837.0,
+        "COMPROBANTE": "G 003 00000007660 012"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 2711020.0,
+        "COMPROBANTE": "G 003 00000007660 014"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 2005247.0,
+        "COMPROBANTE": "G 003 00000007660 016"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 711758.0,
+        "COMPROBANTE": "G 003 00000007660 018"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 711759.0,
+        "COMPROBANTE": "G 003 00000007660 020"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 5369910.0,
+        "COMPROBANTE": "G 003 00000007660 022"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 8053250.0,
+        "COMPROBANTE": "G 003 00000007660 024"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 1509512.0,
+        "COMPROBANTE": "G 003 00000007660 026"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 3023213.0,
+        "COMPROBANTE": "G 003 00000007660 028"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 711764.0,
+        "COMPROBANTE": "G 003 00000007660 030"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 13280402.0,
+        "COMPROBANTE": "G 003 00000007660 032"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 711766.0,
+        "COMPROBANTE": "G 003 00000007660 034"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 711767.0,
+        "COMPROBANTE": "G 003 00000007660 036"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 1913198.0,
+        "COMPROBANTE": "G 003 00000007660 038"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 1057644.0,
+        "COMPROBANTE": "G 003 00000007660 040"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 1981161.0,
+        "COMPROBANTE": "G 003 00000007660 042"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 2500021.0,
+        "COMPROBANTE": "G 003 00000007660 044"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 1423522.0,
+        "COMPROBANTE": "G 003 00000007660 046"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 1067648.0,
+        "COMPROBANTE": "G 003 00000007660 048"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 1067649.0,
+        "COMPROBANTE": "G 003 00000007660 050"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 711775.0,
+        "COMPROBANTE": "G 003 00000007660 052"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 1067737.0,
+        "COMPROBANTE": "G 003 00000007660 054"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 1981278.0,
+        "COMPROBANTE": "G 003 00000007660 056"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 2888146.0,
+        "COMPROBANTE": "G 003 00000007660 058"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 92964003.0,
+        "COMPROBANTE": "G 003 00000007674 002"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 746480.0,
+        "COMPROBANTE": "G 003 00000007675 002"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 1742250.0,
+        "COMPROBANTE": "G 003 00000007676 002"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 11022252.0,
+        "COMPROBANTE": "L 008 00000003682 002"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 93526.8,
+        "COMPROBANTE": "L 008 00000003682 004"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 17770.0,
+        "COMPROBANTE": "L 008 00000003682 006"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 5008.47,
+        "COMPROBANTE": "L 008 00000003682 008"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": "",
+        "CREDITOS": 15.58,
+        "COMPROBANTE": "L 008 00000003682 064"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": 39100.0,
         "CREDITOS": "",
-        "COMPROBANTE": "R 001 00000003309 002"
+        "COMPROBANTE": "N 001 00000002236 016"
       },
       {
-        "FECHA": "2025-04-30 00:00:00",
+        "FECHA": "2025-02-28 00:00:00",
         "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
-        "DEBITOS": 800000000.0,
+        "DEBITOS": 700000000.0,
         "CREDITOS": "",
-        "COMPROBANTE": "R 001 00000003310 002"
+        "COMPROBANTE": "R 001 00000003220 002"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": 50000000.0,
+        "CREDITOS": "",
+        "COMPROBANTE": "R 001 00000003221 002"
+      },
+      {
+        "FECHA": "2025-02-28 00:00:00",
+        "DESCRIPCION": "11100502   ITAU CTA CTE 013375357",
+        "DEBITOS": 85000000.0,
+        "CREDITOS": "",
+        "COMPROBANTE": "R 001 00000003231 001"
       }
     ]
   }
