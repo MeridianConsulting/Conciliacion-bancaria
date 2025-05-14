@@ -1,0 +1,22 @@
+INSTRUCCIONES BÁSICAS DE USO
+
+PASO 1: PREPARAR LOS DATOS BANCARIOS
+- Prepare sus datos bancarios en el mismo formato que la plantilla
+- Los datos deben incluir: Día, Número documento, Descripción de la transacción, Oficina transacción, Débitos, Créditos y Saldo
+- Asegúrese que la información esté organizada en columnas como en la plantilla
+
+PASO 2: CARGAR LOS DATOS
+- Inicie el programa
+- Seleccione la opción para cargar sus datos bancarios
+- Elija el archivo que contiene sus datos de Itau
+
+PASO 3: PROCESAR FACTURAS
+- Seleccione las facturas que desea conciliar
+- El programa comparará automáticamente los datos bancarios con las facturas
+- Revise los resultados de la conciliación
+
+PASO 4: GUARDAR RESULTADOS
+- Guarde el informe de conciliación cuando termine
+- Puede exportar los resultados para su registro
+
+Para cualquier problema, contacte al departamento de soporte técnico. 

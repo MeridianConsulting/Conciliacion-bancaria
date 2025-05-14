@@ -29,6 +29,10 @@ def create_executable():
     assets_files = []
     for file in os.listdir("assets"):
         assets_files.append(os.path.join("assets", file))
+    
+    print(f"Archivos de assets encontrados: {len(assets_files)}")
+    for asset in assets_files:
+        print(f"  - {asset}")
 
     # Ejecutar PyInstaller usando el módulo directamente con Python
     python_exe = sys.executable
@@ -46,6 +50,7 @@ def create_executable():
         "--add-data=assets;assets",  # Incluir carpeta de assets
         "--noconfirm",  # No preguntar para sobrescribir
         "--clean",  # Limpiar archivos temporales
+        "--log-level=DEBUG",  # Nivel de log detallado
         "src/main.py"  # Archivo principal
     ]
     

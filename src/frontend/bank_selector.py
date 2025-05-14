@@ -3,6 +3,7 @@ from tkinter import ttk
 import os
 from pathlib import Path
 from PIL import Image, ImageTk
+from resource_path import resource_path
 
 class BankSelector(tk.Tk):
     def __init__(self):
@@ -15,7 +16,16 @@ class BankSelector(tk.Tk):
         
         # Establecer el ícono si está disponible
         try:
-            icon_path = os.path.abspath(os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), 'assets', 'logo.ico'))
+            # Intentar cargar el ícono usando resource_path
+            icon_path = resource_path(os.path.join('assets', 'logo.ico'))
+            
+            # Si no se encuentra, intentar con la ruta absoluta (para modo desarrollo)
+            if not os.path.exists(icon_path):
+                alt_path = os.path.abspath(os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), 'assets', 'logo.ico'))
+                if os.path.exists(alt_path):
+                    icon_path = alt_path
+                    print(f"Usando ruta alternativa para el ícono: {icon_path}")
+            
             if os.path.exists(icon_path):
                 self.iconbitmap(icon_path)
         except Exception as e:
@@ -374,14 +384,21 @@ class BankSelector(tk.Tk):
     
     def load_bank_images(self):
         """Carga las imágenes de logos de bancos y las redimensiona apropiadamente"""
-        # Directorio de assets
-        assets_dir = os.path.abspath(os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), 'assets'))
+        # Directorio de assets usando resource_path
+        assets_dir = 'assets'
         
         # Intentar cargar cada imagen
         for bank_name, logo_file in self.bank_logos.items():
             try:
-                # Ruta completa al archivo
-                image_path = os.path.join(assets_dir, logo_file)
+                # Ruta completa al archivo usando resource_path
+                image_path = resource_path(os.path.join(assets_dir, logo_file))
+                
+                # Si no se encuentra la imagen, intentar con la ruta absoluta (para modo desarrollo)
+                if not os.path.exists(image_path):
+                    alt_path = os.path.abspath(os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), 'assets', logo_file))
+                    if os.path.exists(alt_path):
+                        image_path = alt_path
+                        print(f"Usando ruta alternativa para {logo_file}: {image_path}")
                 
                 if os.path.exists(image_path):
                     try:

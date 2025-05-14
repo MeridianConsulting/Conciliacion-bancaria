@@ -33,6 +33,9 @@ def main():
             # Si estamos ejecutando como .exe (PyInstaller)
             application_path = os.path.dirname(sys.executable)
             os.chdir(application_path)
+            print(f"Ejecutando como .exe desde: {application_path}")
+        else:
+            print(f"Ejecutando en modo desarrollo desde: {os.getcwd()}")
         
         # Crear y mostrar el selector de bancos
         selector = BankSelector()

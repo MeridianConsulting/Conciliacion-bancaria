@@ -11,6 +11,7 @@ import shutil
 import datetime
 import tkinter.font as tkfont
 import threading
+from resource_path import resource_path
 
 # --- Constantes de Diseño --- #
 COLOR_BG_MAIN = "#F4F7FA"
@@ -37,7 +38,16 @@ class InstruccionesWindow(tk.Toplevel):
         
         # Establecer el mismo ícono que la ventana principal
         try:
-            icon_path = os.path.abspath(os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), 'assets', 'logo.ico'))
+            # Intentar cargar el ícono usando resource_path
+            icon_path = resource_path(os.path.join('assets', 'logo.ico'))
+            
+            # Si no se encuentra, intentar con la ruta absoluta (para modo desarrollo)
+            if not os.path.exists(icon_path):
+                alt_path = os.path.abspath(os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), 'assets', 'logo.ico'))
+                if os.path.exists(alt_path):
+                    icon_path = alt_path
+                    print(f"Usando ruta alternativa para el ícono: {icon_path}")
+            
             if os.path.exists(icon_path):
                 self.iconbitmap(icon_path)
         except Exception as e:
@@ -324,7 +334,16 @@ class ConciliacionBancaria(tk.Tk):
     def setup_icon(self):
         """Configura el ícono de la ventana y la barra de tareas."""
         try:
-            icon_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', 'assets', 'logo.ico'))
+            # Intentar cargar el ícono usando resource_path
+            icon_path = resource_path(os.path.join('assets', 'logo.ico'))
+            
+            # Si no se encuentra, intentar con la ruta absoluta (para modo desarrollo)
+            if not os.path.exists(icon_path):
+                alt_path = os.path.abspath(os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), 'assets', 'logo.ico'))
+                if os.path.exists(alt_path):
+                    icon_path = alt_path
+                    print(f"Usando ruta alternativa para el ícono: {icon_path}")
+            
             if os.path.exists(icon_path):
                 self.iconbitmap(default=icon_path)
                 if os.name == 'nt':
