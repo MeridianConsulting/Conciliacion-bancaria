@@ -1,0 +1,945 @@
+{
+  "metadata": {
+    "archivo": "ecx_cte.xlsx",
+    "fecha_proceso": "2026-10-15 10:49:50",
+    "resumen_encabezado": {}
+  },
+  "movimientos": [
+    {
+      "FECHA": "2026-10-13 00:00:00",
+      "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+      "DEBITOS": 1540.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-13 00:00:00",
+      "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+      "DEBITOS": 4800.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-13 00:00:00",
+      "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+      "DEBITOS": 5175.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-13 00:00:00",
+      "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+      "DEBITOS": 5662.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-13 00:00:00",
+      "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+      "DEBITOS": 40000.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-13 00:00:00",
+      "DESCRIPCION": "ND Transferencias ACH",
+      "DEBITOS": 385000.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-13 00:00:00",
+      "DESCRIPCION": "ND Transferencias ACH",
+      "DEBITOS": 1200000.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-13 00:00:00",
+      "DESCRIPCION": "ND Transferencias ACH",
+      "DEBITOS": 1293864.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-13 00:00:00",
+      "DESCRIPCION": "NC Rechazos ACH",
+      "DEBITOS": 0.0,
+      "CREDITOS": 1415512.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-13 00:00:00",
+      "DESCRIPCION": "ND Transferencias ACH",
+      "DEBITOS": 1415512.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-13 00:00:00",
+      "DESCRIPCION": "NC Transferencias ACH",
+      "DEBITOS": 0.0,
+      "CREDITOS": 5613675.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-13 00:00:00",
+      "DESCRIPCION": "ND Transferencias ACH",
+      "DEBITOS": 10000000.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-13 00:00:00",
+      "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+      "DEBITOS": -5662.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-09 00:00:00",
+      "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+      "DEBITOS": 4510.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-09 00:00:00",
+      "DESCRIPCION": "ND Transferencias ACH",
+      "DEBITOS": 1127582.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-08 00:00:00",
+      "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+      "DEBITOS": 137.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-08 00:00:00",
+      "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+      "DEBITOS": 360.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-08 00:00:00",
+      "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+      "DEBITOS": 618.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-08 00:00:00",
+      "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+      "DEBITOS": 810.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-08 00:00:00",
+      "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+      "DEBITOS": 1320.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-08 00:00:00",
+      "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+      "DEBITOS": 1983.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-08 00:00:00",
+      "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+      "DEBITOS": 2061.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-08 00:00:00",
+      "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+      "DEBITOS": 2140.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-08 00:00:00",
+      "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+      "DEBITOS": 2176.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-08 00:00:00",
+      "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+      "DEBITOS": 2240.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-08 00:00:00",
+      "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+      "DEBITOS": 2290.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-08 00:00:00",
+      "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+      "DEBITOS": 5765.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-08 00:00:00",
+      "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+      "DEBITOS": 8900.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-08 00:00:00",
+      "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+      "DEBITOS": 9906.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-08 00:00:00",
+      "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+      "DEBITOS": 11513.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-08 00:00:00",
+      "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+      "DEBITOS": 12716.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-08 00:00:00",
+      "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+      "DEBITOS": 15330.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-08 00:00:00",
+      "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+      "DEBITOS": 17057.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-08 00:00:00",
+      "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+      "DEBITOS": 18684.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-08 00:00:00",
+      "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+      "DEBITOS": 20988.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-08 00:00:00",
+      "DESCRIPCION": "ND Transferencias ACH",
+      "DEBITOS": 34300.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-08 00:00:00",
+      "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+      "DEBITOS": 44450.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-08 00:00:00",
+      "DESCRIPCION": "ND Transferencias ACH",
+      "DEBITOS": 90000.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-08 00:00:00",
+      "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+      "DEBITOS": 125853.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-08 00:00:00",
+      "DESCRIPCION": "ND Transferencias ACH",
+      "DEBITOS": 154479.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-08 00:00:00",
+      "DESCRIPCION": "ND Transferencias ACH",
+      "DEBITOS": 202544.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-08 00:00:00",
+      "DESCRIPCION": "ND Transferencias ACH",
+      "DEBITOS": 329983.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-08 00:00:00",
+      "DESCRIPCION": "ND Transferencias ACH",
+      "DEBITOS": 495640.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-08 00:00:00",
+      "DESCRIPCION": "ND Transferencias ACH",
+      "DEBITOS": 515138.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-08 00:00:00",
+      "DESCRIPCION": "ND Transferencias ACH",
+      "DEBITOS": 535087.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-08 00:00:00",
+      "DESCRIPCION": "ND Transferencias ACH",
+      "DEBITOS": 543875.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-08 00:00:00",
+      "DESCRIPCION": "ND Transferencias ACH",
+      "DEBITOS": 559904.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-08 00:00:00",
+      "DESCRIPCION": "ND Transferencias ACH",
+      "DEBITOS": 572376.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-08 00:00:00",
+      "DESCRIPCION": "ND Transferencias ACH",
+      "DEBITOS": 1441290.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-08 00:00:00",
+      "DESCRIPCION": "ND Transferencias ACH",
+      "DEBITOS": 2225000.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-08 00:00:00",
+      "DESCRIPCION": "ND Transferencias ACH",
+      "DEBITOS": 2476410.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-08 00:00:00",
+      "DESCRIPCION": "ND Transferencias ACH",
+      "DEBITOS": 2878200.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-08 00:00:00",
+      "DESCRIPCION": "ND Transferencias ACH",
+      "DEBITOS": 3179000.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-08 00:00:00",
+      "DESCRIPCION": "ND Transferencias ACH",
+      "DEBITOS": 3832400.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-08 00:00:00",
+      "DESCRIPCION": "ND Transferencias ACH",
+      "DEBITOS": 4264360.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-08 00:00:00",
+      "DESCRIPCION": "ND Transferencias ACH",
+      "DEBITOS": 4671000.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-08 00:00:00",
+      "DESCRIPCION": "ND Transferencias ACH",
+      "DEBITOS": 5246890.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-08 00:00:00",
+      "DESCRIPCION": "ND Transferencias ACH",
+      "DEBITOS": 11112621.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-08 00:00:00",
+      "DESCRIPCION": "ND Transferencias ACH",
+      "DEBITOS": 31463368.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-08 00:00:00",
+      "DESCRIPCION": "NC Trans. Banca Electr?nica",
+      "DEBITOS": 0.0,
+      "CREDITOS": 100000000.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-07 00:00:00",
+      "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+      "DEBITOS": 2400.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-07 00:00:00",
+      "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+      "DEBITOS": 48000.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-07 00:00:00",
+      "DESCRIPCION": "NC Transferencias ACH",
+      "DEBITOS": 0.0,
+      "CREDITOS": 250000.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-07 00:00:00",
+      "DESCRIPCION": "ND Transferencias ACH",
+      "DEBITOS": 600000.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-07 00:00:00",
+      "DESCRIPCION": "ND Transferencias ACH",
+      "DEBITOS": 12000000.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-06 00:00:00",
+      "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+      "DEBITOS": 4000.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-06 00:00:00",
+      "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+      "DEBITOS": 4000.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-06 00:00:00",
+      "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+      "DEBITOS": 4000.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-06 00:00:00",
+      "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+      "DEBITOS": 5297.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-06 00:00:00",
+      "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+      "DEBITOS": 13944.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-06 00:00:00",
+      "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+      "DEBITOS": 14860.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-06 00:00:00",
+      "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+      "DEBITOS": 24362.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-06 00:00:00",
+      "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+      "DEBITOS": 28000.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-06 00:00:00",
+      "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+      "DEBITOS": 33800.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-06 00:00:00",
+      "DESCRIPCION": "Cheque pagado Canje",
+      "DEBITOS": 1000000.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-06 00:00:00",
+      "DESCRIPCION": "ND Transferencias ACH",
+      "DEBITOS": 1000000.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-06 00:00:00",
+      "DESCRIPCION": "ND Transferencias ACH",
+      "DEBITOS": 1000000.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-06 00:00:00",
+      "DESCRIPCION": "ND Transferencias ACH",
+      "DEBITOS": 1324300.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-06 00:00:00",
+      "DESCRIPCION": "Cheque pagado Canje",
+      "DEBITOS": 3486000.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-06 00:00:00",
+      "DESCRIPCION": "Cheque pagado Canje",
+      "DEBITOS": 3715000.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-06 00:00:00",
+      "DESCRIPCION": "Cheque pagado Canje",
+      "DEBITOS": 6090513.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-06 00:00:00",
+      "DESCRIPCION": "Cheque pagado Canje",
+      "DEBITOS": 7000000.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-06 00:00:00",
+      "DESCRIPCION": "Cheque pagado Canje",
+      "DEBITOS": 8450000.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-05 00:00:00",
+      "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+      "DEBITOS": 8552.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-05 00:00:00",
+      "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+      "DEBITOS": 14806.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-05 00:00:00",
+      "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+      "DEBITOS": 23262.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-05 00:00:00",
+      "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+      "DEBITOS": 58896.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-05 00:00:00",
+      "DESCRIPCION": "NC Transferencias ACH",
+      "DEBITOS": 0.0,
+      "CREDITOS": 220201.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-05 00:00:00",
+      "DESCRIPCION": "NC Transferencias ACH",
+      "DEBITOS": 0.0,
+      "CREDITOS": 400202.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-05 00:00:00",
+      "DESCRIPCION": "ND Transferencias ACH",
+      "DEBITOS": 2138057.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-05 00:00:00",
+      "DESCRIPCION": "ND Transferencias ACH",
+      "DEBITOS": 3701418.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-05 00:00:00",
+      "DESCRIPCION": "ND Transferencias ACH",
+      "DEBITOS": 5815624.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-05 00:00:00",
+      "DESCRIPCION": "ND Transferencias ACH",
+      "DEBITOS": 14723928.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-05 00:00:00",
+      "DESCRIPCION": "NC Trans. Banca Electr?nica",
+      "DEBITOS": 0.0,
+      "CREDITOS": 75000000.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-02 00:00:00",
+      "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+      "DEBITOS": 1483.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-02 00:00:00",
+      "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+      "DEBITOS": 1999.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-02 00:00:00",
+      "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+      "DEBITOS": 3938.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-02 00:00:00",
+      "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+      "DEBITOS": 5253.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-02 00:00:00",
+      "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+      "DEBITOS": 7503.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-02 00:00:00",
+      "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+      "DEBITOS": 13639.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-02 00:00:00",
+      "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+      "DEBITOS": 41586.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-02 00:00:00",
+      "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+      "DEBITOS": 80868.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-02 00:00:00",
+      "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+      "DEBITOS": 226423.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-02 00:00:00",
+      "DESCRIPCION": "ND Transferencias ACH",
+      "DEBITOS": 370755.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-02 00:00:00",
+      "DESCRIPCION": "ND Transferencias ACH",
+      "DEBITOS": 499704.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-02 00:00:00",
+      "DESCRIPCION": "ND Transferencias ACH",
+      "DEBITOS": 984486.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-02 00:00:00",
+      "DESCRIPCION": "ND Transferencias ACH",
+      "DEBITOS": 1313179.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-02 00:00:00",
+      "DESCRIPCION": "ND Transferencias ACH",
+      "DEBITOS": 1875815.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-02 00:00:00",
+      "DESCRIPCION": "ND Transferencias ACH",
+      "DEBITOS": 3409758.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-02 00:00:00",
+      "DESCRIPCION": "ND Transferencias ACH",
+      "DEBITOS": 10396520.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-02 00:00:00",
+      "DESCRIPCION": "ND Transferencias ACH",
+      "DEBITOS": 20217069.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-02 00:00:00",
+      "DESCRIPCION": "NC Trans. Banca Electr?nica",
+      "DEBITOS": 0.0,
+      "CREDITOS": 50000000.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-02 00:00:00",
+      "DESCRIPCION": "ND Transferencias ACH",
+      "DEBITOS": 56605702.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-01 00:00:00",
+      "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+      "DEBITOS": 289.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-01 00:00:00",
+      "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+      "DEBITOS": 3600.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-01 00:00:00",
+      "DESCRIPCION": "Pago Automatico TC MasterCard",
+      "DEBITOS": 72276.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    },
+    {
+      "FECHA": "2026-10-01 00:00:00",
+      "DESCRIPCION": "ND Transferencias ACH",
+      "DEBITOS": 900000.0,
+      "CREDITOS": 0.0,
+      "OFICINA": "0",
+      "SALDO": 0.0
+    }
+  ]
+}

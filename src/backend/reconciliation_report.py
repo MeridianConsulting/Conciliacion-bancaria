@@ -170,13 +170,12 @@ class ReconciliationReport:
                     # CRITERIO ORIGINAL: valor casi exacto y fechas cercanas
                     value_match_original = abs(row_acc['valor'] - row_bank['valor']) < 1.0
                     
-                    # Extraer el día del mes de las fechas formateadas
+                    # Comparar las fechas completas (año, mes y día)
                     try:
-                        # Extraer los días de las fechas en formato "2025-03-DD 00:00:00"
-                        dia_contabilidad = int(row_acc['fecha'].split('-')[2].split(' ')[0])
-                        dia_banco = int(row_bank['fecha'].split('-')[2].split(' ')[0])
-                        date_diff = abs(dia_contabilidad - dia_banco) <= 3  # Tolerancia de 3 días
-                    except (ValueError, IndexError, AttributeError):
+                        fecha_contabilidad = pd.to_datetime(row_acc['fecha'])
+                        fecha_banco = pd.to_datetime(row_bank['fecha'])
+                        date_diff = abs((fecha_contabilidad - fecha_banco).days) <= 3  # Tolerancia de 3 días
+                    except (ValueError, TypeError):
                         # Si hay error al extraer fechas, considerar fechas no compatibles
                         date_diff = False
                     

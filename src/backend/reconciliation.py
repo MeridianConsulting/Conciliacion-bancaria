@@ -20,6 +20,31 @@ class Reconciliation:
         self.output_path.mkdir(parents=True, exist_ok=True)
         self.temp_path.mkdir(parents=True, exist_ok=True)
 
+        # Periodo (año, mes) usado para completar fechas que solo traen el día
+        hoy = datetime.now()
+        self.periodo = (hoy.year, hoy.month)
+
+    def detectar_periodo(self, all_data):
+        """Determina el (año, mes) más frecuente en las fechas de los registros contables"""
+        conteo = {}
+        for documento in all_data:
+            for mov in documento.get("movimientos", []):
+                try:
+                    fecha = pd.to_datetime(str(mov.get("FECHA", "")), errors="coerce")
+                except Exception:
+                    continue
+                if pd.notna(fecha):
+                    clave = (fecha.year, fecha.month)
+                    conteo[clave] = conteo.get(clave, 0) + 1
+        if conteo:
+            self.periodo = max(conteo, key=conteo.get)
+        return self.periodo
+
+    def fecha_desde_dia(self, day):
+        """Construye la fecha YYYY-MM-DD HH:MM:SS a partir del día y el periodo detectado"""
+        year, month = self.periodo
+        return f"{year}-{month:02d}-{int(day):02d} 00:00:00"
+
     def extract_header_info(self, df):
         """Extrae la información del encabezado del reporte"""
         header_info = {
@@ -207,12 +232,10 @@ class Reconciliation:
                                 # Formatear la fecha en el estilo YYYY-MM-DD HH:MM:SS
                                 elif campo_std == "FECHA":
                                     try:
-                                        # Si es un número, considerarlo como el día del mes de marzo de 2025
+                                        # Si es un número, considerarlo como el día del mes del periodo detectado
                                         if isinstance(value, (int, float)) or (isinstance(value, str) and value.strip().isdigit()):
                                             day = int(float(value)) if isinstance(value, str) else int(value)
-                                            # Formatear el día con dos dígitos
-                                            day_str = f"{day:02d}"
-                                            value = f"2025-03-{day_str} 00:00:00"
+                                            value = self.fecha_desde_dia(day)
                                         else:
                                             # Si no es número, dejarlo como string
                                             value = str(value).strip()
@@ -250,6 +273,10 @@ class Reconciliation:
                 except Exception as e:
                     print(f"Error procesando {excel_file.name}: {str(e)}")
                     continue
+
+            # Detectar el periodo de los registros contables para las fechas del banco
+            self.detectar_periodo(all_data)
+            print(f"Periodo detectado: {self.periodo[0]}-{self.periodo[1]:02d}")
 
             # Guardar archivo JSON combinado
             combined_json_path = self.output_path / 'all_accounting_data.json'
@@ -385,10 +412,9 @@ class Reconciliation:
                                     # Formatear la fecha como YYYY-MM-DD HH:MM:SS
                                     try:
                                         day = int(row['Día']) if pd.notna(row['Día']) else 1
-                                        day_str = f"{day:02d}"
-                                        fecha_formateada = f"2025-03-{day_str} 00:00:00"
+                                        fecha_formateada = self.fecha_desde_dia(day)
                                     except (ValueError, TypeError):
-                                        fecha_formateada = "2025-03-01 00:00:00"  # Valor predeterminado
+                                        fecha_formateada = self.fecha_desde_dia(1)  # Valor predeterminado
 
                                     # Función para buscar columna de forma segura con mayor flexibilidad
                                     def get_column_value(df_row, possible_names, default=""):

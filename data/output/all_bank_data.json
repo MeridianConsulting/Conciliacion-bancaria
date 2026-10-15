@@ -1,4986 +1,946 @@
 [
   {
     "metadata": {
-      "archivo": "13375357_022025.xlsx",
-      "fecha_proceso": "2025-05-14 14:36:23",
+      "archivo": "ecx_cte.xlsx",
+      "fecha_proceso": "2026-10-15 10:49:50",
       "resumen_encabezado": {}
     },
     "movimientos": [
       {
-        "FECHA": "2025-03-01 00:00:00",
-        "DESCRIPCION": "NC Trans. Banca Electrónica",
-        "DEBITOS": 200101.0,
+        "FECHA": "2026-10-13 00:00:00",
+        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+        "DEBITOS": 1540.0,
         "CREDITOS": 0.0,
-        "OFICINA": "CARDIO_INF",
-        "SALDO": 116495479.69
+        "OFICINA": "0",
+        "SALDO": 0.0
       },
       {
-        "FECHA": "2025-03-03 00:00:00",
+        "FECHA": "2026-10-13 00:00:00",
+        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+        "DEBITOS": 4800.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-13 00:00:00",
+        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+        "DEBITOS": 5175.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-13 00:00:00",
+        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+        "DEBITOS": 5662.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-13 00:00:00",
+        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+        "DEBITOS": 40000.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-13 00:00:00",
+        "DESCRIPCION": "ND Transferencias ACH",
+        "DEBITOS": 385000.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-13 00:00:00",
+        "DESCRIPCION": "ND Transferencias ACH",
+        "DEBITOS": 1200000.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-13 00:00:00",
+        "DESCRIPCION": "ND Transferencias ACH",
+        "DEBITOS": 1293864.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-13 00:00:00",
+        "DESCRIPCION": "NC Rechazos ACH",
+        "DEBITOS": 0.0,
+        "CREDITOS": 1415512.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-13 00:00:00",
+        "DESCRIPCION": "ND Transferencias ACH",
+        "DEBITOS": 1415512.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-13 00:00:00",
         "DESCRIPCION": "NC Transferencias ACH",
-        "DEBITOS": 703165696.0,
-        "CREDITOS": 0.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 819661175.69
+        "DEBITOS": 0.0,
+        "CREDITOS": 5613675.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
       },
       {
-        "FECHA": "2025-03-03 00:00:00",
+        "FECHA": "2026-10-13 00:00:00",
+        "DESCRIPCION": "ND Transferencias ACH",
+        "DEBITOS": 10000000.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-13 00:00:00",
+        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+        "DEBITOS": -5662.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-09 00:00:00",
+        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+        "DEBITOS": 4510.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-09 00:00:00",
+        "DESCRIPCION": "ND Transferencias ACH",
+        "DEBITOS": 1127582.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-08 00:00:00",
+        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+        "DEBITOS": 137.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-08 00:00:00",
+        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+        "DEBITOS": 360.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-08 00:00:00",
+        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+        "DEBITOS": 618.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-08 00:00:00",
+        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+        "DEBITOS": 810.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-08 00:00:00",
+        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+        "DEBITOS": 1320.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-08 00:00:00",
+        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+        "DEBITOS": 1983.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-08 00:00:00",
+        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+        "DEBITOS": 2061.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-08 00:00:00",
+        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+        "DEBITOS": 2140.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-08 00:00:00",
+        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+        "DEBITOS": 2176.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-08 00:00:00",
+        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+        "DEBITOS": 2240.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-08 00:00:00",
+        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+        "DEBITOS": 2290.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-08 00:00:00",
+        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+        "DEBITOS": 5765.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-08 00:00:00",
+        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+        "DEBITOS": 8900.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-08 00:00:00",
+        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+        "DEBITOS": 9906.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-08 00:00:00",
+        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+        "DEBITOS": 11513.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-08 00:00:00",
+        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+        "DEBITOS": 12716.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-08 00:00:00",
+        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+        "DEBITOS": 15330.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-08 00:00:00",
+        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+        "DEBITOS": 17057.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-08 00:00:00",
+        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+        "DEBITOS": 18684.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-08 00:00:00",
+        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+        "DEBITOS": 20988.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-08 00:00:00",
+        "DESCRIPCION": "ND Transferencias ACH",
+        "DEBITOS": 34300.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-08 00:00:00",
+        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+        "DEBITOS": 44450.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-08 00:00:00",
+        "DESCRIPCION": "ND Transferencias ACH",
+        "DEBITOS": 90000.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-08 00:00:00",
+        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+        "DEBITOS": 125853.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-08 00:00:00",
+        "DESCRIPCION": "ND Transferencias ACH",
+        "DEBITOS": 154479.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-08 00:00:00",
+        "DESCRIPCION": "ND Transferencias ACH",
+        "DEBITOS": 202544.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-08 00:00:00",
+        "DESCRIPCION": "ND Transferencias ACH",
+        "DEBITOS": 329983.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-08 00:00:00",
+        "DESCRIPCION": "ND Transferencias ACH",
+        "DEBITOS": 495640.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-08 00:00:00",
+        "DESCRIPCION": "ND Transferencias ACH",
+        "DEBITOS": 515138.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-08 00:00:00",
+        "DESCRIPCION": "ND Transferencias ACH",
+        "DEBITOS": 535087.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-08 00:00:00",
+        "DESCRIPCION": "ND Transferencias ACH",
+        "DEBITOS": 543875.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-08 00:00:00",
+        "DESCRIPCION": "ND Transferencias ACH",
+        "DEBITOS": 559904.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-08 00:00:00",
+        "DESCRIPCION": "ND Transferencias ACH",
+        "DEBITOS": 572376.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-08 00:00:00",
+        "DESCRIPCION": "ND Transferencias ACH",
+        "DEBITOS": 1441290.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-08 00:00:00",
+        "DESCRIPCION": "ND Transferencias ACH",
+        "DEBITOS": 2225000.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-08 00:00:00",
+        "DESCRIPCION": "ND Transferencias ACH",
+        "DEBITOS": 2476410.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-08 00:00:00",
+        "DESCRIPCION": "ND Transferencias ACH",
+        "DEBITOS": 2878200.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-08 00:00:00",
+        "DESCRIPCION": "ND Transferencias ACH",
+        "DEBITOS": 3179000.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-08 00:00:00",
+        "DESCRIPCION": "ND Transferencias ACH",
+        "DEBITOS": 3832400.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-08 00:00:00",
+        "DESCRIPCION": "ND Transferencias ACH",
+        "DEBITOS": 4264360.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-08 00:00:00",
+        "DESCRIPCION": "ND Transferencias ACH",
+        "DEBITOS": 4671000.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-08 00:00:00",
+        "DESCRIPCION": "ND Transferencias ACH",
+        "DEBITOS": 5246890.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-08 00:00:00",
+        "DESCRIPCION": "ND Transferencias ACH",
+        "DEBITOS": 11112621.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-08 00:00:00",
+        "DESCRIPCION": "ND Transferencias ACH",
+        "DEBITOS": 31463368.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-08 00:00:00",
+        "DESCRIPCION": "NC Trans. Banca Electr?nica",
+        "DEBITOS": 0.0,
+        "CREDITOS": 100000000.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-07 00:00:00",
+        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+        "DEBITOS": 2400.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-07 00:00:00",
+        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+        "DEBITOS": 48000.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-07 00:00:00",
         "DESCRIPCION": "NC Transferencias ACH",
-        "DEBITOS": 200101.0,
+        "DEBITOS": 0.0,
+        "CREDITOS": 250000.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-07 00:00:00",
+        "DESCRIPCION": "ND Transferencias ACH",
+        "DEBITOS": 600000.0,
         "CREDITOS": 0.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 819861276.69
+        "OFICINA": "0",
+        "SALDO": 0.0
       },
       {
-        "FECHA": "2025-03-03 00:00:00",
+        "FECHA": "2026-10-07 00:00:00",
         "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 1138.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 819860138.69
+        "DEBITOS": 12000000.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
       },
       {
-        "FECHA": "2025-03-03 00:00:00",
+        "FECHA": "2026-10-06 00:00:00",
         "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 5.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 819860133.69
+        "DEBITOS": 4000.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
       },
       {
-        "FECHA": "2025-03-03 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 1566529.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 818293604.69
-      },
-      {
-        "FECHA": "2025-03-03 00:00:00",
+        "FECHA": "2026-10-06 00:00:00",
         "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 6266.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 818287338.69
+        "DEBITOS": 4000.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
       },
       {
-        "FECHA": "2025-03-03 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 1509530.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 816777808.69
-      },
-      {
-        "FECHA": "2025-03-03 00:00:00",
+        "FECHA": "2026-10-06 00:00:00",
         "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 6038.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 816771770.69
+        "DEBITOS": 4000.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
       },
       {
-        "FECHA": "2025-03-03 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 1138.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 816770632.69
-      },
-      {
-        "FECHA": "2025-03-03 00:00:00",
+        "FECHA": "2026-10-06 00:00:00",
         "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 5.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 816770627.69
+        "DEBITOS": 5297.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
       },
       {
-        "FECHA": "2025-03-03 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 2313801.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 814456826.69
-      },
-      {
-        "FECHA": "2025-03-03 00:00:00",
+        "FECHA": "2026-10-06 00:00:00",
         "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 9255.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 814447571.69
+        "DEBITOS": 13944.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
       },
       {
-        "FECHA": "2025-03-03 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 12840013.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 801607558.69
-      },
-      {
-        "FECHA": "2025-03-03 00:00:00",
+        "FECHA": "2026-10-06 00:00:00",
         "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 51360.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 801556198.69
+        "DEBITOS": 14860.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
       },
       {
-        "FECHA": "2025-03-03 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 1200000.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 800356198.69
-      },
-      {
-        "FECHA": "2025-03-03 00:00:00",
+        "FECHA": "2026-10-06 00:00:00",
         "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 4800.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 800351398.69
+        "DEBITOS": 24362.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
       },
       {
-        "FECHA": "2025-03-03 00:00:00",
+        "FECHA": "2026-10-06 00:00:00",
+        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+        "DEBITOS": 28000.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-06 00:00:00",
+        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+        "DEBITOS": 33800.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-06 00:00:00",
         "DESCRIPCION": "Cheque pagado Canje",
-        "DEBITOS": 0.0,
-        "CREDITOS": 1209147.0,
-        "OFICINA": "CTROL_OPE_",
-        "SALDO": 799142251.69
+        "DEBITOS": 1000000.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
       },
       {
-        "FECHA": "2025-03-03 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 4837.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 799137414.69
+        "FECHA": "2026-10-06 00:00:00",
+        "DESCRIPCION": "ND Transferencias ACH",
+        "DEBITOS": 1000000.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
       },
       {
-        "FECHA": "2025-03-03 00:00:00",
+        "FECHA": "2026-10-06 00:00:00",
+        "DESCRIPCION": "ND Transferencias ACH",
+        "DEBITOS": 1000000.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-06 00:00:00",
+        "DESCRIPCION": "ND Transferencias ACH",
+        "DEBITOS": 1324300.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-06 00:00:00",
         "DESCRIPCION": "Cheque pagado Canje",
-        "DEBITOS": 0.0,
-        "CREDITOS": 2892321.0,
-        "OFICINA": "CTROL_OPE_",
-        "SALDO": 796245093.69
-      },
-      {
-        "FECHA": "2025-03-03 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 11569.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 796233524.69
-      },
-      {
-        "FECHA": "2025-03-04 00:00:00",
-        "DESCRIPCION": "NC Transferencias ACH",
-        "DEBITOS": 955221.0,
+        "DEBITOS": 3486000.0,
         "CREDITOS": 0.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 797188745.69
+        "OFICINA": "0",
+        "SALDO": 0.0
       },
       {
-        "FECHA": "2025-03-04 00:00:00",
-        "DESCRIPCION": "NC Transferencias ACH",
-        "DEBITOS": 300000.0,
-        "CREDITOS": 0.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 797488745.69
-      },
-      {
-        "FECHA": "2025-03-04 00:00:00",
-        "DESCRIPCION": "Pago por Internet  PSE",
-        "DEBITOS": 0.0,
-        "CREDITOS": 357755900.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 439732845.69
-      },
-      {
-        "FECHA": "2025-03-04 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 1431024.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 438301821.69
-      },
-      {
-        "FECHA": "2025-03-04 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 10694.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 438291127.69
-      },
-      {
-        "FECHA": "2025-03-04 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 43.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 438291084.69
-      },
-      {
-        "FECHA": "2025-03-04 00:00:00",
-        "DESCRIPCION": "Pago Cheque por Ventanilla",
-        "DEBITOS": 0.0,
-        "CREDITOS": 400000.0,
-        "OFICINA": "CALLE 73",
-        "SALDO": 437891084.69
-      },
-      {
-        "FECHA": "2025-03-04 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 1600.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 437889484.69
-      },
-      {
-        "FECHA": "2025-03-05 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 300959.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 437588525.69
-      },
-      {
-        "FECHA": "2025-03-05 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 1204.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 437587321.69
-      },
-      {
-        "FECHA": "2025-03-06 00:00:00",
-        "DESCRIPCION": "NC Transferencias ACH",
-        "DEBITOS": 6713060.0,
-        "CREDITOS": 0.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 444300381.69
-      },
-      {
-        "FECHA": "2025-03-06 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 10000000.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 434300381.69
-      },
-      {
-        "FECHA": "2025-03-06 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 40000.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 434260381.69
-      },
-      {
-        "FECHA": "2025-03-06 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 19272788.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 414987593.69
-      },
-      {
-        "FECHA": "2025-03-06 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 77091.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 414910502.69
-      },
-      {
-        "FECHA": "2025-03-06 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 14190873.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 400719629.69
-      },
-      {
-        "FECHA": "2025-03-06 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 56763.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 400662866.69
-      },
-      {
-        "FECHA": "2025-03-07 00:00:00",
-        "DESCRIPCION": "Pago tarjeta canal electronico",
-        "DEBITOS": 0.0,
-        "CREDITOS": 19601659.04,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 381061207.65
-      },
-      {
-        "FECHA": "2025-03-07 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 78407.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 380982800.65
-      },
-      {
-        "FECHA": "2025-03-07 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 2509175.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 378473625.65
-      },
-      {
-        "FECHA": "2025-03-07 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 10037.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 378463588.65
-      },
-      {
-        "FECHA": "2025-03-07 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 5443039.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 373020549.65
-      },
-      {
-        "FECHA": "2025-03-07 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 21772.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 372998777.65
-      },
-      {
-        "FECHA": "2025-03-07 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 2775752.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 370223025.65
-      },
-      {
-        "FECHA": "2025-03-07 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 11103.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 370211922.65
-      },
-      {
-        "FECHA": "2025-03-07 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 2569178.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 367642744.65
-      },
-      {
-        "FECHA": "2025-03-07 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 10277.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 367632467.65
-      },
-      {
-        "FECHA": "2025-03-07 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 385000.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 367247467.65
-      },
-      {
-        "FECHA": "2025-03-07 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 1540.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 367245927.65
-      },
-      {
-        "FECHA": "2025-03-07 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 10586056.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 356659871.65
-      },
-      {
-        "FECHA": "2025-03-07 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 42344.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 356617527.65
-      },
-      {
-        "FECHA": "2025-03-07 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 4874000.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 351743527.65
-      },
-      {
-        "FECHA": "2025-03-07 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 19496.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 351724031.65
-      },
-      {
-        "FECHA": "2025-03-07 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 7486.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 351716545.65
-      },
-      {
-        "FECHA": "2025-03-07 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 30.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 351716515.65
-      },
-      {
-        "FECHA": "2025-03-07 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 4563000.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 347153515.65
-      },
-      {
-        "FECHA": "2025-03-07 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 18252.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 347135263.65
-      },
-      {
-        "FECHA": "2025-03-07 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 434939.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 346700324.65
-      },
-      {
-        "FECHA": "2025-03-07 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 1740.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 346698584.65
-      },
-      {
-        "FECHA": "2025-03-07 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 2459700.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 344238884.65
-      },
-      {
-        "FECHA": "2025-03-07 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 9839.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 344229045.65
-      },
-      {
-        "FECHA": "2025-03-07 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 2511254.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 341717791.65
-      },
-      {
-        "FECHA": "2025-03-07 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 10045.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 341707746.65
-      },
-      {
-        "FECHA": "2025-03-07 00:00:00",
-        "DESCRIPCION": "ND Transferencia Canal Electronico",
-        "DEBITOS": 0.0,
-        "CREDITOS": 300000000.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 41707746.65
-      },
-      {
-        "FECHA": "2025-03-07 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 10000000.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 31707746.65
-      },
-      {
-        "FECHA": "2025-03-07 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 40000.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 31667746.65
-      },
-      {
-        "FECHA": "2025-03-07 00:00:00",
-        "DESCRIPCION": "Pago por Internet  PSE",
-        "DEBITOS": 0.0,
-        "CREDITOS": 1432899.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 30234847.65
-      },
-      {
-        "FECHA": "2025-03-07 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 5732.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 30229115.65
-      },
-      {
-        "FECHA": "2025-03-07 00:00:00",
-        "DESCRIPCION": "Pago por Internet  PSE",
-        "DEBITOS": 0.0,
-        "CREDITOS": 142118.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 30086997.65
-      },
-      {
-        "FECHA": "2025-03-07 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 568.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 30086429.65
-      },
-      {
-        "FECHA": "2025-03-07 00:00:00",
-        "DESCRIPCION": "NC Transferencias ACH",
-        "DEBITOS": 47450.0,
-        "CREDITOS": 0.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 30133879.65
-      },
-      {
-        "FECHA": "2025-03-10 00:00:00",
-        "DESCRIPCION": "NC Transferencias CENIT",
-        "DEBITOS": 32271932.49,
-        "CREDITOS": 0.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 62405812.14
-      },
-      {
-        "FECHA": "2025-03-10 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 750000.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 61655812.14
-      },
-      {
-        "FECHA": "2025-03-10 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 3000.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 61652812.14
-      },
-      {
-        "FECHA": "2025-03-10 00:00:00",
-        "DESCRIPCION": "NC Transferencias ACH",
-        "DEBITOS": 47450.0,
-        "CREDITOS": 0.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 61700262.14
-      },
-      {
-        "FECHA": "2025-03-10 00:00:00",
+        "FECHA": "2026-10-06 00:00:00",
         "DESCRIPCION": "Cheque pagado Canje",
-        "DEBITOS": 0.0,
-        "CREDITOS": 400000.0,
-        "OFICINA": "CTROL_OPE_",
-        "SALDO": 61300262.14
+        "DEBITOS": 3715000.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
       },
       {
-        "FECHA": "2025-03-10 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 1600.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 61298662.14
-      },
-      {
-        "FECHA": "2025-03-10 00:00:00",
+        "FECHA": "2026-10-06 00:00:00",
         "DESCRIPCION": "Cheque pagado Canje",
-        "DEBITOS": 0.0,
-        "CREDITOS": 500000.0,
-        "OFICINA": "CTROL_OPE_",
-        "SALDO": 60798662.14
+        "DEBITOS": 6090513.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
       },
       {
-        "FECHA": "2025-03-10 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 2000.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 60796662.14
-      },
-      {
-        "FECHA": "2025-03-10 00:00:00",
+        "FECHA": "2026-10-06 00:00:00",
         "DESCRIPCION": "Cheque pagado Canje",
-        "DEBITOS": 0.0,
-        "CREDITOS": 1100000.0,
-        "OFICINA": "CTROL_OPE_",
-        "SALDO": 59696662.14
+        "DEBITOS": 7000000.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
       },
       {
-        "FECHA": "2025-03-10 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 4400.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 59692262.14
-      },
-      {
-        "FECHA": "2025-03-10 00:00:00",
+        "FECHA": "2026-10-06 00:00:00",
         "DESCRIPCION": "Cheque pagado Canje",
-        "DEBITOS": 0.0,
-        "CREDITOS": 1859200.0,
-        "OFICINA": "CTROL_OPE_",
-        "SALDO": 57833062.14
-      },
-      {
-        "FECHA": "2025-03-10 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 7437.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 57825625.14
-      },
-      {
-        "FECHA": "2025-03-10 00:00:00",
-        "DESCRIPCION": "Cheque pagado Canje",
-        "DEBITOS": 0.0,
-        "CREDITOS": 2900000.0,
-        "OFICINA": "CTROL_OPE_",
-        "SALDO": 54925625.14
-      },
-      {
-        "FECHA": "2025-03-10 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 11600.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 54914025.14
-      },
-      {
-        "FECHA": "2025-03-10 00:00:00",
-        "DESCRIPCION": "Cheque pagado Canje",
-        "DEBITOS": 0.0,
-        "CREDITOS": 7125990.0,
-        "OFICINA": "CTROL_OPE_",
-        "SALDO": 47788035.14
-      },
-      {
-        "FECHA": "2025-03-10 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 28504.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 47759531.14
-      },
-      {
-        "FECHA": "2025-03-10 00:00:00",
-        "DESCRIPCION": "Cheque pagado Canje",
-        "DEBITOS": 0.0,
-        "CREDITOS": 7763000.0,
-        "OFICINA": "CTROL_OPE_",
-        "SALDO": 39996531.14
-      },
-      {
-        "FECHA": "2025-03-10 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 31052.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 39965479.14
-      },
-      {
-        "FECHA": "2025-03-10 00:00:00",
-        "DESCRIPCION": "Cheque pagado Canje",
-        "DEBITOS": 0.0,
-        "CREDITOS": 19899750.0,
-        "OFICINA": "CTROL_OPE_",
-        "SALDO": 20065729.14
-      },
-      {
-        "FECHA": "2025-03-10 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 79599.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 19986130.14
-      },
-      {
-        "FECHA": "2025-03-10 00:00:00",
-        "DESCRIPCION": "Cheque pagado Canje",
-        "DEBITOS": 0.0,
-        "CREDITOS": 22433200.0,
-        "OFICINA": "CTROL_OPE_",
-        "SALDO": -2447069.86
-      },
-      {
-        "FECHA": "2025-03-10 00:00:00",
-        "DESCRIPCION": "Cheque Pagado Canje",
-        "DEBITOS": 0.0,
-        "CREDITOS": 5380000.0,
-        "OFICINA": "CTROL_OPE_",
-        "SALDO": -7827069.86
-      },
-      {
-        "FECHA": "2025-03-11 00:00:00",
-        "DESCRIPCION": "NC Trans. Banca Electrónica",
-        "DEBITOS": 50000000.0,
+        "DEBITOS": 8450000.0,
         "CREDITOS": 0.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 42172930.14
+        "OFICINA": "0",
+        "SALDO": 0.0
       },
       {
-        "FECHA": "2025-03-11 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 865529.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 41307401.14
-      },
-      {
-        "FECHA": "2025-03-11 00:00:00",
+        "FECHA": "2026-10-05 00:00:00",
         "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 3462.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 41303939.14
-      },
-      {
-        "FECHA": "2025-03-11 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 865529.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 40438410.14
-      },
-      {
-        "FECHA": "2025-03-11 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 3462.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 40434948.14
-      },
-      {
-        "FECHA": "2025-03-11 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 501636.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 39933312.14
-      },
-      {
-        "FECHA": "2025-03-11 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 2007.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 39931305.14
-      },
-      {
-        "FECHA": "2025-03-11 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 3986533.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 35944772.14
-      },
-      {
-        "FECHA": "2025-03-11 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 15946.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 35928826.14
-      },
-      {
-        "FECHA": "2025-03-11 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 3601620.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 32327206.14
-      },
-      {
-        "FECHA": "2025-03-11 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 14406.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 32312800.14
-      },
-      {
-        "FECHA": "2025-03-11 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 680000.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 31632800.14
-      },
-      {
-        "FECHA": "2025-03-11 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 2720.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 31630080.14
-      },
-      {
-        "FECHA": "2025-03-11 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 783200.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 30846880.14
-      },
-      {
-        "FECHA": "2025-03-11 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 3133.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 30843747.14
-      },
-      {
-        "FECHA": "2025-03-11 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 21520.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 30822227.14
-      },
-      {
-        "FECHA": "2025-03-11 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 89733.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 30732494.14
-      },
-      {
-        "FECHA": "2025-03-12 00:00:00",
-        "DESCRIPCION": "Consignacion en Efectivo",
-        "DEBITOS": 80300.0,
+        "DEBITOS": 8552.0,
         "CREDITOS": 0.0,
-        "OFICINA": "CALLE 73",
-        "SALDO": 30812794.14
+        "OFICINA": "0",
+        "SALDO": 0.0
       },
       {
-        "FECHA": "2025-03-13 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 1064750.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 29748044.14
-      },
-      {
-        "FECHA": "2025-03-13 00:00:00",
+        "FECHA": "2026-10-05 00:00:00",
         "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 4259.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 29743785.14
+        "DEBITOS": 14806.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
       },
       {
-        "FECHA": "2025-03-14 00:00:00",
-        "DESCRIPCION": "Retiro Pago Cuota Prestamo",
-        "DEBITOS": 0.0,
-        "CREDITOS": 29625284.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 118501.14
-      },
-      {
-        "FECHA": "2025-03-14 00:00:00",
+        "FECHA": "2026-10-05 00:00:00",
         "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 118501.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 0.14
-      },
-      {
-        "FECHA": "2025-03-18 00:00:00",
-        "DESCRIPCION": "NC Transferencias",
-        "DEBITOS": 100000000.0,
+        "DEBITOS": 23262.0,
         "CREDITOS": 0.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 100000000.14
+        "OFICINA": "0",
+        "SALDO": 0.0
       },
       {
-        "FECHA": "2025-03-18 00:00:00",
-        "DESCRIPCION": "NC Transferencias",
-        "DEBITOS": 700000000.0,
+        "FECHA": "2026-10-05 00:00:00",
+        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+        "DEBITOS": 58896.0,
         "CREDITOS": 0.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 800000000.14
+        "OFICINA": "0",
+        "SALDO": 0.0
       },
       {
-        "FECHA": "2025-03-18 00:00:00",
+        "FECHA": "2026-10-05 00:00:00",
         "DESCRIPCION": "NC Transferencias ACH",
-        "DEBITOS": 258235.0,
-        "CREDITOS": 0.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 800258235.14
-      },
-      {
-        "FECHA": "2025-03-18 00:00:00",
-        "DESCRIPCION": "Retiro Pago Cuota Prestamo",
         "DEBITOS": 0.0,
-        "CREDITOS": 55590136.61,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 744668098.53
+        "CREDITOS": 220201.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
       },
       {
-        "FECHA": "2025-03-18 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 222361.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 744445737.53
-      },
-      {
-        "FECHA": "2025-03-19 00:00:00",
+        "FECHA": "2026-10-05 00:00:00",
         "DESCRIPCION": "NC Transferencias ACH",
-        "DEBITOS": 46458854.0,
+        "DEBITOS": 0.0,
+        "CREDITOS": 400202.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-05 00:00:00",
+        "DESCRIPCION": "ND Transferencias ACH",
+        "DEBITOS": 2138057.0,
         "CREDITOS": 0.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 790904591.53
+        "OFICINA": "0",
+        "SALDO": 0.0
       },
       {
-        "FECHA": "2025-03-19 00:00:00",
-        "DESCRIPCION": "NC Transferencias ACH",
-        "DEBITOS": 63546495.0,
+        "FECHA": "2026-10-05 00:00:00",
+        "DESCRIPCION": "ND Transferencias ACH",
+        "DEBITOS": 3701418.0,
         "CREDITOS": 0.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 854451086.53
+        "OFICINA": "0",
+        "SALDO": 0.0
       },
       {
-        "FECHA": "2025-03-19 00:00:00",
-        "DESCRIPCION": "NC Transferencias ACH",
-        "DEBITOS": 466200774.0,
+        "FECHA": "2026-10-05 00:00:00",
+        "DESCRIPCION": "ND Transferencias ACH",
+        "DEBITOS": 5815624.0,
         "CREDITOS": 0.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1320651860.53
+        "OFICINA": "0",
+        "SALDO": 0.0
       },
       {
-        "FECHA": "2025-03-19 00:00:00",
-        "DESCRIPCION": "NC Transferencias CENIT",
-        "DEBITOS": 32271932.47,
+        "FECHA": "2026-10-05 00:00:00",
+        "DESCRIPCION": "ND Transferencias ACH",
+        "DEBITOS": 14723928.0,
         "CREDITOS": 0.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1352923793.0
+        "OFICINA": "0",
+        "SALDO": 0.0
       },
       {
-        "FECHA": "2025-03-19 00:00:00",
-        "DESCRIPCION": "NC Transferencias CENIT",
-        "DEBITOS": 0.02,
+        "FECHA": "2026-10-05 00:00:00",
+        "DESCRIPCION": "NC Trans. Banca Electr?nica",
+        "DEBITOS": 0.0,
+        "CREDITOS": 75000000.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-02 00:00:00",
+        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+        "DEBITOS": 1483.0,
         "CREDITOS": 0.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1352923793.02
+        "OFICINA": "0",
+        "SALDO": 0.0
       },
       {
-        "FECHA": "2025-03-19 00:00:00",
-        "DESCRIPCION": "ND Traslado de fondos",
-        "DEBITOS": 0.0,
-        "CREDITOS": 147428268.0,
-        "OFICINA": "SUC_DIGITA",
-        "SALDO": 1205495525.02
-      },
-      {
-        "FECHA": "2025-03-19 00:00:00",
+        "FECHA": "2026-10-02 00:00:00",
         "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 589713.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1204905812.02
-      },
-      {
-        "FECHA": "2025-03-19 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 589713.0,
+        "DEBITOS": 1999.0,
         "CREDITOS": 0.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1205495525.02
+        "OFICINA": "0",
+        "SALDO": 0.0
       },
       {
-        "FECHA": "2025-03-19 00:00:00",
-        "DESCRIPCION": "NC Transferencias ACH",
-        "DEBITOS": 837200.0,
+        "FECHA": "2026-10-02 00:00:00",
+        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+        "DEBITOS": 3938.0,
         "CREDITOS": 0.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1206332725.02
+        "OFICINA": "0",
+        "SALDO": 0.0
       },
       {
-        "FECHA": "2025-03-19 00:00:00",
-        "DESCRIPCION": "Consignacion en Efectivo",
-        "DEBITOS": 43900.0,
+        "FECHA": "2026-10-02 00:00:00",
+        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+        "DEBITOS": 5253.0,
         "CREDITOS": 0.0,
-        "OFICINA": "CALLE 73",
-        "SALDO": 1206376625.02
+        "OFICINA": "0",
+        "SALDO": 0.0
       },
       {
-        "FECHA": "2025-03-20 00:00:00",
-        "DESCRIPCION": "ND Traslado de fondos",
-        "DEBITOS": 0.0,
-        "CREDITOS": 712287732.0,
-        "OFICINA": "OFC. PPAL.",
-        "SALDO": 494088893.02
-      },
-      {
-        "FECHA": "2025-03-20 00:00:00",
+        "FECHA": "2026-10-02 00:00:00",
         "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 2849151.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 491239742.02
-      },
-      {
-        "FECHA": "2025-03-20 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 2849151.0,
+        "DEBITOS": 7503.0,
         "CREDITOS": 0.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 494088893.02
+        "OFICINA": "0",
+        "SALDO": 0.0
       },
       {
-        "FECHA": "2025-03-21 00:00:00",
-        "DESCRIPCION": "NC Transferencias ACH",
-        "DEBITOS": 100000000.0,
+        "FECHA": "2026-10-02 00:00:00",
+        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+        "DEBITOS": 13639.0,
         "CREDITOS": 0.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 594088893.02
+        "OFICINA": "0",
+        "SALDO": 0.0
       },
       {
-        "FECHA": "2025-03-24 00:00:00",
-        "DESCRIPCION": "NC Transferencias ACH",
-        "DEBITOS": 680430519.0,
+        "FECHA": "2026-10-02 00:00:00",
+        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+        "DEBITOS": 41586.0,
         "CREDITOS": 0.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1274519412.02
+        "OFICINA": "0",
+        "SALDO": 0.0
       },
       {
-        "FECHA": "2025-03-24 00:00:00",
-        "DESCRIPCION": "Pago por Internet  PSE",
-        "DEBITOS": 0.0,
-        "CREDITOS": 13816000.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1260703412.02
-      },
-      {
-        "FECHA": "2025-03-24 00:00:00",
+        "FECHA": "2026-10-02 00:00:00",
         "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 55264.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1260648148.02
-      },
-      {
-        "FECHA": "2025-03-24 00:00:00",
-        "DESCRIPCION": "Pago tarjeta canal electronico",
-        "DEBITOS": 0.0,
-        "CREDITOS": 15038975.22,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1245609172.8
-      },
-      {
-        "FECHA": "2025-03-24 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 60156.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1245549016.8
-      },
-      {
-        "FECHA": "2025-03-24 00:00:00",
-        "DESCRIPCION": "Consignacion en Efectivo",
-        "DEBITOS": 39100.0,
+        "DEBITOS": 80868.0,
         "CREDITOS": 0.0,
-        "OFICINA": "CALLE 73",
-        "SALDO": 1245588116.8
+        "OFICINA": "0",
+        "SALDO": 0.0
       },
       {
-        "FECHA": "2025-03-25 00:00:00",
-        "DESCRIPCION": "NC Transferencias ACH",
-        "DEBITOS": 2149242.0,
+        "FECHA": "2026-10-02 00:00:00",
+        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+        "DEBITOS": 226423.0,
         "CREDITOS": 0.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1247737358.8
+        "OFICINA": "0",
+        "SALDO": 0.0
       },
       {
-        "FECHA": "2025-03-25 00:00:00",
+        "FECHA": "2026-10-02 00:00:00",
         "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 10137264.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1237600094.8
-      },
-      {
-        "FECHA": "2025-03-25 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 40549.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1237559545.8
-      },
-      {
-        "FECHA": "2025-03-25 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 1309680.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1236249865.8
-      },
-      {
-        "FECHA": "2025-03-25 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 5239.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1236244626.8
-      },
-      {
-        "FECHA": "2025-03-25 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 130680.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1236113946.8
-      },
-      {
-        "FECHA": "2025-03-25 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 523.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1236113423.8
-      },
-      {
-        "FECHA": "2025-03-25 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 956629.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1235156794.8
-      },
-      {
-        "FECHA": "2025-03-25 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 3827.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1235152967.8
-      },
-      {
-        "FECHA": "2025-03-25 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 2699326.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1232453641.8
-      },
-      {
-        "FECHA": "2025-03-25 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 10797.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1232442844.8
-      },
-      {
-        "FECHA": "2025-03-25 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 10797304.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1221645540.8
-      },
-      {
-        "FECHA": "2025-03-25 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 43189.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1221602351.8
-      },
-      {
-        "FECHA": "2025-03-25 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 31240280.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1190362071.8
-      },
-      {
-        "FECHA": "2025-03-25 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 124961.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1190237110.8
-      },
-      {
-        "FECHA": "2025-03-25 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 1345400.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1188891710.8
-      },
-      {
-        "FECHA": "2025-03-25 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 5382.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1188886328.8
-      },
-      {
-        "FECHA": "2025-03-25 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 2674206.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1186212122.8
-      },
-      {
-        "FECHA": "2025-03-25 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 10697.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1186201425.8
-      },
-      {
-        "FECHA": "2025-03-26 00:00:00",
-        "DESCRIPCION": "ND Transf. electronicas",
-        "DEBITOS": 0.0,
-        "CREDITOS": 468435.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1185732990.8
-      },
-      {
-        "FECHA": "2025-03-26 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 1874.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1185731116.8
-      },
-      {
-        "FECHA": "2025-03-26 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 213010.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1185518106.8
-      },
-      {
-        "FECHA": "2025-03-26 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 852.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1185517254.8
-      },
-      {
-        "FECHA": "2025-03-27 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 3350560.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1182166694.8
-      },
-      {
-        "FECHA": "2025-03-27 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 13402.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1182153292.8
-      },
-      {
-        "FECHA": "2025-03-27 00:00:00",
-        "DESCRIPCION": "Com. Transferencia ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 93526.8,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1182059766.0
-      },
-      {
-        "FECHA": "2025-03-27 00:00:00",
-        "DESCRIPCION": "Impuesto al Valor Agregado",
-        "DEBITOS": 0.0,
-        "CREDITOS": 17770.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1182041996.0
-      },
-      {
-        "FECHA": "2025-03-27 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 71.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1182041925.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 7795009.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1174246916.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 31180.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1174215736.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 8726000.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1165489736.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 34904.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1165454832.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 13329992.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1152124840.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 53320.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1152071520.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 13329986.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1138741534.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 53320.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1138688214.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 5941000.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1132747214.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 23764.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1132723450.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 8680005.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1124043445.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 34720.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1124008725.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 8541003.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1115467722.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 34164.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1115433558.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 8541006.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1106892552.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 34164.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1106858388.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 2855900.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1104002488.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 11424.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1103991064.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 8541102.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1095449962.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 34164.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1095415798.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 8602008.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1086813790.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 34408.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1086779382.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 13756910.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1073022472.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 55028.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1072967444.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 12453990.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1060513454.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 49816.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1060463638.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 6500000.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1053963638.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 26000.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1053937638.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 12750988.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1041186650.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 51004.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1041135646.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 13329917.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1027805729.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 53320.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1027752409.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 13329920.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1014422489.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 53320.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1014369169.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 13329921.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1001039248.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 53320.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 1000985928.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 4105283.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 996880645.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 16421.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 996864224.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 8540997.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 988323227.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 34164.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 988289063.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 8541004.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 979748059.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 34164.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 979713895.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 8680023.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 971033872.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 34720.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 970999152.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 8541067.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 962458085.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 34164.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 962423921.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 5940968.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 956482953.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 23764.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 956459189.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 13329800.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 943129389.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 53319.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 943076070.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 8541024.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 934535046.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 34164.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 934500882.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 12221131.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 922279751.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 48885.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 922230866.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 13329993.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 908900873.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 53320.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 908847553.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 8540994.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 900306559.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 34164.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 900272395.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 18209894.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 882062501.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 72840.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 881989661.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 13369973.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 868619688.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 53480.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 868566208.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 8686025.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 859880183.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 34744.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 859845439.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 13663960.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 846181479.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 54656.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 846126823.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 13329886.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 832796937.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 53320.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 832743617.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 13953972.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 818789645.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 55816.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 818733829.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 13117296.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 805616533.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 52469.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 805564064.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 8680001.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 796884063.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 34720.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 796849343.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 13663961.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 783185382.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 54656.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 783130726.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 13663975.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 769466751.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 54656.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 769412095.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 8540993.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 760871102.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 34164.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 760836938.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 8088602.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 752748336.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 32354.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 752715982.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 18388862.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 734327120.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 73555.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 734253565.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 5156488.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 729097077.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 20626.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 729076451.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 8534078.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 720542373.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 34136.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 720508237.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 15388879.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 705119358.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 61556.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 705057802.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 15488863.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 689568939.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 61955.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 689506984.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 12756479.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 676750505.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 51026.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 676699479.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 8540991.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 668158488.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 34164.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 668124324.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 13426981.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 654697343.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 53708.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 654643635.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 5940982.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 648702653.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 23764.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 648678889.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 6795028.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 641883861.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 27180.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 641856681.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 17540859.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 624315822.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 70163.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 624245659.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 5940983.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 618304676.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 23764.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 618280912.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 10814904.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 607466008.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 43260.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 607422748.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 13786964.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 593635784.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 55148.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 593580636.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 13830985.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 579749651.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 55324.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 579694327.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 8607030.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 571087297.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 34428.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 571052869.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 13448199.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 557604670.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 53793.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 557550877.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 13329913.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 544220964.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 53320.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 544167644.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 8371022.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 535796622.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 33484.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 535763138.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 13663998.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 522099140.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 54656.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 522044484.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 8541066.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 513503418.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 34164.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 513469254.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 13329991.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 500139263.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 53320.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 500085943.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 8541071.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 491544872.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 34164.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 491510708.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 13401958.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 478108750.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 53608.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 478055142.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 13598957.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 464456185.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 54396.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 464401789.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 8680026.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 455721763.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 34720.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 455687043.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 7795014.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 447892029.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 31180.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 447860849.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 13329956.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 434530893.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 53320.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 434477573.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 8600027.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 425877546.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 34400.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 425843146.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 7493998.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 418349148.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 29976.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 418319172.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 5857345.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 412461827.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 23429.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 412438398.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 8540996.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 403897402.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 34164.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 403863238.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 10953895.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 392909343.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 43816.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 392865527.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 13329989.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 379535538.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 53320.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 379482218.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 5940922.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 373541296.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 23764.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 373517532.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 8790097.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 364727435.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 35160.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 364692275.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 12469974.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 352222301.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 49880.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 352172421.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 12217743.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 339954678.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 48871.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 339905807.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 5795065.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 334110742.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 23180.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 334087562.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 7790984.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 326296578.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 31164.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 326265414.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 6106745.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 320158669.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 24427.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 320134242.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 13330001.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 306804241.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 53320.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 306750921.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 8541031.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 298209890.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 34164.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 298175726.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 8541076.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 289634650.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 34164.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 289600486.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 8540987.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 281059499.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 34164.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 281025335.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 8540999.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 272484336.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 34164.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 272450172.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 14888887.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 257561285.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 59556.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 257501729.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 8541077.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 248960652.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 34164.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 248926488.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 13330005.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 235596483.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 53320.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 235543163.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 9170145.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 226373018.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 36681.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 226336337.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 5457319.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 220879018.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 21829.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 220857189.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 8541029.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 212316160.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 34164.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 212281996.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 13663889.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 198618107.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 54656.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 198563451.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 8540990.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 190022461.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 34164.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 189988297.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 10190954.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 179797343.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 40764.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 179756579.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 12480485.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 167276094.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 49922.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 167226172.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 8776032.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 158450140.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 35104.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 158415036.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 8540992.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 149874044.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 34164.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 149839880.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 3292124.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 146547756.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 13168.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 146534588.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transf. electronicas",
-        "DEBITOS": 0.0,
-        "CREDITOS": 6759582.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 139775006.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 27038.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 139747968.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 2291581.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 137456387.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 9166.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 137447221.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 3607433.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 133839788.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 14430.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 133825358.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 5037012.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 128788346.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 20148.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 128768198.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 4083931.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 124684267.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 16336.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 124667931.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 1834028.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 122833903.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 7336.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 122826567.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 5489546.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 117337021.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 21958.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 117315063.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 7960616.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 109354447.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 31842.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 109322605.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 4823100.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 104499505.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 19292.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 104480213.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 7746583.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 96733630.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 30986.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 96702644.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 7960636.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 88742008.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 31843.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 88710165.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 3490382.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 85219783.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 13962.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 85205821.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 6587600.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 78618221.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 26350.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 78591871.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 3290434.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 75301437.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 13162.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 75288275.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 7960651.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 67327624.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 31843.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 67295781.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 7980652.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 59315129.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 31923.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 59283206.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transf. electronicas",
-        "DEBITOS": 0.0,
-        "CREDITOS": 4823135.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 54460071.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 19293.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 54440778.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 7102706.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 47338072.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 28411.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 47309661.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 7960708.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 39348953.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 31843.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 39317110.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 7960500.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 31356610.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 31842.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 31324768.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 7960500.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 23364268.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 31842.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 23332426.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 2774767.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 20557659.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 11099.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 20546560.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 1509529.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 19037031.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 6038.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 19030993.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 1509530.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 17521463.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 6038.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 17515425.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 1566528.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 15948897.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 6266.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 15942631.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 1509527.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 14433104.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 6038.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 14427066.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 1509532.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 12917534.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 6038.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 12911496.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 1566531.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 11344965.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 6266.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 11338699.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transf. electronicas",
-        "DEBITOS": 0.0,
-        "CREDITOS": 1509526.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 9829173.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 6038.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 9823135.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "NC Trans. Banca Electrónica",
-        "DEBITOS": 700000000.0,
+        "DEBITOS": 370755.0,
         "CREDITOS": 0.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 709823135.0
+        "OFICINA": "0",
+        "SALDO": 0.0
       },
       {
-        "FECHA": "2025-03-28 00:00:00",
+        "FECHA": "2026-10-02 00:00:00",
         "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 13235634.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 696587501.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 52943.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 696534558.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 13235635.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 683298923.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 52943.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 683245980.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 8934466.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 674311514.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 35738.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 674275776.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 2526319.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 671749457.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 10105.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 671739352.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transf. electronicas",
-        "DEBITOS": 0.0,
-        "CREDITOS": 10854570.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 660884782.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 43418.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 660841364.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 8753373.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 652087991.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 35013.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 652052978.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 7035319.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 645017659.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 28141.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 644989518.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 1171498.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 643818020.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 4686.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 643813334.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 20850674.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 622962660.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 83403.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 622879257.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 15937249.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 606942008.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 63749.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 606878259.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 7029036.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 599849223.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 28116.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 599821107.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 2620117.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 597200990.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 10480.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 597190510.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 23319078.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 573871432.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 93276.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 573778156.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 24933791.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 548844365.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 99735.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 548744630.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 18893150.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 529851480.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 75573.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 529775907.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 11036762.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 518739145.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 44147.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 518694998.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 8617371.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 510077627.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 34469.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 510043158.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 12951737.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 497091421.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 51807.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 497039614.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 2995663.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 494043951.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 11983.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 494031968.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 2363836.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 491668132.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 9455.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 491658677.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 2620073.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 489038604.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 10480.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 489028124.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 17471995.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 471556129.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 69888.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 471486241.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 11338523.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 460147718.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 45354.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 460102364.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 20066737.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 440035627.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 80267.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 439955360.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 5700658.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 434254702.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 22803.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 434231899.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 6990705.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 427241194.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 27963.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 427213231.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 9079234.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 418133997.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 36317.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 418097680.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 12232446.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 405865234.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 48930.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 405816304.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 9203103.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 396613201.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 36812.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 396576389.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 14082558.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 382493831.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 56330.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 382437501.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 2499838.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 379937663.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 9999.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 379927664.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 16410779.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 363516885.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 65643.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 363451242.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 19515474.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 343935768.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 78062.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 343857706.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 20850739.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 323006967.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 83403.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 322923564.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 8527948.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 314395616.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 34112.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 314361504.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 6580114.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 307781390.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 26320.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 307755070.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 8527943.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 299227127.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 34112.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 299193015.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 8655751.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 290537264.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 34623.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 290502641.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 21086656.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 269415985.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 84347.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 269331638.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 8655753.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 260675885.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 34623.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 260641262.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 8928823.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 251712439.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 35715.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 251676724.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 14498293.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 237178431.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 57993.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 237120438.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 8527941.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 228592497.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 34112.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 228558385.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 8780944.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 219777441.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 35124.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 219742317.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 9047164.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 210695153.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 36189.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 210658964.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 11868818.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 198790146.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 47475.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 198742671.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 7429994.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 191312677.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 29720.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 191282957.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 18000856.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 173282101.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 72003.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 173210098.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 13627559.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 159582539.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 54510.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 159528029.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 8527949.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 151000080.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 34112.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 150965968.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 8462845.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 142503123.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 33851.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 142469272.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 7313750.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 135155522.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 29255.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 135126267.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 8796752.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 126329515.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 35187.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 126294328.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 8714940.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 117579388.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 34860.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 117544528.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 8713942.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 108830586.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 34856.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 108795730.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 5914766.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 102880964.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 23659.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 102857305.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 8984904.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 93872401.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 35940.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 93836461.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 1509539.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 92326922.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 6038.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 92320884.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 9203172.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 83117712.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 36813.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 83080899.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 13824080.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 69256819.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 55296.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 69201523.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 5868256.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 63333267.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 23473.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 63309794.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 3222876.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 60086918.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 12892.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 60074026.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "NC Trans. Banca Electrónica",
-        "DEBITOS": 50000000.0,
+        "DEBITOS": 499704.0,
         "CREDITOS": 0.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 110074026.0
+        "OFICINA": "0",
+        "SALDO": 0.0
       },
       {
-        "FECHA": "2025-03-28 00:00:00",
+        "FECHA": "2026-10-02 00:00:00",
         "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 92964003.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 17110023.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 371856.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 16738167.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 1742250.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 14995917.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 6969.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 14988948.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 746480.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 14242468.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 2986.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 14239482.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "NC Trans. Banca Electrónica",
-        "DEBITOS": 85000000.0,
+        "DEBITOS": 984486.0,
         "CREDITOS": 0.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 99239482.0
+        "OFICINA": "0",
+        "SALDO": 0.0
       },
       {
-        "FECHA": "2025-03-28 00:00:00",
+        "FECHA": "2026-10-02 00:00:00",
         "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 2888146.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 96351336.0
+        "DEBITOS": 1313179.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
       },
       {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 11553.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 96339783.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
+        "FECHA": "2026-10-02 00:00:00",
         "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 1509501.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 94830282.0
+        "DEBITOS": 1875815.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
       },
       {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 6038.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 94824244.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
+        "FECHA": "2026-10-02 00:00:00",
         "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 1913181.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 92911063.0
+        "DEBITOS": 3409758.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
       },
       {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 7653.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 92903410.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
+        "FECHA": "2026-10-02 00:00:00",
         "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 14451995.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 78451415.0
+        "DEBITOS": 10396520.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
       },
       {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 57808.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 78393607.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
+        "FECHA": "2026-10-02 00:00:00",
         "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 2594837.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 75798770.0
+        "DEBITOS": 20217069.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
       },
       {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+        "FECHA": "2026-10-02 00:00:00",
+        "DESCRIPCION": "NC Trans. Banca Electr?nica",
         "DEBITOS": 0.0,
-        "CREDITOS": 10379.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 75788391.0
+        "CREDITOS": 50000000.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
       },
       {
-        "FECHA": "2025-03-28 00:00:00",
+        "FECHA": "2026-10-02 00:00:00",
         "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 2711020.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 73077371.0
+        "DEBITOS": 56605702.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
       },
       {
-        "FECHA": "2025-03-28 00:00:00",
+        "FECHA": "2026-10-01 00:00:00",
         "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 10844.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 73066527.0
+        "DEBITOS": 289.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
       },
       {
-        "FECHA": "2025-03-28 00:00:00",
+        "FECHA": "2026-10-01 00:00:00",
+        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
+        "DEBITOS": 3600.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-01 00:00:00",
+        "DESCRIPCION": "Pago Automatico TC MasterCard",
+        "DEBITOS": 72276.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
+      },
+      {
+        "FECHA": "2026-10-01 00:00:00",
         "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 2005247.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 71061280.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 8021.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 71053259.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 5369910.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 65683349.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 21480.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 65661869.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 8053250.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 57608619.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 32213.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 57576406.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 1057644.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 56518762.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 4231.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 56514531.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 711764.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 55802767.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 2847.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 55799920.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 1509512.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 54290408.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 6038.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 54284370.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 3023213.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 51261157.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 12093.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 51249064.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 711759.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 50537305.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 2847.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 50534458.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 2214800.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 48319658.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 8859.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 48310799.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 1067648.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 47243151.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 4271.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 47238880.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 711758.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 46527122.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 2847.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 46524275.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 1913183.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 44611092.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 7653.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 44603439.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 1067737.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 43535702.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 4271.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 43531431.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 711766.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 42819665.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 2847.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 42816818.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 711767.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 42105051.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 2847.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 42102204.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 1913198.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 40189006.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 7653.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 40181353.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 1981161.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 38200192.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 7925.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 38192267.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 2500021.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 35692246.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 10000.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 35682246.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 1423522.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 34258724.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 5694.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 34253030.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 13280402.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 20972628.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 53122.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 20919506.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 711775.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 20207731.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 2847.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 20204884.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 1981278.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 18223606.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 7925.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 18215681.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Transferencias ACH",
-        "DEBITOS": 0.0,
-        "CREDITOS": 1067649.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 17148032.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 4271.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 17143761.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Pago Cheque por Ventanilla",
-        "DEBITOS": 0.0,
-        "CREDITOS": 6000000.0,
-        "OFICINA": "EXT_CAJAV",
-        "SALDO": 11143761.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 24000.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 11119761.0
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "ND Intereses",
-        "DEBITOS": 0.0,
-        "CREDITOS": 5008.47,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 11114752.53
-      },
-      {
-        "FECHA": "2025-03-28 00:00:00",
-        "DESCRIPCION": "Impuesto trans. Fina Cta Cte",
-        "DEBITOS": 0.0,
-        "CREDITOS": 20.0,
-        "OFICINA": "CALLE82_CR",
-        "SALDO": 11114732.53
+        "DEBITOS": 900000.0,
+        "CREDITOS": 0.0,
+        "OFICINA": "0",
+        "SALDO": 0.0
       }
     ]
   }
