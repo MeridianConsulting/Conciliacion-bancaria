@@ -1,0 +1,22 @@
+1. Generar el .exe actualizado (en esta PC)
+Abre una terminal en C:\xampp\htdocs\bank_reconciliation_project y ejecuta:
+
+
+venv\Scripts\activate
+pyinstaller --clean --noconfirm ConciliacionBancaria.spec
+Usa el venv: ahí ya están instaladas las librerías (reportlab y PyInstaller 6.22.3). El Python general de esta PC no tiene reportlab, por eso empaquetar.bat podría fallar si toma ese Python.
+
+Al terminar tendrás el archivo nuevo en dist\ConciliacionBancaria.exe. Fíjate que la fecha de modificación sea la de hoy.
+
+2. Probarlo antes de copiarlo
+Abre dist\ConciliacionBancaria.exe, haz una conciliación y revisa que en la sección "Transacciones Solo en Banco" las fechas tengan el año y mes correctos.
+
+3. Pasarlo a la otra PC
+En la otra PC, cierra el programa si está abierto.
+Copia el ConciliacionBancaria.exe nuevo (por USB, red o correo) y reemplaza el anterior en la misma ubicación.
+Si tiene un acceso directo en el escritorio, sigue funcionando siempre que el .exe quede en la misma ruta.
+Ábrelo y genera la conciliación de nuevo. Los reportes que ya existían se hicieron con el código anterior, así que siguen con las fechas mal.
+Si algo falla
+Windows Defender o SmartScreen lo bloquea: haz clic en "Más información" → "Ejecutar de todas formas". Esto pasa a veces con los .exe recién generados.
+No se reemplaza el archivo: el programa sigue abierto. Ciérralo, o ciérralo desde el Administrador de tareas.
+Opcional: también hay un dist\ConciliacionBancaria.zip. Si lo usas para distribuir el programa, vuelve a crearlo con el .exe nuevo, porque el que está ahí tiene la versión anterior.
